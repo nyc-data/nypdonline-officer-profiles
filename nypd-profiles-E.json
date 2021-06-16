@@ -111,6 +111,26 @@
 			"documents": [],
 			"discipline": [
 				{
+					"entry": "11/11/2011 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3710",
+							"description": "FAILED TO MAINTAIN RESIDENCY WITHIN NEW YORK STATE , AND WAS OBSERVED ON SEVERAL OCCASIONS AT NEW JERSEY LOCATIONS PRIOR TO THE START OF HIS TOUR OF DUTY.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3710",
+							"description": "FAILEED TO NOTIFY HIS COMMANDING OFFICER OF HIS FAILURE TO MAINTAIN A RESIDENCE IN NYC OR ITS CONTIGUOUS RESIDENCE COUNTIES",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
 					"entry": "12/6/2018 12:00:00 AM",
 					"charges_count": 3,
 					"charges": [
@@ -445,7 +465,7 @@
 		"shield_no": "6637",
 		"appt_date": "7/9/2007",
 		"recognition_count": 2,
-		"arrest_count": 615,
+		"arrest_count": 616,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
@@ -1349,9 +1369,9 @@
 		"first_name": "FANNY",
 		"last_name": "ECHAVARRIA",
 		"middle_initial": "M",
-		"command": "007 PRECINCT",
-		"rank": "SERGEANT",
-		"shield_no": "4056",
+		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"rank": "LIEUTENANT",
+		"shield_no": "",
 		"appt_date": "1/9/2006",
 		"recognition_count": 2,
 		"arrest_count": 140,
@@ -3248,7 +3268,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "17485",
 		"appt_date": "7/6/2011",
-		"recognition_count": 0,
+		"recognition_count": 3,
 		"arrest_count": 57,
 		"reports": {
 			"summary": {
@@ -3259,7 +3279,13 @@
 				"shield_no": "17485",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "17485"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -3268,7 +3294,20 @@
 				"misdemeanor": 38,
 				"violation": 9
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "7/11/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/14/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/28/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		}
 	},
 	{
@@ -3734,19 +3773,19 @@
 		"first_name": "ISELAIRE",
 		"last_name": "EDMOND",
 		"middle_initial": "",
-		"command": "CRITICAL RESPONSE COMMAND",
-		"rank": "POLICE OFFICER",
-		"shield_no": "16533",
+		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"rank": "SERGEANT",
+		"shield_no": "938",
 		"appt_date": "1/7/2008",
 		"recognition_count": 0,
 		"arrest_count": 100,
 		"reports": {
 			"summary": {
-				"command": "CRITICAL RESPONSE COMMAND",
-				"assignment_date": "12/5/2015",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "6/10/2021",
 				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "16533",
+				"rank_desc": "SERGEANT",
+				"shield_no": "938",
 				"appt_date": "1/7/2008"
 			},
 			"ranks": [
@@ -3754,6 +3793,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/7/2008",
 					"shield_no": "16533"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/10/2021",
+					"shield_no": "938"
 				}
 			],
 			"documents": [],
@@ -5062,8 +5106,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "100",
 		"appt_date": "7/14/2009",
-		"recognition_count": 4,
-		"arrest_count": 126,
+		"recognition_count": 8,
+		"arrest_count": 252,
 		"reports": {
 			"summary": {
 				"command": "081 PRECINCT",
@@ -5088,11 +5132,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
-				"misdemeanor": 80,
-				"violation": 31
+				"felony": 30,
+				"misdemeanor": 160,
+				"violation": 62
 			},
 			"awards": [
+				{
+					"date": "1/8/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "1/8/2019",
 					"name": "EXCELLENT POLICE DUTY"
@@ -5102,7 +5150,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "9/30/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "1/25/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/25/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/10/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -8918,7 +8978,7 @@
 		"shield_no": "7479",
 		"appt_date": "1/14/2009",
 		"recognition_count": 1,
-		"arrest_count": 136,
+		"arrest_count": 137,
 		"reports": {
 			"summary": {
 				"command": "TIMES SQUARE UNIT",
@@ -8939,7 +8999,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 94,
 				"violation": 14
 			},
@@ -11840,8 +11900,8 @@
 		"last_name": "ELLISON",
 		"middle_initial": "J",
 		"command": "MTN DET SQUAD",
-		"rank": "POLICE OFFICER",
-		"shield_no": "1101",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "761",
 		"appt_date": "7/6/2010",
 		"recognition_count": 1,
 		"arrest_count": 137,
@@ -11850,8 +11910,8 @@
 				"command": "MTN DET SQUAD",
 				"assignment_date": "1/7/2020",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "1101",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "761",
 				"appt_date": "7/6/2010"
 			},
 			"ranks": [
@@ -11859,6 +11919,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/6/2010",
 					"shield_no": "1101"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/10/2021",
+					"shield_no": "761"
 				}
 			],
 			"documents": [],
@@ -12808,11 +12873,11 @@
 		"arrest_count": 30,
 		"reports": {
 			"summary": {
-				"command": "090 PRECINCT",
-				"assignment_date": "1/4/2014",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "6/10/2021",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "22160",
+				"rank_desc": "SERGEANT",
+				"shield_no": "954",
 				"appt_date": "1/31/2006"
 			},
 			"ranks": [
@@ -20063,7 +20128,7 @@
 		"shield_no": "9222",
 		"appt_date": "7/11/2012",
 		"recognition_count": 1,
-		"arrest_count": 128,
+		"arrest_count": 129,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -20084,7 +20149,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 33,
+				"felony": 34,
 				"misdemeanor": 90,
 				"violation": 3
 			},
@@ -20991,7 +21056,7 @@
 		"shield_no": "18150",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 90,
+		"arrest_count": 91,
 		"reports": {
 			"summary": {
 				"command": "QNS COURT SECTION",
@@ -21013,7 +21078,7 @@
 			"arrests": {
 				"infraction": 7,
 				"felony": 7,
-				"misdemeanor": 59,
+				"misdemeanor": 60,
 				"violation": 17
 			},
 			"awards": []
