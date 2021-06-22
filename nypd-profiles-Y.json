@@ -3230,7 +3230,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 199,
+				"felony": 200,
 				"misdemeanor": 240,
 				"other": 3,
 				"violation": 16
@@ -7645,7 +7645,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/6/2011 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2831",
+							"description": "WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 3,
@@ -9210,7 +9224,7 @@
 		"first_name": "PETER",
 		"last_name": "YUEN",
 		"middle_initial": "",
-		"command": "077 PRECINCT",
+		"command": "084 PCT BROOKLYN BRIDGE PARK SUMMER DETAIL",
 		"rank": "POLICE OFFICER",
 		"shield_no": "18672",
 		"appt_date": "7/9/2007",
@@ -9218,8 +9232,8 @@
 		"arrest_count": 87,
 		"reports": {
 			"summary": {
-				"command": "077 PRECINCT",
-				"assignment_date": "9/14/2016",
+				"command": "084 PCT BROOKLYN BRIDGE PARK SUMMER DETAIL",
+				"assignment_date": "6/17/2021",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "18672",
