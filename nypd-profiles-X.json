@@ -173,7 +173,7 @@
 		"first_name": "ADAM",
 		"last_name": "XENAKIS",
 		"middle_initial": "V",
-		"command": "RTS RECRUITS",
+		"command": "072 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "6295",
 		"appt_date": "12/29/2020",
@@ -181,8 +181,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "12/29/2020",
+				"command": "072 PRECINCT",
+				"assignment_date": "7/1/2021",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6295",
@@ -564,7 +564,7 @@
 		"shield_no": "15480",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -583,7 +583,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		}
 	},
@@ -598,7 +600,7 @@
 		"shield_no": "14466",
 		"appt_date": "7/13/2016",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -619,7 +621,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 16,
+				"misdemeanor": 17,
 				"violation": 2
 			},
 			"awards": []
