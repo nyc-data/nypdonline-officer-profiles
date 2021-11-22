@@ -180,7 +180,7 @@
 		"shield_no": "5394",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 100,
+		"arrest_count": 300,
 		"reports": {
 			"summary": {
 				"command": "077 PRECINCT",
@@ -2326,8 +2326,8 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "3368",
 		"appt_date": "7/10/2006",
-		"recognition_count": 2,
-		"arrest_count": 129,
+		"recognition_count": 6,
+		"arrest_count": 387,
 		"reports": {
 			"summary": {
 				"command": "HOUSING BUREAU",
@@ -2812,8 +2812,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "1/10/2007",
-		"recognition_count": 63,
-		"arrest_count": 291,
+		"recognition_count": 126,
+		"arrest_count": 582,
 		"reports": {
 			"summary": {
 				"command": "DET BORO QUEENS SOUTH",
@@ -3495,30 +3495,44 @@
 			"discipline": [
 				{
 					"entry": "8/30/2017 12:00:00 AM",
-					"charges_count": 2,
+					"charges_count": 4,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2017-17566",
 							"description": "WHILE ON-DUTY, FAILED TO SAFEGUARD A FIREARM, THEREBY RESULTING IN A DISCHARGE OF SAID FIREARM",
-							"penalty": "VACATION DAYS (15 day(s) )"
+							"penalty": "VACATION DAYS (15 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2017-17566",
+							"description": "WHILE ON-DUTY, FAILED TO SAFEGUARD A FIREARM, THEREBY RESULTING IN A DISCHARGE OF SAID FIREARM",
+							"penalty": "VACATION DAYS (15 day(s) ), VACATION DAYS (15 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2017-17566",
 							"description": "WHILE ON-DUTY,  WRONGFULLY FAILED TO USE A FIREARMS SAFETY STATION TO UNLOAD AND HANDLE A FIREARM",
-							"penalty": "VACATION DAYS (15 day(s) )"
+							"penalty": "VACATION DAYS (15 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2017-17566",
+							"description": "WHILE ON-DUTY,  WRONGFULLY FAILED TO USE A FIREARMS SAFETY STATION TO UNLOAD AND HANDLE A FIREARM",
+							"penalty": "VACATION DAYS (15 day(s) ), VACATION DAYS (15 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 21,
-				"misdemeanor": 40,
-				"violation": 11
+				"infraction": 2,
+				"felony": 42,
+				"misdemeanor": 80,
+				"violation": 22
 			},
 			"awards": [
 				{
@@ -3526,7 +3540,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "10/5/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "9/1/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/1/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/27/2017",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -3538,8 +3564,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "4/11/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "2/25/2017",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/25/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/18/2016",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "10/18/2016",
@@ -3550,8 +3588,20 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "7/9/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "5/25/2016",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/25/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/26/2016",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "4/26/2016",
@@ -3566,6 +3616,18 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "9/5/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/5/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/13/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/13/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -3574,7 +3636,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "7/8/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "11/17/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/17/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/9/2010",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -3586,11 +3660,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/26/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/1/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "4/1/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "8/3/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/3/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/12/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -4301,8 +4391,8 @@
 		"arrest_count": 223,
 		"reports": {
 			"summary": {
-				"command": "TRN BUR CMD LVL TRAINING SECT",
-				"assignment_date": "11/27/2020",
+				"command": "101 PRECINCT",
+				"assignment_date": "11/15/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3219",
@@ -7961,82 +8051,146 @@
 			],
 			"discipline": [
 				{
-					"entry": "2/22/2011 12:00:00 AM",
-					"charges_count": 5,
+					"entry": "2/18/2011 12:00:00 AM",
+					"charges_count": 10,
 					"charges": [
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "063-063 PRECINCT",
 							"case_no": "2010-3700",
 							"description": "MISREPRESENTED SERVING IN THE MILITARY TO MEMBERS OF THE SERVICE IN HIS COMMAND",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "063-063 PRECINCT",
+							"case_no": "2010-3700",
+							"description": "MISREPRESENTED SERVING IN THE MILITARY TO MEMBERS OF THE SERVICE IN HIS COMMAND",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "063-063 PRECINCT",
 							"case_no": "2010-3700",
 							"description": "OFF-POST",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "063-063 PRECINCT",
+							"case_no": "2010-3700",
+							"description": "OFF-POST",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "063-063 PRECINCT",
 							"case_no": "2010-3700",
 							"description": "TOOK UNAUTHORIZED POLICE ACTION",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "063-063 PRECINCT",
+							"case_no": "2010-3700",
+							"description": "TOOK UNAUTHORIZED POLICE ACTION",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "063-063 PRECINCT",
 							"case_no": "2010-3700",
 							"description": "FAILED TO MAKE ENTRIES IN HIS DEPT. ISSUED MEMOBOOK",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "063-063 PRECINCT",
+							"case_no": "2010-3700",
+							"description": "FAILED TO MAKE ENTRIES IN HIS DEPT. ISSUED MEMOBOOK",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "063-063 PRECINCT",
 							"case_no": "2010-3700",
 							"description": "WRONGFULLY IMPEDED A DEPT. INVESTIGATION BY MAKING FALSE AND /OR MISLEADING STATEMENTS",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "063-063 PRECINCT",
+							"case_no": "2010-3700",
+							"description": "WRONGFULLY IMPEDED A DEPT. INVESTIGATION BY MAKING FALSE AND /OR MISLEADING STATEMENTS",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (40 day(s) ), VACATION DAYS (40 day(s) )"
 						}
 					]
 				},
 				{
 					"entry": "10/23/2019 12:00:00 AM",
-					"charges_count": 3,
+					"charges_count": 6,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
 							"case_no": "2019-20809",
 							"description": "Out of residence while on sick leave.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
-							"case_no": "2019-20809",
-							"description": "Made or caused to be made false or inaccurate entries in Department records.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) ), VACATION DAYS (45 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
 							"case_no": "2019-20809",
 							"description": "Out of residence while on sick leave.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
+							"case_no": "2019-20809",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
+							"case_no": "2019-20809",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
+							"case_no": "2019-20809",
+							"description": "Out of residence while on sick leave.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "823-HOUSING BOROUGH BRONX/QUEENS",
+							"case_no": "2019-20809",
+							"description": "Out of residence while on sick leave.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) ), VACATION DAYS (45 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 109,
-				"misdemeanor": 145,
-				"violation": 3
+				"felony": 218,
+				"misdemeanor": 290,
+				"violation": 6
 			},
 			"awards": [
 				{
 					"date": "1/5/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/5/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/27/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -8048,8 +8202,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/9/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "3/20/2013",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/20/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/29/2012",
+					"name": "COMMENDATION"
 				},
 				{
 					"date": "10/29/2012",
@@ -8060,8 +8226,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/25/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/29/2011",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/29/2011",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/27/2011",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "6/27/2011",
@@ -8072,7 +8250,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "5/2/2011",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "8/13/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/13/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/5/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10233,8 +10423,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6322",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 407,
+		"recognition_count": 2,
+		"arrest_count": 814,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -13026,7 +13216,7 @@
 		"shield_no": "553",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 88,
+		"arrest_count": 90,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -14759,8 +14949,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "4660",
 		"appt_date": "7/10/2006",
-		"recognition_count": 2,
-		"arrest_count": 701,
+		"recognition_count": 8,
+		"arrest_count": 2808,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BROOKLYN SOUTH",
@@ -16147,8 +16337,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "1586",
 		"appt_date": "7/10/2006",
-		"recognition_count": 4,
-		"arrest_count": 185,
+		"recognition_count": 8,
+		"arrest_count": 370,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -18401,8 +18591,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "22062",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 126,
+		"recognition_count": 2,
+		"arrest_count": 252,
 		"reports": {
 			"summary": {
 				"command": "020 PRECINCT",
@@ -21527,7 +21717,7 @@
 		"shield_no": "5816",
 		"appt_date": "7/9/2007",
 		"recognition_count": 0,
-		"arrest_count": 160,
+		"arrest_count": 320,
 		"reports": {
 			"summary": {
 				"command": "RMB CD BODY WORN CAMERA UNIT",
@@ -21547,10 +21737,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 3,
-				"felony": 31,
-				"misdemeanor": 119,
-				"violation": 7
+				"infraction": 6,
+				"felony": 62,
+				"misdemeanor": 238,
+				"violation": 14
 			},
 			"awards": []
 		}
@@ -24473,8 +24663,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "14440",
 		"appt_date": "1/10/2007",
-		"recognition_count": 1,
-		"arrest_count": 50,
+		"recognition_count": 2,
+		"arrest_count": 100,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -27064,8 +27254,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "3785",
 		"appt_date": "7/10/2006",
-		"recognition_count": 2,
-		"arrest_count": 390,
+		"recognition_count": 4,
+		"arrest_count": 780,
 		"reports": {
 			"summary": {
 				"command": "COMPSTAT ANALYTICAL UNIT",
@@ -30060,8 +30250,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "5495",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 460,
+		"recognition_count": 2,
+		"arrest_count": 920,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -30150,8 +30340,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "2103",
 		"appt_date": "1/10/2007",
-		"recognition_count": 3,
-		"arrest_count": 234,
+		"recognition_count": 9,
+		"arrest_count": 705,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN SPECIAL VICTIMS SQUAD",
@@ -32082,8 +32272,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "4669",
 		"appt_date": "1/10/2007",
-		"recognition_count": 3,
-		"arrest_count": 85,
+		"recognition_count": 12,
+		"arrest_count": 340,
 		"reports": {
 			"summary": {
 				"command": "TECH. ASSIST. & RESPONSE UNIT",
@@ -32320,8 +32510,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 43,
-				"misdemeanor": 132
+				"felony": 44,
+				"misdemeanor": 134
 			},
 			"awards": [
 				{
@@ -33090,8 +33280,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 124,
+		"recognition_count": 3,
+		"arrest_count": 372,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 8",
@@ -33838,8 +34028,8 @@
 		"arrest_count": 247,
 		"reports": {
 			"summary": {
-				"command": "MILITARY & EXTENDED LEAVE DESK",
-				"assignment_date": "11/26/2020",
+				"command": "115TH DET SQUAD",
+				"assignment_date": "11/19/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 3RD GRADE",
 				"shield_no": "2446",
@@ -34030,8 +34220,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "7187",
 		"appt_date": "7/10/2006",
-		"recognition_count": 3,
-		"arrest_count": 94,
+		"recognition_count": 6,
+		"arrest_count": 188,
 		"reports": {
 			"summary": {
 				"command": "PATROL BORO MAN SOUTH",
@@ -35282,7 +35472,7 @@
 		"shield_no": "663",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 272,
+		"arrest_count": 273,
 		"reports": {
 			"summary": {
 				"command": "047 DET SQUAD",
@@ -37444,7 +37634,7 @@
 		"shield_no": "",
 		"appt_date": "7/9/2007",
 		"recognition_count": 0,
-		"arrest_count": 78,
+		"arrest_count": 156,
 		"reports": {
 			"summary": {
 				"command": "019 PRECINCT",
@@ -37474,8 +37664,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
-				"misdemeanor": 54
+				"felony": 48,
+				"misdemeanor": 108
 			},
 			"awards": []
 		}
@@ -40945,8 +41135,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/10/2006",
-		"recognition_count": 3,
-		"arrest_count": 229,
+		"recognition_count": 9,
+		"arrest_count": 687,
 		"reports": {
 			"summary": {
 				"command": "123 PRECINCT",
@@ -45654,7 +45844,7 @@
 		"shield_no": "10108",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 117,
+		"arrest_count": 234,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -51109,8 +51299,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "7/10/2006",
-		"recognition_count": 28,
-		"arrest_count": 226,
+		"recognition_count": 84,
+		"arrest_count": 678,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -55488,7 +55678,7 @@
 		"shield_no": "2639",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 82,
+		"arrest_count": 164,
 		"reports": {
 			"summary": {
 				"command": "MAN COURT SECTION",
@@ -58360,7 +58550,7 @@
 		"shield_no": "15522",
 		"appt_date": "1/23/2007",
 		"recognition_count": 3,
-		"arrest_count": 963,
+		"arrest_count": 967,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 33",
@@ -59691,7 +59881,7 @@
 		"first_name": "MICHAEL",
 		"last_name": "DIARIO",
 		"middle_initial": "A",
-		"command": "STATEN ISLAND BLAST",
+		"command": "MANHATTAN SOUTH GRAND LARCENY SQD",
 		"rank": "POLICE OFFICER",
 		"shield_no": "14453",
 		"appt_date": "1/10/2007",
@@ -61368,8 +61558,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "6621",
 		"appt_date": "1/10/2007",
-		"recognition_count": 1,
-		"arrest_count": 86,
+		"recognition_count": 2,
+		"arrest_count": 172,
 		"reports": {
 			"summary": {
 				"command": "104 PRECINCT",
@@ -62267,10 +62457,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 22,
-				"misdemeanor": 52,
-				"violation": 10
+				"infraction": 2,
+				"felony": 44,
+				"misdemeanor": 104,
+				"violation": 20
 			},
 			"awards": []
 		}
@@ -64264,8 +64454,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/10/2006",
-		"recognition_count": 4,
-		"arrest_count": 292,
+		"recognition_count": 2,
+		"arrest_count": 146,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -69954,7 +70144,7 @@
 		"shield_no": "4126",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 447,
+		"arrest_count": 450,
 		"reports": {
 			"summary": {
 				"command": "017 DET SQUAD",
@@ -102435,8 +102625,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6069",
 		"appt_date": "7/9/2007",
-		"recognition_count": 3,
-		"arrest_count": 392,
+		"recognition_count": 6,
+		"arrest_count": 786,
 		"reports": {
 			"summary": {
 				"command": "MTS DET SQUAD",
@@ -102461,11 +102651,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 117,
-				"misdemeanor": 262,
-				"other": 1,
-				"violation": 10
+				"infraction": 4,
+				"felony": 236,
+				"misdemeanor": 524,
+				"other": 2,
+				"violation": 20
 			},
 			"awards": [
 				{
@@ -102473,7 +102663,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "5/1/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "9/26/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/26/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/17/2013",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
