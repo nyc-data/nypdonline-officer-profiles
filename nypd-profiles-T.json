@@ -3562,7 +3562,11 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 9,
+				"misdemeanor": 40,
+				"violation": 2
+			},
 			"awards": []
 		}
 	},
@@ -9776,8 +9780,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 45,
-				"misdemeanor": 119,
+				"felony": 48,
+				"misdemeanor": 124,
 				"violation": 6
 			},
 			"awards": [
@@ -11340,7 +11344,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 6,
-				"misdemeanor": 66,
+				"misdemeanor": 67,
 				"violation": 5
 			},
 			"awards": [
@@ -13672,8 +13676,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/6/2010",
-		"recognition_count": 1,
-		"arrest_count": 32,
+		"recognition_count": 2,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -13703,11 +13707,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 13,
-				"misdemeanor": 18
+				"infraction": 2,
+				"felony": 26,
+				"misdemeanor": 36
 			},
 			"awards": [
+				{
+					"date": "3/10/2011",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "3/10/2011",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -16675,7 +16683,7 @@
 		"first_name": "JUAN",
 		"last_name": "TELLEZ",
 		"middle_initial": "C",
-		"command": "061 PRECINCT",
+		"command": "TRANSIT DISTRICT 1",
 		"rank": "POLICE OFFICER",
 		"shield_no": "541",
 		"appt_date": "7/6/2010",
@@ -16683,8 +16691,8 @@
 		"arrest_count": 73,
 		"reports": {
 			"summary": {
-				"command": "061 PRECINCT",
-				"assignment_date": "10/9/2013",
+				"command": "TRANSIT DISTRICT 1",
+				"assignment_date": "11/29/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "541",
@@ -22137,7 +22145,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 59,
-				"misdemeanor": 230,
+				"misdemeanor": 231,
 				"other": 1,
 				"violation": 16
 			},
@@ -23318,7 +23326,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 253,
+				"felony": 257,
 				"misdemeanor": 397,
 				"violation": 20
 			},
@@ -28000,7 +28008,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 60,
 				"violation": 6
 			},
@@ -29518,10 +29526,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 32,
-				"misdemeanor": 68,
-				"violation": 19
+				"infraction": 4,
+				"felony": 64,
+				"misdemeanor": 136,
+				"violation": 38
 			},
 			"awards": [
 				{
@@ -33059,12 +33067,28 @@
 				{
 					"entry": "11/20/2015 12:00:00 AM",
 					"charges_count": 1,
-					"charges": []
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "075-075 PRECINCT",
+							"case_no": "2015-14727",
+							"description": "WRONGFULLY AND WITHOUT JUST CAUSE USED FORCE AGAINST AN INDIVIDUAL KNOWN TO THE DEPARTMENT, WHILE HE WAS HANDCUFFED.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
 				},
 				{
 					"entry": "7/12/2021 12:00:00 AM",
 					"charges_count": 1,
-					"charges": []
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "533-INTELLIGENCE BUREAU",
+							"case_no": "2021-23468",
+							"description": "Failed to safeguard a firearm.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
 				}
 			],
 			"arrests": {
@@ -38078,7 +38102,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 20,
-				"misdemeanor": 109,
+				"misdemeanor": 112,
 				"violation": 4
 			},
 			"awards": []
@@ -40047,7 +40071,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 187,
+				"felony": 189,
 				"misdemeanor": 375,
 				"violation": 1
 			},
@@ -44546,7 +44570,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 63,
+				"felony": 64,
 				"misdemeanor": 131,
 				"violation": 3
 			},
@@ -46983,7 +47007,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 205,
+				"misdemeanor": 208,
 				"violation": 2
 			},
 			"awards": [
@@ -47094,7 +47118,7 @@
 		"shield_no": "5455",
 		"appt_date": "7/6/2010",
 		"recognition_count": 17,
-		"arrest_count": 137,
+		"arrest_count": 138,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -47115,7 +47139,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 43,
-				"misdemeanor": 88,
+				"misdemeanor": 89,
 				"violation": 6
 			},
 			"awards": [
@@ -51713,7 +51737,7 @@
 		"shield_no": "22068",
 		"appt_date": "7/8/2008",
 		"recognition_count": 2,
-		"arrest_count": 171,
+		"arrest_count": 172,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN NORTH GRAND LARCENY SQD",
@@ -52597,7 +52621,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 131,
-				"misdemeanor": 156,
+				"misdemeanor": 157,
 				"violation": 79
 			},
 			"awards": [
@@ -53381,7 +53405,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 12,
+				"felony": 13,
 				"misdemeanor": 84,
 				"violation": 3
 			},
@@ -57555,7 +57579,7 @@
 		"shield_no": "13903",
 		"appt_date": "7/9/2007",
 		"recognition_count": 0,
-		"arrest_count": 330,
+		"arrest_count": 165,
 		"reports": {
 			"summary": {
 				"command": "LICENSE DIVISION",
@@ -59468,8 +59492,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1609",
 		"appt_date": "1/10/2007",
-		"recognition_count": 2,
-		"arrest_count": 256,
+		"recognition_count": 1,
+		"arrest_count": 128,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
