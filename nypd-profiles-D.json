@@ -2092,7 +2092,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 17,
 				"misdemeanor": 31
 			},
 			"awards": []
@@ -2331,7 +2331,7 @@
 		"shield_no": "22050",
 		"appt_date": "1/4/2017",
 		"recognition_count": 6,
-		"arrest_count": 49,
+		"arrest_count": 54,
 		"reports": {
 			"summary": {
 				"command": "050 PRECINCT",
@@ -7010,7 +7010,7 @@
 		"shield_no": "22639",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -8131,7 +8131,7 @@
 		"shield_no": "29245",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 7,
+		"arrest_count": 9,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -8151,6 +8151,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -9719,7 +9720,7 @@
 		"first_name": "HUNTER",
 		"last_name": "DANSEGLIO",
 		"middle_initial": "A",
-		"command": "HOUSING PSA 9",
+		"command": "HOUSING PSA 1",
 		"rank": "POLICE OFFICER",
 		"shield_no": "22432",
 		"appt_date": "11/2/2020",
@@ -10031,7 +10032,7 @@
 		"shield_no": "20875",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 18,
+		"arrest_count": 19,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -10052,7 +10053,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		}
@@ -11176,7 +11177,7 @@
 		"shield_no": "1244",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 25,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -11197,7 +11198,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": []
 		}
@@ -11641,7 +11642,7 @@
 		"shield_no": "18852",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -12149,7 +12150,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		}
@@ -12354,7 +12355,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 59
+				"misdemeanor": 61
 			},
 			"awards": []
 		}
@@ -13486,8 +13487,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
-				"misdemeanor": 47
+				"felony": 28,
+				"misdemeanor": 48
 			},
 			"awards": []
 		}
@@ -14347,7 +14348,7 @@
 		"first_name": "RACHEL",
 		"last_name": "DAVIDOV",
 		"middle_initial": "",
-		"command": "040 PRECINCT",
+		"command": "084 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "4297",
 		"appt_date": "10/18/2017",
@@ -14355,8 +14356,8 @@
 		"arrest_count": 19,
 		"reports": {
 			"summary": {
-				"command": "040 PRECINCT",
-				"assignment_date": "9/24/2021",
+				"command": "084 PRECINCT",
+				"assignment_date": "12/17/2021",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "4297",
@@ -14370,7 +14371,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/14/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2019-20439",
+							"description": "Violated sick leave regulations.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 14
@@ -14905,8 +14920,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 40,
-				"misdemeanor": 71,
+				"felony": 41,
+				"misdemeanor": 72,
 				"violation": 4
 			},
 			"awards": []
@@ -15037,7 +15052,7 @@
 		"shield_no": "5159",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 37,
+		"arrest_count": 38,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -15075,7 +15090,7 @@
 		"shield_no": "15863",
 		"appt_date": "7/5/2017",
 		"recognition_count": 1,
-		"arrest_count": 85,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "030 PRECINCT",
@@ -15845,7 +15860,7 @@
 		"shield_no": "30700",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -16956,48 +16971,6 @@
 				"felony": 32,
 				"misdemeanor": 178,
 				"violation": 20
-			},
-			"awards": []
-		}
-	},
-	{
-		"taxid": 963479,
-		"full_name": "DAVIS, LUKE C",
-		"first_name": "LUKE",
-		"last_name": "DAVIS",
-		"middle_initial": "C",
-		"command": "026 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "12464",
-		"appt_date": "4/12/2017",
-		"recognition_count": 0,
-		"arrest_count": 15,
-		"reports": {
-			"summary": {
-				"command": "026 PRECINCT",
-				"assignment_date": "7/5/2021",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "12464",
-				"appt_date": "4/12/2017"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/12/2017",
-					"shield_no": "5437"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "6/20/2017",
-					"shield_no": "12464"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 1,
-				"misdemeanor": 14
 			},
 			"awards": []
 		}
@@ -18272,7 +18245,7 @@
 		"shield_no": "22801",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 12,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -19413,7 +19386,7 @@
 		"shield_no": "25167",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 47,
+		"arrest_count": 48,
 		"reports": {
 			"summary": {
 				"command": "026 PRECINCT",
@@ -24888,7 +24861,7 @@
 		"shield_no": "28256",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -24950,7 +24923,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
+				"felony": 25,
 				"misdemeanor": 19
 			},
 			"awards": []
@@ -26496,6 +26469,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -27720,12 +27694,12 @@
 		"first_name": "JOHNCARLOS",
 		"last_name": "DEJESUS",
 		"middle_initial": "",
-		"command": "HOUSING PSA 9",
+		"command": "HOUSING PSA 6",
 		"rank": "POLICE OFFICER",
 		"shield_no": "22900",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 1,
+		"arrest_count": 2,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 6",
@@ -28498,8 +28472,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
-				"misdemeanor": 13
+				"felony": 90,
+				"misdemeanor": 32
 			},
 			"awards": []
 		}
@@ -29039,7 +29013,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 11,
+				"misdemeanor": 12,
 				"violation": 1
 			},
 			"awards": []
@@ -33510,7 +33484,7 @@
 		"shield_no": "25391",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 57,
+		"arrest_count": 58,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -33852,8 +33826,8 @@
 		"arrest_count": 46,
 		"reports": {
 			"summary": {
-				"command": "043 PRECINCT",
-				"assignment_date": "10/7/2019",
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "10/26/2021",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "14118",
@@ -36276,12 +36250,12 @@
 		"first_name": "MICHAEL",
 		"last_name": "DELIA",
 		"middle_initial": "",
-		"command": "030 PRECINCT",
+		"command": "PBMN PUBLIC SAFETY TEAMS",
 		"rank": "POLICE OFFICER",
 		"shield_no": "18222",
 		"appt_date": "7/5/2017",
 		"recognition_count": 1,
-		"arrest_count": 119,
+		"arrest_count": 121,
 		"reports": {
 			"summary": {
 				"command": "PBMN PUBLIC SAFETY TEAMS",
@@ -38318,7 +38292,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 20,
-				"misdemeanor": 34
+				"misdemeanor": 35
 			},
 			"awards": []
 		}
@@ -39234,7 +39208,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		}
@@ -39270,8 +39244,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 10
+				"felony": 3,
+				"misdemeanor": 11
 			},
 			"awards": []
 		}
@@ -39446,7 +39420,7 @@
 		"shield_no": "17506",
 		"appt_date": "7/5/2017",
 		"recognition_count": 2,
-		"arrest_count": 50,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -40470,7 +40444,7 @@
 		"shield_no": "13118",
 		"appt_date": "4/12/2017",
 		"recognition_count": 2,
-		"arrest_count": 84,
+		"arrest_count": 88,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -42156,7 +42130,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 38
 			},
 			"awards": []
@@ -43300,7 +43274,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
+				"felony": 10,
 				"misdemeanor": 25
 			},
 			"awards": []
@@ -43691,8 +43665,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 72,
-				"misdemeanor": 41,
+				"felony": 73,
+				"misdemeanor": 44,
 				"violation": 1
 			},
 			"awards": []
@@ -43876,7 +43850,7 @@
 		"shield_no": "26487",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 68,
+		"arrest_count": 69,
 		"reports": {
 			"summary": {
 				"command": "006 PRECINCT",
@@ -43896,7 +43870,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 45
 			},
 			"awards": []
@@ -44383,8 +44357,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 21
+				"felony": 7,
+				"misdemeanor": 22
 			},
 			"awards": []
 		}
@@ -45200,7 +45174,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 67,
+				"misdemeanor": 68,
 				"violation": 2
 			},
 			"awards": []
@@ -47698,7 +47672,7 @@
 		"shield_no": "23503",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -47947,7 +47921,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 5
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -48259,7 +48233,7 @@
 		"shield_no": "23791",
 		"appt_date": "7/5/2017",
 		"recognition_count": 6,
-		"arrest_count": 51,
+		"arrest_count": 52,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 30",
@@ -49302,7 +49276,7 @@
 		"shield_no": "14169",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 35,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "068 PRECINCT",
@@ -50653,7 +50627,7 @@
 		"first_name": "FRANCIS",
 		"last_name": "DERAVENS",
 		"middle_initial": "M",
-		"command": "TRANSIT DISTRICT 34",
+		"command": "MILITARY & EXTENDED LEAVE DESK",
 		"rank": "POLICE OFFICER",
 		"shield_no": "24758",
 		"appt_date": "11/2/2020",
@@ -50661,8 +50635,8 @@
 		"arrest_count": 15,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 34",
-				"assignment_date": "5/10/2021",
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "12/3/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "24758",
@@ -52219,8 +52193,8 @@
 		"arrest_count": 15,
 		"reports": {
 			"summary": {
-				"command": "072 PRECINCT",
-				"assignment_date": "10/22/2020",
+				"command": "123 PRECINCT",
+				"assignment_date": "12/13/2021",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "19183",
@@ -55134,7 +55108,7 @@
 		"shield_no": "8095",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",
@@ -55155,7 +55129,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		}
@@ -58742,7 +58716,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 5,
-				"misdemeanor": 14
+				"misdemeanor": 16
 			},
 			"awards": []
 		}
@@ -60117,7 +60091,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 25,
+				"misdemeanor": 27,
 				"violation": 1
 			},
 			"awards": []
@@ -61106,7 +61080,7 @@
 			],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 18
+				"misdemeanor": 19
 			},
 			"awards": []
 		}
@@ -62938,7 +62912,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": []
 		}
@@ -63458,7 +63432,7 @@
 		"shield_no": "22987",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -64462,50 +64436,6 @@
 		}
 	},
 	{
-		"taxid": 948885,
-		"full_name": "DIAZ, RONNIE",
-		"first_name": "RONNIE",
-		"last_name": "DIAZ",
-		"middle_initial": "",
-		"command": "CRITICAL RESPONSE COMMAND",
-		"rank": "POLICE OFFICER",
-		"shield_no": "14483",
-		"appt_date": "7/6/2010",
-		"recognition_count": 1,
-		"arrest_count": 78,
-		"reports": {
-			"summary": {
-				"command": "CRITICAL RESPONSE COMMAND",
-				"assignment_date": "11/7/2018",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "14483",
-				"appt_date": "7/6/2010"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/6/2010",
-					"shield_no": "14483"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 6,
-				"misdemeanor": 69,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "2/29/2012",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 930052,
 		"full_name": "DIAZ, ROSELIN",
 		"first_name": "ROSELIN",
@@ -65116,7 +65046,7 @@
 		"shield_no": "11556",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 88,
+		"arrest_count": 91,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -65765,7 +65695,7 @@
 		"shield_no": "12299",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 63,
+		"arrest_count": 66,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -66868,7 +66798,7 @@
 		"shield_no": "20620",
 		"appt_date": "1/4/2017",
 		"recognition_count": 1,
-		"arrest_count": 57,
+		"arrest_count": 59,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -67454,7 +67384,7 @@
 		"shield_no": "3258",
 		"appt_date": "10/18/2017",
 		"recognition_count": 2,
-		"arrest_count": 78,
+		"arrest_count": 79,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -67664,7 +67594,7 @@
 		"shield_no": "27127",
 		"appt_date": "1/10/2018",
 		"recognition_count": 7,
-		"arrest_count": 55,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "068 PRECINCT",
@@ -67685,7 +67615,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 44,
+				"misdemeanor": 45,
 				"violation": 1
 			},
 			"awards": [
@@ -72470,7 +72400,7 @@
 		"shield_no": "9340",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 81,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -72490,8 +72420,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 28,
-				"misdemeanor": 53
+				"felony": 31,
+				"misdemeanor": 55
 			},
 			"awards": [
 				{
@@ -73080,7 +73010,7 @@
 		"shield_no": "3304",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 115,
+		"arrest_count": 116,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -73100,7 +73030,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 88
 			},
 			"awards": []
@@ -74702,7 +74632,7 @@
 		"shield_no": "24555",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -75443,7 +75373,7 @@
 		"shield_no": "20783",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 63,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -75465,7 +75395,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 33,
-				"misdemeanor": 28,
+				"misdemeanor": 29,
 				"violation": 1
 			},
 			"awards": []
@@ -75630,6 +75560,132 @@
 				},
 				{
 					"date": "5/6/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
+		"taxid": 945669,
+		"full_name": "DISANTO, MICHAEL J",
+		"first_name": "MICHAEL",
+		"last_name": "DISANTO",
+		"middle_initial": "J",
+		"command": "023 PRECINCT",
+		"rank": "LIEUTENANT",
+		"shield_no": "",
+		"appt_date": "1/7/2008",
+		"recognition_count": 18,
+		"arrest_count": 161,
+		"reports": {
+			"summary": {
+				"command": "023 PRECINCT",
+				"assignment_date": "8/31/2020",
+				"ethnicity": "WHITE",
+				"rank_desc": "LIEUTENANT",
+				"shield_no": "",
+				"appt_date": "1/7/2008"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "27017"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/5/2014",
+					"shield_no": "3862"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/31/2015",
+					"shield_no": "3992"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "5/3/2019",
+					"shield_no": ""
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 57,
+				"misdemeanor": 97,
+				"violation": 7
+			},
+			"awards": [
+				{
+					"date": "7/28/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/4/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/20/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/9/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/11/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/2/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/15/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/2/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/25/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/17/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/19/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/14/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/16/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/11/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/20/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/7/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/10/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/13/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
@@ -77697,7 +77753,7 @@
 		"shield_no": "1173",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 23,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -78126,7 +78182,7 @@
 		"shield_no": "5906",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 48,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -78927,7 +78983,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 18
 			},
 			"awards": []
@@ -79130,8 +79186,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "2547",
 		"appt_date": "4/12/2017",
-		"recognition_count": 1,
-		"arrest_count": 83,
+		"recognition_count": 2,
+		"arrest_count": 166,
 		"reports": {
 			"summary": {
 				"command": "PBMS PUBLIC SAFETY TEAMS",
@@ -80384,7 +80440,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -80520,44 +80576,6 @@
 				"infraction": 1,
 				"felony": 2,
 				"misdemeanor": 23,
-				"violation": 1
-			},
-			"awards": []
-		}
-	},
-	{
-		"taxid": 965054,
-		"full_name": "DOLENK, MAXWELL J",
-		"first_name": "MAXWELL",
-		"last_name": "DOLENK",
-		"middle_initial": "J",
-		"command": "TRANSIT DISTRICT 4",
-		"rank": "POLICE OFFICER",
-		"shield_no": "12421",
-		"appt_date": "1/10/2018",
-		"recognition_count": 0,
-		"arrest_count": 25,
-		"reports": {
-			"summary": {
-				"command": "TRANSIT DISTRICT 4",
-				"assignment_date": "6/17/2019",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "12421",
-				"appt_date": "1/10/2018"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2018",
-					"shield_no": "12421"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 9,
-				"misdemeanor": 15,
 				"violation": 1
 			},
 			"awards": []
@@ -80891,7 +80909,7 @@
 		"shield_no": "25787",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -81331,7 +81349,7 @@
 		"shield_no": "23809",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 102,
+		"arrest_count": 105,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -81496,7 +81514,7 @@
 		"shield_no": "16333",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 29,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
@@ -81648,7 +81666,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 12
 			},
 			"awards": [
@@ -82961,7 +82979,7 @@
 		"shield_no": "10592",
 		"appt_date": "11/16/2020",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -83785,7 +83803,7 @@
 		"shield_no": "6022",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 63,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -87337,7 +87355,7 @@
 		"shield_no": "9609",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 27,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -88343,49 +88361,6 @@
 		}
 	},
 	{
-		"taxid": 961516,
-		"full_name": "DORCE, WATSON",
-		"first_name": "WATSON",
-		"last_name": "DORCE",
-		"middle_initial": "",
-		"command": "103 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "7221",
-		"appt_date": "4/6/2016",
-		"recognition_count": 1,
-		"arrest_count": 57,
-		"reports": {
-			"summary": {
-				"command": "103 PRECINCT",
-				"assignment_date": "5/14/2021",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "7221",
-				"appt_date": "4/6/2016"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/6/2016",
-					"shield_no": "7221"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 16,
-				"misdemeanor": 40,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "11/26/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 938388,
 		"full_name": "DORCH, FRED M",
 		"first_name": "FRED",
@@ -88873,7 +88848,7 @@
 		"shield_no": "5693",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 2,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -88893,8 +88868,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 1
+				"felony": 2,
+				"misdemeanor": 2
 			},
 			"awards": []
 		}
@@ -90159,7 +90134,7 @@
 		"shield_no": "24676",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "033 PRECINCT",
@@ -91536,7 +91511,7 @@
 		"shield_no": "28105",
 		"appt_date": "10/18/2017",
 		"recognition_count": 4,
-		"arrest_count": 104,
+		"arrest_count": 105,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -91558,7 +91533,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 45,
-				"misdemeanor": 58
+				"misdemeanor": 59
 			},
 			"awards": [
 				{
@@ -91591,7 +91566,7 @@
 		"shield_no": "13182",
 		"appt_date": "4/12/2017",
 		"recognition_count": 2,
-		"arrest_count": 70,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -91612,7 +91587,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 45
+				"misdemeanor": 46
 			},
 			"awards": [
 				{
@@ -93132,7 +93107,7 @@
 		"shield_no": "31277",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 43,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -93152,8 +93127,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 31
+				"felony": 24,
+				"misdemeanor": 62
 			},
 			"awards": []
 		}
@@ -93490,7 +93465,7 @@
 		"shield_no": "7171",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 28,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -93982,6 +93957,44 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				}
 			]
+		}
+	},
+	{
+		"taxid": 940104,
+		"full_name": "DRAY, JESSE T",
+		"first_name": "JESSE",
+		"last_name": "DRAY",
+		"middle_initial": "T",
+		"command": "WORLD TRADE CENTER COMMAND",
+		"rank": "POLICE OFFICER",
+		"shield_no": "31550",
+		"appt_date": "1/9/2006",
+		"recognition_count": 0,
+		"arrest_count": 56,
+		"reports": {
+			"summary": {
+				"command": "WORLD TRADE CENTER COMMAND",
+				"assignment_date": "12/11/2014",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "31550",
+				"appt_date": "1/9/2006"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2006",
+					"shield_no": "31550"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 4,
+				"misdemeanor": 44,
+				"violation": 8
+			},
+			"awards": []
 		}
 	},
 	{
@@ -97714,8 +97727,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "22613",
 		"appt_date": "1/4/2017",
-		"recognition_count": 3,
-		"arrest_count": 51,
+		"recognition_count": 6,
+		"arrest_count": 102,
 		"reports": {
 			"summary": {
 				"command": "068 PRECINCT",
@@ -99646,9 +99659,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 29,
-				"violation": 2
+				"felony": 30,
+				"misdemeanor": 58,
+				"violation": 4
 			},
 			"awards": []
 		}
@@ -100000,43 +100013,6 @@
 					"name": "COMMENDATION"
 				}
 			]
-		}
-	},
-	{
-		"taxid": 967492,
-		"full_name": "DUFFY, MATTHEW T",
-		"first_name": "MATTHEW",
-		"last_name": "DUFFY",
-		"middle_initial": "T",
-		"command": "083 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "11168",
-		"appt_date": "4/15/2019",
-		"recognition_count": 0,
-		"arrest_count": 23,
-		"reports": {
-			"summary": {
-				"command": "083 PRECINCT",
-				"assignment_date": "10/14/2020",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "11168",
-				"appt_date": "4/15/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/15/2019",
-					"shield_no": "11168"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 11,
-				"misdemeanor": 12
-			},
-			"awards": []
 		}
 	},
 	{
@@ -100650,7 +100626,7 @@
 		"shield_no": "375",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -100898,7 +100874,7 @@
 		"shield_no": "850",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 18,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -100919,7 +100895,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 11
+				"misdemeanor": 13
 			},
 			"awards": []
 		}
@@ -101694,7 +101670,7 @@
 		"shield_no": "2316",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 80,
+		"arrest_count": 82,
 		"reports": {
 			"summary": {
 				"command": "079 PRECINCT",
@@ -101732,7 +101708,7 @@
 		"shield_no": "9389",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -101753,7 +101729,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 27,
+				"misdemeanor": 28,
 				"other": 1,
 				"violation": 1
 			},
@@ -104738,7 +104714,7 @@
 		"shield_no": "6018",
 		"appt_date": "4/25/2018",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "MEDICAL DIVISION",
@@ -104758,7 +104734,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 6
+				"misdemeanor": 12
 			},
 			"awards": []
 		}
@@ -105664,6 +105640,62 @@
 		}
 	},
 	{
+		"taxid": 930084,
+		"full_name": "DURAN, JORGE L",
+		"first_name": "JORGE",
+		"last_name": "DURAN",
+		"middle_initial": "L",
+		"command": "MOUNTED UNIT",
+		"rank": "SERGEANT",
+		"shield_no": "964",
+		"appt_date": "7/1/2002",
+		"recognition_count": 3,
+		"arrest_count": 37,
+		"reports": {
+			"summary": {
+				"command": "MOUNTED UNIT",
+				"assignment_date": "10/14/2014",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "SERGEANT",
+				"shield_no": "964",
+				"appt_date": "7/1/2002"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2002",
+					"shield_no": "25996"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/28/2012",
+					"shield_no": "964"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 5,
+				"misdemeanor": 31,
+				"violation": 1
+			},
+			"awards": [
+				{
+					"date": "10/7/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/8/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/3/2002",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
 		"taxid": 925227,
 		"full_name": "DURAN, JUAN A",
 		"first_name": "JUAN",
@@ -105806,7 +105838,7 @@
 		"shield_no": "25802",
 		"appt_date": "7/5/2017",
 		"recognition_count": 2,
-		"arrest_count": 25,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 5",
@@ -107973,7 +108005,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 19,
+				"misdemeanor": 21,
 				"violation": 1
 			},
 			"awards": []
@@ -109398,7 +109430,7 @@
 		"shield_no": "31626",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 12,
+		"arrest_count": 14,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 5",
@@ -109547,7 +109579,7 @@
 		"shield_no": "5097",
 		"appt_date": "4/12/2017",
 		"recognition_count": 1,
-		"arrest_count": 47,
+		"arrest_count": 48,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
