@@ -10558,7 +10558,7 @@
 		"shield_no": "6365",
 		"appt_date": "7/1/2004",
 		"recognition_count": 9,
-		"arrest_count": 358,
+		"arrest_count": 359,
 		"reports": {
 			"summary": {
 				"command": "075 DET SQUAD",
@@ -64095,7 +64095,13 @@
 				"shield_no": "4337",
 				"appt_date": "7/1/2004"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2004",
+					"shield_no": "4337"
+				}
+			],
 			"documents": [],
 			"discipline": [
 				{
@@ -64119,7 +64125,12 @@
 					]
 				}
 			],
-			"arrests": {},
+			"arrests": {
+				"infraction": 3,
+				"felony": 13,
+				"misdemeanor": 45,
+				"violation": 4
+			},
 			"awards": []
 		}
 	},
@@ -76970,7 +76981,7 @@
 		"shield_no": "2116",
 		"appt_date": "7/1/2004",
 		"recognition_count": 6,
-		"arrest_count": 458,
+		"arrest_count": 459,
 		"reports": {
 			"summary": {
 				"command": "068 DET SQUAD",
@@ -94694,9 +94705,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 132,
-				"violation": 70
+				"felony": 6,
+				"misdemeanor": 66,
+				"violation": 35
 			},
 			"awards": []
 		}
@@ -97742,6 +97753,14 @@
 		"recognition_count": 0,
 		"arrest_count": 24,
 		"reports": {
+			"summary": {
+				"command": "100 PRECINCT",
+				"assignment_date": "1/9/2019",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "4077",
+				"appt_date": "10/18/2017"
+			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",

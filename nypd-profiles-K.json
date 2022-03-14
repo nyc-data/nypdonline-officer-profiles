@@ -7932,7 +7932,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 143,
-				"misdemeanor": 224
+				"misdemeanor": 225
 			},
 			"awards": [
 				{
@@ -13000,7 +13000,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 228,
-				"misdemeanor": 280,
+				"misdemeanor": 281,
 				"other": 1,
 				"violation": 9
 			},
@@ -30275,7 +30275,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24370",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24370",
+							"description": "02.Wrongfully threatened to arrest an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 15,
