@@ -7191,7 +7191,7 @@
 		"shield_no": "25027",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -7259,7 +7259,7 @@
 		"shield_no": "3868",
 		"appt_date": "3/1/2000",
 		"recognition_count": 40,
-		"arrest_count": 552,
+		"arrest_count": 553,
 		"reports": {
 			"summary": {
 				"command": "075 DET SQUAD",
@@ -7619,7 +7619,13 @@
 				"shield_no": "23489",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2017",
+					"shield_no": "23489"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -8390,7 +8396,7 @@
 		"shield_no": "3215",
 		"appt_date": "7/7/1999",
 		"recognition_count": 0,
-		"arrest_count": 18,
+		"arrest_count": 9,
 		"reports": {
 			"summary": {
 				"command": "PUBLIC SECURITY SECTION",
@@ -8842,7 +8848,13 @@
 				"shield_no": "9212",
 				"appt_date": "4/12/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/12/2017",
+					"shield_no": "9212"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -9240,9 +9252,40 @@
 				"shield_no": "22770",
 				"appt_date": "10/11/2016"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/11/2016",
+					"shield_no": "22770"
+				}
+			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/13/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "01.Failed to maintain activity log while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "03.Improper vehicle pursuit while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 57,
@@ -9574,7 +9617,13 @@
 				"shield_no": "26189",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2017",
+					"shield_no": "26189"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
