@@ -2906,7 +2906,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "30750",
 		"appt_date": "7/20/2006",
-		"recognition_count": 0,
+		"recognition_count": 3,
 		"arrest_count": 471,
 		"reports": {
 			"summary": {
@@ -2917,7 +2917,13 @@
 				"shield_no": "30750",
 				"appt_date": "7/20/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/10/2006",
+					"shield_no": "30750"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -2925,7 +2931,20 @@
 				"misdemeanor": 420,
 				"violation": 2
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "3/25/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/12/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/29/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		}
 	},
 	{
@@ -3710,7 +3729,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		}
@@ -5783,7 +5802,7 @@
 		"shield_no": "6919",
 		"appt_date": "1/10/2007",
 		"recognition_count": 14,
-		"arrest_count": 315,
+		"arrest_count": 316,
 		"reports": {
 			"summary": {
 				"command": "077 DET SQUAD",
@@ -5806,10 +5825,29 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/15/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24064",
+							"description": "01.Failed to make proper notifications to IAB.",
+							"penalty": "B - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24064",
+							"description": "02.Made computer inquiries unrelated to official Department business.",
+							"penalty": "B - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 140,
+				"felony": 141,
 				"misdemeanor": 168,
 				"violation": 6
 			},
@@ -6444,7 +6482,7 @@
 		"shield_no": "19188",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 443,
+		"arrest_count": 444,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -6465,7 +6503,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 39,
-				"misdemeanor": 366,
+				"misdemeanor": 367,
 				"violation": 38
 			},
 			"awards": []
@@ -12205,7 +12243,7 @@
 		"shield_no": "4592",
 		"appt_date": "7/9/2007",
 		"recognition_count": 15,
-		"arrest_count": 185,
+		"arrest_count": 187,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -12259,7 +12297,7 @@
 			],
 			"arrests": {
 				"felony": 38,
-				"misdemeanor": 141,
+				"misdemeanor": 143,
 				"violation": 6
 			},
 			"awards": [
@@ -16385,7 +16423,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 13
+				"misdemeanor": 15
 			},
 			"awards": []
 		}
@@ -20842,8 +20880,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 12
+				"felony": 3,
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -31965,7 +32003,7 @@
 		"first_name": "NYDIA",
 		"last_name": "VERAS",
 		"middle_initial": "E",
-		"command": "DET BORO BRONX",
+		"command": "NARC BORO BRONX",
 		"rank": "POLICE OFFICER",
 		"shield_no": "18170",
 		"appt_date": "1/9/2006",
@@ -31973,8 +32011,8 @@
 		"arrest_count": 56,
 		"reports": {
 			"summary": {
-				"command": "DET BORO BRONX",
-				"assignment_date": "3/14/2022",
+				"command": "NARC BORO BRONX",
+				"assignment_date": "5/6/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "18170",
@@ -34671,7 +34709,7 @@
 		"shield_no": "4934",
 		"appt_date": "1/9/2006",
 		"recognition_count": 3,
-		"arrest_count": 298,
+		"arrest_count": 299,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
@@ -35288,7 +35326,7 @@
 		"shield_no": "2110",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 537,
+		"arrest_count": 538,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -35334,7 +35372,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 165,
+				"felony": 166,
 				"misdemeanor": 370,
 				"violation": 2
 			},
@@ -38006,7 +38044,7 @@
 		"shield_no": "4853",
 		"appt_date": "7/9/2007",
 		"recognition_count": 2,
-		"arrest_count": 517,
+		"arrest_count": 519,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -38032,7 +38070,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 225,
+				"felony": 227,
 				"misdemeanor": 250,
 				"violation": 41
 			},
@@ -39351,7 +39389,7 @@
 		"shield_no": "6956",
 		"appt_date": "1/9/2006",
 		"recognition_count": 33,
-		"arrest_count": 362,
+		"arrest_count": 363,
 		"reports": {
 			"summary": {
 				"command": "067 DET SQUAD",
@@ -41688,7 +41726,7 @@
 		"shield_no": "1240",
 		"appt_date": "7/10/2006",
 		"recognition_count": 1,
-		"arrest_count": 60,
+		"arrest_count": 61,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -41723,7 +41761,7 @@
 			],
 			"arrests": {
 				"infraction": 3,
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 49,
 				"violation": 1
 			},
@@ -43285,7 +43323,7 @@
 		"first_name": "RON",
 		"last_name": "VINCENT",
 		"middle_initial": "M",
-		"command": "MAN COURT SECTION",
+		"command": "PSA 1 VIPER 13",
 		"rank": "POLICE OFFICER",
 		"shield_no": "30754",
 		"appt_date": "7/20/2006",
@@ -43293,8 +43331,8 @@
 		"arrest_count": 141,
 		"reports": {
 			"summary": {
-				"command": "MAN COURT SECTION",
-				"assignment_date": "1/23/2020",
+				"command": "PSA 1 VIPER 13",
+				"assignment_date": "5/4/2022",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "30754",
@@ -48002,8 +48040,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "11507",
 		"appt_date": "7/18/2007",
-		"recognition_count": 3,
-		"arrest_count": 122,
+		"recognition_count": 6,
+		"arrest_count": 246,
 		"reports": {
 			"summary": {
 				"command": "100 PRECINCT",
@@ -48024,22 +48062,29 @@
 			"discipline": [
 				{
 					"entry": "3/16/2015 12:00:00 AM",
-					"charges_count": 1,
+					"charges_count": 2,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "100-100 PRECINCT",
 							"case_no": "2014-12595",
 							"description": "WHILE OFF-DUTY, DID ENGAGE IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (34 day(s) )"
+							"penalty": "COUNSELING, COUNSELING, DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (34 day(s) ), PRE-TRIAL SUSPENSION DAYS (34 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "100-100 PRECINCT",
+							"case_no": "2014-12595",
+							"description": "WHILE OFF-DUTY, DID ENGAGE IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, COUNSELING, DISMISSAL PROBATION (12 month(s) ), DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (34 day(s) ), PRE-TRIAL SUSPENSION DAYS (34 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 39,
-				"misdemeanor": 78,
-				"violation": 5
+				"felony": 80,
+				"misdemeanor": 156,
+				"violation": 10
 			},
 			"awards": [
 				{
@@ -48047,8 +48092,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "3/30/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/14/2014",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/14/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/15/2012",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "2/15/2012",
