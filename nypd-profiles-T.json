@@ -20,23 +20,6 @@
 				"shield_no": "315",
 				"appt_date": "12/8/1997"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "12/8/1997",
-					"shield_no": "3386"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "1/31/2008",
-					"shield_no": "4026"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "3/5/2014",
-					"shield_no": "315"
-				}
-			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -2210,7 +2193,7 @@
 		"shield_no": "1067",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 3,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -2229,7 +2212,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 3
+			},
 			"awards": []
 		}
 	},
@@ -2469,7 +2454,7 @@
 		"shield_no": "420",
 		"appt_date": "10/15/2021",
 		"recognition_count": 0,
-		"arrest_count": 1,
+		"arrest_count": 2,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -2751,7 +2736,7 @@
 		"shield_no": "3163",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -2911,7 +2896,7 @@
 		"shield_no": "5916",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 2,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -2931,7 +2916,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -3167,7 +3152,7 @@
 		"shield_no": "2423",
 		"appt_date": "7/8/2008",
 		"recognition_count": 2,
-		"arrest_count": 335,
+		"arrest_count": 336,
 		"reports": {
 			"summary": {
 				"command": "108TH DET SQUAD",
@@ -5988,7 +5973,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/10/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-23881",
+							"description": "01.Wrongfully searched a vehicle.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 2,
@@ -10468,7 +10466,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -21032,7 +21030,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 111,
+				"misdemeanor": 112,
 				"violation": 4
 			},
 			"awards": [
@@ -22151,7 +22149,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		}
@@ -23510,7 +23509,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 66,
+				"felony": 67,
 				"misdemeanor": 93,
 				"violation": 11
 			},
@@ -24490,9 +24489,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
-				"misdemeanor": 125,
-				"violation": 3
+				"felony": 54,
+				"misdemeanor": 250,
+				"violation": 6
 			},
 			"awards": [
 				{
@@ -24500,8 +24499,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/20/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/18/2017",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/18/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/11/2012",
+					"name": "MERITORIOUS POLICE DUTY-INTEGRITY"
 				},
 				{
 					"date": "8/11/2012",
@@ -24589,7 +24600,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 275,
+				"felony": 276,
 				"misdemeanor": 399,
 				"violation": 20
 			},
@@ -25114,8 +25125,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 183,
-				"misdemeanor": 455,
+				"felony": 185,
+				"misdemeanor": 456,
 				"violation": 23
 			},
 			"awards": [
@@ -28600,7 +28611,7 @@
 		"shield_no": "22487",
 		"appt_date": "3/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -37090,7 +37101,10 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 1
+			},
 			"awards": []
 		}
 	},
@@ -44093,7 +44107,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 41,
+				"felony": 42,
 				"misdemeanor": 177,
 				"violation": 75
 			},
@@ -45802,7 +45816,7 @@
 		"shield_no": "7967",
 		"appt_date": "1/14/2009",
 		"recognition_count": 1,
-		"arrest_count": 209,
+		"arrest_count": 212,
 		"reports": {
 			"summary": {
 				"command": "109TH DET SQUAD",
@@ -45823,7 +45837,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 69,
+				"felony": 72,
 				"misdemeanor": 136,
 				"violation": 3
 			},
@@ -47443,7 +47457,7 @@
 		"shield_no": "26531",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 12,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "006 PRECINCT",
@@ -50667,7 +50681,7 @@
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
-				"assignment_date": "7/25/2021",
+				"assignment_date": "5/12/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6739",
@@ -54319,7 +54333,7 @@
 		"shield_no": "6285",
 		"appt_date": "7/8/2008",
 		"recognition_count": 22,
-		"arrest_count": 375,
+		"arrest_count": 376,
 		"reports": {
 			"summary": {
 				"command": "047 DET SQUAD",
@@ -54346,7 +54360,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 133,
-				"misdemeanor": 162,
+				"misdemeanor": 163,
 				"violation": 79
 			},
 			"awards": [
@@ -57785,7 +57799,7 @@
 		"shield_no": "6639",
 		"appt_date": "10/15/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -57864,7 +57878,7 @@
 		"shield_no": "12507",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 7,
+		"arrest_count": 8,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -61840,7 +61854,7 @@
 		"shield_no": "17578",
 		"appt_date": "1/7/2008",
 		"recognition_count": 6,
-		"arrest_count": 404,
+		"arrest_count": 405,
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
