@@ -1078,7 +1078,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
+				"felony": 18,
 				"misdemeanor": 40
 			},
 			"awards": [
@@ -2544,7 +2544,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25974",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 27,
 				"misdemeanor": 39
@@ -4011,8 +4023,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 39
+				"felony": 15,
+				"misdemeanor": 40
 			},
 			"awards": [
 				{
@@ -8775,16 +8787,16 @@
 		"first_name": "ADAM",
 		"last_name": "EINHORN",
 		"middle_initial": "B",
-		"command": "046 PRECINCT",
+		"command": "EMERGENCY SERVICE UNIT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "24366",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 108,
+		"arrest_count": 216,
 		"reports": {
 			"summary": {
-				"command": "046 PRECINCT",
-				"assignment_date": "2/7/2018",
+				"command": "EMERGENCY SERVICE UNIT",
+				"assignment_date": "6/9/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "24366",
@@ -8800,8 +8812,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
-				"misdemeanor": 72
+				"felony": 72,
+				"misdemeanor": 144
 			},
 			"awards": []
 		}
@@ -10136,7 +10148,7 @@
 		"shield_no": "4279",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 25,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -10156,8 +10168,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 20
+				"felony": 4,
+				"misdemeanor": 21
 			},
 			"awards": []
 		}
@@ -11328,7 +11340,11 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 48,
+				"misdemeanor": 33,
+				"violation": 5
+			},
 			"awards": []
 		}
 	},
@@ -16573,7 +16589,7 @@
 		"shield_no": "24053",
 		"appt_date": "7/13/2016",
 		"recognition_count": 0,
-		"arrest_count": 63,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -16594,7 +16610,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 38,
+				"misdemeanor": 39,
 				"violation": 1
 			},
 			"awards": []
@@ -19041,7 +19057,7 @@
 		"shield_no": "1303",
 		"appt_date": "1/6/2016",
 		"recognition_count": 24,
-		"arrest_count": 229,
+		"arrest_count": 231,
 		"reports": {
 			"summary": {
 				"command": "069 DET SQUAD",
@@ -19051,7 +19067,18 @@
 				"shield_no": "1303",
 				"appt_date": "1/6/2016"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/6/2016",
+					"shield_no": "1250"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "2/9/2022",
+					"shield_no": "1303"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -21884,7 +21911,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 40,
+				"misdemeanor": 41,
 				"violation": 1
 			},
 			"awards": []
@@ -27484,7 +27511,7 @@
 		"shield_no": "22904",
 		"appt_date": "10/11/2016",
 		"recognition_count": 0,
-		"arrest_count": 155,
+		"arrest_count": 156,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -27506,7 +27533,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 50,
-				"misdemeanor": 103,
+				"misdemeanor": 104,
 				"violation": 1
 			},
 			"awards": []
@@ -28354,7 +28381,7 @@
 		"shield_no": "10087",
 		"appt_date": "7/13/2016",
 		"recognition_count": 1,
-		"arrest_count": 92,
+		"arrest_count": 95,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -28375,7 +28402,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 36,
+				"felony": 39,
 				"misdemeanor": 54,
 				"violation": 1
 			},
@@ -29820,7 +29847,7 @@
 		"shield_no": "3925",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 46,
+		"arrest_count": 47,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 4",
@@ -29840,7 +29867,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 41
 			},
 			"awards": []
