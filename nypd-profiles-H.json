@@ -551,7 +551,7 @@
 			],
 			"arrests": {
 				"felony": 71,
-				"misdemeanor": 681,
+				"misdemeanor": 683,
 				"violation": 20
 			},
 			"awards": [
@@ -3899,7 +3899,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/21/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24966",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 35,
@@ -14503,14 +14516,14 @@
 					"charges_count": 2,
 					"charges": [
 						{
-							"disposition": "GUILTY",
+							"disposition": "PLEADED GUILTY",
 							"command": "073-073 PRECINCT",
 							"case_no": "2020-23014",
 							"description": "Wrongfully disseminated confidential Department information.",
 							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (20 day(s) )"
 						},
 						{
-							"disposition": "GUILTY",
+							"disposition": "PLEADED GUILTY",
 							"command": "073-073 PRECINCT",
 							"case_no": "2020-23014",
 							"description": "Failed to make Activity Log entries.",
@@ -25152,11 +25165,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
-				"misdemeanor": 88,
-				"violation": 1
+				"felony": 54,
+				"misdemeanor": 176,
+				"violation": 2
 			},
 			"awards": [
+				{
+					"date": "2/2/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "2/2/2007",
 					"name": "EXCELLENT POLICE DUTY"
@@ -35721,11 +35738,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 126,
-				"misdemeanor": 306,
-				"other": 2,
-				"violation": 36
+				"infraction": 1,
+				"felony": 63,
+				"misdemeanor": 153,
+				"other": 1,
+				"violation": 18
 			},
 			"awards": [
 				{
@@ -35733,19 +35750,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "1/22/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "4/29/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/29/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/1/2005",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -39869,7 +39874,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 48,
-				"misdemeanor": 144,
+				"misdemeanor": 145,
 				"other": 1,
 				"violation": 3
 			},
@@ -41170,6 +41175,18 @@
 							"case_no": "2020-22386",
 							"description": "Wrongfully deactivated their body-worn camera.",
 							"penalty": "VACATION DAYS (50 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "6/25/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24821",
+							"description": "01.Wrongful removal to a hospital.",
+							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
 				}
@@ -42925,7 +42942,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 117,
+				"felony": 118,
 				"misdemeanor": 171,
 				"violation": 7
 			},
@@ -43283,14 +43300,6 @@
 		"recognition_count": 1,
 		"arrest_count": 135,
 		"reports": {
-			"summary": {
-				"command": "NARC BORO QUEENS SOUTH",
-				"assignment_date": "5/7/2018",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "7570",
-				"appt_date": "7/1/2004"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -43305,33 +43314,9 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "2/24/2015 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "025-025 PRECINCT",
-							"case_no": "2014-12605",
-							"description": "DISCOURTEOUS TO A SUPERVISOR.",
-							"penalty": "VACATION DAYS (12 day(s) )"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"infraction": 2,
-				"felony": 23,
-				"misdemeanor": 104,
-				"violation": 6
-			},
-			"awards": [
-				{
-					"date": "9/9/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"discipline": [],
+			"arrests": {},
+			"awards": []
 		}
 	},
 	{
@@ -52858,56 +52843,6 @@
 		}
 	},
 	{
-		"taxid": 964059,
-		"full_name": "HILLCECIL, SAVONN D",
-		"first_name": "SAVONN",
-		"last_name": "HILLCECIL",
-		"middle_initial": "D",
-		"command": "023 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "17567",
-		"appt_date": "7/5/2017",
-		"recognition_count": 0,
-		"arrest_count": 74,
-		"reports": {
-			"summary": {
-				"command": "023 PRECINCT",
-				"assignment_date": "1/9/2019",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "17567",
-				"appt_date": "7/5/2017"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/5/2017",
-					"shield_no": "17567"
-				}
-			],
-			"documents": [],
-			"discipline": [
-				{
-					"entry": "3/28/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2021-23620",
-							"description": "01.Fail to activate body-worn camera."
-						}
-					]
-				}
-			],
-			"arrests": {
-				"felony": 25,
-				"misdemeanor": 48,
-				"other": 1
-			},
-			"awards": []
-		}
-	},
-	{
 		"taxid": 932168,
 		"full_name": "HILLEL, YESHIYA R",
 		"first_name": "YESHIYA",
@@ -54605,7 +54540,7 @@
 		"shield_no": "6966",
 		"appt_date": "7/1/2003",
 		"recognition_count": 2,
-		"arrest_count": 503,
+		"arrest_count": 507,
 		"reports": {
 			"summary": {
 				"command": "067 DET SQUAD",
@@ -58355,8 +58290,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6719",
 		"appt_date": "7/1/2003",
-		"recognition_count": 2,
-		"arrest_count": 860,
+		"recognition_count": 1,
+		"arrest_count": 430,
 		"reports": {
 			"summary": {
 				"command": "079 DET SQUAD",
@@ -67474,7 +67409,7 @@
 		"shield_no": "6672",
 		"appt_date": "7/11/2005",
 		"recognition_count": 6,
-		"arrest_count": 374,
+		"arrest_count": 375,
 		"reports": {
 			"summary": {
 				"command": "017 DET SQUAD",
@@ -67500,7 +67435,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 172,
-				"misdemeanor": 199,
+				"misdemeanor": 200,
 				"other": 2,
 				"violation": 1
 			},
@@ -72067,7 +72002,7 @@
 		"first_name": "GEORGE",
 		"last_name": "HUANG",
 		"middle_initial": "",
-		"command": "PBQS INVESTIGATIONS UNIT",
+		"command": "MUNICIPAL SECURITY SECTION",
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/1/2004",
@@ -72075,8 +72010,8 @@
 		"arrest_count": 111,
 		"reports": {
 			"summary": {
-				"command": "PBQS INVESTIGATIONS UNIT",
-				"assignment_date": "3/3/2022",
+				"command": "MUNICIPAL SECURITY SECTION",
+				"assignment_date": "6/28/2022",
 				"ethnicity": "ASIAN",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",

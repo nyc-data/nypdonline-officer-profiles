@@ -6606,7 +6606,7 @@
 		"last_name": "DAMICO",
 		"middle_initial": "",
 		"command": "060 DET SQUAD",
-		"rank": "DETECTIVE 3RD GRADE",
+		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "7100",
 		"appt_date": "7/1/2003",
 		"recognition_count": 7,
@@ -6616,7 +6616,7 @@
 				"command": "060 DET SQUAD",
 				"assignment_date": "6/28/2015",
 				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 3RD GRADE",
+				"rank_desc": "DETECTIVE 2ND GRADE",
 				"shield_no": "7100",
 				"appt_date": "7/1/2003"
 			},
@@ -14298,30 +14298,15 @@
 				"shield_no": "30875",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2006",
-					"shield_no": "30875"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 89,
+				"felony": 5,
+				"misdemeanor": 60,
 				"violation": 14
 			},
-			"awards": [
-				{
-					"date": "8/12/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/15/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
+			"awards": []
 		}
 	},
 	{
@@ -16660,7 +16645,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 68,
+				"felony": 69,
 				"misdemeanor": 200,
 				"other": 1,
 				"violation": 2
@@ -16778,12 +16763,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 46,
-				"misdemeanor": 160,
-				"other": 37,
-				"violation": 144
+				"felony": 92,
+				"misdemeanor": 320,
+				"other": 74,
+				"violation": 288
 			},
 			"awards": [
+				{
+					"date": "11/5/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "11/5/2014",
 					"name": "EXCELLENT POLICE DUTY"
@@ -20378,7 +20367,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 134,
+				"felony": 135,
 				"misdemeanor": 333,
 				"violation": 5
 			},
@@ -32575,8 +32564,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 269,
-				"misdemeanor": 374,
+				"felony": 270,
+				"misdemeanor": 375,
 				"other": 2,
 				"violation": 2
 			},
@@ -36669,7 +36658,7 @@
 		"shield_no": "2694",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 85,
+		"arrest_count": 87,
 		"reports": {
 			"summary": {
 				"command": "026 PRECINCT",
@@ -36691,7 +36680,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 13,
-				"misdemeanor": 66,
+				"misdemeanor": 68,
 				"violation": 5
 			},
 			"awards": []
@@ -48311,29 +48300,43 @@
 			"discipline": [
 				{
 					"entry": "12/18/2014 12:00:00 AM",
-					"charges_count": 2,
+					"charges_count": 4,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2014-11362",
 							"description": "WHILE ON-DUTY, WRONGFULLY STOPPED THE VEHICLE BEING OPERATED BY A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"penalty": "VACATION DAYS (3 day(s) )"
+							"penalty": "VACATION DAYS (3 day(s) ), VACATION DAYS (3 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2014-11362",
+							"description": "WHILE ON-DUTY, WRONGFULLY STOPPED THE VEHICLE BEING OPERATED BY A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (3 day(s) ), VACATION DAYS (3 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2014-11362",
 							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT IN THAT HE FRISKED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"penalty": "VACATION DAYS (3 day(s) )"
+							"penalty": "VACATION DAYS (3 day(s) ), VACATION DAYS (3 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2014-11362",
+							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT IN THAT HE FRISKED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (3 day(s) ), VACATION DAYS (3 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 108,
-				"misdemeanor": 155,
-				"violation": 1
+				"felony": 216,
+				"misdemeanor": 310,
+				"violation": 2
 			},
 			"awards": [
 				{
@@ -48341,7 +48344,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "2/8/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "2/3/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/3/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/8/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -48353,7 +48368,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "4/11/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/23/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/23/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/5/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -48365,11 +48392,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/22/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/31/2008",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "5/31/2008",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "11/12/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/12/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/14/2005",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -50626,15 +50669,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 122,
-				"violation": 150
+				"felony": 3,
+				"misdemeanor": 61,
+				"violation": 75
 			},
 			"awards": [
-				{
-					"date": "2/12/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "2/12/2007",
 					"name": "EXCELLENT POLICE DUTY"
@@ -52057,7 +52096,7 @@
 			],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 102,
+				"misdemeanor": 103,
 				"violation": 11
 			},
 			"awards": [
@@ -59639,8 +59678,8 @@
 		"arrest_count": 279,
 		"reports": {
 			"summary": {
-				"command": "113 PRECINCT",
-				"assignment_date": "6/23/2021",
+				"command": "EMERGENCY SERVICE UNIT",
+				"assignment_date": "6/22/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "CAPTAIN",
 				"shield_no": "",
@@ -65881,8 +65920,8 @@
 		"arrest_count": 270,
 		"reports": {
 			"summary": {
-				"command": "CANDIDATE ASSESSMENT DIVISION",
-				"assignment_date": "11/8/2021",
+				"command": "CHARACTER ASSESSMENT SECTION",
+				"assignment_date": "6/21/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE SPECIALIST",
 				"shield_no": "3148",
@@ -67756,7 +67795,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 174,
+				"misdemeanor": 175,
 				"violation": 7
 			},
 			"awards": [
@@ -69028,15 +69067,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 54,
-				"violation": 12
+				"felony": 11,
+				"misdemeanor": 27,
+				"violation": 6
 			},
 			"awards": [
-				{
-					"date": "8/25/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "8/25/2012",
 					"name": "EXCELLENT POLICE DUTY"
@@ -71691,8 +71726,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "764",
 		"appt_date": "7/1/2003",
-		"recognition_count": 8,
-		"arrest_count": 338,
+		"recognition_count": 4,
+		"arrest_count": 169,
 		"reports": {
 			"summary": {
 				"command": "INTERNAL AFFAIRS BUREAU",
@@ -75953,7 +75988,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 83,
-				"misdemeanor": 233,
+				"misdemeanor": 234,
 				"violation": 17
 			},
 			"awards": [
@@ -83182,7 +83217,7 @@
 		"shield_no": "6004",
 		"appt_date": "7/1/2003",
 		"recognition_count": 2,
-		"arrest_count": 153,
+		"arrest_count": 154,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -91328,6 +91363,10 @@
 			},
 			"awards": [
 				{
+					"date": "12/23/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "2/11/2020",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -92291,8 +92330,8 @@
 		"arrest_count": 51,
 		"reports": {
 			"summary": {
-				"command": "MILITARY & EXTENDED LEAVE DESK",
-				"assignment_date": "6/21/2021",
+				"command": "032 PRECINCT",
+				"assignment_date": "6/27/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -95399,8 +95438,8 @@
 		"arrest_count": 68,
 		"reports": {
 			"summary": {
-				"command": "HEADQUARTERS SECURITY UNIT",
-				"assignment_date": "3/8/2010",
+				"command": "MANHATTAN COURT SECTION",
+				"assignment_date": "6/25/2022",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "30963",
@@ -104213,7 +104252,7 @@
 		"first_name": "PAUL",
 		"last_name": "DUMANOVSKY",
 		"middle_initial": "V",
-		"command": "033 PRECINCT",
+		"command": "MANHATTAN COURT SECTION",
 		"rank": "SERGEANT",
 		"shield_no": "267",
 		"appt_date": "7/1/2004",
@@ -104221,8 +104260,8 @@
 		"arrest_count": 106,
 		"reports": {
 			"summary": {
-				"command": "033 PRECINCT",
-				"assignment_date": "7/27/2020",
+				"command": "MANHATTAN COURT SECTION",
+				"assignment_date": "6/29/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "267",
@@ -105662,7 +105701,7 @@
 		"shield_no": "5380",
 		"appt_date": "7/11/2005",
 		"recognition_count": 1,
-		"arrest_count": 304,
+		"arrest_count": 306,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -105684,7 +105723,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 47,
-				"misdemeanor": 254,
+				"misdemeanor": 256,
 				"violation": 1
 			},
 			"awards": [
