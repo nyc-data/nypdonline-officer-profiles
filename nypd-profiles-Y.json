@@ -828,7 +828,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": [
 				{
@@ -2285,7 +2285,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 12
 			},
 			"awards": []
@@ -9290,7 +9290,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 14,
 				"misdemeanor": 9
 			},
 			"awards": []
@@ -9737,7 +9737,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/28/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-24845",
+							"description": "01.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-24845",
+							"description": "02.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 32
