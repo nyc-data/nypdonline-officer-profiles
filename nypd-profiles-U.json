@@ -4662,7 +4662,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 75,
-				"misdemeanor": 90,
+				"misdemeanor": 91,
 				"violation": 8
 			},
 			"awards": []
@@ -5143,7 +5143,7 @@
 		"shield_no": "4845",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -5163,7 +5163,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		}
@@ -5381,7 +5382,7 @@
 		"shield_no": "20097",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 355,
+		"arrest_count": 357,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -5399,11 +5400,33 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "01.Failed to obtain medical treatment."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "01.Wrongfully used physical force."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "02.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 8,
 				"felony": 52,
-				"misdemeanor": 290,
+				"misdemeanor": 292,
 				"violation": 5
 			},
 			"awards": []
