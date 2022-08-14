@@ -696,7 +696,7 @@
 		"shield_no": "4789",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 18,
+		"arrest_count": 19,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -717,7 +717,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		}
@@ -1131,7 +1131,7 @@
 		"shield_no": "26074",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 2,
 		"reports": {
 			"summary": {
 				"command": "FTU22 120/121/122/123 PCT",
@@ -1150,7 +1150,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		}
 	},
@@ -3148,7 +3150,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/9/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26236",
+							"description": "01.Failed to timely activate their body worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 63,
@@ -4633,8 +4647,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 75,
-				"misdemeanor": 91,
+				"felony": 76,
+				"misdemeanor": 92,
 				"violation": 8
 			},
 			"awards": []
