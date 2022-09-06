@@ -1843,8 +1843,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 325,
-				"misdemeanor": 354,
+				"felony": 327,
+				"misdemeanor": 355,
 				"other": 2,
 				"violation": 5
 			},
@@ -2090,7 +2090,7 @@
 		"shield_no": "30441",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 3,
 		"reports": {
 			"summary": {
 				"command": "FTU12 63/67/69 PCT",
@@ -2803,8 +2803,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 99,
-				"misdemeanor": 209,
+				"felony": 101,
+				"misdemeanor": 210,
 				"violation": 13
 			},
 			"awards": [
@@ -6330,7 +6330,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/28/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "250-DET SQD. MAN-025",
+							"case_no": "2021-23241",
+							"description": "Involved in a verbal altercation.",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "250-DET SQD. MAN-025",
+							"case_no": "2021-23241",
+							"description": "Failed to make proper notifications.",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 63,
 				"misdemeanor": 62,
@@ -8354,8 +8375,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "2710",
 		"appt_date": "7/8/2008",
-		"recognition_count": 2,
-		"arrest_count": 202,
+		"recognition_count": 1,
+		"arrest_count": 101,
 		"reports": {
 			"summary": {
 				"command": "072 PRECINCT",
@@ -17690,7 +17711,7 @@
 		"last_name": "NEWTON",
 		"middle_initial": "A",
 		"command": "EXECUTIVE PROTECTION UNIT",
-		"rank": "DETECTIVE 3RD GRADE",
+		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "4690",
 		"appt_date": "1/14/2009",
 		"recognition_count": 3,
@@ -18927,8 +18948,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 43,
-				"violation": 16
+				"misdemeanor": 86,
+				"violation": 32
 			},
 			"awards": []
 		}
@@ -20359,8 +20380,8 @@
 				"command": "QUEENS TRANSIT ROBBERY SQUAD",
 				"assignment_date": "4/16/2021",
 				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "16150",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "7083",
 				"appt_date": "7/6/2010"
 			},
 			"ranks": [
@@ -20368,6 +20389,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/6/2010",
 					"shield_no": "16150"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "8/26/2022",
+					"shield_no": "7083"
 				}
 			],
 			"documents": [],
@@ -20444,7 +20470,7 @@
 		"shield_no": "30832",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "FTU6 25/28/32 PCT",
@@ -21729,7 +21755,7 @@
 			"arrests": {
 				"infraction": 4,
 				"felony": 23,
-				"misdemeanor": 106,
+				"misdemeanor": 109,
 				"violation": 8
 			},
 			"awards": []
@@ -24018,32 +24044,6 @@
 		}
 	},
 	{
-		"taxid": 947293,
-		"full_name": "NIEVES, CARLOS J",
-		"first_name": "CARLOS",
-		"last_name": "NIEVES",
-		"middle_initial": "J",
-		"command": "MANHATTAN NORTH GRAND LARCENY SQD",
-		"rank": "POLICE OFFICER",
-		"shield_no": "18144",
-		"appt_date": "7/8/2008",
-		"recognition_count": 4,
-		"arrest_count": 321,
-		"reports": {
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/8/2008",
-					"shield_no": "18144"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		}
-	},
-	{
 		"taxid": 947294,
 		"full_name": "NIEVES, CHRISTOPHER A",
 		"first_name": "CHRISTOPHER",
@@ -24053,8 +24053,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "5684",
 		"appt_date": "7/8/2008",
-		"recognition_count": 11,
-		"arrest_count": 153,
+		"recognition_count": 22,
+		"arrest_count": 306,
 		"reports": {
 			"summary": {
 				"command": "GRAND LARCENY DIVISION",
@@ -24339,7 +24339,7 @@
 		"shield_no": "21117",
 		"appt_date": "1/7/2008",
 		"recognition_count": 0,
-		"arrest_count": 133,
+		"arrest_count": 135,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -25142,19 +25142,19 @@
 		"first_name": "STEVEN",
 		"last_name": "NIEVES",
 		"middle_initial": "J",
-		"command": "084 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "23976",
+		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"rank": "SERGEANT",
+		"shield_no": "5134",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
 		"arrest_count": 82,
 		"reports": {
 			"summary": {
-				"command": "084 PRECINCT",
-				"assignment_date": "8/17/2022",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "8/26/2022",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "23976",
+				"rank_desc": "SERGEANT",
+				"shield_no": "5134",
 				"appt_date": "7/6/2011"
 			},
 			"ranks": [
@@ -25162,10 +25162,46 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/6/2011",
 					"shield_no": "23976"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/26/2022",
+					"shield_no": "5134"
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/1/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2018-19504",
+							"description": "01.Promoting Prostitution in the Third Degree, be performed, agreed with one or more persons to engage in or cause the performance of such conduct",
+							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2018-19504",
+							"description": "02.did knowingly associate with persons or organizations reasonably believed to be engaged in, likely to engage in, or to have engaged in criminal activities",
+							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2018-19504",
+							"description": "03.fail to provide accurate and current personal information to the Department, in that he failed to provide the Department with a current address upon moving",
+							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2018-19504",
+							"description": "04.managing, supervising, controlling or owning or had an association with others in maintaining a house of prostitution",
+							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 18,
@@ -26145,7 +26181,7 @@
 		"shield_no": "24395",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "FTU8 41/43/45 PCT",
@@ -31480,7 +31516,7 @@
 		"shield_no": "4964",
 		"appt_date": "1/9/2012",
 		"recognition_count": 9,
-		"arrest_count": 270,
+		"arrest_count": 271,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -31501,7 +31537,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 90,
+				"felony": 91,
 				"misdemeanor": 143,
 				"violation": 31
 			},
@@ -34262,7 +34298,7 @@
 		"shield_no": "23709",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 2,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "FTU9 46/48/52 PCT",
@@ -36054,6 +36090,48 @@
 				"violation": 4
 			},
 			"awards": []
+		}
+	},
+	{
+		"taxid": 970744,
+		"full_name": "NUNEZ, MANUEL A",
+		"first_name": "MANUEL",
+		"last_name": "NUNEZ",
+		"middle_initial": "A",
+		"command": "088 PRECINCT",
+		"rank": "POLICE OFFICER",
+		"shield_no": "2579",
+		"appt_date": "12/29/2020",
+		"recognition_count": 1,
+		"arrest_count": 12,
+		"reports": {
+			"summary": {
+				"command": "088 PRECINCT",
+				"assignment_date": "7/1/2021",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "2579",
+				"appt_date": "12/29/2020"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "12/29/2020",
+					"shield_no": "2579"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 5,
+				"misdemeanor": 7
+			},
+			"awards": [
+				{
+					"date": "2/10/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		}
 	},
 	{
