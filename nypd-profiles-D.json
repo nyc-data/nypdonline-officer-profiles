@@ -2890,9 +2890,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 47,
-				"misdemeanor": 64
+				"infraction": 2,
+				"felony": 94,
+				"misdemeanor": 128
 			},
 			"awards": []
 		}
@@ -5511,7 +5511,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 51,
+				"felony": 52,
 				"misdemeanor": 56,
 				"violation": 2
 			},
@@ -6319,7 +6319,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 78,
+				"felony": 79,
 				"misdemeanor": 54,
 				"violation": 4
 			},
@@ -7390,7 +7390,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 111,
+				"misdemeanor": 112,
 				"violation": 3
 			},
 			"awards": [
@@ -9615,7 +9615,7 @@
 		"shield_no": "2057",
 		"appt_date": "7/6/2011",
 		"recognition_count": 14,
-		"arrest_count": 250,
+		"arrest_count": 251,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN TRANSIT ROBBERY SQD",
@@ -13159,7 +13159,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
-				"misdemeanor": 49,
+				"misdemeanor": 50,
 				"violation": 3
 			},
 			"awards": [
@@ -15199,8 +15199,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 185,
-				"misdemeanor": 120,
+				"felony": 186,
+				"misdemeanor": 121,
 				"violation": 5
 			},
 			"awards": [
@@ -16299,7 +16299,7 @@
 		"shield_no": "1407",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 131,
+		"arrest_count": 132,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -17675,12 +17675,12 @@
 		"first_name": "MELISSA",
 		"last_name": "DAVIS",
 		"middle_initial": "C",
-		"command": "HOUSING PSA 7",
+		"command": "MOUNTED UNIT",
 		"rank": "SERGEANT",
 		"shield_no": "1781",
 		"appt_date": "7/6/2011",
-		"recognition_count": 4,
-		"arrest_count": 79,
+		"recognition_count": 8,
+		"arrest_count": 158,
 		"reports": {
 			"summary": {
 				"command": "MOUNTED UNIT",
@@ -18115,28 +18115,42 @@
 			"discipline": [
 				{
 					"entry": "3/4/2018 12:00:00 AM",
-					"charges_count": 2,
+					"charges_count": 4,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "806-HOUSING PSA 6",
 							"case_no": "2017-17896",
 							"description": "ENGAGED IN A VERBAL AND PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "806-HOUSING PSA 6",
+							"case_no": "2017-17896",
+							"description": "ENGAGED IN A VERBAL AND PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "806-HOUSING PSA 6",
 							"case_no": "2017-17896",
 							"description": "FAILED TO REMAIN AT THE SCENE OF AN OFF DUTY INCIDENT INVOLVING MULTIPLE MEMBERS OF SERVICE AND REQUEST THE RESPONSE OF A PATROL SUPERVISOR TO THE SCENE OF THE INCIDENT.",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "806-HOUSING PSA 6",
+							"case_no": "2017-17896",
+							"description": "FAILED TO REMAIN AT THE SCENE OF AN OFF DUTY INCIDENT INVOLVING MULTIPLE MEMBERS OF SERVICE AND REQUEST THE RESPONSE OF A PATROL SUPERVISOR TO THE SCENE OF THE INCIDENT.",
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 28
+				"felony": 12,
+				"misdemeanor": 56
 			},
 			"awards": []
 		}
@@ -20372,8 +20386,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "15205",
 		"appt_date": "7/11/2012",
-		"recognition_count": 47,
-		"arrest_count": 267,
+		"recognition_count": 94,
+		"arrest_count": 534,
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
@@ -21213,7 +21227,7 @@
 		"shield_no": "2552",
 		"appt_date": "1/9/2012",
 		"recognition_count": 6,
-		"arrest_count": 237,
+		"arrest_count": 238,
 		"reports": {
 			"summary": {
 				"command": "QUEENS SPECIAL VICTIMS SQUAD",
@@ -24900,7 +24914,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 82,
 				"violation": 1
 			},
@@ -26688,7 +26702,18 @@
 				"shield_no": "3785",
 				"appt_date": "7/10/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/10/2006",
+					"shield_no": "10946"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/5/2014",
+					"shield_no": "3785"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -27369,7 +27394,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 6,
+				"felony": 7,
 				"misdemeanor": 32
 			},
 			"awards": [
@@ -27523,8 +27548,8 @@
 		"arrest_count": 59,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 7",
-				"assignment_date": "2/17/2020",
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "8/23/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "15065",
@@ -30154,7 +30179,7 @@
 		"shield_no": "1243",
 		"appt_date": "7/6/2011",
 		"recognition_count": 13,
-		"arrest_count": 364,
+		"arrest_count": 366,
 		"reports": {
 			"summary": {
 				"command": "077 DET SQUAD",
@@ -33410,7 +33435,7 @@
 		"shield_no": "7510",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 132,
+		"arrest_count": 264,
 		"reports": {
 			"summary": {
 				"command": "US OPEN TENNIS DETAIL",
@@ -37601,7 +37626,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 107,
+				"felony": 108,
 				"misdemeanor": 53,
 				"violation": 1
 			},
@@ -40187,7 +40212,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 79,
+				"felony": 81,
 				"misdemeanor": 71,
 				"violation": 3
 			},
@@ -43648,9 +43673,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 20,
-				"violation": 2
+				"felony": 6,
+				"misdemeanor": 40,
+				"violation": 4
 			},
 			"awards": []
 		}
@@ -43666,7 +43691,7 @@
 		"shield_no": "1204",
 		"appt_date": "1/9/2013",
 		"recognition_count": 8,
-		"arrest_count": 289,
+		"arrest_count": 290,
 		"reports": {
 			"summary": {
 				"command": "083 DET SQUAD",
@@ -48096,7 +48121,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 51,
-				"misdemeanor": 176,
+				"misdemeanor": 177,
 				"violation": 1
 			},
 			"awards": [
@@ -53153,7 +53178,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 16,
-				"misdemeanor": 53,
+				"misdemeanor": 55,
 				"violation": 5
 			},
 			"awards": [
@@ -54815,7 +54840,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 60,
 				"violation": 1
 			},
@@ -55440,8 +55465,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "30817",
 		"appt_date": "1/9/2013",
-		"recognition_count": 4,
-		"arrest_count": 66,
+		"recognition_count": 2,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO QUEENS NORTH MAJOR CASE UNIT",
@@ -55991,7 +56016,7 @@
 		"shield_no": "8572",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 53,
+		"arrest_count": 54,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -57218,7 +57243,7 @@
 		"shield_no": "15360",
 		"appt_date": "7/11/2012",
 		"recognition_count": 1,
-		"arrest_count": 121,
+		"arrest_count": 122,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -60563,7 +60588,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 105,
+				"felony": 106,
 				"misdemeanor": 13,
 				"violation": 17
 			},
@@ -64894,7 +64919,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 34,
+				"felony": 35,
 				"misdemeanor": 82
 			},
 			"awards": [
@@ -69424,7 +69449,7 @@
 		"shield_no": "17948",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
-		"arrest_count": 88,
+		"arrest_count": 89,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -69445,7 +69470,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 73
+				"misdemeanor": 74
 			},
 			"awards": []
 		}
@@ -69510,7 +69535,13 @@
 				"shield_no": "10536",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2014",
+					"shield_no": "10536"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -73218,7 +73249,7 @@
 		"shield_no": "3759",
 		"appt_date": "7/11/2012",
 		"recognition_count": 7,
-		"arrest_count": 218,
+		"arrest_count": 219,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -74917,7 +74948,7 @@
 		"shield_no": "1265",
 		"appt_date": "7/9/2014",
 		"recognition_count": 13,
-		"arrest_count": 220,
+		"arrest_count": 221,
 		"reports": {
 			"summary": {
 				"command": "MTS DET SQUAD",
@@ -74942,7 +74973,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 78,
+				"felony": 79,
 				"misdemeanor": 142
 			},
 			"awards": [
@@ -83463,49 +83494,6 @@
 		}
 	},
 	{
-		"taxid": 958253,
-		"full_name": "DOMI, ENDRI",
-		"first_name": "ENDRI",
-		"last_name": "DOMI",
-		"middle_initial": "",
-		"command": "060 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "18582",
-		"appt_date": "7/8/2015",
-		"recognition_count": 1,
-		"arrest_count": 25,
-		"reports": {
-			"summary": {
-				"command": "060 PRECINCT",
-				"assignment_date": "9/14/2020",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "18582",
-				"appt_date": "7/8/2015"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/8/2015",
-					"shield_no": "18582"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 3,
-				"misdemeanor": 21,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "8/14/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 973360,
 		"full_name": "DOMINGUE, PETER J",
 		"first_name": "PETER",
@@ -84059,7 +84047,7 @@
 		"shield_no": "18875",
 		"appt_date": "7/8/2015",
 		"recognition_count": 1,
-		"arrest_count": 305,
+		"arrest_count": 307,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -84080,7 +84068,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 88,
-				"misdemeanor": 216,
+				"misdemeanor": 218,
 				"violation": 1
 			},
 			"awards": [
@@ -84350,7 +84338,7 @@
 		"shield_no": "2942",
 		"appt_date": "1/8/2014",
 		"recognition_count": 4,
-		"arrest_count": 178,
+		"arrest_count": 179,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -84375,7 +84363,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 96,
+				"felony": 97,
 				"misdemeanor": 82
 			},
 			"awards": [
@@ -90646,7 +90634,7 @@
 		"shield_no": "746",
 		"appt_date": "7/9/2014",
 		"recognition_count": 8,
-		"arrest_count": 256,
+		"arrest_count": 257,
 		"reports": {
 			"summary": {
 				"command": "QUEENS ROBBERY SQUAD",
@@ -90671,7 +90659,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 100,
+				"felony": 101,
 				"misdemeanor": 155,
 				"violation": 1
 			},
@@ -90897,6 +90885,63 @@
 		}
 	},
 	{
+		"taxid": 938388,
+		"full_name": "DORCH, FRED M",
+		"first_name": "FRED",
+		"last_name": "DORCH",
+		"middle_initial": "M",
+		"command": "NARC BORO BRONX",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "2679",
+		"appt_date": "7/11/2005",
+		"recognition_count": 3,
+		"arrest_count": 314,
+		"reports": {
+			"summary": {
+				"command": "NARC BORO BRONX",
+				"assignment_date": "2/12/2017",
+				"ethnicity": "BLACK",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "2679",
+				"appt_date": "7/11/2005"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "11694"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/22/2017",
+					"shield_no": "2679"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 132,
+				"misdemeanor": 175,
+				"other": 1,
+				"violation": 6
+			},
+			"awards": [
+				{
+					"date": "10/19/2013",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "1/24/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/30/2012",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
 		"taxid": 957556,
 		"full_name": "DORCILIEN, MARIO",
 		"first_name": "MARIO",
@@ -90928,7 +90973,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 37,
+				"misdemeanor": 38,
 				"violation": 5
 			},
 			"awards": [
@@ -97663,8 +97708,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "190",
 		"appt_date": "1/9/2012",
-		"recognition_count": 46,
-		"arrest_count": 484,
+		"recognition_count": 23,
+		"arrest_count": 242,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -98441,7 +98486,7 @@
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 100,
-				"violation": 5
+				"violation": 6
 			},
 			"awards": [
 				{
@@ -106034,7 +106079,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 92,
-				"misdemeanor": 111,
+				"misdemeanor": 112,
 				"violation": 7
 			},
 			"awards": [
@@ -108891,48 +108936,6 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				}
 			]
-		}
-	},
-	{
-		"taxid": 958536,
-		"full_name": "DURAN, JUDY A",
-		"first_name": "JUDY",
-		"last_name": "DURAN",
-		"middle_initial": "A",
-		"command": "INTERNAL AFFAIRS BUREAU",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "467",
-		"appt_date": "7/8/2015",
-		"recognition_count": 0,
-		"arrest_count": 71,
-		"reports": {
-			"summary": {
-				"command": "INTERNAL AFFAIRS BUREAU",
-				"assignment_date": "12/18/2020",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "467",
-				"appt_date": "7/8/2015"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/8/2015",
-					"shield_no": "17358"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "6/24/2022",
-					"shield_no": "467"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 24,
-				"misdemeanor": 47
-			},
-			"awards": []
 		}
 	},
 	{
@@ -112296,8 +112299,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 90,
-				"misdemeanor": 104,
+				"felony": 91,
+				"misdemeanor": 107,
 				"other": 1
 			},
 			"awards": [
