@@ -10322,7 +10322,7 @@
 		"shield_no": "4823",
 		"appt_date": "7/6/2010",
 		"recognition_count": 1,
-		"arrest_count": 185,
+		"arrest_count": 187,
 		"reports": {
 			"summary": {
 				"command": "BRONX SPECIAL VICTIMS SQUAD",
@@ -10348,7 +10348,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 79,
-				"misdemeanor": 99,
+				"misdemeanor": 101,
 				"violation": 7
 			},
 			"awards": [
@@ -14037,7 +14037,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 12
 			},
 			"awards": []
@@ -14603,6 +14603,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"infraction": 1,
 				"felony": 1,
 				"misdemeanor": 7
 			},
@@ -22492,7 +22493,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": []
 		}
@@ -27282,8 +27283,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 251,
-				"misdemeanor": 251,
+				"felony": 252,
+				"misdemeanor": 252,
 				"other": 1,
 				"violation": 17
 			},
@@ -28948,7 +28949,7 @@
 		"shield_no": "13781",
 		"appt_date": "7/1/2019",
 		"recognition_count": 1,
-		"arrest_count": 16,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 30",
@@ -29230,7 +29231,7 @@
 		"shield_no": "7615",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 29,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "112 PRECINCT",
@@ -32083,7 +32084,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
+				"felony": 27,
 				"misdemeanor": 40
 			},
 			"awards": []
@@ -34128,7 +34129,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/18/2014 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "042-042 PRECINCT",
+							"case_no": "2014-12349",
+							"description": "ON DUTY, SEARCHED AN APARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 80,
 				"misdemeanor": 179,
@@ -34325,7 +34340,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 38,
+				"misdemeanor": 39,
 				"violation": 1
 			},
 			"awards": []
@@ -35315,9 +35330,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 33,
-				"violation": 2
+				"felony": 22,
+				"misdemeanor": 68,
+				"violation": 4
 			},
 			"awards": []
 		}
@@ -35947,7 +35962,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -36188,14 +36203,6 @@
 		"recognition_count": 1,
 		"arrest_count": 5,
 		"reports": {
-			"summary": {
-				"command": "BRONX COURT SECTION",
-				"assignment_date": "6/13/2018",
-				"ethnicity": "ASIAN",
-				"rank_desc": "CAPTAIN",
-				"shield_no": "",
-				"appt_date": "1/13/1992"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -36220,16 +36227,8 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 3,
-				"misdemeanor": 2
-			},
-			"awards": [
-				{
-					"date": "8/20/1992",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		}
 	},
 	{
@@ -55880,7 +55879,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
+				"felony": 15,
 				"misdemeanor": 19
 			},
 			"awards": []
@@ -65880,7 +65879,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": []
 		}
@@ -81990,7 +81989,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -89752,7 +89751,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 32
+				"misdemeanor": 33
 			},
 			"awards": [
 				{
@@ -93156,7 +93155,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 12,
 				"violation": 1
 			},
@@ -93799,7 +93798,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/26/2010 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "009-009 PRECINCT",
+							"case_no": "2010-356",
+							"description": "FAILED TO SUPERVISE MEMBERS OF SERVICE UNDER HIS SUPERVISION BY NEGLECTING TO VISIT POLICE OFFICERS DURING HIS TOUR AND FAILING TO SIGN ACTIVITY LOGS OF SAID OFFICERS.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "009-009 PRECINCT",
+							"case_no": "2010-356",
+							"description": "FAILED TO PROPERLY MAINTAIN SAID ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 32,
@@ -97674,7 +97694,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/17/2020 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "582-BROOKLYN COURT SECTION",
+							"case_no": "2020-21884",
+							"description": "Failed to safeguard a firearm",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 50,
@@ -113242,7 +113276,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 7,
 				"misdemeanor": 9
 			},
 			"awards": []
