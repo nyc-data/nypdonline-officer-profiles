@@ -46,7 +46,7 @@
 		"shield_no": "3466",
 		"appt_date": "7/2/2001",
 		"recognition_count": 7,
-		"arrest_count": 295,
+		"arrest_count": 298,
 		"reports": {
 			"summary": {
 				"command": "020 DET SQUAD",
@@ -78,7 +78,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
-				"felony": 66,
+				"felony": 69,
 				"misdemeanor": 219,
 				"violation": 6
 			},
@@ -2127,8 +2127,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 52
+				"felony": 10,
+				"misdemeanor": 26
 			},
 			"awards": []
 		}
@@ -2663,7 +2663,7 @@
 		"shield_no": "13921",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 33,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -5195,7 +5195,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/24/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23677",
+							"description": "01.Disparaging Remark"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 13
