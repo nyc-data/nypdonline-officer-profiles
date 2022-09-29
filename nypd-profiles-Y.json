@@ -2103,7 +2103,7 @@
 		"shield_no": "15829",
 		"appt_date": "7/2/2018",
 		"recognition_count": 2,
-		"arrest_count": 34,
+		"arrest_count": 35,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -2123,7 +2123,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 11
 			},
 			"awards": [
@@ -4648,7 +4648,7 @@
 		"shield_no": "15880",
 		"appt_date": "7/2/2018",
 		"recognition_count": 7,
-		"arrest_count": 55,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -4669,7 +4669,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": [
 				{
@@ -5185,7 +5185,30 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26194",
+							"description": "01.Wrongfully used physical force."
+						}
+					]
+				},
+				{
+					"entry": "9/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26195",
+							"description": "01.Failed to activate their body worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 1,
 				"misdemeanor": 10,
@@ -5916,7 +5939,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 35
+				"misdemeanor": 36
 			},
 			"awards": []
 		}
@@ -6207,7 +6230,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/28/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-24848",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 22
@@ -6237,14 +6272,6 @@
 		"recognition_count": 1,
 		"arrest_count": 44,
 		"reports": {
-			"summary": {
-				"command": "108 PRECINCT",
-				"assignment_date": "5/23/2019",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "11858",
-				"appt_date": "4/25/2018"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -6254,16 +6281,8 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 10,
-				"misdemeanor": 34
-			},
-			"awards": [
-				{
-					"date": "3/7/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		}
 	},
 	{
@@ -9981,7 +10000,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 21,
+				"misdemeanor": 24,
 				"violation": 5
 			},
 			"awards": [
