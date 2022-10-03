@@ -597,8 +597,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 208,
-				"misdemeanor": 481,
+				"felony": 209,
+				"misdemeanor": 482,
 				"violation": 6
 			},
 			"awards": [
@@ -1175,7 +1175,7 @@
 		"shield_no": "",
 		"appt_date": "7/9/2004",
 		"recognition_count": 0,
-		"arrest_count": 78,
+		"arrest_count": 156,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -2930,8 +2930,8 @@
 		"last_name": "EDDY",
 		"middle_initial": "W",
 		"command": "SCUBA UNIT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "5656",
+		"rank": "DETECTIVE SPECIALIST",
+		"shield_no": "7408",
 		"appt_date": "7/1/2004",
 		"recognition_count": 2,
 		"arrest_count": 169,
@@ -5924,7 +5924,7 @@
 				"command": "NARC BORO QUEENS NORTH",
 				"assignment_date": "8/31/2015",
 				"ethnicity": "BLACK",
-				"rank_desc": "SERGEANT",
+				"rank_desc": "SGT DET SQUAD",
 				"shield_no": "3692",
 				"appt_date": "1/10/2005"
 			},
@@ -7439,7 +7439,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/10/2015 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2014-12134",
+							"description": "WHILE ON-DUTY, HAVING RESPONDED TO AN ASSIGNMENT INVOLVING AN ALLEGED ROBBERY WITH A FIREARM, WRONGFULLY FAILED TO MAKE APPROPRIATE OR REQUIRED ACTIVITY LOG ENTRIES.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2014-12134",
+							"description": "WHILE ON-DUTY, HAVING RESPONDED TO AN ASSIGNMENT INVOLVING AN ALLEGED ROBBERY WITH A FIREARM, WRONGFULLY FAILED TO PROPERLY SUPERVISE HIS SUBORDINATES BY FAILING TO DIRECT THEM TO PREPARE A COMPLAINT REPORT",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2014-12134",
+							"description": "WHILE ON-DUTY, HAVING RESPONDED TO AN ASSIGNMENT INVOLVING AN ALLEGED ROBBERY WITH A FIREARM, WRONGFULLY FAILED TO NOTIFY  THE DETECTIVE SQUAD FOR FURTHER INVESTIGATION",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 42,
@@ -8566,8 +8594,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "1255",
 		"appt_date": "7/2/2001",
-		"recognition_count": 2,
-		"arrest_count": 274,
+		"recognition_count": 1,
+		"arrest_count": 137,
 		"reports": {
 			"summary": {
 				"command": "BRONX ZOO DETAIL",
@@ -10079,10 +10107,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 4,
-				"felony": 204,
-				"misdemeanor": 192,
-				"violation": 38
+				"infraction": 2,
+				"felony": 102,
+				"misdemeanor": 96,
+				"violation": 19
 			},
 			"awards": [
 				{
@@ -10090,19 +10118,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "5/2/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "1/18/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/18/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/16/2016",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -10114,27 +10130,11 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "4/28/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/6/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "4/6/2016",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "6/14/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/14/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/23/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10146,27 +10146,11 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "4/26/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/1/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "2/1/2012",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "11/18/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/18/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/19/2010",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -11113,20 +11097,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "12/15/2021 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2021-23396",
-							"description": "01.Failed to prepare required reports.",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 17,
 				"misdemeanor": 115,
@@ -11593,8 +11564,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "687",
 		"appt_date": "7/10/2006",
-		"recognition_count": 8,
-		"arrest_count": 832,
+		"recognition_count": 4,
+		"arrest_count": 416,
 		"reports": {
 			"summary": {
 				"command": "084 DET SQUAD",
@@ -11619,9 +11590,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 336,
-				"misdemeanor": 412,
-				"violation": 84
+				"felony": 168,
+				"misdemeanor": 206,
+				"violation": 42
 			},
 			"awards": [
 				{
@@ -11629,27 +11600,11 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "10/9/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/17/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "8/17/2012",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "7/3/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/3/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/3/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -16185,49 +16140,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "2/16/2011 12:00:00 AM",
-					"charges_count": 5,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-2165",
-							"description": "WHILE OFF DUTY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (19 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-2165",
-							"description": "WHILE OFF DUTY FAILED TO SAFEGUARD HIS SERVICE FIREARM AND PLACED SAID WEAPON IN AN UNLOCKED SAFETY BOX.",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (19 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-2165",
-							"description": "WHILE OFF DUTY ENGAGED IN A PHYSICAL DISPUTE WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT IN THE PRESENCE OF A MINOR.",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (19 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-2165",
-							"description": "FAILED TO NOTIFY THE DEPARTMENT THAT HE WAS THE SUBJECT OF AN ORDER OF PROTECTION.",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (19 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-2165",
-							"description": "WHILE OFF DUTY WAS INVOLVED IN A DOMESTIC DISPUTE/PHYSICAL ALTERCATION AND FAILED TO NOTIFY THE DEPARTMENT.",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (19 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 2,
 				"felony": 10,
@@ -17603,8 +17516,8 @@
 		"last_name": "ERDMAN",
 		"middle_initial": "K",
 		"command": "CRIMINAL INTELLIGENCE SECTION",
-		"rank": "POLICE OFFICER",
-		"shield_no": "15729",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "7349",
 		"appt_date": "7/10/2006",
 		"recognition_count": 16,
 		"arrest_count": 255,
@@ -17613,8 +17526,8 @@
 				"command": "CRIMINAL INTELLIGENCE SECTION",
 				"assignment_date": "3/19/2021",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "15729",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "7349",
 				"appt_date": "7/10/2006"
 			},
 			"ranks": [
@@ -17622,6 +17535,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/10/2006",
 					"shield_no": "15729"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/30/2022",
+					"shield_no": "7349"
 				}
 			],
 			"documents": [],
@@ -19369,7 +19287,7 @@
 		"shield_no": "12460",
 		"appt_date": "1/10/2007",
 		"recognition_count": 1,
-		"arrest_count": 248,
+		"arrest_count": 250,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -19390,8 +19308,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 59,
-				"misdemeanor": 182,
+				"felony": 60,
+				"misdemeanor": 183,
 				"violation": 4
 			},
 			"awards": [
@@ -21616,7 +21534,7 @@
 		"shield_no": "4036",
 		"appt_date": "1/10/2007",
 		"recognition_count": 5,
-		"arrest_count": 681,
+		"arrest_count": 682,
 		"reports": {
 			"summary": {
 				"command": "071 DET SQUAD",
@@ -21641,7 +21559,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 256,
+				"felony": 257,
 				"misdemeanor": 410,
 				"violation": 15
 			},
@@ -26111,7 +26029,7 @@
 		"shield_no": "1695",
 		"appt_date": "7/10/2006",
 		"recognition_count": 14,
-		"arrest_count": 589,
+		"arrest_count": 590,
 		"reports": {
 			"summary": {
 				"command": "078 DET SQUAD",
@@ -26177,7 +26095,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 167,
+				"felony": 168,
 				"misdemeanor": 341,
 				"violation": 81
 			},
@@ -26252,7 +26170,7 @@
 		"shield_no": "13679",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 112,
+		"arrest_count": 115,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -27130,7 +27048,7 @@
 		"shield_no": "3478",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 1007,
+		"arrest_count": 1008,
 		"reports": {
 			"summary": {
 				"command": "041 DET SQUAD",
@@ -27192,7 +27110,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 264,
-				"misdemeanor": 737,
+				"misdemeanor": 738,
 				"other": 1,
 				"violation": 3
 			},
