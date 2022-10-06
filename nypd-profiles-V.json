@@ -2214,7 +2214,7 @@
 		"shield_no": "2575",
 		"appt_date": "7/6/2010",
 		"recognition_count": 3,
-		"arrest_count": 305,
+		"arrest_count": 306,
 		"reports": {
 			"summary": {
 				"command": "024 DET SQUAD",
@@ -3644,7 +3644,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/23/2020 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2017-18339",
+							"description": "WAS INVOLVED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT AND PREVENTED HER FROM CALLING 9-1-1.",
+							"penalty": "COUNSELING, SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2017-18339",
+							"description": "FAILED AND NEGLECTED TO REQUEST RESPONSE OF THE PATROL SUPERVISOR, PRECINCT OF OCCURRENCE.",
+							"penalty": "COUNSELING, SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 17,
 				"misdemeanor": 84,
@@ -3943,7 +3964,7 @@
 		"shield_no": "21809",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "FTU20 104/110/114/115 PCT",
@@ -4098,19 +4119,19 @@
 		"first_name": "FELICIA",
 		"last_name": "VALENTIN",
 		"middle_initial": "M",
-		"command": "120 DETECTIVE SQUAD",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "6949",
+		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"rank": "SERGEANT",
+		"shield_no": "3775",
 		"appt_date": "1/9/2012",
 		"recognition_count": 3,
 		"arrest_count": 191,
 		"reports": {
 			"summary": {
-				"command": "120 DETECTIVE SQUAD",
-				"assignment_date": "11/15/2021",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "9/30/2022",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "6949",
+				"rank_desc": "SERGEANT",
+				"shield_no": "3775",
 				"appt_date": "1/9/2012"
 			},
 			"ranks": [
@@ -4123,6 +4144,11 @@
 					"rank": "DETECTIVE",
 					"date": "5/29/2020",
 					"shield_no": "6949"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/30/2022",
+					"shield_no": "3775"
 				}
 			],
 			"documents": [],
@@ -4648,7 +4674,7 @@
 		"shield_no": "5482",
 		"appt_date": "7/6/2010",
 		"recognition_count": 0,
-		"arrest_count": 255,
+		"arrest_count": 256,
 		"reports": {
 			"summary": {
 				"command": "BRONX SPECIAL VICTIMS SQUAD",
@@ -5249,8 +5275,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 124,
-				"misdemeanor": 60,
+				"felony": 125,
+				"misdemeanor": 62,
 				"violation": 26
 			},
 			"awards": [
@@ -12945,7 +12971,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/8/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25415",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 6,
@@ -17168,7 +17206,63 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/1/2017 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "047-047 PRECINCT",
+							"case_no": "2017-18104",
+							"description": "WHILE ON DUTY, WRONGFULLY FAILED TO TERMINATE A VEHICLE PURSUIT WHEN THE RISK OF INJURY OUTWEIGHED THE NEED TO STOP SAID VEHICLE",
+							"penalty": "VACATION DAYS (8 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "11/9/2021 12:00:00 AM",
+					"allegations_count": 6,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2020-22477",
+							"description": "01.Failed to activate Body-Worn Camera",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22477",
+							"description": "02.Failed to prepare required reports.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22477",
+							"description": "03.Violated patrol rules.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22477",
+							"description": "04.Wrongfully frisked an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22477",
+							"description": "05.Wrongfully searched an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22477",
+							"description": "06.Wrongfully stopped an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 52,
@@ -18981,7 +19075,7 @@
 		"shield_no": "3705",
 		"appt_date": "7/6/2011",
 		"recognition_count": 42,
-		"arrest_count": 339,
+		"arrest_count": 340,
 		"reports": {
 			"summary": {
 				"command": "113TH DET SQUAD",
@@ -19012,7 +19106,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 67,
-				"misdemeanor": 255,
+				"misdemeanor": 256,
 				"violation": 17
 			},
 			"awards": [
@@ -19866,7 +19960,7 @@
 		"first_name": "ANGEL",
 		"last_name": "VAZQUEZ",
 		"middle_initial": "V",
-		"command": "TRANSIT DISTRICT 4",
+		"command": "TB SUBWAY SAFETY TASK FORCE",
 		"rank": "SERGEANT",
 		"shield_no": "5471",
 		"appt_date": "7/6/2011",
@@ -19874,8 +19968,8 @@
 		"arrest_count": 127,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 4",
-				"assignment_date": "12/17/2020",
+				"command": "TB SUBWAY SAFETY TASK FORCE",
+				"assignment_date": "10/3/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5471",
@@ -24930,7 +25024,35 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/6/2014 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "865-TRANSIT BUREAU DISTRICT 12",
+							"case_no": "2014-11097",
+							"description": "AFTER HAVING BEEN DIRECTED BY A SUPERVISOR TO TAKE SMMARY ACTION AFTER OBSERVING A MALE ASLEEP ON THE TRAIN, DID FAIL TO COMPLY WITH SAID DIRECTIVE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "865-TRANSIT BUREAU DISTRICT 12",
+							"case_no": "2014-11097",
+							"description": "WAS DISCOURTEOUS TO ON-DUTY POLICE LIEUTENANT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "865-TRANSIT BUREAU DISTRICT 12",
+							"case_no": "2014-11097",
+							"description": "DID UNNECESSARILY REQUEST THE SERVICES OF EMERGENCY MEDICAL SERVICES.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 4,
@@ -34019,7 +34141,7 @@
 		"shield_no": "17738",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 306,
+		"arrest_count": 307,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -34037,11 +34159,60 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/24/2018 12:00:00 AM",
+					"charges_count": 6,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18461",
+							"description": "Misuse of time.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($2,679), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18461",
+							"description": "Misuse of time.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($2,679), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18461",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($2,679), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18461",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($2,679), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18461",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($2,679), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18461",
+							"description": "Failed to make required entries in Department Logs.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($2,679), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 40,
-				"misdemeanor": 262,
+				"misdemeanor": 263,
 				"violation": 3
 			},
 			"awards": []
@@ -34372,7 +34543,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/17/2022 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "487-VICE ENFORCEMENT DIV ZONE 2",
+							"case_no": "2022-24715",
+							"description": "-",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 45,
 				"misdemeanor": 226,
@@ -35382,52 +35567,6 @@
 				},
 				{
 					"date": "9/10/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
-		"taxid": 960052,
-		"full_name": "VIEGAS, DANIEL J",
-		"first_name": "DANIEL",
-		"last_name": "VIEGAS",
-		"middle_initial": "J",
-		"command": "019 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "21343",
-		"appt_date": "10/7/2015",
-		"recognition_count": 2,
-		"arrest_count": 32,
-		"reports": {
-			"summary": {
-				"command": "019 PRECINCT",
-				"assignment_date": "11/18/2016",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "21343",
-				"appt_date": "10/7/2015"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2015",
-					"shield_no": "21343"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 4,
-				"misdemeanor": 28
-			},
-			"awards": [
-				{
-					"date": "7/24/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/29/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
@@ -36563,8 +36702,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "20790",
 		"appt_date": "7/14/2009",
-		"recognition_count": 68,
-		"arrest_count": 260,
+		"recognition_count": 34,
+		"arrest_count": 130,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -37693,7 +37832,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 65,
-				"misdemeanor": 331,
+				"misdemeanor": 332,
 				"violation": 16
 			},
 			"awards": [
@@ -39518,26 +39657,6 @@
 		}
 	},
 	{
-		"taxid": 947866,
-		"full_name": "VILLALONA, ALEJANDRO A",
-		"first_name": "ALEJANDRO",
-		"last_name": "VILLALONA",
-		"middle_initial": "A",
-		"command": "NARC BORO BROOKLYN NORTH",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "101",
-		"appt_date": "7/21/2008",
-		"recognition_count": 15,
-		"arrest_count": 607,
-		"reports": {
-			"ranks": [],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		}
-	},
-	{
 		"taxid": 963793,
 		"full_name": "VILLALONA, EURY",
 		"first_name": "EURY",
@@ -40189,7 +40308,7 @@
 		"shield_no": "2109",
 		"appt_date": "7/6/2011",
 		"recognition_count": 25,
-		"arrest_count": 513,
+		"arrest_count": 515,
 		"reports": {
 			"summary": {
 				"command": "TIMES SQUARE UNIT",
@@ -40755,7 +40874,7 @@
 		"shield_no": "19488",
 		"appt_date": "7/6/2011",
 		"recognition_count": 3,
-		"arrest_count": 106,
+		"arrest_count": 114,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -40777,7 +40896,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 33,
-				"misdemeanor": 67,
+				"misdemeanor": 75,
 				"violation": 3
 			},
 			"awards": [
@@ -41257,7 +41376,7 @@
 		"shield_no": "26129",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 1,
+		"arrest_count": 2,
 		"reports": {
 			"summary": {
 				"command": "FTU14 72/76/78 PCT",
@@ -41289,7 +41408,7 @@
 		"first_name": "CHRISTOPHER",
 		"last_name": "VILLAVERDE",
 		"middle_initial": "J",
-		"command": "MILITARY & EXTENDED LEAVE DESK",
+		"command": "SPECIALIZED TRAINING SECTION",
 		"rank": "POLICE OFFICER",
 		"shield_no": "6061",
 		"appt_date": "7/11/2012",
@@ -41297,8 +41416,8 @@
 		"arrest_count": 65,
 		"reports": {
 			"summary": {
-				"command": "MILITARY & EXTENDED LEAVE DESK",
-				"assignment_date": "11/17/2020",
+				"command": "SPECIALIZED TRAINING SECTION",
+				"assignment_date": "10/4/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6061",
@@ -41736,7 +41855,7 @@
 		"first_name": "LEONARD",
 		"last_name": "VILLEGAS",
 		"middle_initial": "",
-		"command": "DEP COMM COMMUNITY PARTNERSHIPS",
+		"command": "DEP COMM COLLAB POLICING",
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "1/7/2008",
@@ -42604,7 +42723,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/20/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26784",
+							"description": "01.Failed to voucher property.",
+							"penalty": "B - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
 				"felony": 21,
@@ -43835,7 +43967,7 @@
 		"shield_no": "3318",
 		"appt_date": "1/7/2008",
 		"recognition_count": 7,
-		"arrest_count": 390,
+		"arrest_count": 393,
 		"reports": {
 			"summary": {
 				"command": "006 DET SQUAD",
@@ -44529,7 +44661,7 @@
 		"last_name": "VISHNEVSKIY",
 		"middle_initial": "",
 		"command": "CHIEF OF DEPARTMENT",
-		"rank": "SERGEANT",
+		"rank": "SGT SPECIAL ASSIGN",
 		"shield_no": "3432",
 		"appt_date": "7/6/2011",
 		"recognition_count": 7,
@@ -44539,7 +44671,7 @@
 				"command": "CHIEF OF DEPARTMENT",
 				"assignment_date": "2/7/2022",
 				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
+				"rank_desc": "SGT SPECIAL ASSIGN",
 				"shield_no": "3432",
 				"appt_date": "7/6/2011"
 			},
@@ -44605,7 +44737,7 @@
 		"shield_no": "14001",
 		"appt_date": "7/11/2012",
 		"recognition_count": 10,
-		"arrest_count": 131,
+		"arrest_count": 132,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -44625,7 +44757,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 38,
+				"felony": 39,
 				"misdemeanor": 93
 			},
 			"awards": [
@@ -46463,7 +46595,7 @@
 		"shield_no": "4651",
 		"appt_date": "7/6/2010",
 		"recognition_count": 4,
-		"arrest_count": 151,
+		"arrest_count": 152,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -47184,6 +47316,98 @@
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
+		}
+	},
+	{
+		"taxid": 947586,
+		"full_name": "VOGEL, JAMES A",
+		"first_name": "JAMES",
+		"last_name": "VOGEL",
+		"middle_initial": "A",
+		"command": "106 PRECINCT",
+		"rank": "POLICE OFFICER",
+		"shield_no": "18647",
+		"appt_date": "7/8/2008",
+		"recognition_count": 2,
+		"arrest_count": 328,
+		"reports": {
+			"summary": {
+				"command": "106 PRECINCT",
+				"assignment_date": "5/26/2015",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "18647",
+				"appt_date": "7/8/2008"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2008",
+					"shield_no": "18647"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 4,
+				"felony": 74,
+				"misdemeanor": 228,
+				"violation": 22
+			},
+			"awards": [
+				{
+					"date": "8/2/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/2/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
+		"taxid": 954411,
+		"full_name": "VOGEL, MATTHEW A",
+		"first_name": "MATTHEW",
+		"last_name": "VOGEL",
+		"middle_initial": "A",
+		"command": "017 PRECINCT",
+		"rank": "SERGEANT",
+		"shield_no": "2262",
+		"appt_date": "1/9/2013",
+		"recognition_count": 0,
+		"arrest_count": 64,
+		"reports": {
+			"summary": {
+				"command": "017 PRECINCT",
+				"assignment_date": "4/2/2018",
+				"ethnicity": "WHITE",
+				"rank_desc": "SERGEANT",
+				"shield_no": "2262",
+				"appt_date": "1/9/2013"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2013",
+					"shield_no": "21082"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "3/27/2018",
+					"shield_no": "2262"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 7,
+				"felony": 8,
+				"misdemeanor": 42,
+				"violation": 7
+			},
+			"awards": []
 		}
 	},
 	{
@@ -48458,7 +48682,7 @@
 		"first_name": "TATMENG",
 		"last_name": "VONG",
 		"middle_initial": "",
-		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"command": "HOUSING PSA 2",
 		"rank": "SERGEANT",
 		"shield_no": "5151",
 		"appt_date": "7/6/2011",
@@ -48466,8 +48690,8 @@
 		"arrest_count": 312,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "8/26/2022",
+				"command": "HOUSING PSA 2",
+				"assignment_date": "9/26/2022",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5151",
