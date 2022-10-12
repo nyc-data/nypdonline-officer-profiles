@@ -828,7 +828,7 @@
 		"shield_no": "",
 		"appt_date": "7/1/2004",
 		"recognition_count": 11,
-		"arrest_count": 144,
+		"arrest_count": 145,
 		"reports": {
 			"summary": {
 				"command": "123 PRECINCT",
@@ -863,6 +863,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"infraction": 1,
 				"felony": 57,
 				"misdemeanor": 82,
 				"violation": 5
@@ -5667,22 +5668,14 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 88,
-				"misdemeanor": 252,
-				"violation": 12
+				"infraction": 1,
+				"felony": 44,
+				"misdemeanor": 126,
+				"violation": 6
 			},
 			"awards": [
 				{
 					"date": "11/3/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/3/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/25/2011",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -10767,7 +10760,37 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/17/2013 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "-",
+							"case_no": "2010-2153",
+							"description": "FAILED TO PROPERLY SAFEGUARD A PRISONER.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (12 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "7/22/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26281",
+							"description": "01.Violated patrol rules."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26281",
+							"description": "02.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 61,
@@ -20225,7 +20248,7 @@
 		"shield_no": "4934",
 		"appt_date": "7/22/2002",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -20250,8 +20273,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 8,
-				"violation": 8
+				"misdemeanor": 16,
+				"violation": 16
 			},
 			"awards": []
 		}
@@ -21610,7 +21633,7 @@
 		"shield_no": "24688",
 		"appt_date": "11/2/2020",
 		"recognition_count": 1,
-		"arrest_count": 21,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "123 PRECINCT",
@@ -21631,7 +21654,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 19
+				"misdemeanor": 22
 			},
 			"awards": [
 				{
@@ -29033,7 +29056,7 @@
 		"shield_no": "6078",
 		"appt_date": "12/8/1997",
 		"recognition_count": 0,
-		"arrest_count": 101,
+		"arrest_count": 202,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT BORO BRONX/QUEENS",
@@ -39572,7 +39595,7 @@
 		"shield_no": "3053",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 23,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "026 PRECINCT",
@@ -40604,7 +40627,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 85,
 				"violation": 3
 			},
@@ -53458,7 +53481,7 @@
 		"shield_no": "7014",
 		"appt_date": "7/1/2004",
 		"recognition_count": 20,
-		"arrest_count": 513,
+		"arrest_count": 516,
 		"reports": {
 			"summary": {
 				"command": "IDENTITY THEFT SQUAD",
@@ -53483,7 +53506,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 432,
+				"felony": 435,
 				"misdemeanor": 48,
 				"other": 31,
 				"violation": 2
@@ -63122,7 +63145,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 187,
+				"felony": 188,
 				"misdemeanor": 128,
 				"other": 7,
 				"violation": 10
@@ -63630,7 +63653,7 @@
 		"shield_no": "6755",
 		"appt_date": "7/1/2003",
 		"recognition_count": 6,
-		"arrest_count": 810,
+		"arrest_count": 812,
 		"reports": {
 			"summary": {
 				"command": "104TH DET SQUAD",
@@ -63655,8 +63678,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 316,
-				"misdemeanor": 489,
+				"felony": 317,
+				"misdemeanor": 490,
 				"violation": 5
 			},
 			"awards": [
@@ -68802,7 +68825,56 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/4/2011 12:00:00 AM",
+					"charges_count": 6,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2010-2347",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO ANOTHER MEMBER OF THE SERVICE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2010-2347",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO ON-DUTY NEW YORK CITY POLICE SERGEANT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2010-2347",
+							"description": "WHILE ON-DUTY, DID GIVE MISLEADING INFORMATION TO A MEMBER OF THE SERVICE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2010-2347",
+							"description": "WHILE ON-DUTY, DID FAIL AND NEGLECT TO MAKE PROPER ENTRIES IN HIS MEMO BOOK.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2010-2347",
+							"description": "WHILE ON-DUTY, DID FAIL TO MAKE A SCHEDULED COURT APPEARANCE REGARDING A TRANSIT SUMMONS.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2010-2347",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO ON-DUTY NEW YORK CITY POLICE SERGEANT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 39,
 				"misdemeanor": 251,
@@ -71809,7 +71881,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 14,
-				"misdemeanor": 142,
+				"misdemeanor": 143,
 				"violation": 1
 			},
 			"awards": []
@@ -73391,7 +73463,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/20/2020 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "446-SOD STRAT RESP GRP 5 SI",
+							"case_no": "2019-21440",
+							"description": "Wrongfully disseminated confidential Department information.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 10,
 				"felony": 20,
@@ -73493,7 +73579,7 @@
 		"shield_no": "27362",
 		"appt_date": "7/1/2003",
 		"recognition_count": 0,
-		"arrest_count": 168,
+		"arrest_count": 169,
 		"reports": {
 			"summary": {
 				"command": "020 PRECINCT",
@@ -73515,7 +73601,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 25,
-				"misdemeanor": 141,
+				"misdemeanor": 142,
 				"violation": 1
 			},
 			"awards": []
@@ -74711,7 +74797,7 @@
 		"shield_no": "25681",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 35,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "100 PRECINCT",
@@ -83550,7 +83636,7 @@
 		"shield_no": "19066",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 13,
+		"arrest_count": 14,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -83571,7 +83657,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		}
@@ -87282,27 +87368,42 @@
 			"discipline": [
 				{
 					"entry": "2/17/2017 12:00:00 AM",
-					"charges_count": 1,
+					"charges_count": 2,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "40-040 PRECINCT",
 							"case_no": "2016-16529",
 							"description": "WHILE ON-DUTY, INAPPROPRIATELY TOUCHED A PERSON KNOWN TO THE DEPARTMENT ON AT LEAS FOUR (4) OCCASIONS.",
-							"penalty": "VACATION DAYS (6 day(s) )"
+							"penalty": "VACATION DAYS (6 day(s) ), VACATION DAYS (6 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "40-040 PRECINCT",
+							"case_no": "2016-16529",
+							"description": "WHILE ON-DUTY, INAPPROPRIATELY TOUCHED A PERSON KNOWN TO THE DEPARTMENT ON AT LEAS FOUR (4) OCCASIONS.",
+							"penalty": "VACATION DAYS (6 day(s) ), VACATION DAYS (6 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 4,
-				"felony": 31,
-				"misdemeanor": 98,
-				"violation": 2
+				"infraction": 8,
+				"felony": 62,
+				"misdemeanor": 196,
+				"violation": 4
 			},
 			"awards": [
 				{
 					"date": "3/9/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/9/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/22/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -92000,7 +92101,7 @@
 		"first_name": "TENG",
 		"last_name": "LUO",
 		"middle_initial": "",
-		"command": "DET BORO MANHATTAN SOUTH",
+		"command": "005 DET SQUAD",
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/1/2004",
@@ -92008,8 +92109,8 @@
 		"arrest_count": 254,
 		"reports": {
 			"summary": {
-				"command": "DET BORO MANHATTAN SOUTH",
-				"assignment_date": "6/6/2022",
+				"command": "005 DET SQUAD",
+				"assignment_date": "10/3/2022",
 				"ethnicity": "ASIAN",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
