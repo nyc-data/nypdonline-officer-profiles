@@ -2537,7 +2537,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		}
@@ -3684,7 +3684,7 @@
 		"shield_no": "1966",
 		"appt_date": "1/31/2006",
 		"recognition_count": 1,
-		"arrest_count": 402,
+		"arrest_count": 404,
 		"reports": {
 			"summary": {
 				"command": "113TH DET SQUAD",
@@ -3756,7 +3756,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-24328",
+							"description": "01.Failed to submit required report.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 49,
@@ -4149,8 +4162,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "16906",
 		"appt_date": "1/9/2006",
-		"recognition_count": 2,
-		"arrest_count": 112,
+		"recognition_count": 4,
+		"arrest_count": 224,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -4170,15 +4183,23 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 90,
-				"other": 1,
-				"violation": 10
+				"felony": 22,
+				"misdemeanor": 180,
+				"other": 2,
+				"violation": 20
 			},
 			"awards": [
 				{
 					"date": "5/7/2019",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/7/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/13/2013",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "5/13/2013",
@@ -7428,7 +7449,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		}

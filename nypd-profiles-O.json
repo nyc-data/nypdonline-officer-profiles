@@ -1214,8 +1214,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 6
+				"felony": 20,
+				"misdemeanor": 12
 			},
 			"awards": []
 		}
@@ -2181,7 +2181,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 1
 			},
 			"awards": []
 		}
@@ -3516,7 +3516,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/2/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24096",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 43,
@@ -5661,7 +5673,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 7,
 				"misdemeanor": 14
 			},
 			"awards": []
@@ -6608,8 +6620,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "147",
 		"appt_date": "1/23/2007",
-		"recognition_count": 30,
-		"arrest_count": 761,
+		"recognition_count": 60,
+		"arrest_count": 1522,
 		"reports": {
 			"summary": {
 				"command": "048 DET SQUAD",
@@ -6639,8 +6651,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 421,
-				"misdemeanor": 340
+				"felony": 842,
+				"misdemeanor": 680
 			},
 			"awards": [
 				{
@@ -8188,7 +8200,7 @@
 		"shield_no": "28284",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -8214,7 +8226,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		}
@@ -8469,7 +8481,41 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/12/2010 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "875-TRANSIT BUR BRKLYN TASK FORCE",
+							"case_no": "2010-598",
+							"description": "WRONGFULLY DUPLICATED HIS 2009 RESTRICTED NYPD PARKING PERMIT AND DID PROVIDE SAID UNAUTHORIZED DUPLICATE NEW YORK CITY POLICE DEPARTMENT RESTRICTED PARKING PERMIT TO AN INDIVIDUAL KNOWN TO THE DEPARTMENT WHO THEN DISPLAYED SAID PERMIT IN HER VEHICLE.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "11/23/2020 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "875-TRANSIT BUR BRKLYN TASK FORCE",
+							"case_no": "2020-22741",
+							"description": "Failure to comply with an order.",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "875-TRANSIT BUR BRKLYN TASK FORCE",
+							"case_no": "2020-22741",
+							"description": "Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 91,
@@ -10255,8 +10301,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 2
+				"felony": 2,
+				"misdemeanor": 1
 			},
 			"awards": []
 		}
@@ -12261,8 +12307,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "1340",
 		"appt_date": "1/10/2007",
-		"recognition_count": 8,
-		"arrest_count": 808,
+		"recognition_count": 4,
+		"arrest_count": 404,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN SPECIAL VICTIMS SQUAD",
@@ -12287,9 +12333,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 274,
-				"misdemeanor": 508,
-				"violation": 26
+				"felony": 137,
+				"misdemeanor": 254,
+				"violation": 13
 			},
 			"awards": [
 				{
@@ -12297,27 +12343,11 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "9/23/2011",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/23/2011",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/23/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "7/26/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/26/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/16/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -14033,8 +14063,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "5310",
 		"appt_date": "1/10/2005",
-		"recognition_count": 10,
-		"arrest_count": 692,
+		"recognition_count": 5,
+		"arrest_count": 346,
 		"reports": {
 			"summary": {
 				"command": "BRONX GRAND LARCENY SQD",
@@ -14059,11 +14089,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 354,
-				"misdemeanor": 328,
-				"other": 4,
-				"violation": 4
+				"infraction": 1,
+				"felony": 177,
+				"misdemeanor": 164,
+				"other": 2,
+				"violation": 2
 			},
 			"awards": [
 				{
@@ -14071,14 +14101,6 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "6/6/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/17/2012",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "5/17/2012",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -14087,19 +14109,7 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "11/20/2010",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "4/1/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/1/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/23/2006",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -14427,7 +14437,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/15/2016 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "006-006 PRECINCT",
+							"case_no": "2016-16558",
+							"description": "WHILE OFF-DUTY ON NUMEROUS OCCASIONS, USED A LICENSE PLATE NOT REGISTERED TO HIS VEHICLE IN ORDER TO DRIVE HIS PERSONAL VEHICLE, THUS OPERATING A VEHICLE WITHOUT INSURANCE.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 20,
@@ -15252,7 +15276,7 @@
 		"shield_no": "15762",
 		"appt_date": "7/1/2002",
 		"recognition_count": 0,
-		"arrest_count": 126,
+		"arrest_count": 252,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -15272,10 +15296,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 30,
-				"misdemeanor": 93,
-				"violation": 1
+				"infraction": 4,
+				"felony": 60,
+				"misdemeanor": 186,
+				"violation": 2
 			},
 			"awards": []
 		}
@@ -15290,8 +15314,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "4013",
 		"appt_date": "7/10/2006",
-		"recognition_count": 6,
-		"arrest_count": 58,
+		"recognition_count": 3,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "FAS EXEMPT HARDSHIP",
@@ -20720,7 +20744,7 @@
 		"shield_no": "4863",
 		"appt_date": "7/9/2007",
 		"recognition_count": 40,
-		"arrest_count": 351,
+		"arrest_count": 352,
 		"reports": {
 			"summary": {
 				"command": "079 DET SQUAD",
@@ -20746,7 +20770,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 211,
+				"felony": 212,
 				"misdemeanor": 131,
 				"other": 3,
 				"violation": 5
@@ -23263,7 +23287,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/29/2014 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "062-062 PRECINCT",
+							"case_no": "2014-11192",
+							"description": "DID ENGAGE IN A VERBAL DISPUTE WITH TWO (2) INDIVIDUALS KNOWN TO THE DEPARTMENT, DURING WHICH TIME THREATENED BOTH INDIVIDUALS.",
+							"penalty": "COUNSELING, VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "062-062 PRECINCT",
+							"case_no": "2014-11192",
+							"description": "WHILE OFF-DUTY, AFTER HAVING BEEN INVOLVED IN A VERBAL DISPUTE WITH A PERSON KNOWN TO THE DEPARTMENT, DID CONTACT SAID PERSON.",
+							"penalty": "COUNSELING, VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 44,
 				"misdemeanor": 92,
@@ -23903,7 +23948,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -24287,7 +24332,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		}
@@ -24520,7 +24565,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		}
@@ -25169,7 +25214,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/10/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26341",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 79,
 				"misdemeanor": 427,
@@ -25575,6 +25632,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
+				"felony": 2,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -28617,8 +28675,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "6354",
 		"appt_date": "7/11/2005",
-		"recognition_count": 1,
-		"arrest_count": 94,
+		"recognition_count": 2,
+		"arrest_count": 188,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -28644,6 +28702,10 @@
 				"violation": 4
 			},
 			"awards": [
+				{
+					"date": "9/6/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "9/6/2017",
 					"name": "EXCELLENT POLICE DUTY"
@@ -28808,7 +28870,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -34639,7 +34701,62 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/10/2014 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2014-11577",
+							"description": "WHILE ON-DUTY, WAS ABSENT FROM HIS ASSIGNED POST WITHOUT PERMISSION OR POLICE NECESSITY.",
+							"penalty": "VACATION DAYS (13 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2014-11577",
+							"description": "WHILE ON-DUTY, FAILED TO SUPERVISE.",
+							"penalty": "VACATION DAYS (13 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2014-11577",
+							"description": "WHILE ON-DUTY, DID FAIL AND NEGLECT TO MAKE REQUIRED ENTRIES IN HIS ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (13 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "7/10/2017 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2017-17658",
+							"description": "WHILE IN THE RANK OF POLICE OFFICER WRONGFULLY SUBMITTED A LETTER OR HAD A LETTER SUBMITTED ON HIS BEHALF REQUESTING AN ACCOMMODATION FOR THE SERGEANT'S PROMOTION EXAM TO THE NEW YORK CITY DEPARTMENT OF CITY WIDE ADMINISTRATIVE SERVICES (DCAS), WHICH POLICE OFFICER OTHMAN KNEW CONTAINED A FALSE STATEMENT OR FALSE INFORMATION, AND KNOWING THAT IT WILL BE FILED WITH, REGISTERED OR RECORDED IN OR  OTHERWISE  BECOME A PART OF THE RECORDS OF DCAS.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2017-17658",
+							"description": "WHILE IN THE RANK OF SERGEANT WRONGFULLY SUBMITTED A LETTER OR HAD A LETTER SUBMITTED ON HIS BEHALF REQUESTING AN ACCOMMODATION FOR THE  LIEUTENANT'S PROMOTION EXAM TO THE NEW YORK CITY DEPARTMENT OF CITY WIDE ADMINISTRATIVE SERVICES (DCAS), WHICH SERGEANT OTHMAN KNEW CONTAINED A FALSE STATEMENT OR FALSE INFORMATION, AND KNOWING THAT IT WILL BE FILED WITH, REGISTERED OR RECORDED IN OR OTHERWISE BECOME A PART OF THE RECORDS OF DCAS.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2017-17658",
+							"description": "WHILE IN THE RANK OF LIEUTENANT WRONGFULLY SUBMITTED A LETTER OR HAD A LETTER SUBMITTED ON HIS BEHALF REQUESTING AN ACCOMMODATION FOR THE CAPTAIN'S PROMOTION EXAM TO THE NEW YORK CITY DEPARTMENT OF CITY WIDE ADMINISTRATIVE SERVICES (DCAS), WHICH LIEUTENANT OTHMAN KNEW CONTAINED A FALSE STATEMENT OR FALSE INFORMATION, AND KNOWING THAT IT WILL BE FILED WITH, REGISTERED OR RECORDED IN OR OTHERWISE BECOME A PART OF THE RECORDS OF DCAS.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 35,
 				"misdemeanor": 72,
@@ -35198,7 +35315,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -37802,7 +37919,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 43,
-				"misdemeanor": 231,
+				"misdemeanor": 232,
 				"violation": 28
 			},
 			"awards": [

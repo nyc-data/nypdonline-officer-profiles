@@ -787,7 +787,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 6
+				"misdemeanor": 8
 			},
 			"awards": []
 		}
@@ -1038,7 +1038,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/14/2018 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "094-094 PRECINCT",
+							"case_no": "2018-19756",
+							"description": "Violated confidential informant procedures.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "094-094 PRECINCT",
+							"case_no": "2018-19756",
+							"description": "Wrongfully accessed confidential Department information.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "094-094 PRECINCT",
+							"case_no": "2018-19756",
+							"description": "Gambling.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 23,
 				"misdemeanor": 67,
@@ -2740,7 +2768,7 @@
 		"first_name": "JASON",
 		"last_name": "QUILES",
 		"middle_initial": "D",
-		"command": "HOUSING PSA 5",
+		"command": "023 PRECINCT",
 		"rank": "SERGEANT",
 		"shield_no": "5261",
 		"appt_date": "7/11/2005",
@@ -2748,8 +2776,8 @@
 		"arrest_count": 111,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 5",
-				"assignment_date": "3/11/2022",
+				"command": "023 PRECINCT",
+				"assignment_date": "10/5/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5261",
@@ -3731,7 +3759,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/8/2014 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2014-11816",
+							"description": "WRONGFULLY WAS UNFIT FOR DUTY DUE TO HIS CONSUMPTION OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "872-TRANSIT BUR MANHAT TASK FORCE",
+							"case_no": "2014-11816",
+							"description": "WRONGFULLY WAS ARMED WHILE UNFIT FOR DUTY DUE TO HIS CONSUMPTION OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 72,
 				"misdemeanor": 223,
@@ -5355,7 +5404,7 @@
 		"shield_no": "14652",
 		"appt_date": "1/10/2007",
 		"recognition_count": 3,
-		"arrest_count": 89,
+		"arrest_count": 90,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -6469,7 +6518,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 16,
-				"misdemeanor": 70,
+				"misdemeanor": 71,
 				"violation": 7
 			},
 			"awards": [
