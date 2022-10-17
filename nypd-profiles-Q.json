@@ -4292,7 +4292,7 @@
 		"first_name": "JOHN",
 		"last_name": "QUINN",
 		"middle_initial": "H",
-		"command": "WARRANT SECTION",
+		"command": "TB SPECIAL OPERATIONS DISTRICT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "18776",
 		"appt_date": "7/8/2015",
@@ -4300,8 +4300,8 @@
 		"arrest_count": 254,
 		"reports": {
 			"summary": {
-				"command": "WARRANT SECTION",
-				"assignment_date": "7/18/2022",
+				"command": "TB SPECIAL OPERATIONS DISTRICT",
+				"assignment_date": "10/16/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "18776",
@@ -5298,10 +5298,25 @@
 				"shield_no": "1855",
 				"appt_date": "7/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "10648"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "7/29/2019",
+					"shield_no": "1855"
+				}
+			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 107,
+				"misdemeanor": 146,
+				"violation": 12
+			},
 			"awards": []
 		}
 	},
@@ -6669,7 +6684,7 @@
 		"shield_no": "3477",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 159,
+		"arrest_count": 160,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -6700,7 +6715,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 86,
-				"misdemeanor": 72,
+				"misdemeanor": 73,
 				"violation": 1
 			},
 			"awards": [
