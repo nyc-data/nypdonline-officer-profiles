@@ -448,7 +448,7 @@
 		"shield_no": "16439",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -1289,8 +1289,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
-				"misdemeanor": 30
+				"felony": 25,
+				"misdemeanor": 31
 			},
 			"awards": [
 				{
@@ -1834,7 +1834,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/13/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "805-HOUSING PSA 5",
+							"case_no": "2021-24438",
+							"description": "Inaccurate entries in Department records.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "805-HOUSING PSA 5",
+							"case_no": "2021-24438",
+							"description": "Failed to submit reports.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 2,
 				"misdemeanor": 8
@@ -7363,8 +7384,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "20674",
 		"appt_date": "1/4/2017",
-		"recognition_count": 7,
-		"arrest_count": 129,
+		"recognition_count": 14,
+		"arrest_count": 258,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -10023,7 +10044,7 @@
 		"shield_no": "15397",
 		"appt_date": "1/10/2018",
 		"recognition_count": 3,
-		"arrest_count": 42,
+		"arrest_count": 43,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 32",
@@ -10044,7 +10065,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 26,
+				"misdemeanor": 27,
 				"violation": 5
 			},
 			"awards": [
@@ -10796,7 +10817,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 27
+				"misdemeanor": 28
 			},
 			"awards": []
 		}
