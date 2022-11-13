@@ -7663,7 +7663,7 @@
 		"shield_no": "23489",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 74,
+		"arrest_count": 75,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -7684,7 +7684,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 35,
 				"violation": 1
 			},
@@ -9170,8 +9170,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "22770",
 		"appt_date": "10/11/2016",
-		"recognition_count": 12,
-		"arrest_count": 116,
+		"recognition_count": 24,
+		"arrest_count": 232,
 		"reports": {
 			"summary": {
 				"command": "QUARTERMASTER SECTION",
@@ -9192,38 +9192,64 @@
 			"discipline": [
 				{
 					"entry": "1/13/2022 12:00:00 AM",
-					"allegations_count": 3,
+					"allegations_count": 6,
 					"allegations": [
 						{
 							"recommendation": "B-CD",
 							"case_no": "2021-24399",
 							"description": "01.Failed to maintain activity log while on duty.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+							"penalty": "C - COMMAND DISCIPLINE, C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) ), VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "01.Failed to maintain activity log while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) ), VACATION DAYS (8 day(s) )"
 						},
 						{
 							"recommendation": "B-CD",
 							"case_no": "2021-24399",
 							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+							"penalty": "C - COMMAND DISCIPLINE, C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) ), VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) ), VACATION DAYS (8 day(s) )"
 						},
 						{
 							"recommendation": "B-CD",
 							"case_no": "2021-24399",
 							"description": "03.Improper vehicle pursuit while on duty.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+							"penalty": "C - COMMAND DISCIPLINE, C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) ), VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "03.Improper vehicle pursuit while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) ), VACATION DAYS (8 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 57,
-				"misdemeanor": 56,
-				"violation": 2
+				"infraction": 2,
+				"felony": 114,
+				"misdemeanor": 112,
+				"violation": 4
 			},
 			"awards": [
 				{
 					"date": "11/30/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/30/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/31/2020",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -9235,6 +9261,14 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "1/23/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/21/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "12/21/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -9243,7 +9277,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "11/26/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "9/20/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/20/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/28/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -9255,6 +9301,14 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/24/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/6/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "8/6/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -9263,7 +9317,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "6/23/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "3/24/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/24/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/3/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -9808,68 +9874,7 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "12/21/2010 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-1090",
-							"description": "FAILED TO COMPLY WITH AN ORDER .",
-							"penalty": "VACATION DAYS (25 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "-",
-							"case_no": "2010-1090",
-							"description": "DISCOURTEOUS TO A SUPERVISOR .",
-							"penalty": "VACATION DAYS (25 day(s) )"
-						}
-					]
-				},
-				{
-					"entry": "7/7/2015 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "107-107 PRECINCT",
-							"case_no": "2014-12558",
-							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO A NEW YORK CITY POLICE DEPARTMENT SUPERVISOR.",
-							"penalty": "TRAINING, VACATION DAYS (25 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "107-107 PRECINCT",
-							"case_no": "2014-12558",
-							"description": "WHILE ON-DUTY, WRONGFULLY ABSENTED HERSELF FROM POLICE DUTIES",
-							"penalty": "TRAINING, VACATION DAYS (25 day(s) )"
-						}
-					]
-				},
-				{
-					"entry": "2/22/2017 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "107-107 PRECINCT",
-							"case_no": "2016-16285",
-							"description": "WRONGFULLY FAILED TO REMAIN ALERT AND REMAIN ON POST UNTIL RELIEVED, AS REQUIRED.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (20 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "107-107 PRECINCT",
-							"case_no": "2016-16285",
-							"description": "MADE INACCURATE, INCOMPLETE, OR OTHERWISE MISLEADING STATEMENTS DURING AN OFFICIAL DEPARTMENT INTERVIEW.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -10931,8 +10936,8 @@
 		"rank": "SGT SPECIAL ASSIGN",
 		"shield_no": "1956",
 		"appt_date": "7/1/2003",
-		"recognition_count": 5,
-		"arrest_count": 211,
+		"recognition_count": 10,
+		"arrest_count": 422,
 		"reports": {
 			"summary": {
 				"command": "DEP COMM PUBLIC INFORMATION",
@@ -10962,14 +10967,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 94,
-				"misdemeanor": 99,
-				"violation": 17
+				"infraction": 2,
+				"felony": 188,
+				"misdemeanor": 198,
+				"violation": 34
 			},
 			"awards": [
 				{
 					"date": "5/27/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/27/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/25/2007",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10981,8 +10994,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "3/14/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "3/17/2005",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/17/2005",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/12/2004",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "11/12/2004",
@@ -11405,8 +11430,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/1/2003",
-		"recognition_count": 8,
-		"arrest_count": 184,
+		"recognition_count": 16,
+		"arrest_count": 368,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 34",
@@ -11436,15 +11461,23 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 6,
-				"felony": 37,
-				"misdemeanor": 117,
-				"other": 1,
-				"violation": 23
+				"infraction": 12,
+				"felony": 74,
+				"misdemeanor": 234,
+				"other": 2,
+				"violation": 46
 			},
 			"awards": [
 				{
 					"date": "2/18/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/18/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/31/2006",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -11456,7 +11489,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/15/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "2/6/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/6/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/20/2005",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -11468,7 +11513,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "6/1/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "4/6/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/6/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/7/2005",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
