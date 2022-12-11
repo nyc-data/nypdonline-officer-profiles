@@ -318,7 +318,7 @@
 		"shield_no": "4036",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -338,6 +338,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"infraction": 1,
+				"felony": 1,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -658,7 +660,7 @@
 		"shield_no": "18087",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
-		"arrest_count": 23,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -978,7 +980,7 @@
 		"shield_no": "4676",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -998,8 +1000,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 20
+				"felony": 7,
+				"misdemeanor": 10
 			},
 			"awards": []
 		}
@@ -1476,7 +1478,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/8/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26983",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 1,
 				"misdemeanor": 5
@@ -5090,8 +5105,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 32,
-				"misdemeanor": 166
+				"felony": 33,
+				"misdemeanor": 167
 			},
 			"awards": [
 				{
@@ -5404,7 +5419,7 @@
 		"shield_no": "19573",
 		"appt_date": "7/8/2015",
 		"recognition_count": 12,
-		"arrest_count": 439,
+		"arrest_count": 442,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -6664,7 +6679,7 @@
 		"shield_no": "5431",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -6684,7 +6699,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 14
+				"misdemeanor": 7
 			},
 			"awards": []
 		}
