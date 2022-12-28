@@ -4584,7 +4584,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 7,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -8640,8 +8640,8 @@
 		"arrest_count": 4,
 		"reports": {
 			"summary": {
-				"command": "FTU14 72/76/78 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "078 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21740",
@@ -8657,7 +8657,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -11529,7 +11529,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 38
+				"misdemeanor": 20
 			},
 			"awards": []
 		}
@@ -12358,8 +12358,8 @@
 		"arrest_count": 7,
 		"reports": {
 			"summary": {
-				"command": "FTU10 47/49/50 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "045 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "26525",
@@ -15671,8 +15671,8 @@
 		"arrest_count": 10,
 		"reports": {
 			"summary": {
-				"command": "FTU9 46/48/52 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "040 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "27057",
@@ -15813,7 +15813,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/14/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2022-27157",
+							"description": "01.Wrongfully used excessive force."
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2022-27157",
+							"description": "02.Wrongfully utilized a chokehold."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 8,
@@ -21180,10 +21197,7 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 1,
-				"misdemeanor": 1
-			},
+			"arrests": {},
 			"awards": []
 		}
 	},
@@ -21385,8 +21399,8 @@
 		"arrest_count": 8,
 		"reports": {
 			"summary": {
-				"command": "FTU14 72/76/78 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "072 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3463",
@@ -25269,42 +25283,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "11/29/2018 12:00:00 AM",
-					"charges_count": 4,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "138-SOD STRAT RESP GRP 2 BRONX",
-							"case_no": "2018-18694",
-							"description": "WHILE ON DUTY FAILED TO CORRECT A PAID DETAIL SUBMISSION THAT HAD INACCURATE TIME WORKED ENTRIES UPON BECOMING AWARE OF THE ERROR.",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "138-SOD STRAT RESP GRP 2 BRONX",
-							"case_no": "2018-18694",
-							"description": "WHILE ON DUTY ON ONE (1) OCCASION DID IMPROPERLY CORRECT OR EDIT HIS ACTIVITY LOG ENTRIES.",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "138-SOD STRAT RESP GRP 2 BRONX",
-							"case_no": "2018-18694",
-							"description": "VIOLATED PAID DETAIL GUIDELINES BY PERFORMING A PAID DETAIL ASSIGNMENT WITHIN ONE HOUR OF HIS REGULARLY SCHEDULED TOUR.",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "138-SOD STRAT RESP GRP 2 BRONX",
-							"case_no": "2018-18694",
-							"description": "SUBMITED A PAID DETAIL PAYMENT SLIP FOR HOURS THAT HE DID NOT PERFORM SAID DETAIL.",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 2,
 				"felony": 52,
@@ -28149,8 +28128,8 @@
 		"arrest_count": 1,
 		"reports": {
 			"summary": {
-				"command": "FTU17 83/90/94 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "090 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "23410",
@@ -29833,8 +29812,8 @@
 		"arrest_count": 6,
 		"reports": {
 			"summary": {
-				"command": "FTU25 PSA7/PSA8/PSA9",
-				"assignment_date": "7/5/2022",
+				"command": "TIMES SQUARE UNIT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "29063",
@@ -33663,35 +33642,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "8/5/2016 12:00:00 AM",
-					"charges_count": 3,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "81-081 PRECINCT",
-							"case_no": "2015-14947",
-							"description": "WHILE ON-DUTY CAUSED FALSE ENTRIES TO BE MAKE IN DEPARTMENTAL RECORDS.",
-							"penalty": "VACATION DAYS (5 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "81-081 PRECINCT",
-							"case_no": "2015-14947",
-							"description": "WHILE ON-DUTY FAILED TO PROPERLY PREPARE A COMPLAINT REPORT WORKSHEET AND FAILED TO COMPLY WITH THE CRIME COMPLAINT REPORTING SYSTEM REFERENCE GUIDE.",
-							"penalty": "VACATION DAYS (5 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "81-081 PRECINCT",
-							"case_no": "2015-14947",
-							"description": "WHILE ON-DUTY FAILED TO PROPERLY INVESTIGATE THE CIRCUMSTANCES SURROUNDING A COMPLAINT FOR A STOLEN WALLET.",
-							"penalty": "VACATION DAYS (5 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 12,
 				"misdemeanor": 43,
@@ -39641,7 +39592,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		}
@@ -41608,50 +41559,6 @@
 				"violation": 3
 			},
 			"awards": []
-		}
-	},
-	{
-		"taxid": 943880,
-		"full_name": "TORRES, ANDREI",
-		"first_name": "ANDREI",
-		"last_name": "TORRES",
-		"middle_initial": "",
-		"command": "109 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "14323",
-		"appt_date": "1/10/2007",
-		"recognition_count": 1,
-		"arrest_count": 62,
-		"reports": {
-			"summary": {
-				"command": "109 PRECINCT",
-				"assignment_date": "4/29/2020",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "14323",
-				"appt_date": "1/10/2007"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2007",
-					"shield_no": "14323"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 17,
-				"misdemeanor": 42,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "2/7/2022",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
 		}
 	},
 	{
@@ -44254,7 +44161,7 @@
 		"shield_no": "20300",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 29,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -45241,7 +45148,7 @@
 		"shield_no": "24423",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -45402,7 +45309,7 @@
 		"shield_no": "10245",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "104 PRECINCT",
@@ -47545,12 +47452,12 @@
 		"first_name": "JULIANA",
 		"last_name": "TORSIELLO",
 		"middle_initial": "N",
-		"command": "FTU5 26/30/33/34 PCT",
+		"command": "030 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "29769",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "FTU5 26/30/33/34 PCT",
@@ -47571,7 +47478,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -49649,7 +49556,7 @@
 		"first_name": "HABACUC",
 		"last_name": "TOUPUISSANT",
 		"middle_initial": "",
-		"command": "FTU8 41/43/45 PCT",
+		"command": "049 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "23893",
 		"appt_date": "12/29/2021",
@@ -49657,8 +49564,8 @@
 		"arrest_count": 8,
 		"reports": {
 			"summary": {
-				"command": "FTU8 41/43/45 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "049 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "23893",
@@ -51226,7 +51133,7 @@
 		"first_name": "NICHOLAS",
 		"last_name": "TRAMANTANA",
 		"middle_initial": "J",
-		"command": "FTU20 104/110/114/115 PCT",
+		"command": "PBQS JAMAICA AVE BID",
 		"rank": "POLICE OFFICER",
 		"shield_no": "30056",
 		"appt_date": "12/29/2021",
@@ -51234,8 +51141,8 @@
 		"arrest_count": 5,
 		"reports": {
 			"summary": {
-				"command": "FTU20 104/110/114/115 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "PBQS JAMAICA AVE BID",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "30056",
@@ -51634,12 +51541,12 @@
 		"first_name": "PHAT",
 		"last_name": "TRAN",
 		"middle_initial": "T",
-		"command": "FTU15 73/75/81 PCT",
+		"command": "088 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "29586",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 2,
+		"arrest_count": 3,
 		"reports": {
 			"summary": {
 				"command": "FTU15 73/75/81 PCT",
@@ -51659,7 +51566,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		}
@@ -52550,19 +52457,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "12/8/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-25440",
-							"description": "01.Failed to make required entries in Department Logs."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 60,
@@ -56461,7 +56356,7 @@
 		"shield_no": "12507",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 21,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -56482,7 +56377,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -57115,7 +57010,7 @@
 		"shield_no": "25690",
 		"appt_date": "7/13/2021",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -57136,7 +57031,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 8
+				"misdemeanor": 10
 			},
 			"awards": []
 		}
@@ -59284,7 +59179,7 @@
 		"first_name": "JIGME",
 		"last_name": "TSERING",
 		"middle_initial": "",
-		"command": "FTU6 25/28/32 PCT",
+		"command": "028 PCT 125 ST BID",
 		"rank": "POLICE OFFICER",
 		"shield_no": "29786",
 		"appt_date": "12/29/2021",
@@ -59292,8 +59187,8 @@
 		"arrest_count": 3,
 		"reports": {
 			"summary": {
-				"command": "FTU6 25/28/32 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "028 PCT 125 ST BID",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "29786",
@@ -59775,6 +59670,67 @@
 				},
 				{
 					"date": "1/27/2003",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
+		"taxid": 943898,
+		"full_name": "TSUI, ARTHUR",
+		"first_name": "ARTHUR",
+		"last_name": "TSUI",
+		"middle_initial": "",
+		"command": "DEP COMM PUBLIC INFORMATION",
+		"rank": "DETECTIVE SPECIALIST",
+		"shield_no": "882",
+		"appt_date": "1/10/2007",
+		"recognition_count": 4,
+		"arrest_count": 251,
+		"reports": {
+			"summary": {
+				"command": "DEP COMM PUBLIC INFORMATION",
+				"assignment_date": "1/18/2021",
+				"ethnicity": "ASIAN",
+				"rank_desc": "DETECTIVE SPECIALIST",
+				"shield_no": "882",
+				"appt_date": "1/10/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2007",
+					"shield_no": "10791"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/21/2021",
+					"shield_no": "882"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 1,
+				"felony": 13,
+				"misdemeanor": 173,
+				"violation": 64
+			},
+			"awards": [
+				{
+					"date": "2/14/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/13/2009",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/3/2008",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/1/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
@@ -61175,8 +61131,8 @@
 		"arrest_count": 3,
 		"reports": {
 			"summary": {
-				"command": "FTU16 77/79/84/88 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "077 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "30060",
@@ -63349,7 +63305,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -64477,9 +64433,7 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"misdemeanor": 2
-			},
+			"arrests": {},
 			"awards": []
 		}
 	},
