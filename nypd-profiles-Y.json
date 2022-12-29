@@ -2372,12 +2372,12 @@
 		"first_name": "RICHARD",
 		"last_name": "YARUSSO",
 		"middle_initial": "A",
-		"command": "FTU20 104/110/114/115 PCT",
+		"command": "115 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "20260",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -3245,7 +3245,7 @@
 		"shield_no": "1965",
 		"appt_date": "1/7/2008",
 		"recognition_count": 5,
-		"arrest_count": 497,
+		"arrest_count": 498,
 		"reports": {
 			"summary": {
 				"command": "103RD DETECTIVE SQUAD",
@@ -3271,7 +3271,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 226,
+				"felony": 227,
 				"misdemeanor": 249,
 				"other": 3,
 				"violation": 16
@@ -4465,7 +4465,7 @@
 		"first_name": "ALBINA",
 		"last_name": "YESSAYAN",
 		"middle_initial": "",
-		"command": "FTU12 63/67/69 PCT",
+		"command": "062 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "20500",
 		"appt_date": "12/29/2021",
@@ -4473,8 +4473,8 @@
 		"arrest_count": 3,
 		"reports": {
 			"summary": {
-				"command": "FTU12 63/67/69 PCT",
-				"assignment_date": "7/5/2022",
+				"command": "062 PRECINCT",
+				"assignment_date": "12/21/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "20500",
@@ -4501,7 +4501,7 @@
 		"first_name": "DENNIS",
 		"last_name": "YEUNG",
 		"middle_initial": "C",
-		"command": "FTU17 83/90/94 PCT",
+		"command": "075 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "30580",
 		"appt_date": "12/29/2021",
@@ -4624,7 +4624,7 @@
 		"shield_no": "21840",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -4645,7 +4645,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 14
+				"misdemeanor": 16
 			},
 			"awards": []
 		}
@@ -4846,7 +4846,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/12/2012 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2392",
+							"description": "WHILE OFF DUTY WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) ), RESTORATION OF SUSPENSION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 79,
@@ -6262,7 +6276,7 @@
 		"shield_no": "6790",
 		"appt_date": "7/6/2010",
 		"recognition_count": 4,
-		"arrest_count": 334,
+		"arrest_count": 335,
 		"reports": {
 			"summary": {
 				"command": "112TH DET SQUAD",
@@ -6289,7 +6303,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 121,
-				"misdemeanor": 183,
+				"misdemeanor": 184,
 				"violation": 29
 			},
 			"awards": [
@@ -8512,8 +8526,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "7379",
 		"appt_date": "7/6/2010",
-		"recognition_count": 2,
-		"arrest_count": 114,
+		"recognition_count": 1,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -8533,15 +8547,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 80,
-				"violation": 8
+				"felony": 13,
+				"misdemeanor": 40,
+				"violation": 4
 			},
 			"awards": [
-				{
-					"date": "11/26/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "11/26/2014",
 					"name": "EXCELLENT POLICE DUTY"
@@ -8778,8 +8788,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "87",
 		"appt_date": "1/11/2010",
-		"recognition_count": 24,
-		"arrest_count": 660,
+		"recognition_count": 12,
+		"arrest_count": 330,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -8804,10 +8814,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 32,
-				"misdemeanor": 470,
-				"other": 2,
-				"violation": 156
+				"felony": 16,
+				"misdemeanor": 235,
+				"other": 1,
+				"violation": 78
 			},
 			"awards": [
 				{
@@ -8815,27 +8825,11 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "5/31/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/24/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "7/24/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "7/15/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/15/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/1/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -8847,19 +8841,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "6/30/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/11/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/11/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/18/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -8871,14 +8853,6 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/6/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/29/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "1/29/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -8887,19 +8861,7 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "1/17/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "6/7/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/7/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/9/2014",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
