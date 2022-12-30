@@ -215,8 +215,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6511",
 		"appt_date": "7/10/2006",
-		"recognition_count": 7,
-		"arrest_count": 581,
+		"recognition_count": 14,
+		"arrest_count": 1162,
 		"reports": {
 			"summary": {
 				"command": "CRIMINAL ENTERPRISE INVEST SEC",
@@ -1794,18 +1794,7 @@
 				"shield_no": "1866",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/6/2011",
-					"shield_no": "19300"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "7/27/2018",
-					"shield_no": "1866"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -1815,116 +1804,7 @@
 				"other": 2,
 				"violation": 5
 			},
-			"awards": [
-				{
-					"date": "6/17/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/10/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/20/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/14/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/1/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/1/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/24/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/21/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/16/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/8/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "8/30/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/7/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/15/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/14/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/21/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/17/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/31/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/17/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/4/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/30/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/29/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/23/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/19/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/27/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/3/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/31/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/19/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		}
 	},
 	{
@@ -2326,9 +2206,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 104,
-				"violation": 4
+				"felony": 11,
+				"misdemeanor": 52,
+				"violation": 2
 			},
 			"awards": []
 		}
@@ -3302,7 +3182,20 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/30/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2019-20923",
+							"description": "01.Improper search",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 9,
@@ -3829,7 +3722,7 @@
 		"shield_no": "4565",
 		"appt_date": "1/14/2009",
 		"recognition_count": 6,
-		"arrest_count": 145,
+		"arrest_count": 147,
 		"reports": {
 			"summary": {
 				"command": "112 PRECINCT",
@@ -5719,36 +5612,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "4/28/2022 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "250-DET SQD. MAN-025",
-							"case_no": "2021-23241",
-							"description": "Involved in a verbal altercation.",
-							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "250-DET SQD. MAN-025",
-							"case_no": "2021-23241",
-							"description": "Failed to make proper notifications.",
-							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
-				"felony": 64,
-				"misdemeanor": 66,
-				"violation": 16
+				"felony": 130,
+				"misdemeanor": 132,
+				"violation": 32
 			},
 			"awards": [
 				{
 					"date": "5/18/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/18/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/30/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -5760,7 +5640,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "10/31/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/12/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/12/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/29/2017",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -5772,11 +5664,27 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "2/21/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/17/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "2/17/2017",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "12/7/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/7/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/20/2016",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -5788,12 +5696,28 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "9/3/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/29/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "9/29/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "9/12/2015",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/12/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/14/2014",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "6/14/2014",
@@ -7742,7 +7666,7 @@
 		"first_name": "DOMINIQUE",
 		"last_name": "NATOLI",
 		"middle_initial": "M",
-		"command": "072 PRECINCT",
+		"command": "MILITARY & EXTENDED LEAVE DESK",
 		"rank": "SERGEANT",
 		"shield_no": "2710",
 		"appt_date": "7/8/2008",
@@ -10764,9 +10688,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 66,
-				"misdemeanor": 236,
-				"violation": 54
+				"felony": 33,
+				"misdemeanor": 118,
+				"violation": 27
 			},
 			"awards": [
 				{
@@ -10774,19 +10698,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "11/6/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "9/25/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/25/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/6/2020",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -10798,19 +10710,7 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "12/8/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "5/9/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/9/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/7/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10822,28 +10722,12 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "6/3/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/29/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/29/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "9/11/2015",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/11/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/12/2013",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "5/12/2013",
@@ -12137,35 +12021,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "6/30/2014 12:00:00 AM",
-					"charges_count": 3,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "033-033 PRECINCT",
-							"case_no": "2014-11981",
-							"description": "HAVING WITNESSED AN OFF-DUTY MEMBER OF THE SERVICE RANDOMLY DISCHARGE A FIREARM, DID FAIL TO CALL THE POLICE TO THE SCENE OF THE INCIDENT AND FAILED TO PROVIDE HIS EYEWITNESS ACCOUNT TO THE POLICE OFFICERS WHO RESPONDED TO THE SCENE.",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "033-033 PRECINCT",
-							"case_no": "2014-11981",
-							"description": "HAVING BEEN PRESENT WHEN MEMBERS OF THE NEW ROCHELLE POLICE DEPARTMENT ARRIVED AT THE SCENE OF AN INCIDENT, FAILED TO IDENTIFY HIMSELF AS A MEMBER OF THE SERVICE.",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "033-033 PRECINCT",
-							"case_no": "2014-11981",
-							"description": "DID WRONGFULLY CAUSE FALSE ENTRIES TO BE MADE IN DEPARTMENT RECORDS.",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 49,
 				"misdemeanor": 119,
@@ -12437,7 +12293,7 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/21/2008",
-		"recognition_count": 32,
+		"recognition_count": 36,
 		"arrest_count": 160,
 		"reports": {
 			"summary": {
@@ -12776,21 +12632,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 50,
-				"misdemeanor": 114
+				"infraction": 1,
+				"felony": 25,
+				"misdemeanor": 57
 			},
 			"awards": [
 				{
 					"date": "5/2/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/2/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/15/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -13957,7 +13805,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/15/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-21672",
+							"description": "01.Improper search.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 66,
@@ -15692,8 +15553,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "10207",
 		"appt_date": "1/9/2012",
-		"recognition_count": 2,
-		"arrest_count": 58,
+		"recognition_count": 4,
+		"arrest_count": 116,
 		"reports": {
 			"summary": {
 				"command": "INTELLIGENCE DIVISION",
@@ -15717,29 +15578,23 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "2/28/2014 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "123-123 PRECINCT",
-							"case_no": "2014-11302",
-							"description": "FAILED AND NEGLECTED TO PROPERLY SAFEGUARD HER SERVICE FIREARM.",
-							"penalty": "VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 33,
-				"violation": 13
+				"felony": 24,
+				"misdemeanor": 66,
+				"violation": 26
 			},
 			"awards": [
 				{
 					"date": "8/12/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/12/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/25/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -16045,7 +15900,7 @@
 		"shield_no": "30388",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 148,
+		"arrest_count": 74,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -16069,45 +15924,10 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "5/9/2018 12:00:00 AM",
-					"charges_count": 4,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "044-044 PRECINCT",
-							"case_no": "2017-18327",
-							"description": "FAILED TO REMAIN WITH SAID  PRISONER AT ALL TIMES.",
-							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "044-044 PRECINCT",
-							"case_no": "2017-18327",
-							"description": "FAILED TO REMAIN WITH SAID  PRISONER AT ALL TIMES.",
-							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "044-044 PRECINCT",
-							"case_no": "2017-18327",
-							"description": "FAILED TO REMOVE ALL DANGEROUS ITEMS FROM SAID PRISONER.",
-							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "044-044 PRECINCT",
-							"case_no": "2017-18327",
-							"description": "FAILED TO REMOVE ALL DANGEROUS ITEMS FROM SAID PRISONER.",
-							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
-				"felony": 36,
-				"misdemeanor": 112
+				"felony": 18,
+				"misdemeanor": 56
 			},
 			"awards": []
 		}
@@ -17381,7 +17201,7 @@
 		"shield_no": "2980",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 146,
+		"arrest_count": 73,
 		"reports": {
 			"summary": {
 				"command": "RTCC SOCIAL MEDIA ANALYSIS & RESEARCH TEAM",
@@ -17411,9 +17231,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 114,
-				"violation": 20
+				"felony": 6,
+				"misdemeanor": 57,
+				"violation": 10
 			},
 			"awards": []
 		}
@@ -18187,8 +18007,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6685",
 		"appt_date": "7/6/2011",
-		"recognition_count": 23,
-		"arrest_count": 341,
+		"recognition_count": 46,
+		"arrest_count": 682,
 		"reports": {
 			"summary": {
 				"command": "066 DET SQUAD",
@@ -18213,11 +18033,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 152,
-				"misdemeanor": 173,
-				"violation": 16
+				"felony": 304,
+				"misdemeanor": 346,
+				"violation": 32
 			},
 			"awards": [
+				{
+					"date": "6/9/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "6/9/2017",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -18227,7 +18051,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "1/11/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/5/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/5/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/23/2016",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -18239,6 +18075,14 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/13/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/9/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/9/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -18247,7 +18091,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "6/16/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "5/27/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/27/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/11/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -18259,7 +18115,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "4/26/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "10/21/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/21/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/17/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -18271,7 +18139,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "10/7/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/18/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/18/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/29/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -18283,7 +18163,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "7/22/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "2/20/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/20/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/25/2014",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -18295,6 +18187,14 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "9/24/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/14/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/14/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -18303,8 +18203,20 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "3/29/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "8/22/2013",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/22/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/9/2013",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "4/9/2013",
@@ -20402,7 +20314,7 @@
 		"shield_no": "6119",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 76,
 		"reports": {
 			"summary": {
 				"command": "OPERATIONS RESEARCH SECTION",
@@ -20422,9 +20334,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 30,
-				"violation": 2
+				"felony": 12,
+				"misdemeanor": 60,
+				"violation": 4
 			},
 			"awards": []
 		}
@@ -23116,8 +23028,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "5684",
 		"appt_date": "7/8/2008",
-		"recognition_count": 22,
-		"arrest_count": 306,
+		"recognition_count": 11,
+		"arrest_count": 153,
 		"reports": {
 			"summary": {
 				"command": "GRAND LARCENY DIVISION",
@@ -23894,45 +23806,6 @@
 		}
 	},
 	{
-		"taxid": 939117,
-		"full_name": "NIEVES, OSCAR",
-		"first_name": "OSCAR",
-		"last_name": "NIEVES",
-		"middle_initial": "",
-		"command": "050 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "28446",
-		"appt_date": "7/11/2005",
-		"recognition_count": 0,
-		"arrest_count": 96,
-		"reports": {
-			"summary": {
-				"command": "050 PRECINCT",
-				"assignment_date": "9/12/2018",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "28446",
-				"appt_date": "7/11/2005"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/11/2005",
-					"shield_no": "28446"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 23,
-				"misdemeanor": 70,
-				"violation": 1
-			},
-			"awards": []
-		}
-	},
-	{
 		"taxid": 949397,
 		"full_name": "NIEVES, OSCAR",
 		"first_name": "OSCAR",
@@ -23975,6 +23848,71 @@
 				},
 				{
 					"date": "1/31/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
+		"taxid": 950953,
+		"full_name": "NIEVES, OSCAR",
+		"first_name": "OSCAR",
+		"last_name": "NIEVES",
+		"middle_initial": "",
+		"command": "NYPD/FBI FINANCIAL CRIMES TF",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "7869",
+		"appt_date": "7/6/2011",
+		"recognition_count": 5,
+		"arrest_count": 234,
+		"reports": {
+			"summary": {
+				"command": "NYPD/FBI FINANCIAL CRIMES TF",
+				"assignment_date": "7/17/2020",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "7869",
+				"appt_date": "7/6/2011"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "22429"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "3/5/2019",
+					"shield_no": "7869"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 111,
+				"misdemeanor": 82,
+				"other": 7,
+				"violation": 34
+			},
+			"awards": [
+				{
+					"date": "2/20/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/6/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/18/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/7/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/5/2013",
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
@@ -24197,38 +24135,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "9/1/2022 12:00:00 AM",
-					"allegations_count": 4,
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2018-19504",
-							"description": "01.Promoting Prostitution in the Third Degree, be performed, agreed with one or more persons to engage in or cause the performance of such conduct",
-							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2018-19504",
-							"description": "02.did knowingly associate with persons or organizations reasonably believed to be engaged in, likely to engage in, or to have engaged in criminal activities",
-							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2018-19504",
-							"description": "03.fail to provide accurate and current personal information to the Department, in that he failed to provide the Department with a current address upon moving",
-							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2018-19504",
-							"description": "04.managing, supervising, controlling or owning or had an association with others in maintaining a house of prostitution",
-							"penalty": "A - COMMAND DISCIPLINE, RESTORATION OF SUSPENSION DAYS (30 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 2,
 				"felony": 18,
@@ -25999,8 +25906,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "2557",
 		"appt_date": "7/11/2012",
-		"recognition_count": 2,
-		"arrest_count": 116,
+		"recognition_count": 1,
+		"arrest_count": 58,
 		"reports": {
 			"summary": {
 				"command": "DEP COMM EMPLOYEE RELATIONS",
@@ -26025,16 +25932,12 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 22,
-				"misdemeanor": 90,
-				"violation": 2
+				"infraction": 1,
+				"felony": 11,
+				"misdemeanor": 45,
+				"violation": 1
 			},
 			"awards": [
-				{
-					"date": "4/14/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "4/14/2014",
 					"name": "EXCELLENT POLICE DUTY"
@@ -30538,7 +30441,7 @@
 		"shield_no": "4964",
 		"appt_date": "1/9/2012",
 		"recognition_count": 9,
-		"arrest_count": 287,
+		"arrest_count": 288,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -30560,7 +30463,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 100,
-				"misdemeanor": 150,
+				"misdemeanor": 151,
 				"violation": 31
 			},
 			"awards": [
