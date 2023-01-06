@@ -17589,9 +17589,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
-				"misdemeanor": 155,
-				"violation": 67
+				"felony": 34,
+				"misdemeanor": 310,
+				"violation": 134
 			},
 			"awards": []
 		}
@@ -17659,26 +17659,11 @@
 				"shield_no": "3626",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2006",
-					"shield_no": "3626"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 22,
-				"misdemeanor": 66,
-				"violation": 7
-			},
-			"awards": [
-				{
-					"date": "4/26/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		}
 	},
 	{
@@ -28105,8 +28090,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "1988",
 		"appt_date": "7/22/2002",
-		"recognition_count": 14,
-		"arrest_count": 980,
+		"recognition_count": 7,
+		"arrest_count": 490,
 		"reports": {
 			"summary": {
 				"command": "DET BORO MANHATTAN SOUTH",
@@ -36300,12 +36285,7 @@
 				}
 			],
 			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 83,
-				"misdemeanor": 511,
-				"violation": 6
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "6/13/2017",
@@ -44483,7 +44463,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/12/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26753",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 24,
@@ -49152,7 +49145,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/25/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26557",
+							"description": "01.Violated patrol rules - refused to provide shield number",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26557",
+							"description": "02.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 115,
 				"misdemeanor": 284,
@@ -55241,43 +55253,6 @@
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
-		}
-	},
-	{
-		"taxid": 962823,
-		"full_name": "HOCH, JULIA",
-		"first_name": "JULIA",
-		"last_name": "HOCH",
-		"middle_initial": "",
-		"command": "YOUTH STRATEGIES DIVISION",
-		"rank": "POLICE OFFICER",
-		"shield_no": "19384",
-		"appt_date": "10/11/2016",
-		"recognition_count": 0,
-		"arrest_count": 18,
-		"reports": {
-			"summary": {
-				"command": "YOUTH STRATEGIES DIVISION",
-				"assignment_date": "9/12/2022",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "19384",
-				"appt_date": "10/11/2016"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/11/2016",
-					"shield_no": "19384"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 5,
-				"misdemeanor": 13
-			},
-			"awards": []
 		}
 	},
 	{
@@ -61598,6 +61573,54 @@
 		}
 	},
 	{
+		"taxid": 951826,
+		"full_name": "HOM, NICHOLAS",
+		"first_name": "NICHOLAS",
+		"last_name": "HOM",
+		"middle_initial": "",
+		"command": "075 PRECINCT",
+		"rank": "SERGEANT",
+		"shield_no": "3507",
+		"appt_date": "1/9/2012",
+		"recognition_count": 0,
+		"arrest_count": 31,
+		"reports": {
+			"summary": {
+				"command": "075 PRECINCT",
+				"assignment_date": "10/31/2022",
+				"ethnicity": "ASIAN",
+				"rank_desc": "SERGEANT",
+				"shield_no": "3507",
+				"appt_date": "1/9/2012"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2012",
+					"shield_no": "7739"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "2/9/2022",
+					"shield_no": "1450"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/30/2022",
+					"shield_no": "3507"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 5,
+				"misdemeanor": 20,
+				"violation": 6
+			},
+			"awards": []
+		}
+	},
+	{
 		"taxid": 952858,
 		"full_name": "HOM, NICHOLAS",
 		"first_name": "NICHOLAS",
@@ -65099,7 +65122,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 178,
+				"felony": 181,
 				"misdemeanor": 201,
 				"other": 2,
 				"violation": 1
@@ -72614,56 +72637,6 @@
 		}
 	},
 	{
-		"taxid": 964563,
-		"full_name": "HUGHES, DOUGLAS A",
-		"first_name": "DOUGLAS",
-		"last_name": "HUGHES",
-		"middle_initial": "A",
-		"command": "TRANSIT DISTRICT 11",
-		"rank": "POLICE OFFICER",
-		"shield_no": "10147",
-		"appt_date": "10/18/2017",
-		"recognition_count": 3,
-		"arrest_count": 11,
-		"reports": {
-			"summary": {
-				"command": "TRANSIT DISTRICT 11",
-				"assignment_date": "12/6/2018",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "10147",
-				"appt_date": "10/18/2017"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/18/2017",
-					"shield_no": "10147"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 2,
-				"misdemeanor": 9
-			},
-			"awards": [
-				{
-					"date": "6/16/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/8/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/3/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 970604,
 		"full_name": "HUGHES, DWAYNE A",
 		"first_name": "DWAYNE",
@@ -78869,6 +78842,43 @@
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
+		}
+	},
+	{
+		"taxid": 965203,
+		"full_name": "HUSSAIN, JAVAID",
+		"first_name": "JAVAID",
+		"last_name": "HUSSAIN",
+		"middle_initial": "",
+		"command": "113 PRECINCT",
+		"rank": "POLICE OFFICER",
+		"shield_no": "31794",
+		"appt_date": "1/10/2018",
+		"recognition_count": 0,
+		"arrest_count": 15,
+		"reports": {
+			"summary": {
+				"command": "113 PRECINCT",
+				"assignment_date": "3/7/2022",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "31794",
+				"appt_date": "1/10/2018"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2018",
+					"shield_no": "31794"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 5,
+				"misdemeanor": 10
+			},
+			"awards": []
 		}
 	},
 	{
