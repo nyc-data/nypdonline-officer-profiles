@@ -671,7 +671,28 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/22/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "041-041 PRECINCT",
+							"case_no": "2018-19668",
+							"description": "Wrongfully stopped an individual known to the Department.",
+							"penalty": "VACATION DAYS (6 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "041-041 PRECINCT",
+							"case_no": "2018-19668",
+							"description": "Wrongfully frisked an individual known to the Department.",
+							"penalty": "VACATION DAYS (6 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 227,
@@ -9481,7 +9502,7 @@
 		"shield_no": "21892",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "PBQS JAMAICA AVE BID",
@@ -10482,7 +10503,7 @@
 		"shield_no": "27637",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 12,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -11053,7 +11074,13 @@
 				"shield_no": "30756",
 				"appt_date": "1/17/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "30756"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -13250,7 +13277,7 @@
 		"shield_no": "28025",
 		"appt_date": "7/7/2021",
 		"recognition_count": 1,
-		"arrest_count": 15,
+		"arrest_count": 16,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
@@ -13571,7 +13598,7 @@
 		"shield_no": "27645",
 		"appt_date": "7/16/2021",
 		"recognition_count": 0,
-		"arrest_count": 60,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -15575,7 +15602,7 @@
 		"shield_no": "4038",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 627,
+		"arrest_count": 629,
 		"reports": {
 			"summary": {
 				"command": "023 DET SQUAD",
@@ -16108,7 +16135,7 @@
 		"shield_no": "8701",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -16883,7 +16910,7 @@
 		"shield_no": "22558",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -18295,7 +18322,7 @@
 		"shield_no": "23525",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 48,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
