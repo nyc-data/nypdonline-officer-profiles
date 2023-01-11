@@ -786,7 +786,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 155,
-				"misdemeanor": 159,
+				"misdemeanor": 160,
 				"violation": 19
 			},
 			"awards": [
@@ -3997,8 +3997,8 @@
 		"arrest_count": 40,
 		"reports": {
 			"summary": {
-				"command": "FTU2 6/9/10/13 PCT",
-				"assignment_date": "10/17/2022",
+				"command": "009 PRECINCT",
+				"assignment_date": "1/7/2023",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "10871",
@@ -13082,8 +13082,8 @@
 		"arrest_count": 63,
 		"reports": {
 			"summary": {
-				"command": "FTU19 102/103/107/113 PCT",
-				"assignment_date": "10/17/2022",
+				"command": "106 PRECINCT",
+				"assignment_date": "1/7/2023",
 				"ethnicity": "BLACK",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5628",
@@ -13102,7 +13102,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/27/2021 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2020-22787",
+							"description": "Misused Department electronics.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2020-22787",
+							"description": "Made improper contact/communications.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2020-22787",
+							"description": "Made improper contact/communications.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 7,
@@ -13817,7 +13845,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 2,
-				"misdemeanor": 56,
+				"misdemeanor": 57,
 				"violation": 7
 			},
 			"awards": [
@@ -15213,8 +15241,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 44,
-				"misdemeanor": 108
+				"felony": 22,
+				"misdemeanor": 54
 			},
 			"awards": []
 		}
@@ -22781,7 +22809,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 115,
+				"felony": 116,
 				"misdemeanor": 59,
 				"other": 1,
 				"violation": 6
@@ -24252,8 +24280,8 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 76,
-				"misdemeanor": 69,
+				"felony": 77,
+				"misdemeanor": 70,
 				"violation": 8
 			},
 			"awards": [
@@ -28897,10 +28925,14 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 18
+				"felony": 8,
+				"misdemeanor": 36
 			},
 			"awards": [
+				{
+					"date": "1/15/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "1/15/2021",
 					"name": "EXCELLENT POLICE DUTY"
@@ -29547,9 +29579,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/5/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "862-TRANSIT BUREAU DISTRICT 3",
+							"case_no": "2019-20068",
+							"description": "Unfit for duty.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 37,
+				"felony": 38,
 				"misdemeanor": 88,
 				"violation": 14
 			},
@@ -34835,7 +34881,7 @@
 		"first_name": "DAVID",
 		"last_name": "TO",
 		"middle_initial": "Q",
-		"command": "FTU20 104/110/114/115 PCT",
+		"command": "114 PRECINCT",
 		"rank": "SERGEANT",
 		"shield_no": "5553",
 		"appt_date": "7/11/2012",
@@ -34843,8 +34889,8 @@
 		"arrest_count": 117,
 		"reports": {
 			"summary": {
-				"command": "FTU20 104/110/114/115 PCT",
-				"assignment_date": "10/17/2022",
+				"command": "114 PRECINCT",
+				"assignment_date": "1/7/2023",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5553",
@@ -37280,7 +37326,7 @@
 		"shield_no": "26431",
 		"appt_date": "7/9/2013",
 		"recognition_count": 23,
-		"arrest_count": 150,
+		"arrest_count": 151,
 		"reports": {
 			"summary": {
 				"command": "PBBN PUBLIC SAFETY TEAMS",
@@ -40201,10 +40247,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 20,
-				"misdemeanor": 65,
-				"violation": 2
+				"infraction": 2,
+				"felony": 40,
+				"misdemeanor": 132,
+				"violation": 4
 			},
 			"awards": [
 				{
@@ -40212,7 +40258,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "9/23/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "4/20/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/20/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/21/2017",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -43856,7 +43914,7 @@
 		"shield_no": "4158",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 193,
+		"arrest_count": 196,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -44162,7 +44220,7 @@
 		"first_name": "JAMES",
 		"last_name": "TORRES",
 		"middle_initial": "F",
-		"command": "FTU9 46/48/52 PCT",
+		"command": "046 PRECINCT",
 		"rank": "SERGEANT",
 		"shield_no": "1709",
 		"appt_date": "7/9/2013",
@@ -44170,8 +44228,8 @@
 		"arrest_count": 291,
 		"reports": {
 			"summary": {
-				"command": "FTU9 46/48/52 PCT",
-				"assignment_date": "10/17/2022",
+				"command": "046 PRECINCT",
+				"assignment_date": "1/7/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1709",
@@ -45982,7 +46040,7 @@
 		"shield_no": "4161",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 230,
+		"arrest_count": 115,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -47949,7 +48007,7 @@
 		"first_name": "NICHOLAS",
 		"last_name": "TORRISI",
 		"middle_initial": "M",
-		"command": "FTU7 40/42/44 PCT",
+		"command": "044 PRECINCT",
 		"rank": "SERGEANT",
 		"shield_no": "2011",
 		"appt_date": "1/8/2014",
@@ -47957,8 +48015,8 @@
 		"arrest_count": 135,
 		"reports": {
 			"summary": {
-				"command": "FTU7 40/42/44 PCT",
-				"assignment_date": "10/9/2022",
+				"command": "044 PRECINCT",
+				"assignment_date": "1/7/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2011",
@@ -49966,7 +50024,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 98,
+				"felony": 99,
 				"misdemeanor": 49,
 				"violation": 2
 			},
@@ -50037,7 +50095,7 @@
 		"shield_no": "24149",
 		"appt_date": "7/11/2012",
 		"recognition_count": 0,
-		"arrest_count": 68,
+		"arrest_count": 136,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -50259,7 +50317,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 40,
-				"misdemeanor": 122,
+				"misdemeanor": 123,
 				"violation": 2
 			},
 			"awards": []
@@ -52635,7 +52693,7 @@
 		"shield_no": "23694",
 		"appt_date": "7/9/2013",
 		"recognition_count": 0,
-		"arrest_count": 114,
+		"arrest_count": 115,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -55067,7 +55125,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 35,
+				"felony": 36,
 				"misdemeanor": 96,
 				"violation": 13
 			},
@@ -55133,7 +55191,53 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/11/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24909",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				},
+				{
+					"entry": "5/14/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25072",
+							"description": "01.Failed to activate their body worn camera."
+						}
+					]
+				},
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-24662",
+							"description": "01.Failed to activate their body worn camera."
+						}
+					]
+				},
+				{
+					"entry": "6/16/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24661",
+							"description": "01.Wrongfully searched a vehicle.",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 71,
@@ -55693,7 +55797,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 111,
 				"violation": 1
 			},
@@ -56784,7 +56888,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 89
+				"misdemeanor": 90
 			},
 			"awards": [
 				{
@@ -59336,8 +59440,8 @@
 		"arrest_count": 79,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT BORO MANHATTAN",
-				"assignment_date": "11/21/2022",
+				"command": "TRANSIT DISTRICT 1",
+				"assignment_date": "1/7/2023",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "17574",
@@ -64769,7 +64873,7 @@
 		"shield_no": "13283",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 90,
+		"arrest_count": 91,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
