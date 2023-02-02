@@ -817,7 +817,7 @@
 		"first_name": "JOHN",
 		"last_name": "EATON",
 		"middle_initial": "S",
-		"command": "PROPERTY CLERK DIV",
+		"command": "PROPERTY CLERK SECTION",
 		"rank": "POLICE OFFICER",
 		"shield_no": "29983",
 		"appt_date": "7/1/2003",
@@ -825,7 +825,7 @@
 		"arrest_count": 61,
 		"reports": {
 			"summary": {
-				"command": "PROPERTY CLERK DIV",
+				"command": "PROPERTY CLERK SECTION",
 				"assignment_date": "10/5/2014",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
@@ -5361,7 +5361,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/13/2015 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "90-090 PRECINCT",
+							"case_no": "2015-12947",
+							"description": "WHILE ON-DUTY, ENTERED A LOCATION KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "90-090 PRECINCT",
+							"case_no": "2015-12947",
+							"description": "WHILE ON-DUTY, SEARCHED A LOCATION KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 34,
@@ -5928,7 +5949,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/29/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23930",
+							"description": "01.Failed to properly process evidence while on duty."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 79,
 				"misdemeanor": 116,
@@ -12875,7 +12908,7 @@
 		"shield_no": "4304",
 		"appt_date": "10/18/2017",
 		"recognition_count": 1,
-		"arrest_count": 59,
+		"arrest_count": 60,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -13296,7 +13329,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/7/2010 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "FAILED TO RESIDE WITHIN THE CITY OF NEW YORK OR COUNTIES OF WESTCHESTER, ROCKLAND, ORANGE, PUTNAM, NASSAU OR SUFFOLK AS REQUIRED.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "FAILED TO SUBMIT CHANGE OF NAME, RESIDENCE OR SOCIAL CONDITION FORM TO DEPARTMENT.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "HAVING CHANGED SAID MEMBER'S RESIDENCE, FAILED TO MAINTAIN CORRECT DEPARTMENT OF MOTOR VEHICLE RECORDS .",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "WHILE ON SICK REPORT WRONGFULLY LEFT CONFINES OF THE CITY OR RESIDENCE COUNTIES WITHOUT APPROVAL FROM CHIEF OF PERSONNEL.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "WRONGFULLY REPORTED A NEW YORK ADDRESS TO THE DEPARTMENT WHEN IN FACT SAID MEMBER RESIDED IN NEW JERSEY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 6,
@@ -16834,7 +16909,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/20/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2022-25255",
+							"description": "01.Failure to notify.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 61,
@@ -16930,12 +17018,25 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2020-21904",
+							"description": "01.Improper search of premise.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"infraction": 2,
-				"felony": 62,
-				"misdemeanor": 126,
-				"violation": 22
+				"infraction": 1,
+				"felony": 31,
+				"misdemeanor": 63,
+				"violation": 11
 			},
 			"awards": []
 		}
@@ -19916,7 +20017,7 @@
 		"shield_no": "7264",
 		"appt_date": "4/6/2016",
 		"recognition_count": 3,
-		"arrest_count": 92,
+		"arrest_count": 93,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -21179,7 +21280,60 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/3/2010 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "077-077 PRECINCT",
+							"case_no": "2010-1907",
+							"description": "DID FAIL AND NEGLECT TO MAINTAIN SAID OFFICER'S ACTIVITY LOG IN THAT SAID OFFICER COULD NOT LOCATE HIS ACTIVITY LOGS AND PROVIDE THEM FOR INSPECTION UPON REQUEST.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "077-077 PRECINCT",
+							"case_no": "2010-1907",
+							"description": "SAID OFFICER SCHEDULED TO PERFORM A TOUR OF 1400 HOURS TO 2235 HOURS, WAS ABSENT FROM SAID ASSIGNMENT AT 1400 HOURS AND DID NOT REPORT UNTIL 1425 HOURS, A PERIOD OF TWENTY-FIVE (25) MINUTES ABSENT WITHOUT LEAVE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "077-077 PRECINCT",
+							"case_no": "2010-1907",
+							"description": "DID KNOWINGLY ASSOCIATE WITH A PERSON REASONABLY BELIEVED TO BE ENGAGED IN, LIKELY TO ENGAGE IN, OR TO HAVE ENGAGED IN CRIMINAL ACTIVITIES.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "077-077 PRECINCT",
+							"case_no": "2010-1907",
+							"description": "DID WRONGFULLY AND WITHOUT JUST CAUSE HAVE AN INTEREST IN OR AN ASSOCIATION WITH PREMISES ENGAGED IN ILLEGAL GAMBLING OPERATIONS.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "077-077 PRECINCT",
+							"case_no": "2010-1907",
+							"description": "FAILED TO DISCLOSE POTENTIALLY RELEVANT INFORMATION, SPECIFICALLY THAT HE KNEW A PERSON KNOWN TO THE DEPARTMENT RUNNING AN ILLEGAL GAMBLING OPERATION.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24413",
+							"description": "01.Wrongfully searched an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 131,
 				"misdemeanor": 313,
@@ -22686,9 +22840,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 98,
-				"other": 1
+				"felony": 26,
+				"misdemeanor": 196,
+				"other": 2
 			},
 			"awards": []
 		}
@@ -26366,7 +26520,7 @@
 		"shield_no": "13679",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 138,
+		"arrest_count": 143,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -26802,9 +26956,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 83,
-				"violation": 6
+				"felony": 6,
+				"misdemeanor": 166,
+				"violation": 12
 			},
 			"awards": []
 		}
