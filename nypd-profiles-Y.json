@@ -3529,7 +3529,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 7,
-				"felony": 184,
+				"felony": 186,
 				"misdemeanor": 214,
 				"violation": 4
 			},
@@ -4553,10 +4553,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 10,
-				"felony": 262,
-				"misdemeanor": 996,
-				"violation": 54
+				"infraction": 5,
+				"felony": 131,
+				"misdemeanor": 498,
+				"violation": 27
 			},
 			"awards": []
 		}
@@ -7545,7 +7545,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/6/2011 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2831",
+							"description": "WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 3,
