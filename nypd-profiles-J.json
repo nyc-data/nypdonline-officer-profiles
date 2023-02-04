@@ -100,7 +100,7 @@
 		"shield_no": "15049",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 139,
+		"arrest_count": 288,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -203,7 +203,7 @@
 		"first_name": "JONATHAN",
 		"last_name": "JABLON",
 		"middle_initial": "S",
-		"command": "TRANSIT BUREAU CRIME ANALYSIS",
+		"command": "PATROL BORO QUEENS NORTH",
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/10/2006",
@@ -211,8 +211,8 @@
 		"arrest_count": 81,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT BUREAU CRIME ANALYSIS",
-				"assignment_date": "10/29/2020",
+				"command": "PATROL BORO QUEENS NORTH",
+				"assignment_date": "1/27/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -5572,6 +5572,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -6192,7 +6193,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -6435,7 +6436,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 11
 			},
 			"awards": []
@@ -8896,7 +8897,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -13709,7 +13710,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 24,
 				"misdemeanor": 36
 			},
 			"awards": []
@@ -15841,7 +15842,7 @@
 		"shield_no": "12644",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 106,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "026 PRECINCT",
@@ -17278,8 +17279,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "7086",
 		"appt_date": "1/10/2007",
-		"recognition_count": 6,
-		"arrest_count": 480,
+		"recognition_count": 3,
+		"arrest_count": 240,
 		"reports": {
 			"summary": {
 				"command": "PUBLIC SECURITY SECTION",
@@ -17599,7 +17600,35 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/28/2011 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "801-HOUSING PSA 1",
+							"case_no": "2010-2690",
+							"description": "WRONGFULLY ADVISED THE MEDICAL DIVISION THAT HE COULD NOT REPORT FOR DUTY BECAUSE HE WAS QUARANTINED AT THE AIRPORT IN GRANADA KNOWING THIS STATEMENT WAS NOT TRUE.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "801-HOUSING PSA 1",
+							"case_no": "2010-2690",
+							"description": "FAILED TO REPORT FOR HIS ASSIGNED TOUR OF DUTY WITHOUT PERMISSION.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "801-HOUSING PSA 1",
+							"case_no": "2010-2690",
+							"description": "WRONGFULLY MADE FALSE STATEMENTS CLAIMING SAID OFFICER COULD NOT REPORT FOR DUTY BECAUSE HE WAS QUARANTINED AT AN AIRPORT IN GRANADA AND COULD NOT TRAVEL .",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 63,
 				"misdemeanor": 175,
@@ -17996,7 +18025,7 @@
 		"shield_no": "24653",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 42,
+		"arrest_count": 44,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -18021,8 +18050,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
-				"misdemeanor": 23,
+				"felony": 19,
+				"misdemeanor": 24,
 				"violation": 1
 			},
 			"awards": []
@@ -18500,7 +18529,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/27/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2018-19453",
+							"description": "while on-duty, did fail and neglect to immediately notify the Department of an off-duty incident involving a uniformed member of service.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 24,
@@ -19822,8 +19865,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 4
+				"felony": 4,
+				"misdemeanor": 8
 			},
 			"awards": []
 		}
@@ -20781,7 +20824,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		}
@@ -25797,7 +25840,7 @@
 		"first_name": "EDWARD",
 		"last_name": "JOHNSON",
 		"middle_initial": "S",
-		"command": "FLEET SERVICES DIVISION",
+		"command": "FLEET SERVICES SECTION",
 		"rank": "SERGEANT",
 		"shield_no": "2055",
 		"appt_date": "1/10/2007",
@@ -25805,7 +25848,7 @@
 		"arrest_count": 201,
 		"reports": {
 			"summary": {
-				"command": "FLEET SERVICES DIVISION",
+				"command": "FLEET SERVICES SECTION",
 				"assignment_date": "3/13/2017",
 				"ethnicity": "BLACK",
 				"rank_desc": "SERGEANT",
@@ -26547,7 +26590,7 @@
 		"shield_no": "622",
 		"appt_date": "7/10/2006",
 		"recognition_count": 5,
-		"arrest_count": 97,
+		"arrest_count": 99,
 		"reports": {
 			"summary": {
 				"command": "090 DET SQUAD",
@@ -28918,7 +28961,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 13
+				"misdemeanor": 14
 			},
 			"awards": []
 		}
@@ -29389,8 +29432,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "17923",
 		"appt_date": "7/9/2007",
-		"recognition_count": 12,
-		"arrest_count": 736,
+		"recognition_count": 6,
+		"arrest_count": 368,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -30978,18 +31021,18 @@
 		"first_name": "KATHRYN",
 		"last_name": "JONES",
 		"middle_initial": "D",
-		"command": "BRONX SPECIAL VICTIMS SQUAD",
-		"rank": "DETECTIVE 3RD GRADE",
+		"command": "SVD INSTANT RESPONSE TRK UNIT",
+		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "4034",
 		"appt_date": "7/10/2006",
 		"recognition_count": 1,
 		"arrest_count": 266,
 		"reports": {
 			"summary": {
-				"command": "BRONX SPECIAL VICTIMS SQUAD",
-				"assignment_date": "10/5/2018",
+				"command": "SVD INSTANT RESPONSE TRK UNIT",
+				"assignment_date": "1/30/2023",
 				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 3RD GRADE",
+				"rank_desc": "DETECTIVE SPECIALIST",
 				"shield_no": "4034",
 				"appt_date": "7/10/2006"
 			},
@@ -31054,7 +31097,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 4,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		}
@@ -31378,7 +31421,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/28/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23797",
+							"description": "01.Wrongful used physical force",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 30,
@@ -31729,7 +31785,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 12
+				"misdemeanor": 15
 			},
 			"awards": []
 		}
@@ -34958,7 +35014,7 @@
 		"shield_no": "22249",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 18,
+		"arrest_count": 19,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -34979,7 +35035,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 9
 			},
 			"awards": []
@@ -36339,7 +36395,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2,
+				"violation": 1
 			},
 			"awards": []
 		}

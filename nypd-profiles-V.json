@@ -1093,7 +1093,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		}
@@ -3161,7 +3161,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		}
@@ -3753,6 +3753,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -4513,7 +4514,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -4597,7 +4598,7 @@
 		"first_name": "PRISCILLA",
 		"last_name": "VALENTIN",
 		"middle_initial": "T",
-		"command": "PROPERTY CLERK DIV",
+		"command": "PROPERTY CLERK SECTION",
 		"rank": "SERGEANT",
 		"shield_no": "612",
 		"appt_date": "7/10/2006",
@@ -4605,7 +4606,7 @@
 		"arrest_count": 269,
 		"reports": {
 			"summary": {
-				"command": "PROPERTY CLERK DIV",
+				"command": "PROPERTY CLERK SECTION",
 				"assignment_date": "8/19/2019",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
@@ -5701,7 +5702,7 @@
 		"shield_no": "6919",
 		"appt_date": "1/10/2007",
 		"recognition_count": 14,
-		"arrest_count": 326,
+		"arrest_count": 327,
 		"reports": {
 			"summary": {
 				"command": "077 DET SQUAD",
@@ -5821,7 +5822,7 @@
 		"shield_no": "4589",
 		"appt_date": "1/10/2007",
 		"recognition_count": 12,
-		"arrest_count": 280,
+		"arrest_count": 281,
 		"reports": {
 			"summary": {
 				"command": "033 PRECINCT",
@@ -7201,7 +7202,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		}
 	},
@@ -11258,8 +11261,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "4453",
 		"appt_date": "1/10/2007",
-		"recognition_count": 2,
-		"arrest_count": 97,
+		"recognition_count": 4,
+		"arrest_count": 194,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -13246,8 +13249,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6905",
 		"appt_date": "7/10/2006",
-		"recognition_count": 6,
-		"arrest_count": 1412,
+		"recognition_count": 3,
+		"arrest_count": 707,
 		"reports": {
 			"summary": {
 				"command": "078 DET SQUAD",
@@ -14477,7 +14480,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		}
@@ -15029,7 +15032,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 25
+				"misdemeanor": 26
 			},
 			"awards": []
 		}
@@ -15651,7 +15654,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		}
@@ -15883,7 +15886,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/5/2016 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "165-PATROL BORO BROOKLYN NORTH",
+							"case_no": "2015-13788",
+							"description": "WHILE OFF-DUTY, GRABBED THE HAIR OF A PERSON KNOWN TO THE DEPARTMENT AND FORCED HER INTO HIS VEHICLE.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (32 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "165-PATROL BORO BROOKLYN NORTH",
+							"case_no": "2015-13788",
+							"description": "WHILE DRIVING, STRUCK A PERSON KNOWN TO THE DEPARTMENT ONE OR MORE TIMES.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (32 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "165-PATROL BORO BROOKLYN NORTH",
+							"case_no": "2015-13788",
+							"description": "CAUSED A PERSON KNOWN TO THE DEPARTMENT TO FEAR FOR HER SAFETY AND JUMP OUT OF A MOVING VEHICLE.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (32 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "165-PATROL BORO BROOKLYN NORTH",
+							"case_no": "2015-13788",
+							"description": "BEING PRESENT AS A PARTICIPANT OR WITNESS AT THE SCENE OF AN UNUSUAL POLICE OCCURRENCE, FAILED TO REMAIN AT THE SCENE OF  THE INCIDENT AND/OR PROMPTLY NOTIFY THE DESK OFFICER, PRECINCT OF OCCURRENCE.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (32 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 23,
 				"misdemeanor": 42,
@@ -16337,7 +16375,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 18
+				"misdemeanor": 20
 			},
 			"awards": []
 		}
@@ -17264,7 +17302,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24217",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 355,
 				"misdemeanor": 529,
@@ -18427,7 +18477,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -18607,7 +18657,7 @@
 		"shield_no": "3051",
 		"appt_date": "7/10/2006",
 		"recognition_count": 7,
-		"arrest_count": 579,
+		"arrest_count": 580,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -20643,9 +20693,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
-				"misdemeanor": 246,
-				"violation": 2
+				"felony": 18,
+				"misdemeanor": 123,
+				"violation": 1
 			},
 			"awards": []
 		}
@@ -20747,7 +20797,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		}
@@ -24108,7 +24158,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 11
 			},
 			"awards": []
@@ -26377,8 +26427,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 55
+				"felony": 19,
+				"misdemeanor": 57
 			},
 			"awards": []
 		}
@@ -26491,8 +26541,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 44
+				"felony": 13,
+				"misdemeanor": 45
 			},
 			"awards": []
 		}
@@ -30636,7 +30686,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		}
@@ -36618,7 +36668,7 @@
 		"shield_no": "6211",
 		"appt_date": "7/9/2007",
 		"recognition_count": 16,
-		"arrest_count": 384,
+		"arrest_count": 387,
 		"reports": {
 			"summary": {
 				"command": "077 PRECINCT",
@@ -36826,7 +36876,7 @@
 		"shield_no": "618",
 		"appt_date": "7/11/2005",
 		"recognition_count": 4,
-		"arrest_count": 435,
+		"arrest_count": 436,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY UNIT NO 3",
@@ -38421,7 +38471,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		}
@@ -39331,189 +39381,6 @@
 		}
 	},
 	{
-		"taxid": 940837,
-		"full_name": "VILLAFANE, JOSE A",
-		"first_name": "JOSE",
-		"last_name": "VILLAFANE",
-		"middle_initial": "A",
-		"command": "067 DET SQUAD",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "6956",
-		"appt_date": "1/9/2006",
-		"recognition_count": 33,
-		"arrest_count": 383,
-		"reports": {
-			"summary": {
-				"command": "067 DET SQUAD",
-				"assignment_date": "2/13/2019",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "6956",
-				"appt_date": "1/9/2006"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2006",
-					"shield_no": "1275"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "5/26/2020",
-					"shield_no": "10512"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "5/29/2020",
-					"shield_no": "6956"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 201,
-				"misdemeanor": 169,
-				"other": 1,
-				"violation": 11
-			},
-			"awards": [
-				{
-					"date": "9/15/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "8/2/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/7/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/3/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/20/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/18/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/13/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/5/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/16/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/8/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/7/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/24/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/13/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/3/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/23/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/3/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/21/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/18/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/15/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/23/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/24/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/18/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/4/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/15/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/7/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/18/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/22/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/20/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/7/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/21/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/18/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/11/2012",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/21/2012",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 907521,
 		"full_name": "VILLAFANE, LIZBETH",
 		"first_name": "LIZBETH",
@@ -39874,7 +39741,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		}
@@ -41784,7 +41651,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		}
@@ -47006,7 +46873,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/16/2015 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "NOLO CONTENDRE",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-13874",
+							"description": "FAILED TO PROVIDE HIS NAME AND SHIELD NUMBER UPON REQUEST.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-13874",
+							"description": "FAILED TO MAKE ADEQUATE ENTRIES IN ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-13874",
+							"description": "FAILED TO PREPARE ONE OR MORE STOP, QUESTION AND FRISK REPORT WORKSHEETS.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 36,
 				"misdemeanor": 89,
@@ -47377,7 +47272,7 @@
 		"shield_no": "5702",
 		"appt_date": "7/18/2007",
 		"recognition_count": 0,
-		"arrest_count": 564,
+		"arrest_count": 282,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN CHILD ABUSE SQUAD",
@@ -47402,9 +47297,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 138,
-				"misdemeanor": 400,
-				"violation": 26
+				"felony": 69,
+				"misdemeanor": 200,
+				"violation": 13
 			},
 			"awards": []
 		}
