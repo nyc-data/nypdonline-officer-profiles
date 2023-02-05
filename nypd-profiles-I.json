@@ -1963,7 +1963,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 41
+				"misdemeanor": 43
 			},
 			"awards": []
 		}
@@ -3656,7 +3656,7 @@
 		"shield_no": "5112",
 		"appt_date": "1/7/2008",
 		"recognition_count": 0,
-		"arrest_count": 740,
+		"arrest_count": 371,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -4212,7 +4212,7 @@
 		"shield_no": "26956",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 15,
+		"arrest_count": 16,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -5718,7 +5718,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/26/2017 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "75-075 PRECINCT",
+							"case_no": "2017-17527",
+							"description": "AFTER BEING PROPERLY NOTIFIED, FAILED TO APPEAR AT THE TRAFFIC VIOLATIONS BUREAU RESULTING IN THE DISMISSAL OF ELEVEN (11) SUMMONS AGAINST ELEVEN (11) DIFFERENT MOTORISTS.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 95,
@@ -12261,6 +12275,11 @@
 				{
 					"rank": "LIEUTENANT",
 					"date": "9/28/2017",
+					"shield_no": ""
+				},
+				{
+					"rank": "CAPTAIN",
+					"date": "1/27/2023",
 					"shield_no": ""
 				}
 			],
