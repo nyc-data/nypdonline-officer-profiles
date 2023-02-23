@@ -1453,7 +1453,7 @@
 		"shield_no": "2834",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 100,
+		"arrest_count": 200,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -1478,10 +1478,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 3,
-				"felony": 20,
-				"misdemeanor": 62,
-				"violation": 15
+				"infraction": 6,
+				"felony": 40,
+				"misdemeanor": 124,
+				"violation": 30
 			},
 			"awards": []
 		}
@@ -7443,7 +7443,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/6/2011 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2831",
+							"description": "WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 3,
@@ -7853,10 +7867,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 19,
-				"misdemeanor": 104,
-				"violation": 18
+				"infraction": 2,
+				"felony": 38,
+				"misdemeanor": 208,
+				"violation": 36
 			},
 			"awards": []
 		}
@@ -8876,10 +8890,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 14,
-				"misdemeanor": 130,
-				"violation": 14
+				"infraction": 1,
+				"felony": 7,
+				"misdemeanor": 65,
+				"violation": 7
 			},
 			"awards": []
 		}

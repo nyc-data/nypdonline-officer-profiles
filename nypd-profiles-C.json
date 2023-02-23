@@ -1259,7 +1259,7 @@
 		"shield_no": "479",
 		"appt_date": "7/10/2006",
 		"recognition_count": 1,
-		"arrest_count": 486,
+		"arrest_count": 487,
 		"reports": {
 			"summary": {
 				"command": "041 DET SQUAD",
@@ -7758,7 +7758,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -7795,7 +7795,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -11407,7 +11407,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 7
+				"misdemeanor": 12
 			},
 			"awards": []
 		}
@@ -12230,7 +12230,7 @@
 		"shield_no": "2453",
 		"appt_date": "1/10/2007",
 		"recognition_count": 2,
-		"arrest_count": 320,
+		"arrest_count": 321,
 		"reports": {
 			"summary": {
 				"command": "MTS DET SQUAD",
@@ -12255,7 +12255,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 108,
+				"felony": 109,
 				"misdemeanor": 189,
 				"violation": 23
 			},
@@ -19590,8 +19590,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "1701",
 		"appt_date": "7/11/2005",
-		"recognition_count": 6,
-		"arrest_count": 888,
+		"recognition_count": 3,
+		"arrest_count": 444,
 		"reports": {
 			"summary": {
 				"command": "SID ANIMAL CRUELTY INV SQD",
@@ -22343,8 +22343,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "9852",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 110,
+		"recognition_count": 2,
+		"arrest_count": 220,
 		"reports": {
 			"summary": {
 				"command": "PATROL BORO QUEENS SOUTH",
@@ -22364,11 +22364,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 28,
-				"misdemeanor": 71,
-				"violation": 11
+				"felony": 56,
+				"misdemeanor": 142,
+				"violation": 22
 			},
 			"awards": [
+				{
+					"date": "5/31/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "5/31/2018",
 					"name": "EXCELLENT POLICE DUTY"
@@ -22919,7 +22923,7 @@
 		"shield_no": "24250",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 231,
+		"arrest_count": 462,
 		"reports": {
 			"summary": {
 				"command": "017 PRECINCT",
@@ -25139,7 +25143,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/13/2014 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2014-12627",
+							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT IN THAT HE FRISKED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (2 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 67,
@@ -28632,7 +28650,7 @@
 		"shield_no": "4535",
 		"appt_date": "7/20/2006",
 		"recognition_count": 4,
-		"arrest_count": 393,
+		"arrest_count": 396,
 		"reports": {
 			"summary": {
 				"command": "MANH ROBBERY SQUAD",
@@ -28655,10 +28673,59 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/24/2011 12:00:00 AM",
+					"charges_count": 6,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2010-1645",
+							"description": "FAILED TO FOLLOW DARP PROCEDURES BY ALLOWING A NON-DARP TOWING COMPANY TO REMOVE MOTOR VEHICLES FROM THE SCENE OF A VEHICLE ACCIDENT, WHEN SAID TOW TRUCK WAS NOT DISPATCHED BY THE COMMUNICATION SECTION.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2010-1645",
+							"description": "FAILED TO FOLLOW DARP PROCEDURE BY NOT ISSUING A NOTICE OF VIOLATION TO THE UNAUTHORIZED TOWING COMPANY.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2010-1645",
+							"description": "FAILED TO FOLLOW DARP PROCEDURE BY NOT REQUESTING AN AUTHORIZED DARP TOWING COMPANY AND ALLOWING A NON-DARP TOWING COMPANY TO REMOVE VEHICLES FROM THE SCENE OF VARIOUS MOTOR VEHICLE ACCIDENTS.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2010-1645",
+							"description": "FAILED TO GIVE A PROPER RADIO DISPOSITION TO THE COMMUNICATION SECTION BY NOT INFORMING THEM THAT A VEHICLE WAS TOWED FROM THE SCENE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2010-1645",
+							"description": "ENGAGED IN IMPROPER USE OF HIS PERSONAL CELLULAR TELEPHONE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "070-070 PRECINCT",
+							"case_no": "2010-1645",
+							"description": "CONDUCTED PERSONAL BUSINESS WHILE ON DEPARTMENT TIME BY UTILIZING HIS PERSONAL CELLULAR TELEPHONE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 166,
+				"felony": 169,
 				"misdemeanor": 222,
 				"violation": 4
 			},
@@ -32134,7 +32201,7 @@
 		"shield_no": "5140",
 		"appt_date": "7/11/2005",
 		"recognition_count": 8,
-		"arrest_count": 416,
+		"arrest_count": 427,
 		"reports": {
 			"summary": {
 				"command": "068 DET SQUAD",
@@ -36130,7 +36197,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -37328,7 +37395,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/29/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"case_no": "2022-27404",
+							"description": "01.Failed to make proper notifications (Patrol Supervisor, IAB, Desk Sergeant, Sick Desk\r\nSupervisor, ACS, Commanding Officer if PPO, Operations Unit, CCRB, etc.).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 115,
 				"misdemeanor": 170,
@@ -38229,7 +38309,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		}
@@ -38705,7 +38785,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 12,
+				"misdemeanor": 13,
 				"violation": 1
 			},
 			"awards": []
@@ -39357,7 +39437,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/18/2020 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "243-DET SQD. MAN-MTN",
+							"case_no": "2020-22127",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "243-DET SQD. MAN-MTN",
+							"case_no": "2020-22127",
+							"description": "Wrongfully disseminated confidential Department information.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 136,
@@ -40225,7 +40326,7 @@
 		"shield_no": "3150",
 		"appt_date": "7/11/2005",
 		"recognition_count": 12,
-		"arrest_count": 549,
+		"arrest_count": 550,
 		"reports": {
 			"summary": {
 				"command": "061 DET SQUAD",
@@ -44933,8 +45034,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "20401",
 		"appt_date": "7/11/2005",
-		"recognition_count": 2,
-		"arrest_count": 330,
+		"recognition_count": 1,
+		"arrest_count": 165,
 		"reports": {
 			"summary": {
 				"command": "048 PRECINCT",
@@ -45158,7 +45259,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 26
+				"misdemeanor": 27
 			},
 			"awards": []
 		}
@@ -48610,9 +48711,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
-				"misdemeanor": 14,
-				"violation": 1
+				"felony": 18,
+				"misdemeanor": 30,
+				"violation": 2
 			},
 			"awards": []
 		}
@@ -50761,7 +50862,7 @@
 		"shield_no": "7878",
 		"appt_date": "7/10/2006",
 		"recognition_count": 1,
-		"arrest_count": 272,
+		"arrest_count": 273,
 		"reports": {
 			"summary": {
 				"command": "CEIS JFK TASK FORCE",
@@ -50832,7 +50933,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 9,
-				"misdemeanor": 12
+				"misdemeanor": 14
 			},
 			"awards": []
 		}
@@ -52329,7 +52430,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		}
@@ -54332,8 +54433,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1551",
 		"appt_date": "1/10/2005",
-		"recognition_count": 4,
-		"arrest_count": 142,
+		"recognition_count": 2,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -54964,7 +55065,7 @@
 		"shield_no": "18241",
 		"appt_date": "1/9/2006",
 		"recognition_count": 0,
-		"arrest_count": 574,
+		"arrest_count": 575,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -56260,7 +56361,7 @@
 		"shield_no": "7085",
 		"appt_date": "7/11/2005",
 		"recognition_count": 15,
-		"arrest_count": 517,
+		"arrest_count": 519,
 		"reports": {
 			"summary": {
 				"command": "090 DET SQUAD",
@@ -57732,7 +57833,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 145,
-				"misdemeanor": 289,
+				"misdemeanor": 290,
 				"violation": 12
 			},
 			"awards": [
@@ -62104,44 +62205,6 @@
 		}
 	},
 	{
-		"taxid": 940983,
-		"full_name": "CEBALLOS, CARLOS C",
-		"first_name": "CARLOS",
-		"last_name": "CEBALLOS",
-		"middle_initial": "C",
-		"command": "005 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "29992",
-		"appt_date": "1/31/2006",
-		"recognition_count": 0,
-		"arrest_count": 100,
-		"reports": {
-			"summary": {
-				"command": "005 PRECINCT",
-				"assignment_date": "6/27/2006",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "29992",
-				"appt_date": "1/31/2006"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2006",
-					"shield_no": "29992"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 11,
-				"misdemeanor": 81,
-				"violation": 8
-			},
-			"awards": []
-		}
-	},
-	{
 		"taxid": 954621,
 		"full_name": "CEBALLOS, MIZAEL",
 		"first_name": "MIZAEL",
@@ -63347,7 +63410,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/30/2010 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "879-TRANSIT BUR SPECIAL OPER UNIT",
+							"case_no": "2010-2061",
+							"description": "WRONGFULLY ENGAGED IN A VERBAL DISPUTE WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT AND MADE THREATENING STATEMENTS.",
+							"penalty": "VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 283,
@@ -63511,7 +63588,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		}
@@ -66026,7 +66103,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/6/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "269-DET SQD. BX-046",
+							"case_no": "2018-18441",
+							"description": "wrongfully failed and neglected to safeguard her service firearm.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "269-DET SQD. BX-046",
+							"case_no": "2018-18441",
+							"description": "while on-duty, failed and neglected to safeguard Department equipment.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 203,
 				"misdemeanor": 256,
@@ -75658,7 +75756,7 @@
 		"first_name": "MELISSA",
 		"last_name": "CHARLES",
 		"middle_initial": "H",
-		"command": "090 PRECINCT",
+		"command": "073 PRECINCT",
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "1/10/2005",
@@ -75666,8 +75764,8 @@
 		"arrest_count": 45,
 		"reports": {
 			"summary": {
-				"command": "090 PRECINCT",
-				"assignment_date": "1/7/2023",
+				"command": "073 PRECINCT",
+				"assignment_date": "2/13/2023",
 				"ethnicity": "BLACK",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -76559,7 +76657,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/20/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2022-25253",
+							"description": "01.Failure to notify.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 67,
@@ -76780,7 +76891,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 24,
 				"misdemeanor": 34
 			},
 			"awards": []
@@ -78259,8 +78370,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "2480",
 		"appt_date": "1/10/2005",
-		"recognition_count": 1,
-		"arrest_count": 133,
+		"recognition_count": 2,
+		"arrest_count": 266,
 		"reports": {
 			"summary": {
 				"command": "CRIMINAL INTELLIGENCE SECTION",
@@ -80902,7 +81013,7 @@
 		"shield_no": "23474",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 158,
+		"arrest_count": 79,
 		"reports": {
 			"summary": {
 				"command": "019 PRECINCT",
@@ -83355,8 +83466,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "1/10/2005",
-		"recognition_count": 30,
-		"arrest_count": 66,
+		"recognition_count": 15,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 6",
@@ -83789,7 +83900,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		}
@@ -87029,8 +87140,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "2893",
 		"appt_date": "7/11/2005",
-		"recognition_count": 6,
-		"arrest_count": 310,
+		"recognition_count": 3,
+		"arrest_count": 155,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY DISTRICT SPECIALIZED TRAINING SCHOOL",
@@ -90983,8 +91094,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/11/2005",
-		"recognition_count": 8,
-		"arrest_count": 380,
+		"recognition_count": 4,
+		"arrest_count": 190,
 		"reports": {
 			"summary": {
 				"command": "023 PRECINCT",
@@ -91128,7 +91239,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 27
+				"misdemeanor": 28
 			},
 			"awards": []
 		}
@@ -93163,8 +93274,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 3
+				"felony": 2,
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -102166,7 +102277,7 @@
 		"shield_no": "17652",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 106,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -102186,9 +102297,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 6,
-				"felony": 4,
-				"misdemeanor": 96
+				"infraction": 3,
+				"felony": 2,
+				"misdemeanor": 48
 			},
 			"awards": []
 		}
@@ -107847,8 +107958,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 2
+				"felony": 8,
+				"misdemeanor": 4
 			},
 			"awards": []
 		}
@@ -109771,7 +109882,8 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 30,
-				"misdemeanor": 105,
+				"misdemeanor": 106,
+				"other": 1,
 				"violation": 21
 			},
 			"awards": []
@@ -109826,7 +109938,7 @@
 		"shield_no": "3805",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 103,
+		"arrest_count": 206,
 		"reports": {
 			"summary": {
 				"command": "OPERATIONS UNIT",
@@ -113614,8 +113726,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 7
+				"felony": 2,
+				"misdemeanor": 14
 			},
 			"awards": []
 		}
@@ -116232,7 +116344,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 49,
+				"misdemeanor": 50,
 				"violation": 3
 			},
 			"awards": [
@@ -119295,7 +119407,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 262,
+				"misdemeanor": 264,
 				"violation": 1
 			},
 			"awards": []
@@ -120067,7 +120179,7 @@
 		"shield_no": "627",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 424,
+		"arrest_count": 850,
 		"reports": {
 			"summary": {
 				"command": "049 DET SQUAD",
@@ -122140,7 +122252,7 @@
 		"shield_no": "3254",
 		"appt_date": "1/31/2006",
 		"recognition_count": 2,
-		"arrest_count": 988,
+		"arrest_count": 989,
 		"reports": {
 			"summary": {
 				"command": "046 DET SQUAD",
@@ -122763,8 +122875,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "2944",
 		"appt_date": "7/11/2005",
-		"recognition_count": 20,
-		"arrest_count": 301,
+		"recognition_count": 40,
+		"arrest_count": 602,
 		"reports": {
 			"summary": {
 				"command": "OPERATIONS & ANALYSIS SECTION",
@@ -123025,7 +123137,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 15
 			},
 			"awards": []
@@ -123508,8 +123620,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "707",
 		"appt_date": "1/10/2007",
-		"recognition_count": 34,
-		"arrest_count": 126,
+		"recognition_count": 17,
+		"arrest_count": 63,
 		"reports": {
 			"summary": {
 				"command": "WARRANT SECTION",
@@ -123540,22 +123652,12 @@
 			"discipline": [
 				{
 					"entry": "7/22/2022 12:00:00 AM",
-					"allegations_count": 4,
+					"allegations_count": 2,
 					"allegations": [
 						{
 							"recommendation": "B-CD",
 							"case_no": "2022-26627",
 							"description": "01.Wrongful entry of a premises."
-						},
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26627",
-							"description": "01.Wrongful entry of a premises."
-						},
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26627",
-							"description": "02.Wrongful search of a premises."
 						},
 						{
 							"recommendation": "B-CD",
@@ -123566,10 +123668,10 @@
 				}
 			],
 			"arrests": {
-				"infraction": 2,
-				"felony": 28,
-				"misdemeanor": 80,
-				"violation": 16
+				"infraction": 1,
+				"felony": 14,
+				"misdemeanor": 40,
+				"violation": 8
 			},
 			"awards": [
 				{
@@ -123577,19 +123679,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "2/16/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/19/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/19/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/12/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -123601,19 +123691,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "1/10/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "1/8/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/8/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/26/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -123625,19 +123703,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "11/20/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "10/10/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/10/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/5/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -123649,27 +123715,11 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "8/30/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/15/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "8/15/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "5/12/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/12/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/19/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -123681,27 +123731,11 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "2/17/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/13/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "2/13/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "10/6/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/6/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/20/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -124439,7 +124473,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2019-21464",
+							"description": "01.improper search of a recording device",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 162,
@@ -131682,7 +131729,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 268,
+				"misdemeanor": 269,
 				"violation": 4
 			},
 			"awards": [
@@ -134083,16 +134130,16 @@
 		"first_name": "JOSEPH",
 		"last_name": "CONWAY",
 		"middle_initial": "T",
-		"command": "EMERGENCY SERVICE UNIT",
+		"command": "BRONX COURT SECTION",
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "4157",
 		"appt_date": "7/11/2005",
-		"recognition_count": 34,
-		"arrest_count": 248,
+		"recognition_count": 17,
+		"arrest_count": 124,
 		"reports": {
 			"summary": {
-				"command": "EMERGENCY SERVICE UNIT",
-				"assignment_date": "11/12/2022",
+				"command": "BRONX COURT SECTION",
+				"assignment_date": "2/16/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "DETECTIVE SPECIALIST",
 				"shield_no": "4157",
@@ -134222,7 +134269,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		}
@@ -135472,7 +135519,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/20/2016 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "122-122 PRECINCT",
+							"case_no": "2016-15648",
+							"description": "WHILE ON-DUTY WRONGFULLY IMPEDED AND OFFICIAL DEPARTMENT INVESTIGATION BY MAKING MISLEADING OR OTHERWISE INACCURATE STATEMENTS DURING AN OFFICIAL DEPARTMENT INTERVIEW.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "122-122 PRECINCT",
+							"case_no": "2016-15648",
+							"description": "WHILE ON-DUTY WRONGFULLY IMPEDED AND OFFICIAL DEPARTMENT INVESTIGATION BY MAKING MISLEADING OR OTHERWISE INACCURATE STATEMENTS DURING AN OFFICIAL DEPARTMENT INTERVIEW.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 66,
@@ -141382,7 +141450,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 15
+				"misdemeanor": 17
 			},
 			"awards": []
 		}
@@ -141768,8 +141836,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/11/2005",
-		"recognition_count": 12,
-		"arrest_count": 398,
+		"recognition_count": 6,
+		"arrest_count": 199,
 		"reports": {
 			"summary": {
 				"command": "FORCE INVESTIGATION DIVISION",
@@ -144659,8 +144727,8 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "4159",
 		"appt_date": "7/10/2006",
-		"recognition_count": 3,
-		"arrest_count": 184,
+		"recognition_count": 6,
+		"arrest_count": 368,
 		"reports": {
 			"summary": {
 				"command": "LOWER MANHATTAN SECURITY INITIATIVE",
@@ -146013,7 +146081,7 @@
 		"shield_no": "2885",
 		"appt_date": "7/11/2005",
 		"recognition_count": 13,
-		"arrest_count": 302,
+		"arrest_count": 304,
 		"reports": {
 			"summary": {
 				"command": "102ND DET SQUAD",
@@ -146169,7 +146237,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		}
@@ -147120,8 +147188,8 @@
 		"rank": "LT DET COMMANDER",
 		"shield_no": "",
 		"appt_date": "1/10/2007",
-		"recognition_count": 10,
-		"arrest_count": 73,
+		"recognition_count": 20,
+		"arrest_count": 146,
 		"reports": {
 			"summary": {
 				"command": "067 DET SQUAD",
@@ -147156,14 +147224,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 16,
-				"misdemeanor": 51,
-				"violation": 5
+				"infraction": 2,
+				"felony": 32,
+				"misdemeanor": 102,
+				"violation": 10
 			},
 			"awards": [
 				{
 					"date": "10/15/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/15/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/8/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -147179,7 +147255,23 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "10/14/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/14/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "10/7/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/7/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/19/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -147191,11 +147283,27 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "11/12/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/28/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "10/28/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "3/5/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/5/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/4/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -147964,7 +148072,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 120,
-				"misdemeanor": 174,
+				"misdemeanor": 175,
 				"violation": 7
 			},
 			"awards": [
@@ -150494,7 +150602,7 @@
 		"shield_no": "7289",
 		"appt_date": "7/11/2005",
 		"recognition_count": 3,
-		"arrest_count": 153,
+		"arrest_count": 154,
 		"reports": {
 			"summary": {
 				"command": "BRONX CHILD ABUSE SQUAD",
@@ -152432,8 +152540,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1144",
 		"appt_date": "1/10/2007",
-		"recognition_count": 1,
-		"arrest_count": 71,
+		"recognition_count": 2,
+		"arrest_count": 142,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 30",
@@ -152456,14 +152564,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/21/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2022-24732",
+							"description": "01.Failed to prepare required reports."
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2022-24732",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 18,
-				"misdemeanor": 48,
-				"violation": 4
+				"infraction": 2,
+				"felony": 36,
+				"misdemeanor": 96,
+				"violation": 8
 			},
 			"awards": [
+				{
+					"date": "2/2/2010",
+					"name": "COMMENDATION"
+				},
 				{
 					"date": "2/2/2010",
 					"name": "COMMENDATION"
@@ -153854,9 +153983,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
-				"misdemeanor": 28,
-				"violation": 2
+				"felony": 9,
+				"misdemeanor": 14,
+				"violation": 1
 			},
 			"awards": []
 		}
@@ -155559,7 +155688,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/17/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "103-103 PRECINCT",
+							"case_no": "2018-19525",
+							"description": "Out of residence while on sick leave.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 28,
 				"misdemeanor": 108,
@@ -160386,8 +160529,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "2889",
 		"appt_date": "7/11/2005",
-		"recognition_count": 8,
-		"arrest_count": 402,
+		"recognition_count": 4,
+		"arrest_count": 201,
 		"reports": {
 			"summary": {
 				"command": "047 DET SQUAD",
@@ -164311,7 +164454,7 @@
 		"shield_no": "5460",
 		"appt_date": "7/10/2006",
 		"recognition_count": 47,
-		"arrest_count": 365,
+		"arrest_count": 367,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -165663,7 +165806,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 9
+				"misdemeanor": 11
 			},
 			"awards": []
 		}
@@ -166554,8 +166697,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "13552",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 99,
+		"recognition_count": 2,
+		"arrest_count": 198,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -169877,7 +170020,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/8/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25390",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 175,
 				"misdemeanor": 259,
@@ -171339,10 +171494,27 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/18/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25140",
+							"description": "01.Violated patrol rules."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25140",
+							"description": "01.Wrongfully discourteous."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 132,
-				"misdemeanor": 156,
+				"felony": 133,
+				"misdemeanor": 157,
 				"violation": 3
 			},
 			"awards": [
@@ -173503,8 +173675,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 8
+				"felony": 5,
+				"misdemeanor": 9
 			},
 			"awards": []
 		}
@@ -176261,7 +176433,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/22/2019 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "139-SOD STRAT RESP GRP 3 BKLYN",
+							"case_no": "2018-19755",
+							"description": "Wrongfully unholstered a firearm.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "139-SOD STRAT RESP GRP 3 BKLYN",
+							"case_no": "2018-19755",
+							"description": "Violated uniform rules/armed without a shield.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "139-SOD STRAT RESP GRP 3 BKLYN",
+							"case_no": "2018-19755",
+							"description": "Violated firearms maintenance rules.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 33,
