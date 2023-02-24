@@ -2337,7 +2337,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 6
 			},
 			"awards": []
@@ -3222,7 +3222,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 229,
-				"misdemeanor": 250,
+				"misdemeanor": 251,
 				"other": 3,
 				"violation": 16
 			},
@@ -3531,7 +3531,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-24328",
+							"description": "01.Failed to submit required report.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 49,
@@ -4468,8 +4481,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 2
+				"felony": 3,
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -7089,8 +7102,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 8
+				"felony": 8,
+				"misdemeanor": 16
 			},
 			"awards": []
 		}
@@ -7847,7 +7860,7 @@
 		"shield_no": "14828",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 142,
+		"arrest_count": 284,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 9",
@@ -8860,7 +8873,7 @@
 		"shield_no": "",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 160,
+		"arrest_count": 80,
 		"reports": {
 			"summary": {
 				"command": "CRITICAL RESPONSE COMMAND",

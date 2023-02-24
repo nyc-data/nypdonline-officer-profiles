@@ -277,7 +277,7 @@
 		"shield_no": "25548",
 		"appt_date": "7/16/2021",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -298,7 +298,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		}
@@ -899,10 +899,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 20,
-				"misdemeanor": 42,
-				"violation": 7
+				"infraction": 2,
+				"felony": 40,
+				"misdemeanor": 84,
+				"violation": 14
 			},
 			"awards": []
 		}
@@ -4096,7 +4096,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/20/2013 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3201",
+							"description": "WHILE OFF-DUTY,DID WRONGFULLY OPERATE A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3201",
+							"description": "DID WRONGFULLY OPERATE A MOTOR VEHICLE WHILE HIS ABILITY WAS IMPAIRED BY THE CONSUMPTION OF ALCOHOL.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3201",
+							"description": "REFUSED TO SUBMIT TO A BREATHALYZER TEST.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3201",
+							"description": "UNFIT FOR DUTY.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 26,
 				"misdemeanor": 342,
@@ -5792,7 +5827,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		}
@@ -6561,7 +6596,7 @@
 		"shield_no": "147",
 		"appt_date": "1/23/2007",
 		"recognition_count": 30,
-		"arrest_count": 777,
+		"arrest_count": 780,
 		"reports": {
 			"summary": {
 				"command": "048 DET SQUAD",
@@ -8107,7 +8142,7 @@
 		"first_name": "BABAJIDE",
 		"last_name": "OGUNADE",
 		"middle_initial": "",
-		"command": "TRANSIT DISTRICT 1",
+		"command": "NARC BORO MANHATTAN NORTH",
 		"rank": "POLICE OFFICER",
 		"shield_no": "4061",
 		"appt_date": "1/10/2005",
@@ -8115,8 +8150,8 @@
 		"arrest_count": 138,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 1",
-				"assignment_date": "10/5/2017",
+				"command": "NARC BORO MANHATTAN NORTH",
+				"assignment_date": "2/15/2023",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "4061",
@@ -8699,7 +8734,7 @@
 		"shield_no": "8113",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -8725,7 +8760,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		}
@@ -10063,7 +10098,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		}
@@ -11430,8 +11465,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 156,
-				"misdemeanor": 299,
+				"felony": 158,
+				"misdemeanor": 300,
 				"violation": 9
 			},
 			"awards": [
@@ -12052,7 +12087,7 @@
 		"shield_no": "1340",
 		"appt_date": "1/10/2007",
 		"recognition_count": 4,
-		"arrest_count": 406,
+		"arrest_count": 407,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN SPECIAL VICTIMS SQUAD",
@@ -13624,7 +13659,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		}
@@ -13842,15 +13877,23 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 67,
-				"misdemeanor": 184,
-				"violation": 18
+				"infraction": 4,
+				"felony": 134,
+				"misdemeanor": 368,
+				"violation": 36
 			},
 			"awards": [
 				{
 					"date": "10/1/2012",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/1/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/20/2012",
+					"name": "COMMENDATION"
 				},
 				{
 					"date": "9/20/2012",
@@ -15520,7 +15563,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 199,
+				"misdemeanor": 200,
 				"violation": 1
 			},
 			"awards": []
@@ -15815,11 +15858,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 31,
-				"misdemeanor": 78,
-				"violation": 18
+				"felony": 62,
+				"misdemeanor": 156,
+				"violation": 36
 			},
 			"awards": [
+				{
+					"date": "9/20/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "9/20/2016",
 					"name": "EXCELLENT POLICE DUTY"
@@ -15829,7 +15876,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "6/5/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "10/9/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/9/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/9/2012",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -21570,7 +21629,7 @@
 		"shield_no": "28451",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 13,
+		"arrest_count": 14,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -22141,8 +22200,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 17
+				"felony": 5,
+				"misdemeanor": 18
 			},
 			"awards": []
 		}
@@ -25908,7 +25967,7 @@
 		"shield_no": "6128",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 483,
+		"arrest_count": 485,
 		"reports": {
 			"summary": {
 				"command": "STRIKE FORCE",
@@ -27382,7 +27441,54 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/3/2011 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "045-045 PRECINCT",
+							"case_no": "2010-3387",
+							"description": "WHILE OFF-DUTY,WRONGFULLY AND WITHOUT JUST CAUSE DISPLAYED A PHOTOCOPY OF A DEPARTMENT RESTRICTED PARKING PERMIT IN HIS PRIVATE VEHICLE WHICH WAS PARKED UNLAWFULLY IN A \"NO STANDING ANYTIME\" ZONE.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "045-045 PRECINCT",
+							"case_no": "2010-3387",
+							"description": "WRONGFULLY AND WITHOUT JUST CAUSE MADE A COLOR PHOTOCOPY OF A DEPARTMENT RESTRICTED PARKING PERMIT ISSUED TO ANOTHER UNIFORMED MEMBER OF THE SERVICE.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "045-045 PRECINCT",
+							"case_no": "2010-3387",
+							"description": "WHILE OFF-DUTY,WRONGFULLY AND WITHOUT JUST CAUSE DISPLAYED A PHOTOCOPY OF A DEPARTMENT RESTRICTED PARKING PERMIT IN HIS PRIVATE VEHICLE WHICH WAS DOUBLE-PARKED UNLAWFULLY.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "045-045 PRECINCT",
+							"case_no": "2010-3387",
+							"description": "WRONGFULLY AND WITHOUT DEPARTMENT AUTHORIZATION SOLD A FIREARM, OWNED BY SAID POLICE OFFICER TO ANOTHER LICENSED UNIFORMED MEMBER OF THE SERVICE.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "12/7/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD,                                                                                                                                                                                                                                 C-CD",
+							"case_no": "2021-24004",
+							"description": "01.Improper communication with a relative of a prisoner.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 129,
 				"misdemeanor": 264,
@@ -27714,8 +27820,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 119,
-				"misdemeanor": 384,
+				"felony": 120,
+				"misdemeanor": 385,
 				"violation": 17
 			},
 			"awards": [
@@ -28209,7 +28315,7 @@
 		"shield_no": "14452",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 12,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -34357,7 +34463,7 @@
 		"shield_no": "2011",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 18,
+		"arrest_count": 19,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -34377,7 +34483,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
+				"felony": 7,
 				"misdemeanor": 12
 			},
 			"awards": []
