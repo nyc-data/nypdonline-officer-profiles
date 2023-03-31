@@ -108,7 +108,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": [
 				{
@@ -517,7 +517,7 @@
 		"shield_no": "8585",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 52,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "084 PRECINCT",
@@ -537,7 +537,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
+				"felony": 11,
 				"misdemeanor": 42
 			},
 			"awards": [
@@ -1137,7 +1137,7 @@
 		"shield_no": "15379",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 18,
 		"reports": {
 			"summary": {
 				"command": "TRB CITYWIDE TRAFFIC T/F",
@@ -1329,7 +1329,7 @@
 		"shield_no": "16614",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 1",
@@ -1349,7 +1349,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 4,
+				"violation": 1
 			},
 			"awards": []
 		}
@@ -2911,7 +2912,7 @@
 		"shield_no": "7509",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 81,
+		"arrest_count": 82,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -2932,7 +2933,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 32,
+				"felony": 33,
 				"misdemeanor": 46,
 				"violation": 1
 			},
@@ -3013,7 +3014,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 56
+				"misdemeanor": 57
 			},
 			"awards": []
 		}
@@ -3859,7 +3860,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "8989",
 		"appt_date": "4/25/2018",
-		"recognition_count": 1,
+		"recognition_count": 0,
 		"arrest_count": 27,
 		"reports": {
 			"summary": {
@@ -3870,14 +3871,25 @@
 				"shield_no": "8989",
 				"appt_date": "4/25/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/25/2018",
+					"shield_no": "8989"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 18
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "1/30/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		}
 	},
 	{
@@ -3933,7 +3945,7 @@
 		"shield_no": "3262",
 		"appt_date": "4/15/2019",
 		"recognition_count": 3,
-		"arrest_count": 46,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -6897,7 +6909,7 @@
 		"shield_no": "11473",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 55,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -9237,14 +9249,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 45,
-				"violation": 1
+				"felony": 12,
+				"misdemeanor": 90,
+				"violation": 2
 			},
 			"awards": [
 				{
 					"date": "7/22/2008",
 					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "7/22/2008",
+					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "7/22/2008",
+					"name": "POLICE COMBAT CROSS"
 				},
 				{
 					"date": "7/22/2008",
@@ -9255,12 +9275,28 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "9/3/2007",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/28/2007",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "6/28/2007",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "8/4/2006",
 					"name": "COMMENDATION"
+				},
+				{
+					"date": "8/4/2006",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "1/31/1999",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "1/31/1999",
@@ -9550,7 +9586,7 @@
 		"first_name": "BIANCA",
 		"last_name": "IRWIN",
 		"middle_initial": "P",
-		"command": "006 PRECINCT",
+		"command": "PATROL SERVICES BUREAU",
 		"rank": "POLICE OFFICER",
 		"shield_no": "2049",
 		"appt_date": "1/10/2018",
@@ -9558,8 +9594,8 @@
 		"arrest_count": 50,
 		"reports": {
 			"summary": {
-				"command": "006 PRECINCT",
-				"assignment_date": "5/8/2019",
+				"command": "PATROL SERVICES BUREAU",
+				"assignment_date": "3/23/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "2049",
@@ -9873,7 +9909,7 @@
 		"shield_no": "15529",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 52,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -10151,8 +10187,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "12384",
 		"appt_date": "4/15/2019",
-		"recognition_count": 2,
-		"arrest_count": 52,
+		"recognition_count": 3,
+		"arrest_count": 54,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -12667,7 +12703,7 @@
 		"shield_no": "20054",
 		"appt_date": "7/1/2019",
 		"recognition_count": 1,
-		"arrest_count": 76,
+		"arrest_count": 80,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
