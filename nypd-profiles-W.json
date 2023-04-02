@@ -2003,48 +2003,11 @@
 				"shield_no": "5486",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/11/2005",
-					"shield_no": "1936"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "1/31/2014",
-					"shield_no": "5058"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "8/31/2015",
-					"shield_no": "5486"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 68,
-				"misdemeanor": 64,
-				"violation": 17
-			},
-			"awards": [
-				{
-					"date": "9/9/2010",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "2/2/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/7/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/11/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		}
 	},
 	{
@@ -9062,7 +9025,7 @@
 		"shield_no": "11923",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 30,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -9082,8 +9045,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
-				"misdemeanor": 18,
+				"felony": 11,
+				"misdemeanor": 19,
 				"violation": 3
 			},
 			"awards": []
@@ -10287,7 +10250,7 @@
 		"shield_no": "3722",
 		"appt_date": "7/1/2002",
 		"recognition_count": 0,
-		"arrest_count": 750,
+		"arrest_count": 1500,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO QUEENS NORTH",
@@ -10318,10 +10281,10 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 215,
-				"misdemeanor": 530,
-				"violation": 3
+				"infraction": 4,
+				"felony": 430,
+				"misdemeanor": 1060,
+				"violation": 6
 			},
 			"awards": []
 		}
@@ -11609,7 +11572,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26071",
+							"description": "01.Failed to take police action/render police services."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 30,
 				"misdemeanor": 108,
@@ -11827,28 +11802,43 @@
 			"discipline": [
 				{
 					"entry": "6/28/2011 12:00:00 AM",
-					"charges_count": 1,
+					"charges_count": 2,
 					"charges": [
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "073-073 PRECINCT",
 							"case_no": "2010-1967",
 							"description": "WHILE ON DUTY, DID FAIL AND NEGLECT TO MEMORIALIZE HIS ACTIVITY IN HIS ACTIVITY LOG.",
-							"penalty": "VACATION DAYS (5 day(s) )"
+							"penalty": "VACATION DAYS (5 day(s) ), VACATION DAYS (5 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2010-1967",
+							"description": "WHILE ON DUTY, DID FAIL AND NEGLECT TO MEMORIALIZE HIS ACTIVITY IN HIS ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (5 day(s) ), VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 176,
-				"misdemeanor": 435,
-				"violation": 3
+				"infraction": 2,
+				"felony": 352,
+				"misdemeanor": 870,
+				"violation": 6
 			},
 			"awards": [
 				{
 					"date": "12/1/2015",
 					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "12/1/2015",
+					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "12/1/2015",
+					"name": "MEDAL FOR VALOR"
 				},
 				{
 					"date": "12/1/2015",
@@ -11859,12 +11849,28 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "9/16/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/31/2013",
+					"name": "COMMENDATION"
+				},
+				{
 					"date": "10/31/2013",
 					"name": "COMMENDATION"
 				},
 				{
 					"date": "10/30/2013",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/30/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/14/2013",
+					"name": "COMMENDATION"
 				},
 				{
 					"date": "9/14/2013",
@@ -11879,11 +11885,35 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "8/15/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/15/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/29/2013",
+					"name": "COMMENDATION"
+				},
+				{
 					"date": "5/29/2013",
 					"name": "COMMENDATION"
 				},
 				{
 					"date": "5/11/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/11/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/27/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/27/2013",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -11899,7 +11929,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/5/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/12/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/12/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/1/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -11911,6 +11953,14 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "9/7/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/29/2006",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "7/29/2006",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -11919,8 +11969,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/1/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "5/29/2006",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/29/2006",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/4/2006",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "5/4/2006",
@@ -15087,9 +15149,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
-				"misdemeanor": 160,
-				"violation": 8
+				"felony": 21,
+				"misdemeanor": 80,
+				"violation": 4
 			},
 			"awards": []
 		}
@@ -15196,7 +15258,7 @@
 		"shield_no": "6294",
 		"appt_date": "7/1/2001",
 		"recognition_count": 4,
-		"arrest_count": 529,
+		"arrest_count": 530,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -15222,7 +15284,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 7,
-				"felony": 275,
+				"felony": 276,
 				"misdemeanor": 220,
 				"violation": 27
 			},
@@ -15929,7 +15991,7 @@
 		"shield_no": "932",
 		"appt_date": "7/1/2003",
 		"recognition_count": 4,
-		"arrest_count": 502,
+		"arrest_count": 504,
 		"reports": {
 			"summary": {
 				"command": "102ND DET SQUAD",
@@ -15954,8 +16016,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 297,
-				"misdemeanor": 195,
+				"felony": 298,
+				"misdemeanor": 196,
 				"violation": 10
 			},
 			"awards": [
@@ -16723,7 +16785,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "30611",
 		"appt_date": "7/1/2003",
-		"recognition_count": 0,
+		"recognition_count": 1,
 		"arrest_count": 144,
 		"reports": {
 			"summary": {
@@ -16783,7 +16845,12 @@
 				"misdemeanor": 107,
 				"violation": 6
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "8/13/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		}
 	},
 	{
@@ -18716,7 +18783,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/5/2019 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "420-MOUNTED UNIT",
+							"case_no": "2019-20166",
+							"description": "Operated a motor vehicle while under the influence of an intoxicant.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), SUSPENDED W/O PAY (13 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "420-MOUNTED UNIT",
+							"case_no": "2019-20166",
+							"description": "Operated a motor vehicle while ability impaired.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), SUSPENDED W/O PAY (13 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "420-MOUNTED UNIT",
+							"case_no": "2019-20166",
+							"description": "Unfit for duty.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), SUSPENDED W/O PAY (13 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "420-MOUNTED UNIT",
+							"case_no": "2019-20166",
+							"description": "Refused to submit to a breathalyzer.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), SUSPENDED W/O PAY (13 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "420-MOUNTED UNIT",
+							"case_no": "2019-20166",
+							"description": "Open container of alcohol in a vehicle.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), SUSPENDED W/O PAY (13 day(s) ), VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 72,
@@ -20951,7 +21060,7 @@
 		"shield_no": "1791",
 		"appt_date": "7/1/2003",
 		"recognition_count": 0,
-		"arrest_count": 138,
+		"arrest_count": 69,
 		"reports": {
 			"summary": {
 				"command": "LATENT PRINT SECTION",
@@ -20976,10 +21085,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 20,
-				"misdemeanor": 110,
-				"violation": 6
+				"infraction": 1,
+				"felony": 10,
+				"misdemeanor": 55,
+				"violation": 3
 			},
 			"awards": []
 		}
@@ -21601,8 +21710,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "27532",
 		"appt_date": "7/1/2003",
-		"recognition_count": 2,
-		"arrest_count": 106,
+		"recognition_count": 4,
+		"arrest_count": 212,
 		"reports": {
 			"summary": {
 				"command": "CRITICAL RESPONSE COMMAND",
@@ -21622,14 +21731,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 24,
-				"misdemeanor": 71,
-				"violation": 10
+				"infraction": 2,
+				"felony": 48,
+				"misdemeanor": 142,
+				"violation": 20
 			},
 			"awards": [
 				{
 					"date": "11/10/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/10/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/25/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -21762,8 +21879,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "27411",
 		"appt_date": "7/7/1999",
-		"recognition_count": 7,
-		"arrest_count": 70,
+		"recognition_count": 14,
+		"arrest_count": 140,
 		"reports": {
 			"summary": {
 				"command": "AVIATION UNIT",
@@ -23000,8 +23117,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "4848",
 		"appt_date": "1/6/2020",
-		"recognition_count": 0,
-		"arrest_count": 54,
+		"recognition_count": 2,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 34",
@@ -24668,7 +24785,7 @@
 		"shield_no": "5329",
 		"appt_date": "7/1/2003",
 		"recognition_count": 0,
-		"arrest_count": 322,
+		"arrest_count": 644,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -24698,10 +24815,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 108,
-				"misdemeanor": 205,
-				"violation": 8
+				"infraction": 2,
+				"felony": 216,
+				"misdemeanor": 410,
+				"violation": 16
 			},
 			"awards": []
 		}
@@ -35742,7 +35859,7 @@
 		"shield_no": "24557",
 		"appt_date": "7/11/2012",
 		"recognition_count": 2,
-		"arrest_count": 212,
+		"arrest_count": 213,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -35946,7 +36063,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/20/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-22439",
+							"description": "01.Wrongful removal to hospital.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 27,
 				"misdemeanor": 65
@@ -40885,7 +41015,96 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/12/2016 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2016-15350",
+							"description": "KNOWINGLY ASSOCIATED WITH A PERSON OR ORGANIZATION REASONABLY BELIEVED TO BE ENGAGED IN, LIKELY TO BE ENGAGED IN OR TO HAVE ENGAGED IN CRIMINAL ACTIVITIES.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2016-15350",
+							"description": "MADE INQUIRIES IN THE FINEST SYSTEM WHICH WAS NOT RELATED TO OFFICIAL BUSINESS OF THE DEPARTMENT AND DIVULGED INFORMATION FROM THE SYSTEM WITHOUT PERMISSION OR AUTHORITY TO DO SO.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2016-15350",
+							"description": "MADE INQUIRIES IN THE FINEST SYSTEM WHICH WAS NOT RELATED TO OFFICIAL BUSINESS OF THE DEPARTMENT AND DIVULGED INFORMATION FROM THE SYSTEM WITHOUT PERMISSION OR AUTHORITY TO DO SO.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2016-15350",
+							"description": "MADE INQUIRIES IN THE FINEST SYSTEM WHICH WAS NOT RELATED TO OFFICIAL BUSINESS OF THE DEPARTMENT AND DIVULGED INFORMATION FROM THE SYSTEM WITHOUT PERMISSION OR AUTHORITY TO DO SO.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "1/5/2017 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2016-16324",
+							"description": "ATTEMPTED TO ENGAGE THE ASSISTANCE OF OTHER MEMBERS OF THE SERVICE IN DISCOVERING INFORMATION ABOUT A CONFIDENTIAL INVESTIGATION.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2016-16324",
+							"description": "DIVULGED THE EXISTENCE OF A CONFIDENTIAL INVESTIGATION TO A NON-PARTY MEMBER OF THE SERVICE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "7/14/2020 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2020-22147",
+							"description": "Misuse of time (straight or overtime).",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($406), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2020-22147",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($406), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2020-22147",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($406), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2020-22147",
+							"description": "Failed to make required entries in Department Logs",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($406), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 90,
@@ -44453,7 +44672,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/11/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27621",
+							"description": "01.Wrongful threat of force."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 102,
 				"misdemeanor": 218,
@@ -45041,8 +45272,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "16722",
 		"appt_date": "7/13/2016",
-		"recognition_count": 4,
-		"arrest_count": 71,
+		"recognition_count": 8,
+		"arrest_count": 142,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -45073,11 +45304,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "5/3/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/9/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/9/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "6/25/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/25/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/11/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -51350,7 +51597,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/11/2010 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1385",
+							"description": "WRONGFULLY OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (18 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1385",
+							"description": "WRONGFULLY OPERATED A MOTOR VEHICLE WHILE ABILITY WAS IMPAIRED BY AN INTOXICANT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (18 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1385",
+							"description": "REFUSED TO SUBMIT TO A BREATHALYZER TEST.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (18 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1385",
+							"description": "UNFIT FOR DUTY.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (18 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1385",
+							"description": "UNFIT FOR DUTY WHILE ARMED.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (18 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 63,
@@ -53146,7 +53435,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/23/2016 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "013-013 PRECINCT",
+							"case_no": "2016-16230",
+							"description": "HAVING BECOME AWARE OF AN ALLEGATION OF MISCONDUCT, WRONGFULLY FAILED TO REPORT SAID ALLEGATION TO THE INTERNAL AFFAIRS BUREAU.",
+							"penalty": "INSTRUCTIONS, VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "013-013 PRECINCT",
+							"case_no": "2016-16230",
+							"description": "WRONGFULLY FAILED TO SUPERVISE A SUBORDINATE MEMBER OF THE SERVICE UPON LEARNING OR SUSPECTING THAT SAID SUBORDINATE WAS USING OR MAY HAVE USED ILLEGAL DRUGS OR CONTROLLED SUBSTANCES.",
+							"penalty": "INSTRUCTIONS, VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 9,
@@ -54461,8 +54771,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "18327",
 		"appt_date": "1/6/2016",
-		"recognition_count": 33,
-		"arrest_count": 143,
+		"recognition_count": 66,
+		"arrest_count": 286,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -54482,9 +54792,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 79,
-				"misdemeanor": 58,
-				"violation": 6
+				"felony": 158,
+				"misdemeanor": 116,
+				"violation": 12
 			},
 			"awards": [
 				{
@@ -55943,7 +56253,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/14/2019 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "388-MEDICAL DIVISION",
+							"case_no": "2019-20489",
+							"description": "Failed to safeguard a firearm.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (22 day(s) ), VACATION DAYS (8 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "388-MEDICAL DIVISION",
+							"case_no": "2019-20489",
+							"description": "Failed to safeguard Department equipment (ballistic vest).",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (22 day(s) ), VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 35,
 				"misdemeanor": 81,
