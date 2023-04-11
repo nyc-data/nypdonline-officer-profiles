@@ -79,7 +79,7 @@
 			"arrests": {
 				"infraction": 4,
 				"felony": 73,
-				"misdemeanor": 222,
+				"misdemeanor": 223,
 				"violation": 6
 			},
 			"awards": [
@@ -2190,7 +2190,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": []
 		}
@@ -2911,7 +2911,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/6/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-27947",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 32,
