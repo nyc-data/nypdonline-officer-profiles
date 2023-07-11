@@ -761,14 +761,6 @@
 		"recognition_count": 0,
 		"arrest_count": 61,
 		"reports": {
-			"summary": {
-				"command": "PROPERTY CLERK SECTION",
-				"assignment_date": "10/5/2014",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "29983",
-				"appt_date": "7/1/2003"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -784,15 +776,9 @@
 				}
 			],
 			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 14,
-				"misdemeanor": 36,
-				"violation": 10
-			},
+			"arrests": {},
 			"awards": []
-		},
-		"command": "PROPERTY CLERK SECTION"
+		}
 	},
 	{
 		"taxid": 965066,
@@ -5219,7 +5205,7 @@
 				"command": "JOINT TERRORIST TASK FORCE",
 				"assignment_date": "1/14/2022",
 				"ethnicity": "BLACK",
-				"rank_desc": "DETECTIVE 3RD GRADE",
+				"rank_desc": "DETECTIVE 2ND GRADE",
 				"shield_no": "4568",
 				"appt_date": "7/2/2001"
 			},
@@ -5312,7 +5298,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/13/2015 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "90-090 PRECINCT",
+							"case_no": "2015-12947",
+							"description": "WHILE ON-DUTY, ENTERED A LOCATION KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "90-090 PRECINCT",
+							"case_no": "2015-12947",
+							"description": "WHILE ON-DUTY, SEARCHED A LOCATION KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 34,
@@ -10429,14 +10436,6 @@
 		"recognition_count": 0,
 		"arrest_count": 107,
 		"reports": {
-			"summary": {
-				"command": "020 PRECINCT",
-				"assignment_date": "9/8/2018",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "1461",
-				"appt_date": "7/1/2003"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -10446,15 +10445,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"infraction": 4,
-				"felony": 18,
-				"misdemeanor": 84,
-				"violation": 1
-			},
+			"arrests": {},
 			"awards": []
-		},
-		"command": "020 PRECINCT"
+		}
 	},
 	{
 		"taxid": 960495,
@@ -12113,8 +12106,8 @@
 		"arrest_count": 53,
 		"reports": {
 			"summary": {
-				"command": "TRAINING BUREAU INV UNIT",
-				"assignment_date": "8/2/2018",
+				"command": "IAB INVESTIGATIONS UNIT 27",
+				"assignment_date": "7/3/2023",
 				"ethnicity": "BLACK",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -12156,7 +12149,7 @@
 				}
 			]
 		},
-		"command": "TRAINING BUREAU INV UNIT"
+		"command": "IAB INVESTIGATIONS UNIT 27"
 	},
 	{
 		"taxid": 960493,
@@ -12828,7 +12821,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/7/2010 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "FAILED TO RESIDE WITHIN THE CITY OF NEW YORK OR COUNTIES OF WESTCHESTER, ROCKLAND, ORANGE, PUTNAM, NASSAU OR SUFFOLK AS REQUIRED.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "FAILED TO SUBMIT CHANGE OF NAME, RESIDENCE OR SOCIAL CONDITION FORM TO DEPARTMENT.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "HAVING CHANGED SAID MEMBER'S RESIDENCE, FAILED TO MAINTAIN CORRECT DEPARTMENT OF MOTOR VEHICLE RECORDS .",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "WHILE ON SICK REPORT WRONGFULLY LEFT CONFINES OF THE CITY OR RESIDENCE COUNTIES WITHOUT APPROVAL FROM CHIEF OF PERSONNEL.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "70-070 PRECINCT",
+							"case_no": "2010-2257",
+							"description": "WRONGFULLY REPORTED A NEW YORK ADDRESS TO THE DEPARTMENT WHEN IN FACT SAID MEMBER RESIDED IN NEW JERSEY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 6,
@@ -13159,209 +13194,6 @@
 		"command": "073 PRECINCT"
 	},
 	{
-		"taxid": 955900,
-		"full_name": "ELZ, GREGORY S",
-		"first_name": "GREGORY",
-		"last_name": "ELZ",
-		"middle_initial": "S",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "4837",
-		"appt_date": "1/8/2014",
-		"recognition_count": 29,
-		"arrest_count": 184,
-		"reports": {
-			"summary": {
-				"command": "SPECIAL VICTIMS DIVISION",
-				"assignment_date": "1/12/2023",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "4837",
-				"appt_date": "1/8/2014"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/8/2014",
-					"shield_no": "15859"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "5/27/2022",
-					"shield_no": "4837"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 107,
-				"misdemeanor": 64,
-				"violation": 11
-			},
-			"awards": [
-				{
-					"date": "9/10/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/8/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/19/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/21/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/10/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/5/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/4/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/21/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/24/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/2/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/17/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/23/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/30/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/8/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/23/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/8/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/20/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/10/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/4/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/18/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/18/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/27/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/25/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/25/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/16/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/10/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "SPECIAL VICTIMS DIVISION"
-	},
-	{
-		"taxid": 968391,
-		"full_name": "EMANUEL, JOSHUA J",
-		"first_name": "JOSHUA",
-		"last_name": "EMANUEL",
-		"middle_initial": "J",
-		"rank": "POLICE OFFICER",
-		"shield_no": "26032",
-		"appt_date": "10/7/2019",
-		"recognition_count": 1,
-		"arrest_count": 34,
-		"reports": {
-			"summary": {
-				"command": "041 PRECINCT",
-				"assignment_date": "3/10/2021",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "26032",
-				"appt_date": "10/7/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2019",
-					"shield_no": "26032"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 10,
-				"misdemeanor": 24
-			},
-			"awards": [
-				{
-					"date": "1/1/2023",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "041 PRECINCT"
-	},
-	{
 		"taxid": 956621,
 		"full_name": "EMANUEL, TREA A",
 		"first_name": "TREA",
@@ -13440,65 +13272,6 @@
 			]
 		},
 		"command": "108 PRECINCT"
-	},
-	{
-		"taxid": 932603,
-		"full_name": "EMBUREY, GRAHAM I",
-		"first_name": "GRAHAM",
-		"last_name": "EMBUREY",
-		"middle_initial": "I",
-		"rank": "POLICE OFFICER",
-		"shield_no": "25748",
-		"appt_date": "7/1/2003",
-		"recognition_count": 5,
-		"arrest_count": 53,
-		"reports": {
-			"summary": {
-				"command": "073 PRECINCT",
-				"assignment_date": "1/12/2004",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "25748",
-				"appt_date": "7/1/2003"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2003",
-					"shield_no": "25748"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 9,
-				"misdemeanor": 36,
-				"violation": 8
-			},
-			"awards": [
-				{
-					"date": "4/30/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/12/2011",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/20/2009",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/26/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/16/2005",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		},
-		"command": "073 PRECINCT"
 	},
 	{
 		"taxid": 971044,
@@ -13724,7 +13497,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/24/2012 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "078-078 PRECINCT",
+							"case_no": "2010-2169",
+							"description": "WRONGFULLY UTILIZED A DEPARTMENT COMPUTER ON MULTIPLE OCCASIONS FOR NON-DEPARTMENT RELATED BUSINESS.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "078-078 PRECINCT",
+							"case_no": "2010-2169",
+							"description": "KNOWINGLY ASSOCIATED WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT WHO ENGAGED IN CRIMINAL ACTIVITIES",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 28,
@@ -15387,68 +15181,6 @@
 		"command": "LATENT PRINT SECTION"
 	},
 	{
-		"taxid": 915669,
-		"full_name": "ENGLISH, JOSEPH E",
-		"first_name": "JOSEPH",
-		"last_name": "ENGLISH",
-		"middle_initial": "E",
-		"rank": "POLICE OFFICER",
-		"shield_no": "27525",
-		"appt_date": "6/30/1995",
-		"recognition_count": 4,
-		"arrest_count": 603,
-		"reports": {
-			"summary": {
-				"command": "030 PRECINCT",
-				"assignment_date": "9/14/2016",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "27525",
-				"appt_date": "6/30/1995"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "6/30/1995",
-					"shield_no": "27238"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/5/2000",
-					"shield_no": "27525"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 150,
-				"misdemeanor": 440,
-				"other": 1,
-				"violation": 10
-			},
-			"awards": [
-				{
-					"date": "4/24/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/27/1997",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/18/1997",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/9/1996",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "030 PRECINCT"
-	},
-	{
 		"taxid": 966558,
 		"full_name": "ENGLISH, SAMANTHA J",
 		"first_name": "SAMANTHA",
@@ -16321,7 +16053,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/20/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2022-25255",
+							"description": "01.Failure to notify.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 61,
@@ -16335,49 +16080,6 @@
 			]
 		},
 		"command": "CHIEF OF DEPARTMENT"
-	},
-	{
-		"taxid": 932616,
-		"full_name": "EPPS, TRENNET V",
-		"first_name": "TRENNET",
-		"last_name": "EPPS",
-		"middle_initial": "V",
-		"rank": "POLICE OFFICER",
-		"shield_no": "30975",
-		"appt_date": "7/1/2003",
-		"recognition_count": 1,
-		"arrest_count": 86,
-		"reports": {
-			"summary": {
-				"command": "084 PRECINCT",
-				"assignment_date": "9/25/2013",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "30975",
-				"appt_date": "7/1/2003"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2003",
-					"shield_no": "30975"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 11,
-				"misdemeanor": 73,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "5/14/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "084 PRECINCT"
 	},
 	{
 		"taxid": 938436,
@@ -16417,7 +16119,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2020-21904",
+							"description": "01.Improper search of premise.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 31,
@@ -17731,7 +17446,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/17/2016 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "822-HOUSING BOROUGH MANHATTAN",
+							"case_no": "2016-15422",
+							"description": "WHILE OFF-DUTY, FAILED TO REMAIN AT THE SCENE OF AN UNUSUAL POLICE OCCURRENCE AND/OR PROMPTLY NOTIFY THE OPERATIONS UNIT.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "822-HOUSING BOROUGH MANHATTAN",
+							"case_no": "2016-15422",
+							"description": "WHILE OFF-DUTY, WRONGFULLY PROVIDED INACCURATE OR INCOMPLETE INFORMATION TO A NASSAU COUNTY 911 DISPATCHER.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "822-HOUSING BOROUGH MANHATTAN",
+							"case_no": "2016-15422",
+							"description": "WHILE OFF-DUTY,  UPON BEING PROMPTED FOR HER NAME BY A NASSAU COUNTY 911 DISPATCHER, FAILED TO PROVIDE HER NAME.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "822-HOUSING BOROUGH MANHATTAN",
+							"case_no": "2016-15422",
+							"description": "WHILE OFF-DUTY, WRONGFULLY REMOVED A PARTICIPANT IN AN UNUSUAL POLICE OCCURRENCE FROM THE SCENE OF THE INCIDENT WITHOUT INFORMING OR SEEKING GUIDANCE FROM LOCAL LAW ENFORCEMENT OR THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 16,
@@ -17829,9 +17579,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 160,
-				"violation": 46
+				"felony": 3,
+				"misdemeanor": 80,
+				"violation": 23
 			},
 			"awards": []
 		},
@@ -28869,8 +28619,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "4144",
 		"appt_date": "7/1/2003",
-		"recognition_count": 1,
-		"arrest_count": 53,
+		"recognition_count": 2,
+		"arrest_count": 106,
 		"reports": {
 			"summary": {
 				"command": "COURT MONITORING UNIT 2 (MN/BX/QS/QN)",
