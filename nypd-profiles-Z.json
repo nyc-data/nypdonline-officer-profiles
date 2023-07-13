@@ -1368,8 +1368,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 9
+				"felony": 8,
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -2783,7 +2783,7 @@
 		"shield_no": "26716",
 		"appt_date": "3/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 39,
+		"arrest_count": 41,
 		"reports": {
 			"summary": {
 				"command": "076 PRECINCT",
@@ -2804,7 +2804,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 11,
+				"felony": 13,
 				"misdemeanor": 27
 			},
 			"awards": []
@@ -5905,7 +5905,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 10,
+				"felony": 11,
 				"misdemeanor": 11
 			},
 			"awards": []
@@ -8717,7 +8717,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -9354,7 +9354,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 2,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -10326,6 +10326,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
+				"infraction": 1,
 				"felony": 16,
 				"misdemeanor": 23
 			},
@@ -10592,11 +10593,46 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/17/2016 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2016-15827",
+							"description": "WHILE OFF-DUTY, WAS INVOLVED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2016-15827",
+							"description": "WHILE OFF-DUTY, HAVING BEEN INVOLVED IN AN OFF-DUTY INCIDENT, DID THEREAFTER FAIL AND NEGLECT TO REPORT SAID INCIDENT TO THE PATROL SUPERVISOR.",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2016-15827",
+							"description": "WHILE OFF-DUTY, DID WRONGFULLY CONSUME AN INTOXICANT TO THE EXTENT THAT SAID OFFICER WAS UNFIT FOR DUTY.",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2016-15827",
+							"description": "DID WRONGFULLY AND WITHOUT JUST CAUSE PREVENT OR INTERFERE WITH AN OFFICIAL DEPARTMENT INVESTIGATION.",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 96,
-				"misdemeanor": 478,
-				"violation": 78
+				"felony": 48,
+				"misdemeanor": 239,
+				"violation": 39
 			},
 			"awards": [
 				{
@@ -10604,19 +10640,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "9/27/2011",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "4/12/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/12/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/16/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10628,19 +10652,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/6/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/5/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/5/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/21/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10652,20 +10664,8 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "7/10/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/16/2007",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/16/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/1/2006",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "10/1/2006",
@@ -12851,8 +12851,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 18
+				"felony": 7,
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -14198,7 +14198,7 @@
 		"shield_no": "31231",
 		"appt_date": "1/9/2006",
 		"recognition_count": 23,
-		"arrest_count": 196,
+		"arrest_count": 198,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -15376,7 +15376,96 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/20/2011 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "104-104 PRECINCT",
+							"case_no": "2010-3263",
+							"description": "FAILED TO MAKE ACTIVITY LOG ENTRY",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "104-104 PRECINCT",
+							"case_no": "2010-3263",
+							"description": "FAILED TO PREPARE A UF-250 STOP AND FRISK REPORT.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "104-104 PRECINCT",
+							"case_no": "2010-3263",
+							"description": "IMPROPERLY SEARCHED A VEHICLE OCCUPIED BY PERON KNOWN TO DEPARTMENT",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "104-104 PRECINCT",
+							"case_no": "2010-3263",
+							"description": "IMPROPERLY FRISKED PERSON KNOWN TO DEPARTMENT",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "8/7/2014 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2014-11645",
+							"description": "WHILE ON-DUTY, WRONGFULLY FAILED TO FOLLOW PRISONER TRANSPORT PROCEDURES AND TO PROPERLY SAFEGUARD THE PRISONER, RESULTING IN THE ESCAPE OF SAID PRISONER.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2014-11645",
+							"description": "WHILE ON-DUTY, WRONGFULLY MISREPRESENTED TO HIS SUPERVISOR, THAT HE WAS NOT QUALFIED TO OPERATE A PRISONER VAN WHEN, IN FACT, HE WAS SO QUALIFIED.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "8/4/2016 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "248-DET SQD. MAN-023",
+							"case_no": "2015-14877",
+							"description": "WHILE OFF-DUTY, OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "248-DET SQD. MAN-023",
+							"case_no": "2015-14877",
+							"description": "WHILE OFF-DUTY, DID CONSUME AN INTOXICANT TO THE EXTENT THAT SAID POLICE OFFICER WAS UNFIT FOR DUTY.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "248-DET SQD. MAN-023",
+							"case_no": "2015-14877",
+							"description": "WHILE OFF-DUTY, REFUSED TO SUBMIT TO A CHEMICAL BREATH TEST.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "248-DET SQD. MAN-023",
+							"case_no": "2015-14877",
+							"description": "WHILE OFF-DUTY, FAILED TO NOTIFY THE OPERATIONS UNIT UPON HIS RELEASE FROM CUSTODY THAT HE HAD BEEN ARRESTED.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 300,
 				"misdemeanor": 335,
@@ -15813,7 +15902,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -19026,7 +19115,7 @@
 		"shield_no": "6559",
 		"appt_date": "1/9/2006",
 		"recognition_count": 11,
-		"arrest_count": 533,
+		"arrest_count": 534,
 		"reports": {
 			"summary": {
 				"command": "100TH DET SQUAD",
