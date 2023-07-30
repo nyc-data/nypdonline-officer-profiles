@@ -3767,7 +3767,7 @@
 		"shield_no": "8989",
 		"appt_date": "4/25/2018",
 		"recognition_count": 1,
-		"arrest_count": 30,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "030 PRECINCT",
@@ -6713,7 +6713,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
+				"felony": 15,
 				"misdemeanor": 30
 			},
 			"awards": []
@@ -7106,7 +7106,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 56,
+				"felony": 57,
 				"misdemeanor": 40,
 				"violation": 1
 			},
@@ -8330,7 +8330,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/21/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24125",
+							"description": "01.Violated patrol rules - refused to provide name",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 32,
 				"misdemeanor": 34
@@ -8734,7 +8747,32 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/13/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "01.Failed to maintain activity log while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "03.Improper vehicle pursuit while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 57,
