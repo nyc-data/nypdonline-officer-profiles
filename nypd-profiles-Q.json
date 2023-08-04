@@ -4718,8 +4718,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 57,
+				"felony": 13,
+				"misdemeanor": 62,
 				"violation": 3
 			},
 			"awards": []
@@ -6216,7 +6216,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/18/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2022-24814",
+							"description": "01.Failed to supervise",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 66,
@@ -6548,7 +6561,7 @@
 		"shield_no": "24054",
 		"appt_date": "7/6/2011",
 		"recognition_count": 4,
-		"arrest_count": 111,
+		"arrest_count": 112,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
