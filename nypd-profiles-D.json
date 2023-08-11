@@ -787,7 +787,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -1469,7 +1469,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 18,
 				"misdemeanor": 30
 			},
 			"awards": []
@@ -1545,8 +1545,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
-				"misdemeanor": 21
+				"felony": 16,
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -4537,7 +4537,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/17/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25600",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25600",
+							"description": "02.Wrongfully damaged property."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 40,
 				"misdemeanor": 119,
@@ -4842,9 +4859,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 66,
-				"misdemeanor": 430,
-				"violation": 36
+				"felony": 33,
+				"misdemeanor": 215,
+				"violation": 18
 			},
 			"awards": [
 				{
@@ -4852,19 +4869,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/4/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "5/18/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/18/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/8/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -15056,7 +15061,7 @@
 		"shield_no": "1586",
 		"appt_date": "7/10/2006",
 		"recognition_count": 4,
-		"arrest_count": 219,
+		"arrest_count": 221,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -15155,7 +15160,7 @@
 		"shield_no": "188",
 		"appt_date": "7/11/2005",
 		"recognition_count": 0,
-		"arrest_count": 310,
+		"arrest_count": 312,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -19929,8 +19934,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "16852",
 		"appt_date": "1/10/2005",
-		"recognition_count": 4,
-		"arrest_count": 172,
+		"recognition_count": 2,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
@@ -25346,8 +25351,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "6965",
 		"appt_date": "1/10/2005",
-		"recognition_count": 6,
-		"arrest_count": 1224,
+		"recognition_count": 3,
+		"arrest_count": 612,
 		"reports": {
 			"summary": {
 				"command": "HATE CRIME TASK FORCE",
@@ -29211,7 +29216,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 79,
-				"misdemeanor": 151
+				"misdemeanor": 152
 			},
 			"awards": [
 				{
@@ -30450,7 +30455,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/7/2014 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "100-100 PRECINCT",
+							"case_no": "2014-11629",
+							"description": "WHILE OFF-DUTY, WRONGFULLY OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "100-100 PRECINCT",
+							"case_no": "2014-11629",
+							"description": "WHILE OFF-DUTY, WRONGFULLY OPERATED A MOTOR VEHICLE WHILE HIS ABILITY WAS IMPAIRED BY THE CONSUMPTION OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "100-100 PRECINCT",
+							"case_no": "2014-11629",
+							"description": "WHILE OFF-DUTY, REFUSED TO SUBMIT TO A BREATH TEST.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "100-100 PRECINCT",
+							"case_no": "2014-11629",
+							"description": "WHILE OFF-DUTY, WRONGFULLY CONSUMED AN INTOXICANT TO THE EXTENT THAT SAID POLICE OFFICER WAS UNFIT FOR DUTY.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "100-100 PRECINCT",
+							"case_no": "2014-11629",
+							"description": "WHILE OFF-DUTY, POLICE OFFICER WAS INVOLVED IN A VEHICLE ACCIDENT THAT CAUSED DAMAGE TO THE PROPERTY OF ANOTHER AND FAILED TO REMAIN AT THE SCENE OF THE ACCIDENT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 27,
 				"misdemeanor": 52,
@@ -30882,7 +30929,7 @@
 		"shield_no": "729",
 		"appt_date": "7/10/2006",
 		"recognition_count": 3,
-		"arrest_count": 94,
+		"arrest_count": 95,
 		"reports": {
 			"summary": {
 				"command": "PBMS COMMUNITY AFFAIRS SECTION",
@@ -31821,7 +31868,7 @@
 		"shield_no": "10112",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 90,
+		"arrest_count": 180,
 		"reports": {
 			"summary": {
 				"command": "CROWD MANAGEMENT UNIT",
@@ -31981,7 +32028,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 92,
-				"misdemeanor": 195,
+				"misdemeanor": 196,
 				"other": 2,
 				"violation": 23
 			},
@@ -35723,7 +35770,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 21,
 				"violation": 3
 			},
@@ -36947,8 +36994,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "31853",
 		"appt_date": "1/10/2005",
-		"recognition_count": 4,
-		"arrest_count": 170,
+		"recognition_count": 8,
+		"arrest_count": 340,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -38977,7 +39024,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
+				"felony": 21,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -39777,8 +39824,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "21419",
 		"appt_date": "7/11/2005",
-		"recognition_count": 4,
-		"arrest_count": 326,
+		"recognition_count": 2,
+		"arrest_count": 163,
 		"reports": {
 			"summary": {
 				"command": "CRITICAL RESPONSE COMMAND",
@@ -42643,8 +42690,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "24523",
 		"appt_date": "1/10/2005",
-		"recognition_count": 4,
-		"arrest_count": 178,
+		"recognition_count": 8,
+		"arrest_count": 356,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY UNIT 1",
@@ -45630,8 +45677,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "7118",
 		"appt_date": "7/11/2005",
-		"recognition_count": 8,
-		"arrest_count": 558,
+		"recognition_count": 4,
+		"arrest_count": 279,
 		"reports": {
 			"summary": {
 				"command": "115TH DET SQUAD",
@@ -47815,7 +47862,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -48590,8 +48637,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1276",
 		"appt_date": "7/11/2005",
-		"recognition_count": 10,
-		"arrest_count": 652,
+		"recognition_count": 5,
+		"arrest_count": 326,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 2",
@@ -48904,7 +48951,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -51190,7 +51237,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 70,
-				"misdemeanor": 167,
+				"misdemeanor": 168,
 				"violation": 12
 			},
 			"awards": [
@@ -52477,7 +52524,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -54644,7 +54691,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 57,
+				"felony": 58,
 				"misdemeanor": 760,
 				"violation": 278
 			},
@@ -54968,7 +55015,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 14,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -57838,7 +57885,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 132,
 				"violation": 28
 			},
@@ -60092,8 +60139,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
-				"misdemeanor": 14
+				"felony": 19,
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -60555,7 +60602,7 @@
 		"shield_no": "196",
 		"appt_date": "7/11/2005",
 		"recognition_count": 2,
-		"arrest_count": 110,
+		"arrest_count": 111,
 		"reports": {
 			"summary": {
 				"command": "033 PRECINCT",
@@ -62887,8 +62934,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "27123",
 		"appt_date": "1/10/2005",
-		"recognition_count": 4,
-		"arrest_count": 496,
+		"recognition_count": 2,
+		"arrest_count": 249,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -63548,7 +63595,7 @@
 		"shield_no": "582",
 		"appt_date": "7/11/2005",
 		"recognition_count": 6,
-		"arrest_count": 705,
+		"arrest_count": 707,
 		"reports": {
 			"summary": {
 				"command": "109TH DET SQUAD",
@@ -64662,7 +64709,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 107,
+				"misdemeanor": 108,
 				"other": 1,
 				"violation": 2
 			},
@@ -65427,7 +65474,7 @@
 		"shield_no": "2686",
 		"appt_date": "7/20/2006",
 		"recognition_count": 0,
-		"arrest_count": 270,
+		"arrest_count": 271,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN CHILD ABUSE SQUAD",
@@ -68256,7 +68303,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
+				"felony": 30,
 				"misdemeanor": 24
 			},
 			"awards": []
@@ -70220,7 +70267,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 16,
+				"felony": 17,
 				"misdemeanor": 23,
 				"violation": 1
 			},
@@ -71340,7 +71387,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -73736,7 +73783,7 @@
 		"shield_no": "4574",
 		"appt_date": "7/11/2005",
 		"recognition_count": 3,
-		"arrest_count": 383,
+		"arrest_count": 384,
 		"reports": {
 			"summary": {
 				"command": "109TH DET SQUAD",
@@ -78327,7 +78374,7 @@
 		"shield_no": "8683",
 		"appt_date": "1/10/2005",
 		"recognition_count": 1,
-		"arrest_count": 283,
+		"arrest_count": 284,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -79775,7 +79822,7 @@
 		"shield_no": "6259",
 		"appt_date": "1/9/2006",
 		"recognition_count": 2,
-		"arrest_count": 45,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -83850,8 +83897,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1023",
 		"appt_date": "7/11/2005",
-		"recognition_count": 8,
-		"arrest_count": 104,
+		"recognition_count": 4,
+		"arrest_count": 52,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN COURT SECTION",
@@ -86018,7 +86065,7 @@
 				"infraction": 1,
 				"felony": 32,
 				"misdemeanor": 101,
-				"other": 3
+				"other": 4
 			},
 			"awards": [
 				{
@@ -89480,7 +89527,7 @@
 		"shield_no": "31550",
 		"appt_date": "1/9/2006",
 		"recognition_count": 0,
-		"arrest_count": 112,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "WORLD TRADE CENTER COMMAND",
@@ -91843,8 +91890,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "14115",
 		"appt_date": "1/9/2006",
-		"recognition_count": 14,
-		"arrest_count": 468,
+		"recognition_count": 7,
+		"arrest_count": 234,
 		"reports": {
 			"summary": {
 				"command": "084 PRECINCT",
@@ -93898,7 +93945,7 @@
 		"shield_no": "18345",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 464,
+		"arrest_count": 232,
 		"reports": {
 			"summary": {
 				"command": "060 PCT CONEY ISLAND DETAIL",
@@ -96193,7 +96240,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 160,
-				"misdemeanor": 279,
+				"misdemeanor": 280,
 				"other": 1,
 				"violation": 10
 			},
@@ -102517,7 +102564,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 17
 			},
 			"awards": []
@@ -104125,8 +104172,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "8137",
 		"appt_date": "7/11/2005",
-		"recognition_count": 4,
-		"arrest_count": 78,
+		"recognition_count": 2,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "HEADQUARTERS SECURITY UNIT",
