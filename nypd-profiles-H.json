@@ -1904,7 +1904,7 @@
 		"shield_no": "14068",
 		"appt_date": "7/7/2021",
 		"recognition_count": 1,
-		"arrest_count": 18,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -1968,7 +1968,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -6314,7 +6314,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/13/2021 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "171-PATROL BORO QUEENS SOUTH",
+							"case_no": "2020-22846",
+							"description": "Improper vehicle pursuit.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 70,
@@ -7383,7 +7397,7 @@
 		"shield_no": "2310",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 75,
+		"arrest_count": 76,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -7404,7 +7418,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 55
+				"misdemeanor": 56
 			},
 			"awards": []
 		},
@@ -10690,11 +10704,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 57,
-				"misdemeanor": 186,
-				"other": 1,
-				"violation": 11
+				"infraction": 4,
+				"felony": 114,
+				"misdemeanor": 372,
+				"other": 2,
+				"violation": 22
 			},
 			"awards": [
 				{
@@ -10702,7 +10716,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/31/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "12/9/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/9/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/7/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -10714,7 +10740,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/3/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/18/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/18/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/13/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -10726,6 +10764,14 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/28/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/28/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/28/2012",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -10734,7 +10780,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "11/14/2012",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "6/6/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/6/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/4/2012",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10746,7 +10804,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "11/3/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/23/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/23/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/14/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -10758,12 +10828,28 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "5/31/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/23/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "9/23/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "4/20/2009",
 					"name": "COMMENDATION"
+				},
+				{
+					"date": "4/20/2009",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "1/13/2009",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "1/13/2009",
@@ -14421,7 +14507,18 @@
 				"shield_no": "7459",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "10164"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "10/29/2010",
+					"shield_no": "7459"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -18941,7 +19038,7 @@
 		"shield_no": "4262",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 8,
+		"arrest_count": 9,
 		"reports": {
 			"summary": {
 				"command": "020 PRECINCT",
@@ -18961,7 +19058,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -19576,7 +19673,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/18/2016 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2016-15048",
+							"description": "WHILE OFF-DUTY, FAILED TO SAFEGUARD HER FIREARM.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2016-15048",
+							"description": "CONDUCTED PERSONAL BUSINESS WHILE ON-DUTY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2016-15048",
+							"description": "WHILE ON-DUTY, FAILED TO REMAIN ON THE SCENE OF A POLICE INCIDENT.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2016-15048",
+							"description": "INSTRUCTED A MEMBER OF SERVICE TO ACCESS COMPUTER RECORDS NOT RELATED TO HER ASSIGNMENT.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "106-106 PRECINCT",
+							"case_no": "2016-15048",
+							"description": "WHILE ON-DUTY, FAILED TO TIMELY APPEAR AT COURT.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 32,
@@ -19818,11 +19957,30 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/29/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26560",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26560",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 26,
-				"violation": 3
+				"felony": 24,
+				"misdemeanor": 52,
+				"violation": 6
 			},
 			"awards": []
 		},
@@ -24107,7 +24265,7 @@
 		"shield_no": "9612",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 29,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -25488,7 +25646,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/27/2010 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "040-040 PRECINCT",
+							"case_no": "2010-423",
+							"description": "ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (48 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "040-040 PRECINCT",
+							"case_no": "2010-423",
+							"description": "SAID PROBATIONARY POLICE OFFICER RECKLESSLY ENGAGED IN CONDUCT WHICH CREATED A SUBSTANTIAL RISK OF SERIOUS PHYSICAL INJURY TO A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (48 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 40
@@ -25527,7 +25706,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
+				"felony": 11,
 				"misdemeanor": 16
 			},
 			"awards": []
@@ -27174,8 +27353,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 5
+				"felony": 4,
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -32545,7 +32724,7 @@
 		"shield_no": "13816",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 76,
+		"arrest_count": 79,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -36603,7 +36782,7 @@
 		"shield_no": "24117",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -36661,7 +36840,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 6
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -38958,14 +39137,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 90,
-				"violation": 5
+				"felony": 12,
+				"misdemeanor": 180,
+				"violation": 10
 			},
 			"awards": [
 				{
 					"date": "12/3/2013",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/3/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/12/2009",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "6/12/2009",
@@ -41000,7 +41187,7 @@
 		"shield_no": "27330",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 27,
+		"arrest_count": 28,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -41095,7 +41282,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 266,
-				"misdemeanor": 455,
+				"misdemeanor": 456,
 				"violation": 113
 			},
 			"awards": [
@@ -43046,8 +43233,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "5901",
 		"appt_date": "7/9/2007",
-		"recognition_count": 8,
-		"arrest_count": 93,
+		"recognition_count": 16,
+		"arrest_count": 188,
 		"reports": {
 			"summary": {
 				"command": "076 PRECINCT",
@@ -43379,7 +43566,7 @@
 		"shield_no": "3634",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 39,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -43400,7 +43587,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -43817,7 +44004,7 @@
 		"shield_no": "27099",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "006 PRECINCT",
@@ -43837,8 +44024,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 7
+				"felony": 3,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -44953,7 +45140,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 18
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -45252,7 +45439,7 @@
 		"shield_no": "2765",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 4",
@@ -45272,8 +45459,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 6
+				"felony": 4,
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -46244,7 +46431,7 @@
 		"shield_no": "21068",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "033 PRECINCT",
@@ -48595,8 +48782,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 367,
-				"misdemeanor": 260,
+				"felony": 368,
+				"misdemeanor": 261,
 				"violation": 12
 			},
 			"awards": [
@@ -53022,14 +53209,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 3,
-				"felony": 52,
-				"misdemeanor": 120,
-				"violation": 10
+				"infraction": 6,
+				"felony": 104,
+				"misdemeanor": 240,
+				"violation": 20
 			},
 			"awards": [
 				{
 					"date": "2/2/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/2/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/20/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -53041,7 +53236,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "4/30/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/3/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/3/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/23/2012",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -53053,7 +53260,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "5/26/2011",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "5/5/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/5/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/14/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -54181,7 +54400,7 @@
 		"shield_no": "23017",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "084 PRECINCT",
@@ -54451,7 +54670,7 @@
 		"shield_no": "3063",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 17,
+		"arrest_count": 18,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -54472,7 +54691,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 12,
+				"misdemeanor": 13,
 				"violation": 1
 			},
 			"awards": []
@@ -55567,7 +55786,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -62076,7 +62295,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 12
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -62166,7 +62385,7 @@
 		"shield_no": "9360",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -71803,7 +72022,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/21/2013 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2086",
+							"description": "WHILE OFF-DUTY, ENGAGED IN A PHYSICAL AND VERBAL ALTERCATION WITH PARTIES KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2086",
+							"description": "WHILE OFF-DUTY, FAILED TO REMAIN AT THE SCENE OF AN OFF-DUTY PHYSICAL AND VERBAL ALTERCATION WITH PARTIES KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2086",
+							"description": "WHILE OFF-DUTY, HAVING BEEN INVOLVED IN A POLICE INCIDENT, DID THEREAFTER FAIL TO PROMPTLY REPORT THE FACTS TO HIS COMMANDING OFFICER, AS REQUIRED.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 2,
 				"misdemeanor": 47,
@@ -72005,7 +72252,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/4/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25906",
+							"description": "01.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25906",
+							"description": "02.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 85,
@@ -74788,7 +75052,7 @@
 		"shield_no": "8014",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 25,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -74808,7 +75072,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 10
 			},
 			"awards": []

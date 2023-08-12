@@ -1101,7 +1101,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 10
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -2414,7 +2414,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25756",
+							"description": "01.Wrongfully used physical force.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 32,
@@ -2870,7 +2883,7 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "4800",
 		"appt_date": "1/10/2007",
-		"recognition_count": 17,
+		"recognition_count": 18,
 		"arrest_count": 226,
 		"reports": {
 			"summary": {
@@ -4866,12 +4879,34 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "01.Failed to obtain medical treatment."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "01.Wrongfully used physical force."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "02.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 8,
 				"felony": 55,
 				"misdemeanor": 315,
-				"violation": 5
+				"violation": 6
 			},
 			"awards": []
 		},
@@ -6310,7 +6345,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/2/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "574-WORLD TRADE CENTER COMMAND",
+							"case_no": "2019-20500",
+							"description": "WRONGFULLY ALLOWED HIS RESIDENTIAL ADDRESS TO BE USED BY ANOTHER AS HIS RESIDENTIAL ADDRESS, THEREBY CAUSING INACCURATE ENTRIES IN DEPARTMENT RECORDS.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 164,
