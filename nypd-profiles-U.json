@@ -618,7 +618,7 @@
 		"shield_no": "18087",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
-		"arrest_count": 30,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -1442,10 +1442,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/25/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26983",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -1543,7 +1556,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/7/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-22947",
+							"description": "01.Failed to process a civilian complaint.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
@@ -1597,7 +1623,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 27
+				"misdemeanor": 29
 			},
 			"awards": [
 				{
@@ -5196,7 +5222,7 @@
 		"shield_no": "19573",
 		"appt_date": "7/8/2015",
 		"recognition_count": 13,
-		"arrest_count": 473,
+		"arrest_count": 474,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -5931,7 +5957,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25297",
+							"description": "01.Wrongful removal to a hospital."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25297",
+							"description": "02.Wrongfully used physical force."
+						}
+					]
+				},
+				{
+					"entry": "2/23/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25387",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 8,
 				"misdemeanor": 18
@@ -6292,7 +6346,7 @@
 		"shield_no": "19422",
 		"appt_date": "10/7/2015",
 		"recognition_count": 0,
-		"arrest_count": 37,
+		"arrest_count": 38,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
