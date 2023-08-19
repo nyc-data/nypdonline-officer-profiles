@@ -10476,8 +10476,8 @@
 		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "5258",
 		"appt_date": "4/15/1997",
-		"recognition_count": 1,
-		"arrest_count": 703,
+		"recognition_count": 2,
+		"arrest_count": 1406,
 		"reports": {
 			"summary": {
 				"command": "NYPD/FBI CHILD EXPL & HTTF",
@@ -17688,7 +17688,38 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/3/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2021-23725",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"entry": "3/25/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-27780",
+							"description": "01.Violated patrol rules.",
+							"penalty": "B - COMMAND DISCIPLINE, INSTRUCTIONS"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-27780",
+							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 33,
