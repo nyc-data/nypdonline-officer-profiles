@@ -468,7 +468,7 @@
 		"shield_no": "16439",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 47,
+		"arrest_count": 48,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -1220,7 +1220,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 49
+				"misdemeanor": 50
 			},
 			"awards": [
 				{
@@ -1684,7 +1684,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/13/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "805-HOUSING PSA 5",
+							"case_no": "2021-24438",
+							"description": "Inaccurate entries in Department records.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "805-HOUSING PSA 5",
+							"case_no": "2021-24438",
+							"description": "Failed to submit reports.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 10
@@ -3261,20 +3282,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "6/30/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"case_no": "2022-25472",
-							"description": "01.Violated patrol rules - failed to provide a business card",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 19
@@ -3867,7 +3875,7 @@
 		"shield_no": "10914",
 		"appt_date": "4/12/2017",
 		"recognition_count": 8,
-		"arrest_count": 165,
+		"arrest_count": 167,
 		"reports": {
 			"summary": {
 				"command": "072 PRECINCT",
@@ -3887,7 +3895,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 74,
+				"felony": 76,
 				"misdemeanor": 91
 			},
 			"awards": [
@@ -4107,7 +4115,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
+				"felony": 25,
 				"misdemeanor": 44
 			},
 			"awards": [
@@ -4626,7 +4634,30 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26195",
+							"description": "01.Failed to activate their body worn camera."
+						}
+					]
+				},
+				{
+					"entry": "1/17/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26194",
+							"description": "01.Wrongfully used physical force."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 13,
@@ -7406,7 +7437,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 33
 			},
 			"awards": [
