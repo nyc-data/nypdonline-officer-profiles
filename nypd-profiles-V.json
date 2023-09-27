@@ -257,7 +257,7 @@
 		"shield_no": "11210",
 		"appt_date": "10/7/2019",
 		"recognition_count": 1,
-		"arrest_count": 92,
+		"arrest_count": 93,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -278,7 +278,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 37,
+				"felony": 38,
 				"misdemeanor": 54
 			},
 			"awards": [
@@ -3173,7 +3173,7 @@
 		"shield_no": "15935",
 		"appt_date": "4/15/2019",
 		"recognition_count": 1,
-		"arrest_count": 95,
+		"arrest_count": 97,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -3494,7 +3494,7 @@
 		"shield_no": "26267",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 32",
@@ -9744,8 +9744,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 463,
-				"misdemeanor": 835,
+				"felony": 464,
+				"misdemeanor": 836,
 				"violation": 4
 			},
 			"awards": [
@@ -16243,10 +16243,14 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
-				"misdemeanor": 35
+				"felony": 38,
+				"misdemeanor": 72
 			},
 			"awards": [
+				{
+					"date": "8/27/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "8/27/2021",
 					"name": "EXCELLENT POLICE DUTY"
@@ -18821,7 +18825,7 @@
 		"shield_no": "9596",
 		"appt_date": "1/10/2018",
 		"recognition_count": 3,
-		"arrest_count": 73,
+		"arrest_count": 74,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -21042,19 +21046,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "1/11/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-25533",
-							"description": "01.Failed to prepare required reports."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 29,
 				"misdemeanor": 22
@@ -24878,7 +24870,7 @@
 		"shield_no": "11273",
 		"appt_date": "7/2/2018",
 		"recognition_count": 8,
-		"arrest_count": 191,
+		"arrest_count": 195,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 33",
@@ -27288,22 +27280,9 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "7/24/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"case_no": "2023-28050",
-							"description": "01.Violated patrol rules.",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
-				"felony": 71,
+				"felony": 72,
 				"misdemeanor": 46,
 				"other": 1
 			},
@@ -30066,7 +30045,7 @@
 		"shield_no": "21537",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 35,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -30349,7 +30328,7 @@
 		"shield_no": "8577",
 		"appt_date": "4/15/2019",
 		"recognition_count": 5,
-		"arrest_count": 88,
+		"arrest_count": 89,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -32278,7 +32257,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
+				"felony": 20,
 				"misdemeanor": 14
 			},
 			"awards": []
@@ -32295,7 +32274,7 @@
 		"shield_no": "8158",
 		"appt_date": "10/7/2019",
 		"recognition_count": 4,
-		"arrest_count": 83,
+		"arrest_count": 84,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -32313,10 +32292,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/7/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28317",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 54
+				"misdemeanor": 54,
+				"violation": 1
 			},
 			"awards": [
 				{
@@ -35799,7 +35792,7 @@
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 8,
-				"other": 13
+				"other": 14
 			},
 			"awards": [
 				{
@@ -36323,11 +36316,11 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"infraction": 3,
-				"felony": 17,
-				"misdemeanor": 62,
-				"other": 1,
-				"violation": 1
+				"infraction": 6,
+				"felony": 34,
+				"misdemeanor": 124,
+				"other": 2,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -37702,7 +37695,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/10/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26444",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 18
@@ -39365,7 +39371,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -44816,7 +44822,7 @@
 		"shield_no": "12106",
 		"appt_date": "4/25/2018",
 		"recognition_count": 0,
-		"arrest_count": 44,
+		"arrest_count": 45,
 		"reports": {
 			"summary": {
 				"command": "017 PRECINCT",
@@ -45322,7 +45328,7 @@
 		"shield_no": "18400",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -45686,9 +45692,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 6,
-				"misdemeanor": 22
+				"infraction": 2,
+				"felony": 14,
+				"misdemeanor": 44
 			},
 			"awards": []
 		},
