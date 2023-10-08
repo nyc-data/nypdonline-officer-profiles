@@ -1376,7 +1376,7 @@
 		"shield_no": "17061",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 171,
+		"arrest_count": 172,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -2482,8 +2482,8 @@
 		"arrest_count": 93,
 		"reports": {
 			"summary": {
-				"command": "075 PRECINCT",
-				"assignment_date": "3/10/2021",
+				"command": "28 PCT HUB SITE",
+				"assignment_date": "10/4/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "24830",
@@ -2522,7 +2522,7 @@
 				}
 			]
 		},
-		"command": "075 PRECINCT"
+		"command": "28 PCT HUB SITE"
 	},
 	{
 		"taxid": 967620,
@@ -2650,7 +2650,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 107,
-				"misdemeanor": 129,
+				"misdemeanor": 130,
 				"violation": 3
 			},
 			"awards": []
@@ -9467,7 +9467,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/16/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23805",
+							"description": "01.Failed to timely make proper notifications while on duty.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 22,
@@ -11482,15 +11495,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 28,
-				"misdemeanor": 96
+				"infraction": 1,
+				"felony": 14,
+				"misdemeanor": 48
 			},
 			"awards": [
-				{
-					"date": "6/23/2009",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
 				{
 					"date": "6/23/2009",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -16815,7 +16824,7 @@
 		"shield_no": "25617",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 78,
+		"arrest_count": 80,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -16943,7 +16952,7 @@
 		"shield_no": "29813",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 55,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -21525,7 +21534,7 @@
 			"arrests": {
 				"felony": 261,
 				"misdemeanor": 324,
-				"other": 46,
+				"other": 50,
 				"violation": 2
 			},
 			"awards": [
@@ -23445,7 +23454,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/1/2018 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "580-WARRANT SECTION",
+							"case_no": "2017-18360",
+							"description": "WHILE ON-DUTY WRONGFULLY DISCHARGED HIS FIREARM AT A MOVING VEHICLE OUTSIDE DEPARTMENT GUIDELINES.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 33,
 				"misdemeanor": 115,
@@ -23915,8 +23938,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 190,
-				"misdemeanor": 214,
+				"felony": 191,
+				"misdemeanor": 215,
 				"violation": 1
 			},
 			"awards": []
@@ -24960,52 +24983,6 @@
 		"command": "NARC BORO BRONX"
 	},
 	{
-		"taxid": 890646,
-		"full_name": "NINIVAGGI, JAMES D",
-		"first_name": "JAMES",
-		"last_name": "NINIVAGGI",
-		"middle_initial": "D",
-		"rank": "POLICE OFFICER",
-		"shield_no": "17369",
-		"appt_date": "7/15/1986",
-		"recognition_count": 2,
-		"arrest_count": 12,
-		"reports": {
-			"summary": {
-				"command": "HIGHWAY UNIT 3",
-				"assignment_date": "2/11/2015",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "17369",
-				"appt_date": "7/15/1986"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/1/1990",
-					"shield_no": "17369"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"misdemeanor": 11
-			},
-			"awards": [
-				{
-					"date": "9/11/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/8/1988",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "HIGHWAY UNIT 3"
-	},
-	{
 		"taxid": 937188,
 		"full_name": "NINO, JASON A",
 		"first_name": "JASON",
@@ -25190,11 +25167,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 29,
 				"violation": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "6/7/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "TRANSIT DISTRICT 30"
 	},
@@ -28329,6 +28311,11 @@
 				{
 					"rank": "DEPUTY INSPECTOR",
 					"date": "11/20/2018",
+					"shield_no": ""
+				},
+				{
+					"rank": "INSPECTOR",
+					"date": "9/29/2023",
 					"shield_no": ""
 				}
 			],
@@ -32346,7 +32333,7 @@
 			"arrests": {
 				"infraction": 4,
 				"felony": 19,
-				"misdemeanor": 61,
+				"misdemeanor": 63,
 				"violation": 1
 			},
 			"awards": [
@@ -34189,8 +34176,8 @@
 		"arrest_count": 3,
 		"reports": {
 			"summary": {
-				"command": "REAL TIME CRIME CENTER",
-				"assignment_date": "4/27/2023",
+				"command": "CRIMINAL ENTERPRISE INVEST SEC",
+				"assignment_date": "10/5/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "INSPECTOR",
 				"shield_no": "",
@@ -34285,7 +34272,7 @@
 				}
 			]
 		},
-		"command": "REAL TIME CRIME CENTER"
+		"command": "CRIMINAL ENTERPRISE INVEST SEC"
 	},
 	{
 		"taxid": 965374,

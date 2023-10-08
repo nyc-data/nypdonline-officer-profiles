@@ -1252,50 +1252,6 @@
 		"command": "075 PRECINCT"
 	},
 	{
-		"taxid": 898197,
-		"full_name": "OBRIEN, PATRICIA A",
-		"first_name": "PATRICIA",
-		"last_name": "OBRIEN",
-		"middle_initial": "A",
-		"rank": "DETECTIVE 1ST GRADE",
-		"shield_no": "4668",
-		"appt_date": "10/15/1990",
-		"recognition_count": 0,
-		"arrest_count": 286,
-		"reports": {
-			"summary": {
-				"command": "DA SQUAD SI",
-				"assignment_date": "5/22/2020",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 1ST GRADE",
-				"shield_no": "4668",
-				"appt_date": "10/15/1990"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/15/1990",
-					"shield_no": "9248"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "3/31/1995",
-					"shield_no": "4668"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 230,
-				"misdemeanor": 50,
-				"other": 5,
-				"violation": 1
-			},
-			"awards": []
-		},
-		"command": "DA SQUAD SI"
-	},
-	{
 		"taxid": 948396,
 		"full_name": "OBRIEN, PATRICK J",
 		"first_name": "PATRICK",
@@ -11223,7 +11179,7 @@
 		"shield_no": "27811",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 70,
+		"arrest_count": 72,
 		"reports": {
 			"summary": {
 				"command": "QN AUTO LARCENY UNIT",
@@ -13219,17 +13175,46 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/25/2017 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "625-CRITICAL RESPONSE COMMAND",
+							"case_no": "2017-17663",
+							"description": "WHILE OFF-DUTY, SAID SERGEANT ENGAGED IN A VERBAL DISPUTE WITH A PERSON KNOWN TO THE DEPARTMENT AND DAMAGED HER CELL PHONE",
+							"penalty": "COUNSELING, COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), RESTORATION OF SUSPENSION DAYS (6 day(s) ), RESTORATION OF SUSPENSION DAYS (6 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "625-CRITICAL RESPONSE COMMAND",
+							"case_no": "2017-17663",
+							"description": "WHILE OFF-DUTY, SAID SERGEANT ENGAGED IN A VERBAL DISPUTE WITH A PERSON KNOWN TO THE DEPARTMENT AND DAMAGED HER CELL PHONE",
+							"penalty": "COUNSELING, COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), RESTORATION OF SUSPENSION DAYS (6 day(s) ), RESTORATION OF SUSPENSION DAYS (6 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 37,
-				"misdemeanor": 338,
-				"violation": 23
+				"infraction": 2,
+				"felony": 74,
+				"misdemeanor": 676,
+				"violation": 46
 			},
 			"awards": [
 				{
 					"date": "11/16/2009",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/16/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/1/2004",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "7/1/2004",
@@ -14576,7 +14561,7 @@
 		"shield_no": "23261",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 57,
+		"arrest_count": 58,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -17799,7 +17784,7 @@
 		"shield_no": "31888",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 54,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -18394,8 +18379,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "POLICE ACADEMY",
-				"assignment_date": "3/21/2022",
+				"command": "PATROL BORO QUEENS NORTH",
+				"assignment_date": "10/5/2023",
 				"ethnicity": "BLACK",
 				"rank_desc": "INSPECTOR",
 				"shield_no": "",
@@ -18438,7 +18423,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "POLICE ACADEMY"
+		"command": "PATROL BORO QUEENS NORTH"
 	},
 	{
 		"taxid": 970048,
@@ -18556,7 +18541,7 @@
 		"first_name": "JOHNNY",
 		"last_name": "ORELLANA",
 		"middle_initial": "A",
-		"rank": "CAPTAIN",
+		"rank": "DEPUTY INSPECTOR",
 		"shield_no": "",
 		"appt_date": "12/8/1997",
 		"recognition_count": 3,
@@ -18566,7 +18551,7 @@
 				"command": "045 PRECINCT",
 				"assignment_date": "10/20/2022",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "CAPTAIN",
+				"rank_desc": "DEPUTY INSPECTOR",
 				"shield_no": "",
 				"appt_date": "12/8/1997"
 			},
@@ -18594,6 +18579,11 @@
 				{
 					"rank": "CAPTAIN",
 					"date": "6/28/2013",
+					"shield_no": ""
+				},
+				{
+					"rank": "DEPUTY INSPECTOR",
+					"date": "9/29/2023",
 					"shield_no": ""
 				}
 			],
@@ -20550,7 +20540,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 66,
-				"misdemeanor": 128,
+				"misdemeanor": 129,
 				"violation": 2
 			},
 			"awards": [
@@ -20785,10 +20775,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 16,
-				"felony": 58,
-				"misdemeanor": 110,
-				"violation": 26
+				"infraction": 8,
+				"felony": 29,
+				"misdemeanor": 55,
+				"violation": 13
 			},
 			"awards": [
 				{
@@ -20796,27 +20786,11 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "2/21/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/5/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "1/5/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "10/27/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/27/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/26/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -20828,14 +20802,6 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "4/21/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/4/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "4/4/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -20844,19 +20810,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "1/26/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/29/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/29/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/25/2017",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -20868,14 +20822,6 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "11/4/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/30/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "9/30/2017",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -20884,19 +20830,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "10/18/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "10/31/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/31/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/27/2013",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -25798,13 +25732,21 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 425,
-				"misdemeanor": 222,
-				"violation": 3
+				"felony": 854,
+				"misdemeanor": 444,
+				"violation": 6
 			},
 			"awards": [
 				{
 					"date": "1/10/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/10/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/30/2007",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -25816,7 +25758,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "6/20/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/17/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/17/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/9/2005",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -25828,7 +25782,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/3/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "1/6/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/6/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/4/2004",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -25840,8 +25806,20 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "6/9/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "1/1/2004",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/1/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/17/2003",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "6/17/2003",
@@ -27281,8 +27259,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "PATROL BORO BRONX",
-				"assignment_date": "1/12/2023",
+				"command": "DB SPECIALTY ENFORCEMENT DIVISION",
+				"assignment_date": "10/5/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DEPUTY CHIEF",
 				"shield_no": "",
@@ -27383,7 +27361,7 @@
 				}
 			]
 		},
-		"command": "PATROL BORO BRONX"
+		"command": "DB SPECIALTY ENFORCEMENT DIVISION"
 	},
 	{
 		"taxid": 944863,
@@ -31034,8 +31012,8 @@
 		"arrest_count": 2,
 		"reports": {
 			"summary": {
-				"command": "DET BORO QUEENS SOUTH",
-				"assignment_date": "4/9/2021",
+				"command": "DB CITYWIDE INVESTIGATIONS",
+				"assignment_date": "10/5/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "DEPUTY CHIEF",
 				"shield_no": "",
@@ -31327,7 +31305,7 @@
 				}
 			]
 		},
-		"command": "DET BORO QUEENS SOUTH"
+		"command": "DB CITYWIDE INVESTIGATIONS"
 	},
 	{
 		"taxid": 969259,
@@ -31339,7 +31317,7 @@
 		"shield_no": "13084",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 28,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "078 PRECINCT",
@@ -35416,7 +35394,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 57,
+				"felony": 58,
 				"misdemeanor": 103
 			},
 			"awards": [
