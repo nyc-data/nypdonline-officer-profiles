@@ -6217,7 +6217,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 305,
+				"felony": 306,
 				"misdemeanor": 699,
 				"violation": 21
 			},
@@ -7749,7 +7749,7 @@
 		"shield_no": "5434",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -7770,7 +7770,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 27
+				"misdemeanor": 27,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -8207,7 +8208,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/6/2017 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "105-105 PRECINCT",
+							"case_no": "2016-16345",
+							"description": "HAD AN INAPPROPRIATE RELATIONSHIP WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "105-105 PRECINCT",
+							"case_no": "2016-16345",
+							"description": "WRONGFULLY UTILIZED A DEPARTMENT COMPUTER TO CONDUCT A DATABASE QUERY UNRELATED TO DEPARTMENT BUSINESS AND WRONGFULLY REVEALED THE CONFIDENTIAL FINDINGS OF THAT QUERY TO A NON-MEMBER OF THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 37,
@@ -9156,7 +9178,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/23/2016 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "497-INTERNAL AFFAIRS BUREAU",
+							"case_no": "2016-16388",
+							"description": "SUBMITTED A LETTER TO THE DEPARTMENT OF CITYWIDE ADMINISTRATIVE SERVICES IN SUPPORT OF HIS REQUEST FOR A PROMOTION EXAM ACCOMODATION WHICH CONTAINED INACCURATE AND/ OR MISLEADING INFORMATION.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 48,
@@ -12385,14 +12421,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 35,
-				"misdemeanor": 216,
-				"violation": 2
+				"infraction": 2,
+				"felony": 70,
+				"misdemeanor": 432,
+				"violation": 4
 			},
 			"awards": [
 				{
 					"date": "10/14/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/14/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/17/2004",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -13781,7 +13825,55 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/14/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2019-20439",
+							"description": "Violated sick leave regulations.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "6/28/2019 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2019-20462",
+							"description": "Failed to safeguard Department property.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2019-20462",
+							"description": "Failed to safeguard Department property.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2019-20462",
+							"description": "Failed to prepare required report.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2019-20462",
+							"description": "Violated patrol rules.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 18
@@ -14374,7 +14466,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 169,
-				"misdemeanor": 537,
+				"misdemeanor": 538,
 				"violation": 1
 			},
 			"awards": [
@@ -14821,57 +14913,6 @@
 		"command": "CANDIDATE ASSESSMENT DIVISION"
 	},
 	{
-		"taxid": 927864,
-		"full_name": "DAVIS, CHARESSE N",
-		"first_name": "CHARESSE",
-		"last_name": "DAVIS",
-		"middle_initial": "N",
-		"rank": "POLICE OFFICER",
-		"shield_no": "15982",
-		"appt_date": "7/11/2001",
-		"recognition_count": 1,
-		"arrest_count": 288,
-		"reports": {
-			"summary": {
-				"command": "043 PRECINCT",
-				"assignment_date": "8/28/2007",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "15982",
-				"appt_date": "7/11/2001"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/2/2001",
-					"shield_no": "15982"
-				}
-			],
-			"documents": [
-				{
-					"date": "9/2/2015",
-					"url": "https://oip.nypdonline.org/files/927864_09022015_2015016.pdf",
-					"type": "Trial Decision"
-				}
-			],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 47,
-				"misdemeanor": 237,
-				"other": 1,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "6/1/2005",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		},
-		"command": "043 PRECINCT"
-	},
-	{
 		"taxid": 950279,
 		"full_name": "DAVIS, CHARLENE D",
 		"first_name": "CHARLENE",
@@ -15138,7 +15179,7 @@
 		"shield_no": "30700",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 52,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -15159,7 +15200,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 33
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -16663,7 +16704,7 @@
 		"shield_no": "22656",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "078 PRECINCT",
@@ -16683,8 +16724,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 16
+				"felony": 2,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -18025,7 +18066,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/7/2019 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "243-DET SQD. MAN-MTN",
+							"case_no": "2017-18325",
+							"description": "WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT CAUSING INJURY.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "243-DET SQD. MAN-MTN",
+							"case_no": "2017-18325",
+							"description": "FAILED TO SAFEGUARD HIS DEPARTMENT SHIELD AS REQUIRED.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 79,
@@ -19836,7 +19898,43 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/19/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26259",
+							"description": "01.Failed to prepare a report.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26259",
+							"description": "02.Use of excessive Force.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26259",
+							"description": "03.Wrongfully entered a premise.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "1/9/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-27651",
+							"description": "01.Wrongfully threatened to damage property."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 15,
@@ -23233,7 +23331,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/30/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26670",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 17,
 				"misdemeanor": 45,
@@ -25966,15 +26077,58 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/21/2010 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-792",
+							"description": "KNOWINGLY ASSOCIATED WITH A PERSON OR ORGANIZATION REASONABLY BELIEVED TO BE ENGAGED IN, LIKELY TO ENGAGE IN OR TO HAVE ENGAGED IN CRIMINAL ACTIVITIES.",
+							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-792",
+							"description": "KNOWINGLY ASSOCIATED WITH A PERSON OR ORGANIZATION REASONABLY BELIEVED TO BE ENGAGED IN, LIKELY TO ENGAGE IN OR TO HAVE ENGAGED IN CRIMINAL ACTIVITIES.",
+							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-792",
+							"description": "FAILED AND NEGLECTED TO PROPERLY DOCUMENT HER ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-792",
+							"description": "FAILED AND NEGLECTED TO PROPERLY DOCUMENT HER ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 33,
-				"misdemeanor": 117,
-				"violation": 8
+				"felony": 66,
+				"misdemeanor": 234,
+				"violation": 16
 			},
 			"awards": [
 				{
 					"date": "11/1/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/1/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/2/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -29498,7 +29652,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 289,
+				"felony": 291,
 				"misdemeanor": 394,
 				"other": 2,
 				"violation": 2
@@ -32631,8 +32785,8 @@
 		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "7800",
 		"appt_date": "7/2/2001",
-		"recognition_count": 56,
-		"arrest_count": 1176,
+		"recognition_count": 28,
+		"arrest_count": 588,
 		"reports": {
 			"summary": {
 				"command": "GVSD Z2 VIOLENCE RED T/F",
@@ -33674,7 +33828,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/30/2010 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2010-1932",
+							"description": "WHILE OFF-DUTY, FAILED TO NOTIFY THE OPERATIONS UNIT, AS REQUIRED.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2010-1932",
+							"description": "WHILE OFF-DUTY, FAILED TO IDENTIFY HIMSELF AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT TO THE MEMBERS OF THE NASSAU COUNTY POLICE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 18,
@@ -37749,7 +37924,7 @@
 		"shield_no": "17198",
 		"appt_date": "10/24/2018",
 		"recognition_count": 10,
-		"arrest_count": 127,
+		"arrest_count": 129,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 11",
@@ -37770,7 +37945,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 44,
-				"misdemeanor": 83
+				"misdemeanor": 85
 			},
 			"awards": [
 				{
@@ -38357,7 +38532,7 @@
 		"shield_no": "1845",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 52,
+		"arrest_count": 104,
 		"reports": {
 			"summary": {
 				"command": "107 PRECINCT",
@@ -38382,8 +38557,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
-				"misdemeanor": 34
+				"felony": 36,
+				"misdemeanor": 68
 			},
 			"awards": []
 		},
@@ -40277,7 +40452,38 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/18/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2021-24257",
+							"description": "01.Improper vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (11 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"case_no": "2021-24257",
+							"description": "02.made computer inquiries unrelated to official Department business.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (11 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "6/6/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-22013",
+							"description": "01.Improper frisk of an individual",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 59,
 				"misdemeanor": 14,
@@ -40440,9 +40646,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
-				"misdemeanor": 56,
-				"violation": 3
+				"felony": 58,
+				"misdemeanor": 112,
+				"violation": 6
 			},
 			"awards": [
 				{
@@ -40450,7 +40656,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "7/17/2010",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "10/9/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/9/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/25/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -40462,11 +40680,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/8/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/15/2007",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "12/15/2007",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "12/9/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/9/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/28/2005",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -41438,7 +41672,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/23/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "411-HIGHWAY DISTRICT #1",
+							"case_no": "2017-17999",
+							"description": "KNOWINGLY ASSOCIATED WITH A PERSON KNOWN TO THE DEPARTMENT WHOM SAID POLICE OFFICER KNEW TO BE ENGAGED IN CRIMINAL ACTIVITIES",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "411-HIGHWAY DISTRICT #1",
+							"case_no": "2017-17999",
+							"description": "SAID POLICE OFFICER CONDUCTED AN UNAUTHORIZED INQUIRY OF AN ARREST REPORT OF AN INDIVIDUAL KNOWN TO THE DEPARTMENT",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
 				"felony": 21,
@@ -41849,7 +42104,7 @@
 		"reports": {
 			"summary": {
 				"command": "IAB INVESTIGATIONS UNIT 41",
-				"assignment_date": "7/3/2023",
+				"assignment_date": "10/1/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SGT DET SQUAD",
 				"shield_no": "4882",
@@ -42817,7 +43072,28 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/18/2014 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2014-11362",
+							"description": "WHILE ON-DUTY, WRONGFULLY STOPPED THE VEHICLE BEING OPERATED BY A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2014-11362",
+							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT IN THAT HE FRISKED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 111,
 				"misdemeanor": 155,
@@ -48052,7 +48328,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/18/2014 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "NOLO CONTENDRE",
+							"command": "802-HOUSING PSA 2 ==>SATHOPS-B/N",
+							"case_no": "2014-11301",
+							"description": "USE OF FORCE.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 53,
@@ -54298,7 +54588,7 @@
 		"shield_no": "2018",
 		"appt_date": "7/1/2002",
 		"recognition_count": 0,
-		"arrest_count": 867,
+		"arrest_count": 868,
 		"reports": {
 			"summary": {
 				"command": "075 DET SQUAD",
@@ -59282,7 +59572,7 @@
 		"shield_no": "8006",
 		"appt_date": "9/29/2000",
 		"recognition_count": 0,
-		"arrest_count": 695,
+		"arrest_count": 699,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 4 QUEENS",
@@ -59575,7 +59865,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 36,
-				"misdemeanor": 118,
+				"misdemeanor": 119,
 				"violation": 7
 			},
 			"awards": []
@@ -63439,7 +63729,39 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/21/2022 12:00:00 AM",
+					"allegations_count": 5,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25682",
+							"description": "01.Failed to take police action/render police services."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25682",
+							"description": "02.Wrongfully stopped an individual known to the Department."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25684",
+							"description": "01.Failed to activate their body worn camera."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25684",
+							"description": "02.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25684",
+							"description": "03.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 6,
 				"felony": 20,
@@ -64968,30 +65290,23 @@
 			"discipline": [
 				{
 					"entry": "2/6/2016 12:00:00 AM",
-					"charges_count": 2,
+					"charges_count": 1,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "041-041 PRECINCT",
 							"case_no": "2015-14904",
 							"description": "WHILE OFF-DUTY, FAILED AND NEGLECTED TO PROPERLY SAFEGUARD HIS OFF-DUTY FIREARM.",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) ), PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "041-041 PRECINCT",
-							"case_no": "2015-14904",
-							"description": "WHILE OFF-DUTY, FAILED AND NEGLECTED TO PROPERLY SAFEGUARD HIS OFF-DUTY FIREARM.",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) ), PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 2,
-				"felony": 372,
-				"misdemeanor": 1092,
-				"violation": 2
+				"infraction": 1,
+				"felony": 186,
+				"misdemeanor": 546,
+				"violation": 1
 			},
 			"awards": [
 				{
@@ -64999,19 +65314,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "6/24/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/11/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/11/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/5/2012",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -65023,19 +65326,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "9/12/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "7/2/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/2/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/19/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -65047,28 +65338,12 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "5/7/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/23/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "1/23/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "1/15/2009",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/15/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/4/2007",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "10/4/2007",
@@ -66375,7 +66650,103 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/3/2015 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2015-13648",
+							"description": "WHILE OFF-DUTY, DID WRONGFULLY ENGAGE IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2015-13648",
+							"description": "WHILE OFF-DUTY, DID WRONGFULLY REFUSE TO RENDER PAYMENT FOR A TAXI FARE",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2015-13648",
+							"description": "WHILE OFF-DUTY, DID CONSUME AN INTOXICANT TO THE EXTENT THAT SAID DETECTIVE WAS UNFIT FOR DUTY",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2015-13648",
+							"description": "WHILE OFF-DUTY, DID OWN AND OPERATE A MOTOR VEHICLE THAT DID NOT HAVE A VALID REGISTRATION STICKER, LACKED INSURANCE, AND HAD ONLY ONE LICENSE PLATE ON SAID VEHICLE, RATHER THAN THE REQUIRED TWO, AND SAID LICENSE PLATE WAS NOT REGISTERED TO SAID VEHICLE",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "072-072 PRECINCT",
+							"case_no": "2015-13648",
+							"description": "DID WRONGFULLY INTERFERE WITH AN OFFICIAL DEPARTMENT INVESTIGATION",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "7/19/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-24599",
+							"description": "01.Failed to activate their body worn camera.",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"entry": "3/1/2023 12:00:00 AM",
+					"allegations_count": 6,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2020-22094",
+							"description": "01.Failed to prepare memo book entries.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (4 day(s) )"
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2020-22094",
+							"description": "02.Improper use of body worn camera.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (4 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2020-22094",
+							"description": "03.Violated patrol rules.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (4 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2020-22094",
+							"description": "04.Wrongful frisked an individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (4 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2020-22094",
+							"description": "05.Wrongfully stopped an individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (4 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2020-22094",
+							"description": "06.Wrongfully threatened to arrest and individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (4 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 69,
@@ -69377,10 +69748,10 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"infraction": 4,
-				"felony": 108,
-				"misdemeanor": 260,
-				"violation": 24
+				"infraction": 2,
+				"felony": 54,
+				"misdemeanor": 130,
+				"violation": 12
 			},
 			"awards": [
 				{
@@ -69388,19 +69759,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "10/21/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "2/2/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/2/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/12/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -69410,14 +69769,6 @@
 				{
 					"date": "5/3/2009",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/3/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/17/2007",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "5/17/2007",
@@ -72783,7 +73134,7 @@
 		"shield_no": "3163",
 		"appt_date": "7/1/2002",
 		"recognition_count": 4,
-		"arrest_count": 698,
+		"arrest_count": 699,
 		"reports": {
 			"summary": {
 				"command": "013 DET SQUAD",
@@ -74515,8 +74866,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "1/10/2005",
-		"recognition_count": 8,
-		"arrest_count": 171,
+		"recognition_count": 16,
+		"arrest_count": 342,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 5",
@@ -80149,6 +80500,11 @@
 					"rank": "DETECTIVE",
 					"date": "8/30/2016",
 					"shield_no": "1723"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/29/2023",
+					"shield_no": "4726"
 				}
 			],
 			"documents": [
@@ -81209,7 +81565,7 @@
 		"shield_no": "3164",
 		"appt_date": "7/1/2002",
 		"recognition_count": 10,
-		"arrest_count": 550,
+		"arrest_count": 551,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
@@ -83477,7 +83833,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/7/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25666",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 130,
@@ -87620,7 +87988,7 @@
 		"shield_no": "5055",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 34",
@@ -87640,8 +88008,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 18
+				"felony": 14,
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -93153,7 +93521,7 @@
 		"shield_no": "11168",
 		"appt_date": "4/15/2019",
 		"recognition_count": 1,
-		"arrest_count": 69,
+		"arrest_count": 70,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -93173,7 +93541,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
+				"felony": 25,
 				"misdemeanor": 45
 			},
 			"awards": [
@@ -97390,7 +97758,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 115,
-				"misdemeanor": 178,
+				"misdemeanor": 179,
 				"violation": 3
 			},
 			"awards": [
@@ -100359,7 +100727,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/2/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26991",
+							"description": "01.Failed to prepare required reports."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26991",
+							"description": "02.Wrongfully deactivated their body-worn camera."
+						}
+					]
+				},
+				{
+					"entry": "2/10/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26990",
+							"description": "01.Violated patrol rules.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26990",
+							"description": "02.Wrongful removal to a hospital.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 18,
