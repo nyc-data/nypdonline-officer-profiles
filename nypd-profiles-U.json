@@ -190,7 +190,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 170,
+				"misdemeanor": 171,
 				"violation": 7
 			},
 			"awards": []
@@ -1120,7 +1120,28 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/29/2014 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "041-041 PRECINCT",
+							"case_no": "2014-12229",
+							"description": "WHILE ON DUTY, HE ENTERED A LOCATION KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "INSTRUCTIONS, REPRIMAND"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "041-041 PRECINCT",
+							"case_no": "2014-12229",
+							"description": "WHILE ON DUTY,  ABUSED HIS AUTHORITY IN THAT HE STOPPED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "INSTRUCTIONS, REPRIMAND"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 12,
 				"misdemeanor": 32,
@@ -1738,7 +1759,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/28/2019 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "10-010 PRECINCT",
+							"case_no": "2019-20339",
+							"description": "Misuse of time.\r\nFailed to submit Reports.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($1,127), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "10-010 PRECINCT",
+							"case_no": "2019-20339",
+							"description": "Misuse of time.\r\nFailed to submit Reports.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($1,127), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "10-010 PRECINCT",
+							"case_no": "2019-20339",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($1,127), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 2,
 				"misdemeanor": 18,
@@ -1889,8 +1938,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "17181",
 		"appt_date": "7/5/2017",
-		"recognition_count": 6,
-		"arrest_count": 56,
+		"recognition_count": 12,
+		"arrest_count": 112,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -1910,12 +1959,20 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 36
+				"felony": 40,
+				"misdemeanor": 72
 			},
 			"awards": [
 				{
 					"date": "8/20/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/20/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/15/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -1927,11 +1984,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "3/30/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/15/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/15/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "2/17/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/17/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/12/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -4230,7 +4303,7 @@
 		"shield_no": "26682",
 		"appt_date": "1/7/2008",
 		"recognition_count": 1,
-		"arrest_count": 91,
+		"arrest_count": 0,
 		"reports": {
 			"summary": {
 				"command": "HEADQUARTERS SECURITY UNIT",
@@ -4626,7 +4699,7 @@
 		"shield_no": "20097",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 391,
+		"arrest_count": 393,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -6368,7 +6441,7 @@
 		"shield_no": "6185",
 		"appt_date": "1/11/2010",
 		"recognition_count": 27,
-		"arrest_count": 318,
+		"arrest_count": 320,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
