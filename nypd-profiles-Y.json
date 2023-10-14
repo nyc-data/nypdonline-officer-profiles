@@ -1603,7 +1603,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 95,
+				"misdemeanor": 96,
 				"other": 1,
 				"violation": 32
 			},
@@ -2883,7 +2883,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 38,
-				"misdemeanor": 128,
+				"misdemeanor": 129,
 				"other": 1
 			},
 			"awards": [
@@ -3351,7 +3351,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 69,
-				"misdemeanor": 60,
+				"misdemeanor": 61,
 				"violation": 2
 			},
 			"awards": []
@@ -4715,7 +4715,34 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/23/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26142",
+							"description": "01.Violated patrol rules."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26142",
+							"description": "02.Wrongfully frisked an individual known to the Department."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26142",
+							"description": "03.Wrongfully searched an individual known to the Department."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26143",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 23,
 				"misdemeanor": 87,
@@ -5171,7 +5198,7 @@
 		"shield_no": "24158",
 		"appt_date": "7/11/2012",
 		"recognition_count": 11,
-		"arrest_count": 175,
+		"arrest_count": 176,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -6407,7 +6434,7 @@
 		"shield_no": "56",
 		"appt_date": "1/9/2013",
 		"recognition_count": 2,
-		"arrest_count": 329,
+		"arrest_count": 334,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BROOKLYN NORTH",
@@ -6433,7 +6460,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 121,
+				"felony": 126,
 				"misdemeanor": 184,
 				"other": 6,
 				"violation": 17
@@ -6713,8 +6740,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 95,
-				"misdemeanor": 174,
+				"felony": 97,
+				"misdemeanor": 175,
 				"violation": 7
 			},
 			"awards": [
@@ -7721,9 +7748,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 72,
-				"violation": 10
+				"felony": 7,
+				"misdemeanor": 36,
+				"violation": 5
 			},
 			"awards": []
 		},
@@ -8971,7 +8998,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 129,
+				"felony": 130,
 				"misdemeanor": 187,
 				"violation": 4
 			},
@@ -9756,10 +9783,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/10/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "849-TB ANTI TERRORISM UNIT",
+							"case_no": "2018-18401",
+							"description": "while on-duty, failed to conduct a proper investigation.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "849-TB ANTI TERRORISM UNIT",
+							"case_no": "2018-18401",
+							"description": "while on-duty, failed and neglected to properly safeguard a prisoner resulting in the loss of said prisoner.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 90,
+				"misdemeanor": 91,
 				"violation": 13
 			},
 			"awards": [
