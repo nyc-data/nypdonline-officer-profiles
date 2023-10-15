@@ -153,7 +153,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 34
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -263,7 +263,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/17/2022 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "032-032 PRECINCT",
+							"case_no": "2021-23897",
+							"description": "failed to render police services.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 7,
@@ -1007,7 +1021,7 @@
 		"shield_no": "14971",
 		"appt_date": "10/7/2015",
 		"recognition_count": 2,
-		"arrest_count": 80,
+		"arrest_count": 82,
 		"reports": {
 			"summary": {
 				"command": "023 PRECINCT",
@@ -1027,7 +1041,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 21,
+				"felony": 23,
 				"misdemeanor": 55,
 				"violation": 4
 			},
@@ -1897,7 +1911,7 @@
 		"shield_no": "15827",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 63,
+		"arrest_count": 65,
 		"reports": {
 			"summary": {
 				"command": "026 PRECINCT",
@@ -4368,8 +4382,8 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "4032",
 		"appt_date": "7/9/2013",
-		"recognition_count": 2,
-		"arrest_count": 248,
+		"recognition_count": 1,
+		"arrest_count": 124,
 		"reports": {
 			"summary": {
 				"command": "EMER SERV SQ 08",
@@ -4893,7 +4907,7 @@
 		"shield_no": "19573",
 		"appt_date": "7/8/2015",
 		"recognition_count": 13,
-		"arrest_count": 485,
+		"arrest_count": 486,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -4913,7 +4927,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 189,
+				"felony": 190,
 				"misdemeanor": 296
 			},
 			"awards": [
@@ -5532,10 +5546,43 @@
 				"shield_no": "4908",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "20801"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/29/2023",
+					"shield_no": "4908"
+				}
+			],
 			"documents": [],
-			"discipline": [],
-			"arrests": {},
+			"discipline": [
+				{
+					"entry": "3/25/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27416",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27416",
+							"description": "02.Wrongfully discourteous.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"felony": 15,
+				"misdemeanor": 95
+			},
 			"awards": [
 				{
 					"date": "3/11/2021",
