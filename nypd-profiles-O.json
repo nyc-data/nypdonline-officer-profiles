@@ -6909,8 +6909,8 @@
 		"arrest_count": 191,
 		"reports": {
 			"summary": {
-				"command": "LB BODY WORN CAMERA LEGAL UNIT",
-				"assignment_date": "8/21/2023",
+				"command": "044 PRECINCT",
+				"assignment_date": "10/10/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "8623",
@@ -6950,7 +6950,7 @@
 				}
 			]
 		},
-		"command": "LB BODY WORN CAMERA LEGAL UNIT"
+		"command": "044 PRECINCT"
 	},
 	{
 		"taxid": 937208,
@@ -24703,40 +24703,7 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "2/12/2015 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "081-081 PRECINCT",
-							"case_no": "2014-12486",
-							"description": "ENTERED A PREMISE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"penalty": "VACATION DAYS (8 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "081-081 PRECINCT",
-							"case_no": "2014-12486",
-							"description": "SEARCHED A PREMISE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"penalty": "VACATION DAYS (8 day(s) )"
-						}
-					]
-				},
-				{
-					"entry": "10/13/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "INSTRUCTIONS",
-							"case_no": "2022-25865",
-							"description": "01.Vehicle pursuit.",
-							"penalty": "INSTRUCTIONS"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 78,
@@ -25310,7 +25277,7 @@
 		"shield_no": "4152",
 		"appt_date": "7/1/2003",
 		"recognition_count": 10,
-		"arrest_count": 811,
+		"arrest_count": 812,
 		"reports": {
 			"summary": {
 				"command": "040 DET SQUAD",
@@ -29018,7 +28985,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/2/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "863-TRANSIT BUREAU DISTRICT 4",
+							"case_no": "2019-20494",
+							"description": "WRONGFULLY FAILED AND NEGLECTED TO PROPERLY SAFEGUARD HIS OFF-DUTY FIREARM.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 126,
@@ -34791,9 +34772,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 83,
-				"violation": 9
+				"felony": 8,
+				"misdemeanor": 166,
+				"violation": 18
 			},
 			"awards": []
 		},
