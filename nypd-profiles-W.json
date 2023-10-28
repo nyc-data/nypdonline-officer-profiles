@@ -73,7 +73,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 23
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -1656,7 +1656,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 30,
+				"felony": 31,
 				"misdemeanor": 71,
 				"violation": 19
 			},
@@ -2787,7 +2787,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -4827,7 +4827,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 7,
 				"violation": 1
 			},
@@ -6070,7 +6070,7 @@
 		"shield_no": "10477",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 133,
+		"arrest_count": 135,
 		"reports": {
 			"summary": {
 				"command": "090 DET SQUAD",
@@ -6708,7 +6708,7 @@
 		"shield_no": "5785",
 		"appt_date": "4/25/2018",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -13831,7 +13831,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/20/2019 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "611-FORCE INVESTIGATION DIVISION",
+							"case_no": "2018-19878",
+							"description": "Failed to prepare a Property Clerk's Invoice Worksheet, as required.",
+							"penalty": "VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "611-FORCE INVESTIGATION DIVISION",
+							"case_no": "2018-19878",
+							"description": "Failed to prepare a Property Clerk's Invoice Worksheet, as required.",
+							"penalty": "VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "611-FORCE INVESTIGATION DIVISION",
+							"case_no": "2018-19878",
+							"description": "Failed to make proper notifications.",
+							"penalty": "VACATION DAYS (55 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {},
 			"awards": [
 				{
@@ -14932,8 +14960,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 305,
-				"misdemeanor": 227,
+				"felony": 309,
+				"misdemeanor": 228,
 				"violation": 27
 			},
 			"awards": [
@@ -21749,7 +21777,7 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "FLEET SERVICES SECTION",
+				"command": "FLEET SERVICES DIVISION",
 				"assignment_date": "7/5/2018",
 				"ethnicity": "WHITE",
 				"rank_desc": "LIEUTENANT",
@@ -21787,7 +21815,7 @@
 				}
 			]
 		},
-		"command": "FLEET SERVICES SECTION"
+		"command": "FLEET SERVICES DIVISION"
 	},
 	{
 		"taxid": 942693,
@@ -22958,14 +22986,6 @@
 				{
 					"date": "3/29/2013",
 					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/29/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/9/2000",
-					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "6/9/2000",
@@ -24395,6 +24415,43 @@
 			]
 		},
 		"command": "RTCC JUVENILE CRIME DESK"
+	},
+	{
+		"taxid": 964913,
+		"full_name": "WHEELER, CHRISTINA M",
+		"first_name": "CHRISTINA",
+		"last_name": "WHEELER",
+		"middle_initial": "M",
+		"rank": "POLICE OFFICER",
+		"shield_no": "19098",
+		"appt_date": "1/10/2018",
+		"recognition_count": 0,
+		"arrest_count": 37,
+		"reports": {
+			"summary": {
+				"command": "122 PRECINCT",
+				"assignment_date": "5/8/2019",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "19098",
+				"appt_date": "1/10/2018"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2018",
+					"shield_no": "19098"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 12,
+				"misdemeanor": 25
+			},
+			"awards": []
+		},
+		"command": "122 PRECINCT"
 	},
 	{
 		"taxid": 947606,
@@ -28623,7 +28680,7 @@
 		"shield_no": "25155",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 62,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 33",
@@ -31322,8 +31379,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "2655",
 		"appt_date": "12/8/1997",
-		"recognition_count": 6,
-		"arrest_count": 552,
+		"recognition_count": 12,
+		"arrest_count": 1104,
 		"reports": {
 			"summary": {
 				"command": "DET BORO MANHATTAN NORTH",
@@ -31353,13 +31410,21 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 157,
-				"misdemeanor": 367,
-				"violation": 28
+				"felony": 314,
+				"misdemeanor": 734,
+				"violation": 56
 			},
 			"awards": [
 				{
 					"date": "5/17/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/17/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/24/2005",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -31371,12 +31436,28 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/27/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/15/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/15/2004",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "6/25/2003",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/25/2003",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/16/2003",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "4/16/2003",
@@ -33962,7 +34043,7 @@
 		"shield_no": "5836",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 53,
+		"arrest_count": 54,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -37754,44 +37835,6 @@
 		"command": "115 PRECINCT"
 	},
 	{
-		"taxid": 971736,
-		"full_name": "WILLIS, CHRISTOPHER J",
-		"first_name": "CHRISTOPHER",
-		"last_name": "WILLIS",
-		"middle_initial": "J",
-		"rank": "POLICE OFFICER",
-		"shield_no": "16033",
-		"appt_date": "4/28/2021",
-		"recognition_count": 0,
-		"arrest_count": 45,
-		"reports": {
-			"summary": {
-				"command": "115 PRECINCT",
-				"assignment_date": "10/28/2021",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "16033",
-				"appt_date": "4/28/2021"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/28/2021",
-					"shield_no": "16033"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 12,
-				"misdemeanor": 32,
-				"violation": 1
-			},
-			"awards": []
-		},
-		"command": "115 PRECINCT"
-	},
-	{
 		"taxid": 964838,
 		"full_name": "WILLIS, COLLEEN F",
 		"first_name": "COLLEEN",
@@ -39874,7 +39917,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/7/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25631",
+							"description": "01.Wrongful removal to a hospital."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 33,
 				"misdemeanor": 32,
@@ -40657,7 +40712,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/10/2017 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "308-DET BORO BKLYN NORTH OPER",
+							"case_no": "2016-15868",
+							"description": "WHILE ON-DUTY, TOOK A PHOTOGRAPH OF ANOTHER MEMBER OF THE SERVICE WITH HIS PERSONAL CELL PHONE WITHOUT SAID MEMBER'S CONSENT, AND DISSEMINATED SAID PHOTO TO OTHER MEMBERS OF SERVICE RESULTING IN THE PHOTO BEING POSTED ON FACEBOOK.",
+							"penalty": "TRAINING, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 17,
 				"misdemeanor": 29
@@ -51094,7 +51163,7 @@
 		"arrest_count": 4,
 		"reports": {
 			"summary": {
-				"command": "SUPPORT SERVICES DIVISION",
+				"command": "PROP MGMT SUPP SVC DIVISION",
 				"assignment_date": "7/28/2021",
 				"ethnicity": "BLACK",
 				"rank_desc": "DEPUTY INSPECTOR",
@@ -51153,7 +51222,7 @@
 				}
 			]
 		},
-		"command": "SUPPORT SERVICES DIVISION"
+		"command": "PROP MGMT SUPP SVC DIVISION"
 	},
 	{
 		"taxid": 962880,
@@ -51626,7 +51695,7 @@
 		"shield_no": "10337",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -51647,7 +51716,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": []
 		},

@@ -257,7 +257,7 @@
 		"shield_no": "11210",
 		"appt_date": "10/7/2019",
 		"recognition_count": 1,
-		"arrest_count": 95,
+		"arrest_count": 97,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -3192,9 +3192,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 96,
-				"violation": 18
+				"felony": 1,
+				"misdemeanor": 48,
+				"violation": 9
 			},
 			"awards": []
 		},
@@ -5648,7 +5648,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/3/2015 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "497-INTERNAL AFFAIRS BUREAU",
+							"case_no": "2014-11617",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO HER SUPERVISOR.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "497-INTERNAL AFFAIRS BUREAU",
+							"case_no": "2014-11617",
+							"description": "WHILE ON-DUTY, FAILED TO COMPLY WITH A LAWFUL ORDER BY HER SUPERVISOR.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "497-INTERNAL AFFAIRS BUREAU",
+							"case_no": "2014-11617",
+							"description": "WHILE ON-DUTY, WRONGFULLY REMOVED AN OFFICIAL DEPARTMENT DOCUMENT FROM HER SUPERVISOR's DESK AND PHOTOCOPIED SAID DOCUMENT WITHOUT SAID SUPERVISOR's PERMISSION OR AUTHORITY.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 117,
@@ -38075,6 +38103,57 @@
 		"command": "030 PRECINCT"
 	},
 	{
+		"taxid": 954404,
+		"full_name": "VILLAFANA, JULY M",
+		"first_name": "JULY",
+		"last_name": "VILLAFANA",
+		"middle_initial": "M",
+		"rank": "SERGEANT",
+		"shield_no": "644",
+		"appt_date": "1/9/2013",
+		"recognition_count": 2,
+		"arrest_count": 57,
+		"reports": {
+			"summary": {
+				"command": "030 PRECINCT",
+				"assignment_date": "6/28/2023",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "SERGEANT",
+				"shield_no": "644",
+				"appt_date": "1/9/2013"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2013",
+					"shield_no": "25239"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/22/2022",
+					"shield_no": "644"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 6,
+				"misdemeanor": 51
+			},
+			"awards": [
+				{
+					"date": "6/3/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/16/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
+		},
+		"command": "030 PRECINCT"
+	},
+	{
 		"taxid": 965603,
 		"full_name": "VILLAFANA, SAMUEL J",
 		"first_name": "SAMUEL",
@@ -40926,58 +41005,37 @@
 			"discipline": [
 				{
 					"entry": "8/11/2015 12:00:00 AM",
-					"charges_count": 6,
+					"charges_count": 3,
 					"charges": [
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2015-13391",
 							"description": "WRONGFULLY WAS ABSENT FROM ASSIGNMENT, WITHOUT PERMISSION OR POLICE NECESSITY AND ENGAGED IN PERSONAL ACTIVITIES UNRELATED TO OFFICIAL DEPARTMENT BUSINESS",
-							"penalty": "VACATION DAYS (10 day(s) ), VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "069-069 PRECINCT",
-							"case_no": "2015-13391",
-							"description": "WRONGFULLY WAS ABSENT FROM ASSIGNMENT, WITHOUT PERMISSION OR POLICE NECESSITY AND ENGAGED IN PERSONAL ACTIVITIES UNRELATED TO OFFICIAL DEPARTMENT BUSINESS",
-							"penalty": "VACATION DAYS (10 day(s) ), VACATION DAYS (10 day(s) )"
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2015-13391",
 							"description": "WRONGFULLY USED A DEPARTMENT VEHICLE FOR AN UNAUTHORIZED PURPOSE",
-							"penalty": "VACATION DAYS (10 day(s) ), VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "069-069 PRECINCT",
-							"case_no": "2015-13391",
-							"description": "WRONGFULLY USED A DEPARTMENT VEHICLE FOR AN UNAUTHORIZED PURPOSE",
-							"penalty": "VACATION DAYS (10 day(s) ), VACATION DAYS (10 day(s) )"
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "069-069 PRECINCT",
 							"case_no": "2015-13391",
 							"description": "WHILE ON-DUTY, WRONGFULLY FAILED AND NEGLECTED TO MAKE REQUIRED ENTRIES IN SAID OFFICER's ACTIVITY LOG, AS REQUIRED",
-							"penalty": "VACATION DAYS (10 day(s) ), VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "069-069 PRECINCT",
-							"case_no": "2015-13391",
-							"description": "WHILE ON-DUTY, WRONGFULLY FAILED AND NEGLECTED TO MAKE REQUIRED ENTRIES IN SAID OFFICER's ACTIVITY LOG, AS REQUIRED",
-							"penalty": "VACATION DAYS (10 day(s) ), VACATION DAYS (10 day(s) )"
+							"penalty": "VACATION DAYS (10 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 4,
-				"felony": 218,
-				"misdemeanor": 172,
-				"violation": 20
+				"infraction": 2,
+				"felony": 109,
+				"misdemeanor": 86,
+				"violation": 10
 			},
 			"awards": [
 				{
@@ -40985,19 +41043,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "7/10/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/22/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/22/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/19/2017",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -41009,27 +41055,11 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "6/10/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/8/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/8/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "4/29/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/29/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "2/6/2016",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -41041,19 +41071,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "1/16/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "9/5/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/5/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/13/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -41065,28 +41083,12 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "7/8/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/2/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "4/2/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "2/12/2015",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/12/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/11/2015",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "2/11/2015",
@@ -46456,7 +46458,7 @@
 		"shield_no": "29901",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 1",
