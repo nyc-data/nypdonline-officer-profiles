@@ -6731,7 +6731,7 @@
 		"shield_no": "11473",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 66,
+		"arrest_count": 67,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -7086,7 +7086,7 @@
 		"shield_no": "23489",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 105,
+		"arrest_count": 106,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -7107,7 +7107,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 62,
+				"felony": 63,
 				"misdemeanor": 40,
 				"violation": 1
 			},
@@ -8300,7 +8300,7 @@
 		"shield_no": "9212",
 		"appt_date": "4/12/2017",
 		"recognition_count": 1,
-		"arrest_count": 67,
+		"arrest_count": 69,
 		"reports": {
 			"summary": {
 				"command": "111 PRECINCT",
@@ -8333,8 +8333,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 32,
-				"misdemeanor": 35
+				"felony": 33,
+				"misdemeanor": 36
 			},
 			"awards": [
 				{
@@ -8739,7 +8739,32 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/13/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "01.Failed to maintain activity log while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "03.Improper vehicle pursuit while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 57,
