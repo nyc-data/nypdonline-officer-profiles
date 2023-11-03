@@ -1386,8 +1386,8 @@
 		"arrest_count": 127,
 		"reports": {
 			"summary": {
-				"command": "062 PRECINCT",
-				"assignment_date": "3/10/2022",
+				"command": "TB BUS ENFORCEMENT UNIT",
+				"assignment_date": "10/23/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2770",
@@ -1479,7 +1479,7 @@
 				}
 			]
 		},
-		"command": "062 PRECINCT"
+		"command": "TB BUS ENFORCEMENT UNIT"
 	},
 	{
 		"taxid": 942389,
@@ -6167,7 +6167,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/18/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2022-24814",
+							"description": "01.Failed to supervise",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 66,
