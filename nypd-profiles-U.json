@@ -245,7 +245,7 @@
 		"shield_no": "4036",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 23,
+		"arrest_count": 25,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -443,8 +443,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 40
+				"felony": 2,
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -894,7 +894,7 @@
 		"shield_no": "4607",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -1503,7 +1503,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/7/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-22947",
+							"description": "01.Failed to process a civilian complaint.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
@@ -4069,7 +4082,7 @@
 		"shield_no": "24715",
 		"appt_date": "10/11/2016",
 		"recognition_count": 0,
-		"arrest_count": 125,
+		"arrest_count": 127,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -4090,7 +4103,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 103,
+				"misdemeanor": 105,
 				"other": 1
 			},
 			"awards": []
@@ -4785,7 +4798,7 @@
 		"shield_no": "19573",
 		"appt_date": "7/8/2015",
 		"recognition_count": 13,
-		"arrest_count": 490,
+		"arrest_count": 491,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -5417,8 +5430,8 @@
 		"arrest_count": 110,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "9/29/2023",
+				"command": "115 PRECINCT",
+				"assignment_date": "10/30/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4908",
@@ -5492,7 +5505,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "115 PRECINCT"
 	},
 	{
 		"taxid": 965582,
@@ -5522,12 +5535,44 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25297",
+							"description": "01.Wrongful removal to a hospital."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25297",
+							"description": "02.Wrongfully used physical force."
+						}
+					]
+				},
+				{
+					"entry": "2/23/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25387",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 20
+				"felony": 22,
+				"misdemeanor": 40
 			},
 			"awards": [
+				{
+					"date": "3/25/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "3/25/2021",
 					"name": "EXCELLENT POLICE DUTY"
