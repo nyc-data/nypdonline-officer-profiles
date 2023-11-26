@@ -331,7 +331,7 @@
 		"shield_no": "25725",
 		"appt_date": "7/5/2017",
 		"recognition_count": 1,
-		"arrest_count": 55,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "081 PRECINCT",
@@ -3721,7 +3721,7 @@
 		"shield_no": "5838",
 		"appt_date": "11/2/2020",
 		"recognition_count": 1,
-		"arrest_count": 26,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -3821,7 +3821,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -6938,10 +6938,29 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/16/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-24727",
+							"description": "01.Made computer inquiries unrelated to official Department business.",
+							"penalty": "B - COMMAND DISCIPLINE, B - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES, FORFEITURE OF TIME/LEAVE BALANCES"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-24727",
+							"description": "01.Made computer inquiries unrelated to official Department business.",
+							"penalty": "B - COMMAND DISCIPLINE, B - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 35
+				"felony": 30,
+				"misdemeanor": 70
 			},
 			"awards": []
 		},
@@ -9079,7 +9098,7 @@
 		"shield_no": "1409",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 109,
+		"arrest_count": 110,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -9100,7 +9119,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 61,
+				"misdemeanor": 62,
 				"violation": 1
 			},
 			"awards": [
@@ -12256,8 +12275,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 33
+				"felony": 24,
+				"misdemeanor": 66
 			},
 			"awards": []
 		},
@@ -12294,7 +12313,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 65
+				"misdemeanor": 66
 			},
 			"awards": []
 		},
@@ -13523,7 +13542,7 @@
 		"shield_no": "28483",
 		"appt_date": "1/10/2018",
 		"recognition_count": 6,
-		"arrest_count": 133,
+		"arrest_count": 134,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -13544,7 +13563,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 35,
+				"felony": 36,
 				"misdemeanor": 96,
 				"violation": 1
 			},
@@ -14495,7 +14514,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 49,
+				"misdemeanor": 57,
 				"violation": 1
 			},
 			"awards": [
@@ -15060,7 +15079,7 @@
 		"shield_no": "22299",
 		"appt_date": "10/11/2016",
 		"recognition_count": 1,
-		"arrest_count": 93,
+		"arrest_count": 95,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -17007,7 +17026,7 @@
 		"shield_no": "24659",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 92,
+		"arrest_count": 93,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -17304,7 +17323,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 44,
+				"felony": 45,
 				"misdemeanor": 30
 			},
 			"awards": [
@@ -18259,7 +18278,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 75,
+				"misdemeanor": 76,
 				"violation": 2
 			},
 			"awards": [
@@ -18542,8 +18561,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "21486",
 		"appt_date": "1/10/2018",
-		"recognition_count": 4,
-		"arrest_count": 232,
+		"recognition_count": 2,
+		"arrest_count": 116,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -18563,20 +18582,12 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 80,
-				"misdemeanor": 152
+				"felony": 40,
+				"misdemeanor": 76
 			},
 			"awards": [
 				{
 					"date": "8/8/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/8/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/17/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -20318,7 +20329,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/20/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27531",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 60,
 				"misdemeanor": 61
@@ -20877,18 +20901,18 @@
 		"first_name": "JOHN",
 		"last_name": "OROURKE",
 		"middle_initial": "P",
-		"rank": "POLICE OFFICER",
-		"shield_no": "12156",
+		"rank": "SERGEANT",
+		"shield_no": "835",
 		"appt_date": "1/10/2018",
 		"recognition_count": 12,
 		"arrest_count": 23,
 		"reports": {
 			"summary": {
-				"command": "069 PRECINCT",
-				"assignment_date": "5/8/2019",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "11/21/2023",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "12156",
+				"rank_desc": "SERGEANT",
+				"shield_no": "835",
 				"appt_date": "1/10/2018"
 			},
 			"ranks": [
@@ -20901,6 +20925,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "5/4/2018",
 					"shield_no": "12156"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/21/2023",
+					"shield_no": "835"
 				}
 			],
 			"documents": [],
@@ -20960,7 +20989,7 @@
 				}
 			]
 		},
-		"command": "069 PRECINCT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 969257,
@@ -20992,11 +21021,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 31,
-				"other": 1
+				"felony": 26,
+				"misdemeanor": 62,
+				"other": 2
 			},
 			"awards": [
+				{
+					"date": "9/4/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "9/4/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -22397,7 +22430,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 53,
+				"misdemeanor": 55,
 				"violation": 3
 			},
 			"awards": []
@@ -25786,7 +25819,44 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/11/2022 12:00:00 AM",
+					"allegations_count": 5,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "01..Made computer inquiries unrelated to official Department business.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "02.Failed to make proper notifications (Patrol Supervisor, IAB, Desk Sergeant, Sick Desk\r\nSupervisor, ACS, Commanding Officer if PPO, Operations Unit, CCRB, etc.).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "03.Failed to make required entries in Department Logs (Command Log, Roll Call, Activity Log,\r\nVehicle Movement/Utilization, Radio Log, Vehicle Assignment, DV Activity Log).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "04.Failed to prepare required reports (Complaint Report, DIR, CCRB complaint).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "05.Off-duty employment without permission.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 12,
 				"misdemeanor": 23
@@ -28362,7 +28432,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/11/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-27984",
+							"description": "01.Wrongful removal to a hospital.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 19,
@@ -28716,7 +28799,7 @@
 		"shield_no": "17016",
 		"appt_date": "7/5/2017",
 		"recognition_count": 1,
-		"arrest_count": 89,
+		"arrest_count": 91,
 		"reports": {
 			"summary": {
 				"command": "033 PRECINCT",
@@ -29538,7 +29621,7 @@
 		"shield_no": "14027",
 		"appt_date": "4/12/2017",
 		"recognition_count": 3,
-		"arrest_count": 95,
+		"arrest_count": 96,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",
@@ -29765,8 +29848,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 86,
-				"misdemeanor": 114
+				"felony": 43,
+				"misdemeanor": 57
 			},
 			"awards": []
 		},
@@ -30621,7 +30704,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": [
 				{
@@ -32003,7 +32086,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 19,
-				"misdemeanor": 55
+				"misdemeanor": 56
 			},
 			"awards": []
 		},
@@ -32277,7 +32360,7 @@
 		"shield_no": "26057",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 19,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
@@ -32490,7 +32573,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 43,
+				"felony": 45,
 				"misdemeanor": 44
 			},
 			"awards": [
@@ -32975,7 +33058,7 @@
 		"shield_no": "1846",
 		"appt_date": "10/11/2016",
 		"recognition_count": 1,
-		"arrest_count": 184,
+		"arrest_count": 186,
 		"reports": {
 			"summary": {
 				"command": "010 DET SQUAD",
