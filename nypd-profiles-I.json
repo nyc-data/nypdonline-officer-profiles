@@ -5724,7 +5724,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 184,
-				"misdemeanor": 612,
+				"misdemeanor": 614,
 				"violation": 28
 			},
 			"awards": [
@@ -12595,7 +12595,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/19/2012 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "TD3-",
+							"case_no": "2010-1435",
+							"description": "WHILE OFF DUTY LEFT THE SCENE OF A MOTOR VEHICLE ACCIDENT WITHOUT CONTACTING THE POLICE.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 185,
@@ -12823,8 +12837,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "7786",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 107,
+		"recognition_count": 2,
+		"arrest_count": 214,
 		"reports": {
 			"summary": {
 				"command": "SCHOOL SAFETY DIVISION",
