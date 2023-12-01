@@ -1962,9 +1962,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 32,
-				"misdemeanor": 140,
-				"violation": 20
+				"felony": 16,
+				"misdemeanor": 70,
+				"violation": 10
 			},
 			"awards": []
 		},
@@ -8421,7 +8421,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-22214",
+							"description": "01.Improper stop.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 2,
 				"misdemeanor": 261,
@@ -8491,7 +8504,7 @@
 		"shield_no": "9064",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 62,
+		"arrest_count": 65,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -8511,8 +8524,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
-				"misdemeanor": 35
+				"felony": 29,
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -11230,7 +11243,7 @@
 		"shield_no": "687",
 		"appt_date": "7/10/2006",
 		"recognition_count": 4,
-		"arrest_count": 444,
+		"arrest_count": 445,
 		"reports": {
 			"summary": {
 				"command": "084 DET SQUAD",
@@ -11502,7 +11515,7 @@
 		"shield_no": "2271",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 56,
+		"arrest_count": 58,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -11523,7 +11536,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 43,
+				"misdemeanor": 45,
 				"violation": 1
 			},
 			"awards": []
@@ -13345,7 +13358,7 @@
 		"shield_no": "1363",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 28,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -13467,7 +13480,7 @@
 		"shield_no": "4196",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 21,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -13487,7 +13500,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 13
 			},
 			"awards": []
@@ -17027,7 +17040,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/31/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-24935",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 63,
@@ -18279,7 +18305,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 82,
+				"felony": 83,
 				"misdemeanor": 232,
 				"violation": 4
 			},
@@ -19030,7 +19056,7 @@
 		"shield_no": "25293",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 158,
+		"arrest_count": 164,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -19051,7 +19077,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 48,
-				"misdemeanor": 110
+				"misdemeanor": 116
 			},
 			"awards": []
 		},
@@ -20712,7 +20738,7 @@
 		"shield_no": "4036",
 		"appt_date": "1/10/2007",
 		"recognition_count": 5,
-		"arrest_count": 707,
+		"arrest_count": 708,
 		"reports": {
 			"summary": {
 				"command": "071 DET SQUAD",
@@ -22935,8 +22961,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "8803",
 		"appt_date": "10/12/2021",
-		"recognition_count": 0,
-		"arrest_count": 31,
+		"recognition_count": 2,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -22956,10 +22982,19 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 15
+				"felony": 17,
+				"misdemeanor": 16
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "9/28/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/19/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "113 PRECINCT"
 	},
@@ -23598,7 +23633,7 @@
 		"shield_no": "3025",
 		"appt_date": "10/15/2021",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -23619,7 +23654,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 13
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -24135,7 +24170,7 @@
 		"shield_no": "25522",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 42,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -24979,7 +25014,7 @@
 		"shield_no": "25226",
 		"appt_date": "7/7/2021",
 		"recognition_count": 1,
-		"arrest_count": 45,
+		"arrest_count": 47,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -25249,7 +25284,7 @@
 		"shield_no": "1695",
 		"appt_date": "7/10/2006",
 		"recognition_count": 14,
-		"arrest_count": 633,
+		"arrest_count": 636,
 		"reports": {
 			"summary": {
 				"command": "078 DET SQUAD",
@@ -25733,7 +25768,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/13/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-28994",
+							"description": "01.Wrongfully used physical force."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 88,
@@ -26277,7 +26324,7 @@
 		"shield_no": "3478",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 1055,
+		"arrest_count": 1056,
 		"reports": {
 			"summary": {
 				"command": "041 DET SQUAD",
@@ -29359,7 +29406,7 @@
 		"shield_no": "327",
 		"appt_date": "1/10/2007",
 		"recognition_count": 4,
-		"arrest_count": 554,
+		"arrest_count": 555,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BROOKLYN SOUTH MAJOR CASE UNIT",
