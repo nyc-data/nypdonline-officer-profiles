@@ -5397,9 +5397,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 8,
-				"violation": 2
+				"felony": 1,
+				"misdemeanor": 4,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -6230,8 +6230,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "4550",
 		"appt_date": "1/9/2012",
-		"recognition_count": 3,
-		"arrest_count": 128,
+		"recognition_count": 6,
+		"arrest_count": 256,
 		"reports": {
 			"summary": {
 				"command": "INTERNAL AFFAIRS BUREAU",
@@ -7233,7 +7233,7 @@
 		"shield_no": "17511",
 		"appt_date": "1/9/2012",
 		"recognition_count": 1,
-		"arrest_count": 119,
+		"arrest_count": 120,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -7973,8 +7973,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1608",
 		"appt_date": "7/6/2010",
-		"recognition_count": 19,
-		"arrest_count": 298,
+		"recognition_count": 38,
+		"arrest_count": 596,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
@@ -9882,7 +9882,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 84,
+				"felony": 87,
 				"misdemeanor": 46,
 				"violation": 1
 			},
@@ -10439,7 +10439,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/3/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27008",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
 				"felony": 36,
@@ -10884,10 +10896,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/23/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2021-23856",
+							"description": "01.Failed to prepare required report.",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"entry": "9/21/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-23855",
+							"description": "01.Improper stop of an individual",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 60,
 				"violation": 15
 			},
@@ -12998,13 +13035,21 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
-				"misdemeanor": 19
+				"felony": 18,
+				"misdemeanor": 38
 			},
 			"awards": [
 				{
 					"date": "1/1/2018",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/1/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/26/2016",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "4/26/2016",
@@ -13015,11 +13060,27 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "12/26/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/11/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "12/11/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "5/10/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/10/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/24/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -13040,7 +13101,7 @@
 		"shield_no": "28857",
 		"appt_date": "1/9/2013",
 		"recognition_count": 0,
-		"arrest_count": 114,
+		"arrest_count": 116,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY UNIT 1",
@@ -13062,7 +13123,7 @@
 			"arrests": {
 				"infraction": 7,
 				"felony": 7,
-				"misdemeanor": 99,
+				"misdemeanor": 101,
 				"violation": 1
 			},
 			"awards": []
