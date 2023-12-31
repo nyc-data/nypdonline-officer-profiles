@@ -835,7 +835,7 @@
 		"shield_no": "4821",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -855,8 +855,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3,
-				"violation": 1
+				"misdemeanor": 8,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -2336,7 +2336,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25756",
+							"description": "01.Wrongfully used physical force.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 33,
@@ -3810,8 +3823,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "5675",
 		"appt_date": "7/9/2007",
-		"recognition_count": 20,
-		"arrest_count": 680,
+		"recognition_count": 10,
+		"arrest_count": 340,
 		"reports": {
 			"summary": {
 				"command": "COMPSTAT ANALYTICAL UNIT",
@@ -4525,7 +4538,7 @@
 		"shield_no": "4845",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -4546,7 +4559,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -4831,12 +4844,82 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "01.Failed to obtain medical treatment."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "01.Wrongfully used physical force."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26631",
+							"description": "02.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				},
+				{
+					"entry": "8/29/2022 12:00:00 AM",
+					"charges_count": 6,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "028-028 PRECINCT",
+							"case_no": "2021-24283",
+							"description": "Failed to activate their body-worn camera.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "028-028 PRECINCT",
+							"case_no": "2021-24283",
+							"description": "Failed to make required entries in Department Logs.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "028-028 PRECINCT",
+							"case_no": "2021-24283",
+							"description": "Wrongfully used physical force.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "028-028 PRECINCT",
+							"case_no": "2021-24283",
+							"description": "Failed to notify supervisor.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "028-028 PRECINCT",
+							"case_no": "2021-24283",
+							"description": "Failure to render medical aid",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "028-028 PRECINCT",
+							"case_no": "2021-24283",
+							"description": "Wrongfully used excessive force.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"infraction": 16,
-				"felony": 118,
-				"misdemeanor": 644,
-				"violation": 14
+				"infraction": 8,
+				"felony": 59,
+				"misdemeanor": 323,
+				"violation": 7
 			},
 			"awards": []
 		},
@@ -6276,21 +6359,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "7/2/2019 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "574-WORLD TRADE CENTER COMMAND",
-							"case_no": "2019-20500",
-							"description": "WRONGFULLY ALLOWED HIS RESIDENTIAL ADDRESS TO BE USED BY ANOTHER AS HIS RESIDENTIAL ADDRESS, THEREBY CAUSING INACCURATE ENTRIES IN DEPARTMENT RECORDS.",
-							"penalty": "VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 164,
