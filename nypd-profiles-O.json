@@ -2765,7 +2765,7 @@
 		"shield_no": "28219",
 		"appt_date": "1/3/2019",
 		"recognition_count": 0,
-		"arrest_count": 40,
+		"arrest_count": 41,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -3016,8 +3016,8 @@
 		"rank": "DEPUTY CHIEF",
 		"shield_no": "",
 		"appt_date": "7/28/1987",
-		"recognition_count": 26,
-		"arrest_count": 2,
+		"recognition_count": 13,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "CT OPERATIONAL SUPPORT SECTION",
@@ -3345,7 +3345,7 @@
 		"shield_no": "14731",
 		"appt_date": "7/1/2019",
 		"recognition_count": 3,
-		"arrest_count": 25,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -4293,8 +4293,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "2179",
 		"appt_date": "12/8/1997",
-		"recognition_count": 14,
-		"arrest_count": 607,
+		"recognition_count": 28,
+		"arrest_count": 1214,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -7015,7 +7015,7 @@
 		"shield_no": "24662",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 54,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -7892,7 +7892,7 @@
 		"shield_no": "5942",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 17,
+		"arrest_count": 18,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -10900,7 +10900,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/22/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2022-24525",
+							"description": "Violated patrol rules.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2022-24525",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 13,
@@ -10954,63 +10975,6 @@
 			"awards": []
 		},
 		"command": "SCHOOL SAFETY DIVISION"
-	},
-	{
-		"taxid": 920678,
-		"full_name": "OLAN, ALEJANDRO J",
-		"first_name": "ALEJANDRO",
-		"last_name": "OLAN",
-		"middle_initial": "J",
-		"rank": "DETECTIVE 2ND GRADE",
-		"shield_no": "430",
-		"appt_date": "12/8/1997",
-		"recognition_count": 3,
-		"arrest_count": 1314,
-		"reports": {
-			"summary": {
-				"command": "STRIKE FORCE",
-				"assignment_date": "12/21/2016",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "DETECTIVE 2ND GRADE",
-				"shield_no": "430",
-				"appt_date": "12/8/1997"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "12/8/1997",
-					"shield_no": "12063"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "3/28/2008",
-					"shield_no": "430"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 472,
-				"misdemeanor": 792,
-				"other": 45,
-				"violation": 5
-			},
-			"awards": [
-				{
-					"date": "6/26/2007",
-					"name": "HONORABLE MENTION"
-				},
-				{
-					"date": "11/25/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/13/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "STRIKE FORCE"
 	},
 	{
 		"taxid": 966748,
@@ -12400,7 +12364,7 @@
 		"shield_no": "16962",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 90,
+		"arrest_count": 93,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -13549,7 +13513,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 42,
+				"misdemeanor": 43,
 				"violation": 1
 			},
 			"awards": []
@@ -14316,9 +14280,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 128,
-				"violation": 9
+				"felony": 26,
+				"misdemeanor": 256,
+				"violation": 18
 			},
 			"awards": []
 		},
@@ -15034,8 +14998,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "4629",
 		"appt_date": "6/30/1995",
-		"recognition_count": 4,
-		"arrest_count": 74,
+		"recognition_count": 8,
+		"arrest_count": 148,
 		"reports": {
 			"summary": {
 				"command": "RTCC INVESTIGATIVE SUPPORT SEC",
@@ -18085,7 +18049,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/5/2011 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "808-HOUSING PSA 8",
+							"case_no": "2010-3247",
+							"description": "WRONGFULLY SIGNED A CRIMINAL COURT COMPLAINT THAT CONTAINED A FACTUALLY INCORRECT STATEMENT RELATED TO THE ARREST OF AN INDIVIDUAL.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "808-HOUSING PSA 8",
+							"case_no": "2010-3247",
+							"description": "FAILED TO REVIEW A CRIMINAL COURT COMPLAINT FOR COMPLETENESS AND/OR ACCURACY PRIOR TO SUBMITTING IT.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 212,
@@ -20504,7 +20489,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 67,
-				"misdemeanor": 130,
+				"misdemeanor": 131,
 				"violation": 2
 			},
 			"awards": [
@@ -24638,8 +24623,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 275,
-				"misdemeanor": 549,
+				"felony": 277,
+				"misdemeanor": 552,
 				"violation": 1
 			},
 			"awards": [
@@ -25654,7 +25639,7 @@
 		"shield_no": "4474",
 		"appt_date": "7/2/2001",
 		"recognition_count": 11,
-		"arrest_count": 658,
+		"arrest_count": 662,
 		"reports": {
 			"summary": {
 				"command": "067 DET SQUAD",
@@ -25679,8 +25664,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 431,
-				"misdemeanor": 224,
+				"felony": 433,
+				"misdemeanor": 226,
 				"violation": 3
 			},
 			"awards": [
@@ -34564,66 +34549,6 @@
 			]
 		},
 		"command": "JOINT TERRORIST TASK FORCE"
-	},
-	{
-		"taxid": 922925,
-		"full_name": "OWENS, DARRELL N",
-		"first_name": "DARRELL",
-		"last_name": "OWENS",
-		"middle_initial": "N",
-		"rank": "SGT DET SQUAD",
-		"shield_no": "4305",
-		"appt_date": "8/31/1998",
-		"recognition_count": 3,
-		"arrest_count": 45,
-		"reports": {
-			"summary": {
-				"command": "INTERNAL AFFAIRS BUREAU",
-				"assignment_date": "7/1/2013",
-				"ethnicity": "BLACK",
-				"rank_desc": "SGT DET SQUAD",
-				"shield_no": "4305",
-				"appt_date": "8/31/1998"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "8/31/1998",
-					"shield_no": "31395"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "9/24/2004",
-					"shield_no": "4305"
-				},
-				{
-					"rank": "SGT DET SQUAD",
-					"date": "12/21/2018",
-					"shield_no": ""
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 15,
-				"misdemeanor": 30
-			},
-			"awards": [
-				{
-					"date": "8/9/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/12/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/29/1999",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "INTERNAL AFFAIRS BUREAU"
 	},
 	{
 		"taxid": 952082,
