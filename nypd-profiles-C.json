@@ -7045,7 +7045,7 @@
 		"shield_no": "28026",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 18,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -7832,7 +7832,7 @@
 		"shield_no": "21964",
 		"appt_date": "7/16/2021",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -7853,7 +7853,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 11,
+				"misdemeanor": 13,
 				"violation": 1
 			},
 			"awards": []
@@ -9372,8 +9372,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 31,
-				"misdemeanor": 21
+				"felony": 32,
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -9449,7 +9449,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 19
+				"misdemeanor": 21
 			},
 			"awards": []
 		},
@@ -9830,7 +9830,21 @@
 					"type": "Deviation Letter"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/30/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "063-063 PRECINCT",
+							"case_no": "2019-21216",
+							"description": "Wrongfully used a chokehold.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 25,
 				"misdemeanor": 91,
@@ -9868,15 +9882,54 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/10/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23504",
+							"description": "01.Failed to provide name to persons known to the department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) ), B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23504",
+							"description": "01.Failed to provide name to persons known to the department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) ), B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23504",
+							"description": "02.Failed to provide shield to persons known to the department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) ), B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23504",
+							"description": "02.Failed to provide shield to persons known to the department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) ), B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 65,
-				"violation": 2
+				"felony": 24,
+				"misdemeanor": 130,
+				"violation": 4
 			},
 			"awards": [
 				{
 					"date": "4/8/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/8/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/2/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -12263,7 +12316,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
+				"felony": 10,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -12660,8 +12713,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
-				"misdemeanor": 24
+				"felony": 6,
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -16620,7 +16673,69 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/2/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "594-GANG SQUAD BROOKLYN NORTH",
+							"case_no": "2018-19478",
+							"description": "ENGAGED IN UNAUTHORIZED OFF DUTY EMPLOYMENT.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "594-GANG SQUAD BROOKLYN NORTH",
+							"case_no": "2018-19478",
+							"description": "ENGAGED IN UNAUTHORIZED OFF DUTY EMPLOYMENT WHILE ON SICK REPORT.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "3/24/2021 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2020-22890",
+							"description": "Unauthorized off duty employment.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2020-22890",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2020-22890",
+							"description": "Violated Department of Motor Vehicle rules.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2020-22890",
+							"description": "Violated Department of Motor Vehicle rules.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "547-NARCO BORO BKLYN NORTH",
+							"case_no": "2020-22890",
+							"description": "Improperly used Department property.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 104,
 				"misdemeanor": 124,
@@ -29115,7 +29230,7 @@
 		"shield_no": "8729",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 51,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -29135,7 +29250,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
+				"felony": 19,
 				"misdemeanor": 34
 			},
 			"awards": []
@@ -31052,7 +31167,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/3/2016 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-14060",
+							"description": "STOPPED A VEHICLE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-14060",
+							"description": "QUESTIONED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 125,
@@ -33466,8 +33602,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 13
+				"felony": 5,
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -34445,7 +34581,7 @@
 		"shield_no": "26441",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -35380,7 +35516,7 @@
 		"shield_no": "2987",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 106,
+		"arrest_count": 110,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -35401,7 +35537,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 44,
+				"felony": 48,
 				"misdemeanor": 61
 			},
 			"awards": []
@@ -36445,7 +36581,7 @@
 		"shield_no": "26879",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 74,
+		"arrest_count": 76,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -38789,8 +38925,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "18255",
 		"appt_date": "7/9/2007",
-		"recognition_count": 8,
-		"arrest_count": 176,
+		"recognition_count": 4,
+		"arrest_count": 88,
 		"reports": {
 			"summary": {
 				"command": "BN EVIDENCE COLLECTION TEAM",
@@ -42735,7 +42871,7 @@
 		"shield_no": "13305",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 64,
+		"arrest_count": 128,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -44934,8 +45070,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 42
+				"felony": 24,
+				"misdemeanor": 44
 			},
 			"awards": []
 		},
@@ -45618,7 +45754,7 @@
 		"shield_no": "26137",
 		"appt_date": "7/9/2021",
 		"recognition_count": 0,
-		"arrest_count": 42,
+		"arrest_count": 47,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -45636,10 +45772,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/17/2023 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "41-041 PRECINCT",
+							"case_no": "2022-27297",
+							"description": "Failed to comply with driving rules and regulations.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "41-041 PRECINCT",
+							"case_no": "2022-27297",
+							"description": "Failure to obey a lawful order/direction.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 24,
+				"misdemeanor": 29,
 				"violation": 1
 			},
 			"awards": []
@@ -47695,7 +47852,7 @@
 		"shield_no": "24612",
 		"appt_date": "2/24/2021",
 		"recognition_count": 3,
-		"arrest_count": 64,
+		"arrest_count": 67,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -47872,11 +48029,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 37,
-				"misdemeanor": 248,
-				"violation": 10
+				"felony": 74,
+				"misdemeanor": 496,
+				"violation": 20
 			},
 			"awards": [
+				{
+					"date": "9/18/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "9/18/2017",
 					"name": "EXCELLENT POLICE DUTY"
@@ -47888,6 +48049,18 @@
 				{
 					"date": "7/15/2014",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/15/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/15/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/30/2010",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "1/30/2010",
@@ -48113,7 +48286,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 203,
+				"felony": 205,
 				"misdemeanor": 330,
 				"violation": 13
 			},
@@ -49771,7 +49944,7 @@
 		"shield_no": "19760",
 		"appt_date": "5/17/2021",
 		"recognition_count": 0,
-		"arrest_count": 90,
+		"arrest_count": 180,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -51713,7 +51886,7 @@
 		"shield_no": "19008",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 70,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -54337,7 +54510,7 @@
 		"shield_no": "210",
 		"appt_date": "7/18/2007",
 		"recognition_count": 3,
-		"arrest_count": 451,
+		"arrest_count": 452,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 3",
@@ -55770,19 +55943,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "2/3/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "NO DISCIPLINARY ACTION",
-							"case_no": "2022-24616",
-							"description": "01.Failed to activate their body worn camera."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 26,
 				"misdemeanor": 137,
@@ -56999,7 +57160,7 @@
 		"shield_no": "27201",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -60209,7 +60370,7 @@
 		"shield_no": "7403",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 17,
+		"arrest_count": 19,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -60229,8 +60390,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 13
+				"felony": 5,
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -62140,7 +62301,7 @@
 		"last_name": "CEPEDA",
 		"middle_initial": "E",
 		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "3137",
+		"shield_no": "515",
 		"appt_date": "1/23/2007",
 		"recognition_count": 8,
 		"arrest_count": 469,
@@ -62150,7 +62311,7 @@
 				"assignment_date": "4/26/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "3137",
+				"shield_no": "515",
 				"appt_date": "1/23/2007"
 			},
 			"ranks": [
@@ -65074,7 +65235,29 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/17/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26208",
+							"description": "01.Wrongful threat of force.\r\nWrongfully unholstered/displayed a Taser"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26208",
+							"description": "02.Wrongful threat of force.\r\nWrongfully unholstered/displayed a Taser."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26208",
+							"description": "03.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 61,
 				"misdemeanor": 108,
@@ -67867,6 +68050,60 @@
 		"command": "WORLD TRADE CENTER COMMAND"
 	},
 	{
+		"taxid": 943074,
+		"full_name": "CHAN, ROBERT",
+		"first_name": "ROBERT",
+		"last_name": "CHAN",
+		"middle_initial": "",
+		"rank": "LIEUTENANT",
+		"shield_no": "",
+		"appt_date": "1/10/2007",
+		"recognition_count": 1,
+		"arrest_count": 73,
+		"reports": {
+			"summary": {
+				"command": "INTERNAL AFFAIRS BUREAU",
+				"assignment_date": "7/17/2023",
+				"ethnicity": "ASIAN",
+				"rank_desc": "LIEUTENANT",
+				"shield_no": "",
+				"appt_date": "1/10/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2007",
+					"shield_no": "3567"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/28/2015",
+					"shield_no": "685"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "11/24/2020",
+					"shield_no": ""
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 1,
+				"felony": 17,
+				"misdemeanor": 52,
+				"violation": 3
+			},
+			"awards": [
+				{
+					"date": "2/6/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "INTERNAL AFFAIRS BUREAU"
+	},
+	{
 		"taxid": 945578,
 		"full_name": "CHAN, ROBERT",
 		"first_name": "ROBERT",
@@ -70515,7 +70752,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 34,
+				"misdemeanor": 36,
 				"violation": 1
 			},
 			"awards": []
@@ -73751,7 +73988,7 @@
 		"shield_no": "27647",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -74915,28 +75152,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "2/6/2015 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "067-067 PRECINCT",
-							"case_no": "2014-11455",
-							"description": "WHILE ON-DUTY, USED EXCESSIVE FORCE AGAINST A PERSON KNOWN TO THE DEPARTMENT.",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "067-067 PRECINCT",
-							"case_no": "2014-11455",
-							"description": "WHILE ON-DUTY, USED EXCESSIVE FORCE AGAINST A PERSON KNOWN TO THE DEPARTMENT.",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 38,
@@ -75478,7 +75694,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -77755,17 +77971,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 24,
-				"misdemeanor": 172,
-				"other": 2,
-				"violation": 18
+				"infraction": 1,
+				"felony": 12,
+				"misdemeanor": 86,
+				"other": 1,
+				"violation": 9
 			},
 			"awards": [
-				{
-					"date": "10/8/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "10/8/2013",
 					"name": "EXCELLENT POLICE DUTY"
@@ -77784,7 +77996,7 @@
 		"shield_no": "3551",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 47,
 		"reports": {
 			"summary": {
 				"command": "072 PRECINCT",
@@ -77804,8 +78016,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 32
+				"felony": 14,
+				"misdemeanor": 33
 			},
 			"awards": []
 		},
@@ -82568,8 +82780,8 @@
 		"arrest_count": 355,
 		"reports": {
 			"summary": {
-				"command": "NARC BORO QUEENS NORTH MAJOR CASE UNIT",
-				"assignment_date": "8/6/2020",
+				"command": "DBQN VIDEO COLLECTION TEAM",
+				"assignment_date": "1/8/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "DETECTIVE 3RD GRADE",
 				"shield_no": "4303",
@@ -82622,7 +82834,7 @@
 				}
 			]
 		},
-		"command": "NARC BORO QUEENS NORTH MAJOR CASE UNIT"
+		"command": "DBQN VIDEO COLLECTION TEAM"
 	},
 	{
 		"taxid": 966506,
@@ -84306,7 +84518,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/6/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29006",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 66,
@@ -88672,8 +88897,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 20
+				"felony": 3,
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -89252,7 +89477,7 @@
 		"shield_no": "17529",
 		"appt_date": "5/17/2021",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -89779,7 +90004,7 @@
 		"shield_no": "24699",
 		"appt_date": "2/24/2021",
 		"recognition_count": 0,
-		"arrest_count": 92,
+		"arrest_count": 94,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -93909,28 +94134,7 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "1/27/2018 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "730-NARCO BORO BRONX",
-							"case_no": "2017-18004",
-							"description": "WHILE ON-DUTY, ENTERED A PREMISE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"command": "730-NARCO BORO BRONX",
-							"case_no": "2017-18004",
-							"description": "SEARCHED A PREMISE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 205,
 				"misdemeanor": 474,
@@ -96923,7 +97127,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 9
+				"misdemeanor": 9,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -98273,7 +98478,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 11
 			},
 			"awards": []
@@ -103159,7 +103364,7 @@
 		"shield_no": "3895",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -103179,7 +103384,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 15,
 				"misdemeanor": 12
 			},
 			"awards": []
@@ -108303,7 +108508,7 @@
 		"shield_no": "28040",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "023 PRECINCT",
@@ -110338,8 +110543,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 16
+				"felony": 4,
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -111198,7 +111403,7 @@
 		"shield_no": "13315",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 103,
+		"arrest_count": 105,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -111571,7 +111776,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 141,
+				"felony": 151,
 				"misdemeanor": 160,
 				"other": 10,
 				"violation": 21
@@ -112735,7 +112940,7 @@
 		"shield_no": "9515",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "020 PRECINCT",
@@ -112760,7 +112965,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -113395,7 +113600,7 @@
 		"shield_no": "27822",
 		"appt_date": "1/23/2007",
 		"recognition_count": 4,
-		"arrest_count": 559,
+		"arrest_count": 560,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 12",
@@ -114439,7 +114644,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -115167,7 +115372,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -115321,8 +115526,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 10
+				"felony": 15,
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -116808,7 +117013,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -119534,7 +119739,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 7
+				"misdemeanor": 7,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -122578,7 +122784,7 @@
 		"shield_no": "8517",
 		"appt_date": "7/9/2007",
 		"recognition_count": 1,
-		"arrest_count": 307,
+		"arrest_count": 308,
 		"reports": {
 			"summary": {
 				"command": "TB CITYWIDE VANDALS TASK FORCE",
@@ -124509,7 +124715,7 @@
 		"shield_no": "8554",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 75,
+		"arrest_count": 79,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -125629,8 +125835,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 86,
-				"misdemeanor": 317,
+				"felony": 88,
+				"misdemeanor": 318,
 				"violation": 82
 			},
 			"awards": [
@@ -126785,7 +126991,7 @@
 		"shield_no": "28079",
 		"appt_date": "7/21/2021",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -126806,7 +127012,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -126874,8 +127080,8 @@
 		"arrest_count": 299,
 		"reports": {
 			"summary": {
-				"command": "103 PRECINCT",
-				"assignment_date": "3/10/2022",
+				"command": "PBQS JAMAICA AVE BID",
+				"assignment_date": "1/5/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1431",
@@ -126912,7 +127118,7 @@
 				}
 			]
 		},
-		"command": "103 PRECINCT"
+		"command": "PBQS JAMAICA AVE BID"
 	},
 	{
 		"taxid": 948811,
@@ -131196,7 +131402,7 @@
 		"shield_no": "9163",
 		"appt_date": "7/7/2021",
 		"recognition_count": 1,
-		"arrest_count": 39,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -131216,7 +131422,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
+				"felony": 21,
 				"misdemeanor": 19
 			},
 			"awards": [
@@ -131281,7 +131487,7 @@
 		"shield_no": "14213",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 40,
+		"arrest_count": 42,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -135168,7 +135374,7 @@
 		"shield_no": "6700",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "112 PRECINCT",
@@ -135673,7 +135879,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/12/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29309",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 18
@@ -137385,8 +137604,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
-				"misdemeanor": 51
+				"felony": 18,
+				"misdemeanor": 53
 			},
 			"awards": []
 		},
@@ -139154,7 +139373,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/11/2020 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "586-DEP COMM MGMT ANALYSIS AND PLAN",
+							"case_no": "2019-21479",
+							"description": "Failed to renew off-duty employment application.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "586-DEP COMM MGMT ANALYSIS AND PLAN",
+							"case_no": "2019-21479",
+							"description": "Wrongfully disseminated confidential Department information.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 100,
@@ -145263,7 +145503,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/26/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-28447",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 20
@@ -147404,7 +147657,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 100,
-				"misdemeanor": 354,
+				"misdemeanor": 355,
 				"violation": 25
 			},
 			"awards": [
@@ -148376,7 +148629,7 @@
 		"shield_no": "1281",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 65,
+		"arrest_count": 67,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -148397,7 +148650,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 61
+				"misdemeanor": 63
 			},
 			"awards": []
 		},
@@ -155440,10 +155693,38 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/18/2013 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2085",
+							"description": "WHILE OFF-DUTY, ENGAGED IN A PHYSICAL AND VERBAL ALTERCATION WITH PARTIES KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2085",
+							"description": "WHILE OFF-DUTY, FAILED TO REMAIN AT THE SCENE OF AN OFF-DUTY PHYSICAL AND VERBAL ALTERCATION WITH PARTIES KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2085",
+							"description": "WHILE OFF-DUTY, HAVING BEEN INVOLVED IN A POLICE INCIDENT, DID THEREAFTER FAIL TO PROMPTLY REPORT THE FACTS TO HIS COMMANDING OFFICER, AS REQUIRED.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 158,
-				"misdemeanor": 249,
+				"misdemeanor": 250,
 				"violation": 27
 			},
 			"awards": [
@@ -155615,7 +155896,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 16
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -157493,7 +157774,7 @@
 		"shield_no": "22070",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -161741,7 +162022,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/28/2011 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1264",
+							"description": "FAILED TO REVIEW A REPORT FOR ACCURACY PRIOR TO SIGNING SAID REPORT.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 106,
 				"misdemeanor": 161,
