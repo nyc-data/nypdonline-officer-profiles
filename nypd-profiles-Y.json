@@ -34,9 +34,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
-				"misdemeanor": 258,
-				"violation": 14
+				"felony": 26,
+				"misdemeanor": 129,
+				"violation": 7
 			},
 			"awards": [
 				{
@@ -1397,7 +1397,7 @@
 		"shield_no": "4941",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 41,
+		"arrest_count": 42,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 6",
@@ -2270,7 +2270,7 @@
 		"shield_no": "20260",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 116,
+		"arrest_count": 118,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -4048,7 +4048,7 @@
 		"shield_no": "20500",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -4074,34 +4074,6 @@
 			"awards": []
 		},
 		"command": "062 PRECINCT"
-	},
-	{
-		"taxid": 973862,
-		"full_name": "YEUNG, DENNIS C",
-		"first_name": "DENNIS",
-		"last_name": "YEUNG",
-		"middle_initial": "C",
-		"rank": "POLICE OFFICER",
-		"shield_no": "30580",
-		"appt_date": "12/29/2021",
-		"recognition_count": 0,
-		"arrest_count": 10,
-		"reports": {
-			"summary": {
-				"command": "075 PRECINCT",
-				"assignment_date": "12/21/2022",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "30580",
-				"appt_date": "12/29/2021"
-			},
-			"ranks": [],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "075 PRECINCT"
 	},
 	{
 		"taxid": 941257,
@@ -4418,7 +4390,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/12/2012 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2392",
+							"description": "WHILE OFF DUTY WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) ), RESTORATION OF SUSPENSION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 79,
@@ -5763,7 +5749,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 140,
-				"misdemeanor": 201,
+				"misdemeanor": 202,
 				"violation": 29
 			},
 			"awards": [
@@ -8115,13 +8101,7 @@
 				"shield_no": "21762",
 				"appt_date": "1/9/2012"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2012",
-					"shield_no": "21762"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
