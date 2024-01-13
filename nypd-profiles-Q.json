@@ -5657,7 +5657,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
+				"felony": 21,
 				"misdemeanor": 30,
 				"violation": 1
 			},
@@ -5893,7 +5893,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/14/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-28408",
+							"description": "01.Criminal association.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28408",
+							"description": "02.Made computer inquiries unrelated to official Department business.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 2,
 				"misdemeanor": 29
@@ -6407,7 +6426,7 @@
 		"shield_no": "3477",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 183,
+		"arrest_count": 185,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -6437,7 +6456,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 106,
+				"felony": 108,
 				"misdemeanor": 75,
 				"violation": 2
 			},
