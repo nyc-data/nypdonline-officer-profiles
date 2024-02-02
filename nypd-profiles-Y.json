@@ -3233,8 +3233,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 76,
-				"misdemeanor": 66,
+				"felony": 77,
+				"misdemeanor": 67,
 				"violation": 2
 			},
 			"awards": []
@@ -4579,7 +4579,34 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/23/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26142",
+							"description": "01.Violated patrol rules."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26142",
+							"description": "02.Wrongfully frisked an individual known to the Department."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26142",
+							"description": "03.Wrongfully searched an individual known to the Department."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26143",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 23,
 				"misdemeanor": 87,
@@ -5035,7 +5062,7 @@
 		"shield_no": "24158",
 		"appt_date": "7/11/2012",
 		"recognition_count": 11,
-		"arrest_count": 180,
+		"arrest_count": 181,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -6527,7 +6554,7 @@
 		"shield_no": "6375",
 		"appt_date": "7/9/2013",
 		"recognition_count": 2,
-		"arrest_count": 282,
+		"arrest_count": 283,
 		"reports": {
 			"summary": {
 				"command": "025 DET SQUAD",
@@ -7136,8 +7163,8 @@
 		"first_name": "ANTHONY",
 		"last_name": "YOVINO",
 		"middle_initial": "M",
-		"rank": "POLICE OFFICER",
-		"shield_no": "19828",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "3059",
 		"appt_date": "7/9/2013",
 		"recognition_count": 0,
 		"arrest_count": 35,
@@ -7146,8 +7173,8 @@
 				"command": "CRIME SCENE UNIT",
 				"assignment_date": "10/3/2022",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "19828",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "3059",
 				"appt_date": "7/9/2013"
 			},
 			"ranks": [
@@ -7155,6 +7182,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/9/2013",
 					"shield_no": "19828"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "1/26/2024",
+					"shield_no": "3059"
 				}
 			],
 			"documents": [],
@@ -7948,7 +7980,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/10/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-28019",
+							"description": "01.Wrongfully used physical force.",
+							"penalty": "B - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 60,
@@ -8425,8 +8470,8 @@
 		"arrest_count": 99,
 		"reports": {
 			"summary": {
-				"command": "INTELLIGENCE DIVISION",
-				"assignment_date": "1/16/2023",
+				"command": "061 PRECINCT",
+				"assignment_date": "1/22/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5176",
@@ -8463,7 +8508,7 @@
 				}
 			]
 		},
-		"command": "INTELLIGENCE DIVISION"
+		"command": "061 PRECINCT"
 	},
 	{
 		"taxid": 965632,
@@ -9491,7 +9536,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/10/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "849-TB ANTI TERRORISM UNIT",
+							"case_no": "2018-18401",
+							"description": "while on-duty, failed to conduct a proper investigation.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "849-TB ANTI TERRORISM UNIT",
+							"case_no": "2018-18401",
+							"description": "while on-duty, failed and neglected to properly safeguard a prisoner resulting in the loss of said prisoner.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 29,
 				"misdemeanor": 100,
