@@ -5336,7 +5336,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 56,
-				"misdemeanor": 49
+				"misdemeanor": 50,
+				"violation": 1
 			},
 			"awards": [
 				{
@@ -10111,7 +10112,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 57,
+				"felony": 58,
 				"misdemeanor": 29,
 				"violation": 1
 			},
@@ -10699,7 +10700,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 58,
+				"misdemeanor": 59,
 				"violation": 1
 			},
 			"awards": []
@@ -11592,7 +11593,7 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 23,
 				"violation": 1
 			},
@@ -30957,7 +30958,7 @@
 		"arrest_count": 144,
 		"reports": {
 			"summary": {
-				"command": "030 PRECINCT",
+				"command": "PBMN COMMUNITY RESPONSE TEAM",
 				"assignment_date": "11/26/2023",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
@@ -30986,7 +30987,7 @@
 				}
 			]
 		},
-		"command": "030 PRECINCT"
+		"command": "PBMN COMMUNITY RESPONSE TEAM"
 	},
 	{
 		"taxid": 959301,
@@ -32179,7 +32180,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24823",
+							"description": "01.Violated patrol rules.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 26,
@@ -38388,8 +38402,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
-				"misdemeanor": 89
+				"felony": 30,
+				"misdemeanor": 90
 			},
 			"awards": [
 				{
@@ -39031,7 +39045,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 51
+				"misdemeanor": 52
 			},
 			"awards": []
 		},
@@ -39178,7 +39192,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/22/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27340",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 74,
 				"misdemeanor": 46
@@ -60776,7 +60803,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/11/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25118",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25119",
+							"description": "01.Failed to activate their body worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 33,
 				"misdemeanor": 53
