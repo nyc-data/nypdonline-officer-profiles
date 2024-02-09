@@ -1036,8 +1036,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 9,
-				"misdemeanor": 16
+				"felony": 10,
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -2306,7 +2306,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 17,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -4067,8 +4067,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 14
+				"felony": 7,
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -4958,7 +4958,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 22
+				"misdemeanor": 22,
+				"other": 1
 			},
 			"awards": [
 				{
@@ -9116,7 +9117,7 @@
 		"shield_no": "16725",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 85,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -10414,7 +10415,7 @@
 		"shield_no": "25406",
 		"appt_date": "1/31/2006",
 		"recognition_count": 3,
-		"arrest_count": 108,
+		"arrest_count": 109,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -10697,7 +10698,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -11448,7 +11449,7 @@
 		"shield_no": "22798",
 		"appt_date": "2/24/2021",
 		"recognition_count": 3,
-		"arrest_count": 144,
+		"arrest_count": 145,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -11469,7 +11470,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 49,
+				"felony": 50,
 				"misdemeanor": 94
 			},
 			"awards": [
@@ -20998,8 +20999,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 14
+				"felony": 7,
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -21543,7 +21544,7 @@
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 4,
-				"violation": 3
+				"violation": 5
 			},
 			"awards": []
 		},
@@ -23177,7 +23178,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 46
+				"misdemeanor": 52
 			},
 			"awards": []
 		},
@@ -25616,7 +25617,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 24
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -26128,7 +26129,38 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/8/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26039",
+							"description": "01.Failed to Supervise.",
+							"penalty": "INSTRUCTIONS"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26039",
+							"description": "01.Failed to supervise.",
+							"penalty": "INSTRUCTIONS"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26039",
+							"description": "02.Failed to timely notify.",
+							"penalty": "INSTRUCTIONS"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26039",
+							"description": "03.Omitted Activity Log Entries.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 27,
 				"misdemeanor": 107,
@@ -27459,7 +27491,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -31607,7 +31639,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
+				"felony": 7,
 				"misdemeanor": 12
 			},
 			"awards": []
@@ -34443,7 +34475,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -39116,7 +39148,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/22/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"case_no": "2023-28713",
+							"description": "01.Off-duty employment",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 52
@@ -40524,7 +40569,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 79
+				"misdemeanor": 80
 			},
 			"awards": []
 		},
@@ -41728,7 +41773,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
+				"felony": 12,
 				"misdemeanor": 30,
 				"violation": 1
 			},
@@ -42126,7 +42171,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
+				"felony": 30,
 				"misdemeanor": 30
 			},
 			"awards": []
@@ -42357,8 +42402,8 @@
 		"arrest_count": 61,
 		"reports": {
 			"summary": {
-				"command": "084 PRECINCT",
-				"assignment_date": "8/30/2021",
+				"command": "WORLD TRADE CENTER COMMAND",
+				"assignment_date": "2/5/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "734",
@@ -42390,7 +42435,7 @@
 				}
 			]
 		},
-		"command": "084 PRECINCT"
+		"command": "WORLD TRADE CENTER COMMAND"
 	},
 	{
 		"taxid": 954544,
@@ -43531,7 +43576,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 10
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -47532,8 +47577,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "1429",
 		"appt_date": "7/9/2007",
-		"recognition_count": 53,
-		"arrest_count": 272,
+		"recognition_count": 106,
+		"arrest_count": 544,
 		"reports": {
 			"summary": {
 				"command": "FIREARMS & TACTICS SECTION",
@@ -47995,8 +48040,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "29831",
 		"appt_date": "7/20/2006",
-		"recognition_count": 10,
-		"arrest_count": 760,
+		"recognition_count": 5,
+		"arrest_count": 380,
 		"reports": {
 			"summary": {
 				"command": "BRONX ZOO DETAIL",
@@ -49989,7 +50034,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
+				"felony": 13,
 				"misdemeanor": 25
 			},
 			"awards": []
@@ -55035,7 +55080,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -55572,7 +55617,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 12
 			},
 			"awards": []
@@ -57274,7 +57319,7 @@
 		"shield_no": "3131",
 		"appt_date": "1/10/2007",
 		"recognition_count": 11,
-		"arrest_count": 373,
+		"arrest_count": 374,
 		"reports": {
 			"summary": {
 				"command": "QUEENS SPECIAL VICTIMS SQUAD",
@@ -57362,7 +57407,7 @@
 		"shield_no": "4033",
 		"appt_date": "1/10/2007",
 		"recognition_count": 8,
-		"arrest_count": 341,
+		"arrest_count": 346,
 		"reports": {
 			"summary": {
 				"command": "072 DET SQUAD",
@@ -59767,9 +59812,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 7,
-				"misdemeanor": 18
+				"infraction": 2,
+				"felony": 22,
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -65986,7 +66031,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 27
 			},
 			"awards": [
@@ -67595,7 +67640,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 27
+				"misdemeanor": 28
 			},
 			"awards": []
 		},
@@ -68155,7 +68200,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 35,
-				"misdemeanor": 57
+				"misdemeanor": 58
 			},
 			"awards": [
 				{
@@ -68440,7 +68485,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
+				"felony": 34,
 				"misdemeanor": 39
 			},
 			"awards": []
@@ -68697,7 +68742,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 48
+				"misdemeanor": 49
 			},
 			"awards": []
 		},
@@ -69848,7 +69893,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -71685,7 +71730,7 @@
 		"shield_no": "1887",
 		"appt_date": "1/31/2006",
 		"recognition_count": 0,
-		"arrest_count": 757,
+		"arrest_count": 759,
 		"reports": {
 			"summary": {
 				"command": "079 DET SQUAD",
@@ -76626,7 +76671,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 23
 			},
 			"awards": []
@@ -77667,7 +77712,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 16
 			},
 			"awards": []
@@ -89452,13 +89497,7 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 13,
-				"misdemeanor": 40,
-				"other": 1,
-				"violation": 8
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "6/5/2009",
@@ -91864,7 +91903,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 36
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -95195,7 +95234,7 @@
 		"shield_no": "5007",
 		"appt_date": "1/31/2006",
 		"recognition_count": 0,
-		"arrest_count": 641,
+		"arrest_count": 642,
 		"reports": {
 			"summary": {
 				"command": "107TH DET SQUAD",
@@ -96094,10 +96133,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 8,
-				"misdemeanor": 30,
-				"violation": 12
+				"infraction": 2,
+				"felony": 16,
+				"misdemeanor": 60,
+				"violation": 24
 			},
 			"awards": []
 		},
@@ -97356,7 +97395,7 @@
 		"shield_no": "1154",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 73,
+		"arrest_count": 146,
 		"reports": {
 			"summary": {
 				"command": "MEDICAL DIVISION",
@@ -97468,7 +97507,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 9,
-				"misdemeanor": 22
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -97504,8 +97543,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
-				"misdemeanor": 37
+				"felony": 26,
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -97747,8 +97786,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 34
+				"felony": 4,
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -99621,7 +99660,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -101496,7 +101535,7 @@
 		"shield_no": "2801",
 		"appt_date": "1/10/2007",
 		"recognition_count": 14,
-		"arrest_count": 927,
+		"arrest_count": 928,
 		"reports": {
 			"summary": {
 				"command": "106TH DET SQUAD",
@@ -110534,7 +110573,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 4,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -116913,7 +116952,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -117927,7 +117966,7 @@
 		"shield_no": "417",
 		"appt_date": "7/9/2007",
 		"recognition_count": 1,
-		"arrest_count": 435,
+		"arrest_count": 436,
 		"reports": {
 			"summary": {
 				"command": "061 DET SQUAD",
