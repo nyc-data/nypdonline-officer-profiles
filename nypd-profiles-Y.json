@@ -2857,12 +2857,7 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 326,
-				"misdemeanor": 164,
-				"other": 2,
-				"violation": 1
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "3/1/2009",
@@ -3344,13 +3339,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 49,
-				"misdemeanor": 123,
-				"violation": 171
-			},
+			"discipline": [
+				{
+					"entry": "2/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-24328",
+							"description": "01.Failed to submit required report.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
+			"arrests": {},
 			"awards": [
 				{
 					"date": "1/20/2013",
