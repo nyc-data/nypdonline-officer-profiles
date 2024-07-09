@@ -6997,8 +6997,8 @@
 		"arrest_count": 25,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 34",
-				"assignment_date": "2/13/2020",
+				"command": "TD 34 SUMMER DETAIL",
+				"assignment_date": "6/27/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "26299",
@@ -7026,7 +7026,7 @@
 				}
 			]
 		},
-		"command": "TRANSIT DISTRICT 34"
+		"command": "TD 34 SUMMER DETAIL"
 	},
 	{
 		"taxid": 966896,
@@ -10460,8 +10460,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 477,
-				"misdemeanor": 912,
+				"felony": 478,
+				"misdemeanor": 913,
 				"violation": 4
 			},
 			"awards": [
@@ -22644,8 +22644,8 @@
 		"arrest_count": 82,
 		"reports": {
 			"summary": {
-				"command": "041 PRECINCT",
-				"assignment_date": "3/10/2021",
+				"command": "FIREARMS & TACTICS SECTION",
+				"assignment_date": "7/3/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "11850",
@@ -22699,7 +22699,7 @@
 				}
 			]
 		},
-		"command": "041 PRECINCT"
+		"command": "FIREARMS & TACTICS SECTION"
 	},
 	{
 		"taxid": 961413,
@@ -22768,7 +22768,13 @@
 				"shield_no": "5511",
 				"appt_date": "7/1/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2019",
+					"shield_no": "5511"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -28150,10 +28156,44 @@
 				"shield_no": "1954",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "1954"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/16/2016 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY ENGAGED IN CONDUCT PREJUDICIAL TO THE GOOD ORDER, EFFICIENCY, OR DISCIPLINE OF THE DEPARTMENT, TO WIT: SAID POLICE OFFICER ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY  ENGAGED IN CONDUCT PREJUDICIAL TO THE GOOD ORDER, EFFICIENCY, OR DISCIPLINE OF THE DEPARTMENT, TO WIT: SAID POLICE OFFICER FAILED TO TAKE POLICE ACTION HAVING BEEN INVOLVED IN A PHYSICAL ALTERCATION WHERE INDIVIDUALS SUSTAINED INJURIES REQUIRING MEDICAL ATTENTION.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY FAILED TO REMAIN AT THE SCENE OF AN OFF DUTY INCIDENT AND REQUEST THE RESPONSE OF THE PATROL SUPERVISOR.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 25,
 				"misdemeanor": 87,
@@ -33040,14 +33080,6 @@
 		"recognition_count": 28,
 		"arrest_count": 256,
 		"reports": {
-			"summary": {
-				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
-				"assignment_date": "5/1/2019",
-				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
-				"shield_no": "2358",
-				"appt_date": "7/1/2004"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -33063,128 +33095,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"infraction": 3,
-				"felony": 76,
-				"misdemeanor": 167,
-				"violation": 10
-			},
-			"awards": [
-				{
-					"date": "2/28/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/2/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/31/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/17/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/2/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/1/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/25/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/14/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/13/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/20/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/11/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/20/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/18/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/9/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/1/2008",
-					"name": "MERITORIOUS POLICE DUTY-INTEGRITY"
-				},
-				{
-					"date": "11/13/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/11/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/1/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/19/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/19/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/13/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/15/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/3/2006",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/6/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/28/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/25/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/25/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/30/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "STRATEGIC RESP GRP 1 MANHATTAN"
+			"arrests": {},
+			"awards": []
+		}
 	},
 	{
 		"taxid": 952320,
