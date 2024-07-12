@@ -3632,8 +3632,8 @@
 		"arrest_count": 67,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "5/31/2024",
+				"command": "094 PRECINCT",
+				"assignment_date": "7/1/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1062",
@@ -3666,7 +3666,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "094 PRECINCT"
 	},
 	{
 		"taxid": 942923,
@@ -6608,7 +6608,7 @@
 		"shield_no": "9959",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 95,
+		"arrest_count": 97,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -14285,12 +14285,14 @@
 						{
 							"disposition": "GUILTY",
 							"description": "SENT THREATENING TEXT MESSAGES TO A PERSON KNOWN TO THE DEPARTMENT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "CAUSED UNAUTHORIZED DEPARTMENT COMPUTER INQUIRIES TO BE MADE THAT WERE NOT RELATED TO OFFICIAL DEPARTMENT BUSINESS.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						}
 					]
 				}
@@ -26846,7 +26848,7 @@
 		"shield_no": "18594",
 		"appt_date": "7/13/2016",
 		"recognition_count": 3,
-		"arrest_count": 51,
+		"arrest_count": 52,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 4 QUEENS",
@@ -28121,7 +28123,7 @@
 		"shield_no": "4604",
 		"appt_date": "4/15/2019",
 		"recognition_count": 12,
-		"arrest_count": 73,
+		"arrest_count": 78,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -34802,8 +34804,8 @@
 		"arrest_count": 102,
 		"reports": {
 			"summary": {
-				"command": "024 PRECINCT",
-				"assignment_date": "11/29/2023",
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "5/31/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4938",
@@ -34881,7 +34883,7 @@
 				}
 			]
 		},
-		"command": "024 PRECINCT"
+		"command": "MILITARY & EXTENDED LEAVE DESK"
 	},
 	{
 		"taxid": 968217,
@@ -35413,7 +35415,7 @@
 		"shield_no": "17802",
 		"appt_date": "7/9/2013",
 		"recognition_count": 1,
-		"arrest_count": 190,
+		"arrest_count": 191,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 3 BROOKLYN",
@@ -38829,7 +38831,7 @@
 		"shield_no": "11516",
 		"appt_date": "1/9/2006",
 		"recognition_count": 1,
-		"arrest_count": 333,
+		"arrest_count": 334,
 		"reports": {
 			"summary": {
 				"command": "PBMS BID TEAM",
@@ -43598,6 +43600,10 @@
 				{
 					"entry": "6/23/2022 12:00:00 AM",
 					"charges_count": 1
+				},
+				{
+					"entry": "5/28/2024 12:00:00 AM",
+					"allegations_count": 2
 				}
 			],
 			"discipline": [
@@ -43608,6 +43614,22 @@
 							"description": "engaged in a physical altercation.",
 							"group_id": "1",
 							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, TRAINING, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully stopped an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, TRAINING, VACATION DAYS (1 day(s) )"
 						}
 					]
 				}
@@ -51324,7 +51346,7 @@
 		"shield_no": "20768",
 		"appt_date": "7/6/2011",
 		"recognition_count": 1,
-		"arrest_count": 133,
+		"arrest_count": 134,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -54057,7 +54079,7 @@
 		"shield_no": "23797",
 		"appt_date": "1/4/2017",
 		"recognition_count": 2,
-		"arrest_count": 159,
+		"arrest_count": 160,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -55475,10 +55497,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"misdemeanor": 36,
-				"violation": 3
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "TRANSIT BUREAU"
@@ -57176,13 +57195,7 @@
 				"shield_no": "18911",
 				"appt_date": "1/10/2005"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2005",
-					"shield_no": "18911"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -59843,7 +59856,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 31,
-				"misdemeanor": 95,
+				"misdemeanor": 97,
 				"violation": 1
 			},
 			"awards": [
@@ -87696,7 +87709,7 @@
 			],
 			"arrests": {
 				"infraction": 4,
-				"felony": 97,
+				"felony": 98,
 				"misdemeanor": 278,
 				"other": 2,
 				"violation": 2
@@ -87959,7 +87972,7 @@
 		"shield_no": "23815",
 		"appt_date": "1/3/2019",
 		"recognition_count": 0,
-		"arrest_count": 65,
+		"arrest_count": 66,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -90852,6 +90865,16 @@
 			},
 			"ranks": [
 				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2003",
+					"shield_no": "415"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/29/2008",
+					"shield_no": "3469"
+				},
+				{
 					"rank": "LIEUTENANT",
 					"date": "6/28/2019",
 					"shield_no": ""
@@ -93147,7 +93170,7 @@
 			],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 22
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -98521,8 +98544,8 @@
 		"arrest_count": 93,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "5/31/2024",
+				"command": "115 PRECINCT",
+				"assignment_date": "7/1/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1222",
@@ -98603,7 +98626,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "115 PRECINCT"
 	},
 	{
 		"taxid": 951512,
@@ -102117,7 +102140,7 @@
 		"shield_no": "19612",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
-		"arrest_count": 225,
+		"arrest_count": 228,
 		"reports": {
 			"summary": {
 				"command": "024 DET SQUAD",
@@ -103676,7 +103699,7 @@
 		"shield_no": "6483",
 		"appt_date": "7/1/2002",
 		"recognition_count": 10,
-		"arrest_count": 1162,
+		"arrest_count": 1168,
 		"reports": {
 			"summary": {
 				"command": "110TH DET SQUAD",
