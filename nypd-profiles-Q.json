@@ -3370,7 +3370,7 @@
 		"shield_no": "7970",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 51,
+		"arrest_count": 52,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",
@@ -4243,7 +4243,13 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"infraction": 1,
+				"felony": 100,
+				"misdemeanor": 193,
+				"other": 6,
+				"violation": 3
+			},
 			"awards": [
 				{
 					"date": "1/4/2014",
@@ -4475,6 +4481,10 @@
 				{
 					"date": "12/6/2016",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/26/2016",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "12/26/2015",
@@ -4798,7 +4808,13 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"infraction": 3,
+				"felony": 150,
+				"misdemeanor": 154,
+				"other": 1,
+				"violation": 10
+			},
 			"awards": [
 				{
 					"date": "5/14/2016",

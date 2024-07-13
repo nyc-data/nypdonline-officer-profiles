@@ -5233,7 +5233,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 14,
+				"misdemeanor": 82
+			},
 			"awards": [
 				{
 					"date": "2/25/2016",
@@ -8555,7 +8558,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 20,
+				"misdemeanor": 56
+			},
 			"awards": []
 		},
 		"command": "BRONX ZOO DETAIL"
@@ -12555,7 +12561,12 @@
 					]
 				}
 			],
-			"arrests": {},
+			"arrests": {
+				"infraction": 2,
+				"felony": 71,
+				"misdemeanor": 78,
+				"violation": 16
+			},
 			"awards": [
 				{
 					"date": "8/15/2019",
@@ -16544,7 +16555,12 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"infraction": 1,
+				"felony": 21,
+				"misdemeanor": 78,
+				"violation": 1
+			},
 			"awards": [
 				{
 					"date": "3/23/2016",
@@ -17300,7 +17316,7 @@
 		"shield_no": "3832",
 		"appt_date": "7/11/2005",
 		"recognition_count": 0,
-		"arrest_count": 287,
+		"arrest_count": 288,
 		"reports": {
 			"summary": {
 				"command": "BRONX CHILD ABUSE SQUAD",
@@ -17327,7 +17343,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 110,
+				"felony": 111,
 				"misdemeanor": 157,
 				"other": 1,
 				"violation": 17
@@ -19774,7 +19790,12 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"infraction": 2,
+				"felony": 7,
+				"misdemeanor": 40,
+				"violation": 26
+			},
 			"awards": [
 				{
 					"date": "9/26/2009",
@@ -20716,11 +20737,27 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/1/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
-				"felony": 98,
+				"felony": 99,
 				"misdemeanor": 249,
 				"violation": 4
 			},
@@ -21641,7 +21678,7 @@
 		"shield_no": "15092",
 		"appt_date": "10/24/2018",
 		"recognition_count": 6,
-		"arrest_count": 72,
+		"arrest_count": 73,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -24564,7 +24601,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 97,
+				"felony": 98,
 				"misdemeanor": 169,
 				"violation": 5
 			},
@@ -28521,7 +28558,12 @@
 					]
 				}
 			],
-			"arrests": {},
+			"arrests": {
+				"infraction": 1,
+				"felony": 79,
+				"misdemeanor": 212,
+				"violation": 2
+			},
 			"awards": [
 				{
 					"date": "2/12/2021",
@@ -28657,7 +28699,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 215,
+				"felony": 219,
 				"misdemeanor": 367,
 				"violation": 81
 			},
@@ -29984,7 +30026,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 285,
-				"misdemeanor": 791,
+				"misdemeanor": 792,
 				"other": 1,
 				"violation": 3
 			},
@@ -32437,13 +32479,7 @@
 				"shield_no": "13725",
 				"appt_date": "7/10/2006"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/10/2006",
-					"shield_no": "13725"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
