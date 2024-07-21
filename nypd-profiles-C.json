@@ -452,7 +452,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 167,
+				"felony": 170,
 				"misdemeanor": 83,
 				"violation": 7
 			},
@@ -2740,7 +2740,7 @@
 			],
 			"arrests": {
 				"felony": 38,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": [
 				{
@@ -11217,7 +11217,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "Wrongfully used a chokehold.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						}
 					]
 				}
@@ -14758,7 +14759,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 177,
+				"felony": 178,
 				"misdemeanor": 500,
 				"violation": 4
 			},
@@ -23920,7 +23921,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 60,
+				"felony": 61,
 				"misdemeanor": 67
 			},
 			"awards": []
@@ -24863,8 +24864,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 72,
-				"misdemeanor": 111
+				"felony": 74,
+				"misdemeanor": 113
 			},
 			"awards": [
 				{
@@ -28064,7 +28065,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 57,
+				"felony": 60,
 				"misdemeanor": 36,
 				"violation": 1
 			},
@@ -38757,8 +38758,8 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 31,
-				"misdemeanor": 98,
+				"felony": 32,
+				"misdemeanor": 101,
 				"other": 1
 			},
 			"awards": [
@@ -38891,7 +38892,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WAS DISCOURTEOUS TO NEW YORK CITY POLICE LIEUTENANT",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
 						}
 					]
 				},
@@ -38907,7 +38909,7 @@
 			],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 114,
+				"misdemeanor": 117,
 				"violation": 47
 			},
 			"awards": []
@@ -40804,7 +40806,7 @@
 			],
 			"arrests": {
 				"felony": 197,
-				"misdemeanor": 98,
+				"misdemeanor": 99,
 				"violation": 2
 			},
 			"awards": [
@@ -41943,7 +41945,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1074,
+				"felony": 1075,
 				"misdemeanor": 547,
 				"other": 1,
 				"violation": 1
@@ -44818,7 +44820,7 @@
 			],
 			"arrests": {
 				"felony": 34,
-				"misdemeanor": 47
+				"misdemeanor": 48
 			},
 			"awards": []
 		},
@@ -52999,7 +53001,7 @@
 		"shield_no": "4174",
 		"appt_date": "7/2/2001",
 		"recognition_count": 11,
-		"arrest_count": 624,
+		"arrest_count": 626,
 		"reports": {
 			"summary": {
 				"command": "045 DET SQUAD",
@@ -65472,7 +65474,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 172,
+				"felony": 174,
 				"misdemeanor": 187,
 				"other": 2,
 				"violation": 1
@@ -69961,8 +69963,42 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/8/2022 12:00:00 AM",
+					"allegations_count": 2
+				},
+				{
+					"entry": "11/29/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Wrongfully discourteous.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to prepare required reports.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 6,
 				"felony": 53,
@@ -70539,7 +70575,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 68,
+				"felony": 70,
 				"misdemeanor": 38,
 				"violation": 2
 			},
@@ -85310,7 +85346,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 36
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -88019,8 +88055,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
-				"misdemeanor": 69,
+				"felony": 28,
+				"misdemeanor": 72,
 				"violation": 1
 			},
 			"awards": []
@@ -95445,7 +95481,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 54,
+				"misdemeanor": 55,
 				"other": 1
 			},
 			"awards": [
@@ -104425,13 +104461,14 @@
 						{
 							"recommendation": "B-CD",
 							"description": "01.Made computer inquiries unrelated to official Department business.",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 113,
 				"violation": 1
 			},
@@ -113741,8 +113778,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 53,
-				"misdemeanor": 59
+				"felony": 55,
+				"misdemeanor": 61
 			},
 			"awards": [
 				{
@@ -120816,7 +120853,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -122096,8 +122133,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 6
+				"felony": 3,
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -132035,7 +132072,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 103,
+				"felony": 114,
 				"misdemeanor": 83,
 				"violation": 1
 			},
@@ -133376,7 +133413,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 101,
+				"felony": 103,
 				"misdemeanor": 75
 			},
 			"awards": [
@@ -134315,7 +134352,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 9,
+				"felony": 10,
 				"misdemeanor": 19,
 				"violation": 1
 			},
@@ -135217,7 +135254,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Violated patrol rules - failed to provide his shield number",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -136119,7 +136157,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": [
 				{
@@ -145609,22 +145647,26 @@
 						{
 							"recommendation": "OTHER",
 							"description": "01.Failed to activate their body worn camera.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "OTHER",
 							"description": "02.Failed to make required entries in Department Logs.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
 							"description": "03.Wrongful entry of a premises.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
 							"description": "04.Wrongful search of a premises.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -150793,12 +150835,14 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Failed to activate body-worn camera.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "OTHER",
 							"description": "02.Failed to make required entries in Department Logs.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -159226,7 +159270,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 297,
+				"felony": 298,
 				"misdemeanor": 248,
 				"violation": 13
 			},
@@ -159733,7 +159777,7 @@
 			],
 			"arrests": {
 				"felony": 49,
-				"misdemeanor": 106,
+				"misdemeanor": 107,
 				"violation": 6
 			},
 			"awards": [
@@ -163320,7 +163364,7 @@
 		"shield_no": "7706",
 		"appt_date": "10/10/2000",
 		"recognition_count": 0,
-		"arrest_count": 411,
+		"arrest_count": 413,
 		"reports": {
 			"summary": {
 				"command": "007 DET SQUAD",
@@ -165244,7 +165288,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 251,
+				"felony": 252,
 				"misdemeanor": 176,
 				"violation": 3
 			},
@@ -165968,7 +166012,7 @@
 		"shield_no": "4076",
 		"appt_date": "3/1/2000",
 		"recognition_count": 9,
-		"arrest_count": 666,
+		"arrest_count": 668,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
@@ -166011,7 +166055,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 528,
+				"felony": 530,
 				"misdemeanor": 131,
 				"other": 1,
 				"violation": 5
@@ -173518,7 +173562,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 71,
+				"felony": 72,
 				"misdemeanor": 92,
 				"violation": 4
 			},
@@ -176495,11 +176539,27 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/3/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 115,
-				"misdemeanor": 126
+				"misdemeanor": 127
 			},
 			"awards": []
 		},
@@ -178514,7 +178574,7 @@
 		"shield_no": "4024",
 		"appt_date": "7/8/2015",
 		"recognition_count": 21,
-		"arrest_count": 327,
+		"arrest_count": 329,
 		"reports": {
 			"summary": {
 				"command": "121 DETECTIVE SQUAD",
@@ -183045,7 +183105,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 540
+				"misdemeanor": 542
 			},
 			"awards": [
 				{
@@ -185586,7 +185646,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 49,
-				"misdemeanor": 101
+				"misdemeanor": 102
 			},
 			"awards": [
 				{
@@ -185697,7 +185757,7 @@
 			],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 114,
+				"misdemeanor": 115,
 				"violation": 5
 			},
 			"awards": [
@@ -187116,8 +187176,8 @@
 		"arrest_count": 213,
 		"reports": {
 			"summary": {
-				"command": "POLICE LABORATORY",
-				"assignment_date": "11/20/2023",
+				"command": "FORENSIC INVESTIGATIONS DIV",
+				"assignment_date": "7/19/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SGT DET SQUAD",
 				"shield_no": "2106",
@@ -187215,7 +187275,7 @@
 				}
 			]
 		},
-		"command": "POLICE LABORATORY"
+		"command": "FORENSIC INVESTIGATIONS DIV"
 	},
 	{
 		"taxid": 972595,

@@ -12521,8 +12521,30 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/30/2015 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "STOPPED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "ENTERED A LOCATION WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 179,
@@ -12720,7 +12742,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 54,
+				"felony": 55,
 				"misdemeanor": 44
 			},
 			"awards": [
@@ -12896,7 +12918,12 @@
 				"misdemeanor": 34,
 				"violation": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "1/8/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "007 PRECINCT"
 	},
@@ -18653,7 +18680,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 26,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": [
 				{
@@ -21992,6 +22019,10 @@
 				{
 					"entry": "5/2/2024 12:00:00 AM",
 					"allegations_count": 1
+				},
+				{
+					"entry": "7/11/2024 12:00:00 AM",
+					"allegations_count": 1
 				}
 			],
 			"discipline": [
@@ -22011,6 +22042,16 @@
 							"description": "01.Wrongfully discourteous.",
 							"group_id": "2",
 							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Violated patrol rules.",
+							"group_id": "3",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -23052,7 +23093,7 @@
 			],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 90
+				"misdemeanor": 91
 			},
 			"awards": [
 				{
@@ -24005,7 +24046,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 121,
+				"felony": 123,
 				"misdemeanor": 251,
 				"violation": 9
 			},
@@ -38668,7 +38709,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 34,
-				"misdemeanor": 69,
+				"misdemeanor": 71,
 				"other": 1,
 				"violation": 21
 			},
@@ -42172,7 +42213,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 213,
-				"misdemeanor": 397,
+				"misdemeanor": 399,
 				"violation": 4
 			},
 			"awards": [
@@ -43298,7 +43339,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 43,
 				"violation": 2
 			},
@@ -46995,7 +47036,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 55,
 				"violation": 1
 			},
@@ -58143,7 +58184,7 @@
 			],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": [
 				{
@@ -58573,6 +58614,21 @@
 			},
 			"ranks": [
 				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2003",
+					"shield_no": "31526"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "3/16/2006",
+					"shield_no": "30676"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "7/25/2008",
+					"shield_no": "34"
+				},
+				{
 					"rank": "LIEUTENANT",
 					"date": "10/26/2012",
 					"shield_no": ""
@@ -58599,8 +58655,48 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/17/2022 12:00:00 AM",
+					"allegations_count": 2
+				},
+				{
+					"entry": "3/23/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Improper frisk of an individual",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"description": "02.Improper search of an individual",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "02.Wrongfully used offensive language.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 31,
@@ -63169,7 +63265,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 55,
+				"felony": 59,
 				"misdemeanor": 86
 			},
 			"awards": [
@@ -65026,7 +65122,7 @@
 		"shield_no": "685",
 		"appt_date": "7/1/2004",
 		"recognition_count": 0,
-		"arrest_count": 458,
+		"arrest_count": 460,
 		"reports": {
 			"summary": {
 				"command": "049 DET SQUAD",
@@ -65068,8 +65164,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 132,
-				"misdemeanor": 314,
+				"felony": 133,
+				"misdemeanor": 315,
 				"violation": 12
 			},
 			"awards": []
@@ -72782,8 +72878,29 @@
 					"charges_count": 2
 				}
 			],
-			"discipline": [],
-			"arrests": {},
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "ENGAGED IN A PHYSICAL AND VERBAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (12 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED AND NEGLECTED TO NOTIFY THE PATROL SUPERVISOR OF AN UNUSUAL POLICE OCCURRENCE .",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (12 day(s) )"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"infraction": 2,
+				"felony": 19,
+				"misdemeanor": 50
+			},
 			"awards": [
 				{
 					"date": "5/5/2014",
@@ -74630,7 +74747,7 @@
 		"shield_no": "25421",
 		"appt_date": "7/2/2001",
 		"recognition_count": 1,
-		"arrest_count": 306,
+		"arrest_count": 307,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 12",
@@ -76933,32 +77050,8 @@
 		"recognition_count": 0,
 		"arrest_count": 70,
 		"reports": {
-			"summary": {
-				"command": "105 PRECINCT",
-				"assignment_date": "7/17/2020",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "21720",
-				"appt_date": "10/7/2015"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2015",
-					"shield_no": "21720"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 30,
-				"misdemeanor": 38
-			},
-			"awards": []
-		},
-		"command": "105 PRECINCT"
+			"discipline": []
+		}
 	},
 	{
 		"taxid": 941951,
@@ -78680,7 +78773,7 @@
 		"reports": {
 			"summary": {
 				"command": "H&W EMPLOYEE ASSISTANCE UNIT",
-				"assignment_date": "4/23/2024",
+				"assignment_date": "7/18/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "1447",
@@ -81626,7 +81719,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 30,
+				"felony": 32,
 				"misdemeanor": 54
 			},
 			"awards": []
@@ -81726,7 +81819,7 @@
 			],
 			"arrests": {
 				"felony": 44,
-				"misdemeanor": 130,
+				"misdemeanor": 131,
 				"violation": 6
 			},
 			"awards": [
@@ -86974,8 +87067,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/27/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 55,
 				"misdemeanor": 34
@@ -90213,7 +90322,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "OFFICER FAILED TO OBTAIN MEDICAL TREATMENT FOR A PERSON KNOWN TO THE DEPARTMENT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (3 day(s) )"
 						}
 					]
 				}
@@ -90672,7 +90782,7 @@
 			],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 40,
+				"misdemeanor": 41,
 				"violation": 1
 			},
 			"awards": []
@@ -95771,8 +95881,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "049 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6410",
@@ -95791,7 +95901,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "049 PRECINCT"
 	},
 	{
 		"taxid": 972671,
@@ -106025,7 +106135,7 @@
 			],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -107314,7 +107424,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, FAILED TO CONDUCT A THOROUGH FIELD INVESTIGATION.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
@@ -120233,7 +120344,24 @@
 					"charges_count": 2
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "CONDUCTED NA INQUIRY IN DEPARTMENT COMPUTERS RELATED TO AN ARREST ON SEVEN (7) OCCASIONS AND SAID INQUIRIES WERE NOT RELATED TO THE OFFICIAL BUSINESS OF THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DIVULGED OR DISCUSSED OFFICIAL DEPARTMENT BUSINESS WITHOUT PERMISSION OR AUTHORITY TO DO SO.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 6,
 				"felony": 338,
@@ -120717,8 +120845,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "063 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3747",
@@ -120742,7 +120870,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "063 PRECINCT"
 	},
 	{
 		"taxid": 949072,
@@ -123861,7 +123989,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 145,
+				"felony": 146,
 				"misdemeanor": 401,
 				"other": 1,
 				"violation": 3

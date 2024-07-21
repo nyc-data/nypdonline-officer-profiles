@@ -269,7 +269,7 @@
 		"shield_no": "3730",
 		"appt_date": "7/9/2014",
 		"recognition_count": 4,
-		"arrest_count": 251,
+		"arrest_count": 252,
 		"reports": {
 			"summary": {
 				"command": "048 DET SQUAD",
@@ -304,19 +304,21 @@
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "01.Failed to make required entries in Activity Log.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "01.Offered/caused a false instrument to be filed.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE"
 						}
 					]
 				}
 			],
 			"arrests": {
 				"felony": 109,
-				"misdemeanor": 141,
+				"misdemeanor": 142,
 				"other": 1
 			},
 			"awards": [
@@ -3960,7 +3962,7 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "3061",
 		"appt_date": "1/7/2015",
-		"recognition_count": 14,
+		"recognition_count": 15,
 		"arrest_count": 111,
 		"reports": {
 			"summary": {
@@ -4068,6 +4070,10 @@
 				"violation": 4
 			},
 			"awards": [
+				{
+					"date": "3/16/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "3/3/2021",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -10207,7 +10213,7 @@
 		"shield_no": "5797",
 		"appt_date": "8/31/1998",
 		"recognition_count": 51,
-		"arrest_count": 271,
+		"arrest_count": 272,
 		"reports": {
 			"summary": {
 				"command": "ORGANIZED THEFT SQUAD",
@@ -11673,7 +11679,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Wrongful entry of a premises.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -12727,8 +12734,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 51,
-				"misdemeanor": 28,
+				"felony": 54,
+				"misdemeanor": 29,
 				"violation": 1
 			},
 			"awards": [
@@ -14537,8 +14544,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "110 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "12508",
@@ -14562,7 +14569,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "110 PRECINCT"
 	},
 	{
 		"taxid": 973189,
@@ -15411,8 +15418,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/3/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Wrongfully deactivated their body-worn camera.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 17,
@@ -17462,11 +17485,35 @@
 			],
 			"arrests": {
 				"felony": 186,
-				"misdemeanor": 317,
+				"misdemeanor": 318,
 				"other": 1,
 				"violation": 5
 			},
 			"awards": [
+				{
+					"date": "4/12/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/4/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/11/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/22/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/22/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/22/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "7/18/2021",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -19743,7 +19790,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 349,
+				"felony": 350,
 				"misdemeanor": 302,
 				"other": 105,
 				"violation": 9

@@ -5136,7 +5136,7 @@
 			],
 			"arrests": {
 				"felony": 103,
-				"misdemeanor": 85,
+				"misdemeanor": 86,
 				"violation": 5
 			},
 			"awards": [
@@ -9781,7 +9781,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 10,
-				"misdemeanor": 35,
+				"misdemeanor": 37,
 				"violation": 4
 			},
 			"awards": [
@@ -15951,7 +15951,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 27,
-				"misdemeanor": 98,
+				"misdemeanor": 99,
 				"violation": 1
 			},
 			"awards": [
@@ -19463,7 +19463,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Wrongful removal to a hospital.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				},
@@ -19472,7 +19473,8 @@
 						{
 							"recommendation": "OTHER",
 							"description": "01.Failed to prepare required reports.",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -27752,8 +27754,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "019 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "19646",
@@ -27772,7 +27774,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "019 PRECINCT"
 	},
 	{
 		"taxid": 964752,
@@ -30107,8 +30109,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "107 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "13394",
@@ -30127,7 +30129,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "107 PRECINCT"
 	},
 	{
 		"taxid": 943779,
@@ -42224,7 +42226,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 39
 			},
 			"awards": []
@@ -48762,6 +48764,10 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "11/4/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "8/29/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -51634,7 +51640,8 @@
 						{
 							"recommendation": "B-CD",
 							"description": "01.Wrongfully threatened to remove an individual to the hospital",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
@@ -56431,7 +56438,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 8,
+				"misdemeanor": 9,
 				"violation": 1
 			},
 			"awards": []
@@ -63045,7 +63052,7 @@
 			],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 36
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -66866,8 +66873,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 193,
-				"misdemeanor": 304,
+				"felony": 194,
+				"misdemeanor": 305,
 				"violation": 4
 			},
 			"awards": [
@@ -74282,7 +74289,7 @@
 			],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 26
+				"misdemeanor": 28
 			},
 			"awards": [
 				{
@@ -78194,7 +78201,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 14,
-				"misdemeanor": 60
+				"misdemeanor": 61
 			},
 			"awards": [
 				{
@@ -79273,7 +79280,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 3,
-				"misdemeanor": 50,
+				"misdemeanor": 51,
 				"violation": 5
 			},
 			"awards": []
@@ -79474,7 +79481,16 @@
 				"other": 1,
 				"violation": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "11/25/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/30/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "007 PRECINCT"
 	},
@@ -86377,10 +86393,26 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/14/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 16,
+				"felony": 18,
 				"misdemeanor": 19
 			},
 			"awards": [
@@ -100882,7 +100914,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 9,
-				"felony": 290,
+				"felony": 291,
 				"misdemeanor": 330,
 				"violation": 18
 			},
@@ -104743,7 +104775,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 65,
+				"felony": 66,
 				"misdemeanor": 43
 			},
 			"awards": [
@@ -106037,7 +106069,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Wrongful entry of a premises.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				},
@@ -106046,14 +106079,15 @@
 						{
 							"recommendation": "B-CD",
 							"description": "01.Made computer inquiries unrelated to official Department business.\r\nMisused Department electronics.",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 29
+				"misdemeanor": 31
 			},
 			"awards": []
 		},
@@ -107163,7 +107197,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": [
 				{
@@ -111085,8 +111119,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "HOUSING PSA 2",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "13484",
@@ -111105,7 +111139,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "HOUSING PSA 2"
 	},
 	{
 		"taxid": 968815,
@@ -114877,7 +114911,7 @@
 		"shield_no": "4306",
 		"appt_date": "1/10/2007",
 		"recognition_count": 3,
-		"arrest_count": 872,
+		"arrest_count": 873,
 		"reports": {
 			"summary": {
 				"command": "032 DET SQUAD",
@@ -114933,7 +114967,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 241,
-				"misdemeanor": 597,
+				"misdemeanor": 598,
 				"violation": 32
 			},
 			"awards": [
@@ -115243,10 +115277,6 @@
 				{
 					"entry": "8/13/2020 12:00:00 AM",
 					"charges_count": 6
-				},
-				{
-					"entry": "2/7/2023 12:00:00 AM",
-					"allegations_count": 2
 				}
 			],
 			"discipline": [
@@ -115287,24 +115317,6 @@
 							"description": "Made inaccurate statements during an official Department interview.",
 							"group_id": "1",
 							"penalty": "VACATION DAYS (45 day(s) )"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Violated patrol rules.",
-							"group_id": "1"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to prepare required reports.",
-							"group_id": "2"
 						}
 					]
 				}
@@ -122562,7 +122574,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Violated patrol rules.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -123814,7 +123827,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 349,
+				"felony": 350,
 				"misdemeanor": 132,
 				"other": 1,
 				"violation": 5
@@ -130115,8 +130128,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "HOUSING PSA 1",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "15277",
@@ -130135,7 +130148,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "HOUSING PSA 1"
 	},
 	{
 		"taxid": 976416,
@@ -141024,8 +141037,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "113 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "7235",
@@ -141049,7 +141062,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "113 PRECINCT"
 	},
 	{
 		"taxid": 951292,
@@ -149150,8 +149163,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/17/2024",
+				"command": "105 PRECINCT",
+				"assignment_date": "7/16/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3006",
@@ -149175,7 +149188,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "105 PRECINCT"
 	},
 	{
 		"taxid": 949693,
@@ -149277,7 +149290,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 39
 			},
 			"awards": [
@@ -153452,7 +153465,7 @@
 			],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 13
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -158839,7 +158852,7 @@
 		"shield_no": "5345",
 		"appt_date": "7/11/2005",
 		"recognition_count": 1,
-		"arrest_count": 52,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "083 DET SQUAD",
@@ -158911,7 +158924,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 27,
 				"violation": 2
 			},
@@ -160634,7 +160647,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
+				"felony": 15,
 				"misdemeanor": 21,
 				"violation": 1
 			},
@@ -165774,7 +165787,7 @@
 		"shield_no": "827",
 		"appt_date": "7/9/2013",
 		"recognition_count": 41,
-		"arrest_count": 207,
+		"arrest_count": 209,
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
@@ -165829,7 +165842,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 81,
+				"felony": 83,
 				"misdemeanor": 119,
 				"other": 4,
 				"violation": 3
@@ -166568,7 +166581,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 65,
+				"felony": 66,
 				"misdemeanor": 34
 			},
 			"awards": [
@@ -174403,7 +174416,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 9,
+				"felony": 11,
 				"misdemeanor": 83,
 				"violation": 2
 			},
@@ -175498,7 +175511,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 13,
 				"misdemeanor": 48
 			},
 			"awards": []
@@ -176377,7 +176390,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 12,
+				"felony": 14,
 				"misdemeanor": 26
 			},
 			"awards": [
