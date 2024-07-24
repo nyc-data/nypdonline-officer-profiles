@@ -22185,7 +22185,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 66,
+				"felony": 68,
 				"misdemeanor": 114,
 				"violation": 2
 			},
@@ -48668,7 +48668,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 61,
+				"felony": 64,
 				"misdemeanor": 64,
 				"violation": 5
 			},
@@ -77713,8 +77713,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/25/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Presence at an after-hour Club",
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
 				"felony": 54,
@@ -106331,7 +106347,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 57,
-				"misdemeanor": 278,
+				"misdemeanor": 279,
 				"violation": 32
 			},
 			"awards": [
@@ -115534,7 +115550,17 @@
 					"allegations_count": 1
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 142,
 				"misdemeanor": 156
