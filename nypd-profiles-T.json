@@ -2969,7 +2969,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -19216,7 +19216,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 65,
-				"misdemeanor": 41
+				"misdemeanor": 42
 			},
 			"awards": []
 		},
@@ -19570,7 +19570,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 42
+				"misdemeanor": 43
 			},
 			"awards": [
 				{
@@ -20685,7 +20685,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 59,
+				"misdemeanor": 60,
 				"violation": 1
 			},
 			"awards": [
@@ -24248,7 +24248,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
+				"felony": 53,
 				"misdemeanor": 32
 			},
 			"awards": [
@@ -34519,7 +34519,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 460,
-				"misdemeanor": 188,
+				"misdemeanor": 189,
 				"violation": 4
 			},
 			"awards": [
@@ -34615,7 +34615,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 37,
-				"misdemeanor": 107,
+				"misdemeanor": 109,
 				"violation": 1
 			},
 			"awards": [
@@ -35175,7 +35175,7 @@
 			],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -45402,7 +45402,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": []
 		},
@@ -62697,8 +62697,42 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/26/2024 12:00:00 AM",
+					"allegations_count": 4
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Failed to make timely notifications.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "02.Failed to remain at the scene of an off-duty incident.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "03.Made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "04.Out of residence while on sick leave.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 8
@@ -70085,7 +70119,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 36,
+				"felony": 38,
 				"misdemeanor": 56
 			},
 			"awards": []
