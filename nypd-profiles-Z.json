@@ -677,7 +677,18 @@
 				"shield_no": "3971",
 				"appt_date": "7/6/2010"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2010",
+					"shield_no": "3773"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "7/30/2021",
+					"shield_no": "3971"
+				}
+			],
 			"documents": [
 				{
 					"date": "2/22/2021",
@@ -685,8 +696,30 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/22/2018 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongfully stopped an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (6 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongfully frisked an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (6 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 241,
@@ -15633,7 +15666,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 194,
+				"felony": 196,
 				"misdemeanor": 147,
 				"violation": 19
 			},
@@ -19204,10 +19237,37 @@
 				"shield_no": "3308",
 				"appt_date": "10/11/2016"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/11/2016",
+					"shield_no": "24264"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/30/2023",
+					"shield_no": "3308"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/19/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to follow proper firearm handling procedures resulting in a discharge.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 116,
 				"misdemeanor": 94,
