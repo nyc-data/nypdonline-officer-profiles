@@ -1390,7 +1390,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 38,
-				"misdemeanor": 97,
+				"misdemeanor": 98,
 				"violation": 2
 			},
 			"awards": []
@@ -1767,6 +1767,7 @@
 			"arrests": {
 				"felony": 34,
 				"misdemeanor": 76,
+				"other": 1,
 				"violation": 1
 			},
 			"awards": [
@@ -1892,8 +1893,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 40,
-				"misdemeanor": 65
+				"felony": 41,
+				"misdemeanor": 66
 			},
 			"awards": []
 		},
@@ -8902,13 +8903,7 @@
 				"shield_no": "10062",
 				"appt_date": "7/9/2007"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2007",
-					"shield_no": "10062"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -13752,7 +13747,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 57,
+				"felony": 60,
 				"misdemeanor": 135,
 				"violation": 10
 			},
@@ -15052,7 +15047,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 39,
+				"felony": 42,
 				"misdemeanor": 75
 			},
 			"awards": []
@@ -19568,7 +19563,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -19787,7 +19782,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -22733,7 +22728,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 9
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -39488,7 +39483,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 41
 			},
 			"awards": []
@@ -39817,7 +39812,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 28
+				"misdemeanor": 29
 			},
 			"awards": []
 		},
@@ -43527,7 +43522,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": []
 		},
@@ -54299,8 +54294,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/10/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to safeguard a prisoner, resulting in loss.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 7
@@ -54960,7 +54971,7 @@
 			],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 28
+				"misdemeanor": 29
 			},
 			"awards": []
 		},
@@ -68303,7 +68314,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 45,
-				"misdemeanor": 51
+				"misdemeanor": 53
 			},
 			"awards": []
 		},
@@ -75527,7 +75538,7 @@
 			"arrests": {
 				"infraction": 10,
 				"felony": 99,
-				"misdemeanor": 405,
+				"misdemeanor": 406,
 				"violation": 4
 			},
 			"awards": [
@@ -77055,8 +77066,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 35,
-				"misdemeanor": 85
+				"felony": 36,
+				"misdemeanor": 86
 			},
 			"awards": []
 		},
@@ -83474,7 +83485,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
+				"felony": 26,
 				"misdemeanor": 39
 			},
 			"awards": []
@@ -85591,7 +85602,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -97409,7 +97420,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 57,
-				"misdemeanor": 42,
+				"misdemeanor": 43,
 				"other": 1
 			},
 			"awards": []
