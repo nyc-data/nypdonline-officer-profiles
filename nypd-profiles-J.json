@@ -5140,8 +5140,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 99,
-				"misdemeanor": 221,
+				"felony": 100,
+				"misdemeanor": 223,
 				"violation": 4
 			},
 			"awards": [
@@ -14437,8 +14437,8 @@
 		"arrest_count": 99,
 		"reports": {
 			"summary": {
-				"command": "INTEL CIS FIO PROGRAM",
-				"assignment_date": "5/20/2024",
+				"command": "032 PRECINCT",
+				"assignment_date": "8/18/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "17691",
@@ -14493,7 +14493,7 @@
 				}
 			]
 		},
-		"command": "INTEL CIS FIO PROGRAM"
+		"command": "032 PRECINCT"
 	},
 	{
 		"taxid": 967123,
@@ -16343,8 +16343,30 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/4/2021 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.ENDANGERED THE WELFARE OF A PERSON LESS THAN SEVENTEEN.",
+							"group_id": "1",
+							"penalty": "RESTORATION OF SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.ENGAGED IN SEXUAL CONDUCT WITH PERSON LESS THAN SEVENTEEN.",
+							"group_id": "1",
+							"penalty": "RESTORATION OF SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 18,
@@ -32476,7 +32498,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 162,
+				"felony": 163,
 				"misdemeanor": 129,
 				"violation": 6
 			},

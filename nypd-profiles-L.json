@@ -4618,8 +4618,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 179,
-				"misdemeanor": 236,
+				"felony": 180,
+				"misdemeanor": 238,
 				"other": 2,
 				"violation": 8
 			},
@@ -5863,9 +5863,31 @@
 				{
 					"allegations": [
 						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully discourteous to an individual known to the department.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Wrongfully threatened to remove an individual to the hospital.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "03.Wrongfully used offensive language.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
 							"recommendation": "A-CD",
 							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"group_id": "1",
+							"group_id": "2",
 							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
 						}
 					]
@@ -37162,7 +37184,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 143,
-				"misdemeanor": 286,
+				"misdemeanor": 287,
 				"other": 2,
 				"violation": 2
 			},
@@ -38873,7 +38895,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 195,
-				"misdemeanor": 564,
+				"misdemeanor": 566,
 				"other": 1,
 				"violation": 3
 			},
@@ -48929,7 +48951,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 247,
+				"felony": 248,
 				"misdemeanor": 171,
 				"other": 1,
 				"violation": 16
@@ -59680,7 +59702,13 @@
 				"shield_no": "1872",
 				"appt_date": "10/7/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/7/2015",
+					"shield_no": "1872"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -80097,7 +80125,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 190,
+				"felony": 191,
 				"misdemeanor": 109,
 				"violation": 6
 			},
@@ -82490,7 +82518,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 113,
-				"misdemeanor": 61,
+				"misdemeanor": 62,
 				"violation": 5
 			},
 			"awards": [
@@ -92934,8 +92962,30 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/6/2023 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.FAILED TO CONDUCT PROPER INVESTIGATION",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.FAILED TO PREPARE REQUIRED REPORTS",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 12,
@@ -97716,44 +97766,10 @@
 				"shield_no": "28665",
 				"appt_date": "1/23/2007"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2007",
-					"shield_no": "28665"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "7/10/2017 12:00:00 AM",
-					"charges_count": 3
-				}
-			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"description": "WHILE OFF-DUTY, ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
-							"group_id": "1",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "ACTED IN A MANNER LIKELY TO BE INJURIOUS TO THE PHYSICAL, MENTAL OR MORAL WELFARE OF A CHILD LESS THAN SEVENTEEN (17) YEARS OLD.",
-							"group_id": "1",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "AFTER HAVING BEEN INVOLVED IN AN OFF-DUTY DOMESTIC INCIDENT, FAILED TO TIMELY NOTIFY THE OPERATIONS UNIT, AS REQUIRED.",
-							"group_id": "1",
-							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 146,
