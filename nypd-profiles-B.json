@@ -252,8 +252,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/16/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 30,
 				"misdemeanor": 48,
@@ -4593,8 +4608,9 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 20,
-				"misdemeanor": 81
+				"felony": 23,
+				"misdemeanor": 81,
+				"violation": 1
 			},
 			"awards": [
 				{
@@ -13949,7 +13965,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 37,
+				"felony": 38,
 				"misdemeanor": 86
 			},
 			"awards": [
@@ -17469,7 +17485,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 111,
+				"felony": 112,
 				"misdemeanor": 109,
 				"other": 1
 			},
@@ -30605,7 +30621,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
+				"felony": 53,
 				"misdemeanor": 209
 			},
 			"awards": [
@@ -30718,7 +30734,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 137,
+				"felony": 140,
 				"misdemeanor": 103,
 				"other": 1
 			},
@@ -41158,7 +41174,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 56,
-				"misdemeanor": 105,
+				"misdemeanor": 106,
 				"violation": 1
 			},
 			"awards": [
@@ -55613,7 +55629,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 178,
+				"misdemeanor": 180,
 				"violation": 1
 			},
 			"awards": []
@@ -55652,7 +55668,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 66,
-				"misdemeanor": 180,
+				"misdemeanor": 181,
 				"violation": 16
 			},
 			"awards": [
@@ -58622,7 +58638,7 @@
 			],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 28,
+				"misdemeanor": 29,
 				"violation": 1
 			},
 			"awards": []
@@ -59961,7 +59977,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 65,
+				"felony": 66,
 				"misdemeanor": 85
 			},
 			"awards": [
@@ -66543,7 +66559,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 206,
+				"felony": 208,
 				"misdemeanor": 72,
 				"other": 2,
 				"violation": 10
@@ -67530,7 +67546,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 35,
-				"misdemeanor": 39,
+				"misdemeanor": 40,
 				"violation": 1
 			},
 			"awards": []
@@ -73500,7 +73516,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 60,
-				"misdemeanor": 204
+				"misdemeanor": 205
 			},
 			"awards": [
 				{
@@ -74370,7 +74386,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 89,
+				"misdemeanor": 92,
 				"violation": 1
 			},
 			"awards": []
@@ -77908,7 +77924,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 5,
-				"misdemeanor": 32,
+				"misdemeanor": 33,
 				"violation": 1
 			},
 			"awards": [
@@ -96536,7 +96552,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 55,
+				"felony": 56,
 				"misdemeanor": 149,
 				"violation": 1
 			},
@@ -104761,7 +104777,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 128,
+				"felony": 129,
 				"misdemeanor": 72
 			},
 			"awards": [
@@ -126231,8 +126247,8 @@
 		"arrest_count": 58,
 		"reports": {
 			"summary": {
-				"command": "100 PCT ROCKAWAY BEACH DETAIL",
-				"assignment_date": "5/17/2024",
+				"command": "100 PRECINCT",
+				"assignment_date": "9/10/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "5300",
@@ -126261,7 +126277,7 @@
 			},
 			"awards": []
 		},
-		"command": "100 PCT ROCKAWAY BEACH DETAIL"
+		"command": "100 PRECINCT"
 	},
 	{
 		"taxid": 913726,
@@ -126861,7 +126877,13 @@
 				"shield_no": "23913",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "23913"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -133868,7 +133890,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 38,
+				"felony": 40,
 				"misdemeanor": 90,
 				"violation": 3
 			},
@@ -136739,7 +136761,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 37,
 				"other": 2,
 				"violation": 2
@@ -137823,7 +137845,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
+				"felony": 18,
 				"misdemeanor": 40,
 				"violation": 1
 			},
