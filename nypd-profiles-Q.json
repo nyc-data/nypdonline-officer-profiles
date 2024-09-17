@@ -1008,7 +1008,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 157,
+				"felony": 158,
 				"misdemeanor": 168,
 				"violation": 12
 			},
@@ -1510,8 +1510,8 @@
 		"arrest_count": 175,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 7",
-				"assignment_date": "2/25/2022",
+				"command": "PBMN PUBLIC SAFETY TEAMS",
+				"assignment_date": "9/12/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "LT SPECIAL ASSIGN",
 				"shield_no": "",
@@ -1603,7 +1603,7 @@
 				}
 			]
 		},
-		"command": "HOUSING PSA 7"
+		"command": "PBMN PUBLIC SAFETY TEAMS"
 	},
 	{
 		"taxid": 978975,
@@ -2740,6 +2740,16 @@
 			},
 			"ranks": [
 				{
+					"rank": "POLICE OFFICER",
+					"date": "1/20/2004",
+					"shield_no": "10451"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "2/27/2009",
+					"shield_no": "5"
+				},
+				{
 					"rank": "SGT DET SQUAD",
 					"date": "11/22/2016",
 					"shield_no": ""
@@ -2752,8 +2762,30 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/1/2017 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED TO SUPERVISE MEMBERS OF THE SERVICE BY LEAVING MEMBERS ALONE DURING THE EXECUTION OF A SEARCH WARRANT.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "CONDUCTED AN IMPROPER SEARCH INSIDE A BEDROOM BY OPENING A BLACK BOX CONTAINING A PISTOL WITHUT LEGAL AUTHORITY.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 61,
@@ -5275,7 +5307,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 63,
+				"misdemeanor": 64,
 				"violation": 3
 			},
 			"awards": []
@@ -6279,7 +6311,7 @@
 		"shield_no": "25594",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 35,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -7026,7 +7058,7 @@
 		"shield_no": "13591",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 64,
+		"arrest_count": 66,
 		"reports": {
 			"summary": {
 				"command": "032 PRECINCT",

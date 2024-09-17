@@ -6763,7 +6763,7 @@
 		"shield_no": "2271",
 		"appt_date": "1/10/2005",
 		"recognition_count": 54,
-		"arrest_count": 863,
+		"arrest_count": 867,
 		"reports": {
 			"summary": {
 				"command": "BKLYN NORTH VICE MODULE",
@@ -10216,18 +10216,7 @@
 				"shield_no": "2170",
 				"appt_date": "1/9/2012"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2012",
-					"shield_no": "9966"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "9/3/2021",
-					"shield_no": "2170"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -11337,7 +11326,7 @@
 		"shield_no": "21722",
 		"appt_date": "1/3/2024",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "107 PRECINCT",
@@ -11357,7 +11346,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "107 PRECINCT"
@@ -12368,7 +12359,7 @@
 		"shield_no": "25831",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 43,
+		"arrest_count": 44,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -12802,7 +12793,7 @@
 		"shield_no": "17686",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -13440,10 +13431,38 @@
 				"shield_no": "21611",
 				"appt_date": "10/7/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/7/2015",
+					"shield_no": "21611"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/17/2019 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to conduct an investigation.\r\nFailure to take police action.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to conduct an investigation.\r\nFailure to take police action.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 127,
 				"misdemeanor": 70
