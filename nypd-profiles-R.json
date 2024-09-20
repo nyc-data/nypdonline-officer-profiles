@@ -5860,7 +5860,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 5
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -7335,7 +7335,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -9044,7 +9044,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -17463,7 +17463,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -17946,7 +17946,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -18092,8 +18092,8 @@
 		"arrest_count": 31,
 		"reports": {
 			"summary": {
-				"command": "048 PRECINCT",
-				"assignment_date": "7/9/2024",
+				"command": "052 PRECINCT",
+				"assignment_date": "9/16/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "18562",
@@ -18124,7 +18124,7 @@
 				}
 			]
 		},
-		"command": "048 PRECINCT"
+		"command": "052 PRECINCT"
 	},
 	{
 		"taxid": 937334,
@@ -28955,7 +28955,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -35230,8 +35230,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 4
+				"felony": 4,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -35432,7 +35432,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 404,
-				"misdemeanor": 325,
+				"misdemeanor": 326,
 				"other": 2,
 				"violation": 9
 			},
@@ -50618,7 +50618,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 22
 			},
 			"awards": []
@@ -50975,7 +50975,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -55868,7 +55868,7 @@
 			],
 			"arrests": {
 				"felony": 73,
-				"misdemeanor": 192,
+				"misdemeanor": 193,
 				"other": 1,
 				"violation": 1
 			},
@@ -57921,7 +57921,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 16,
 				"violation": 2
 			},
@@ -62189,7 +62189,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 9
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -73578,7 +73578,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"violation": 1
+			},
 			"awards": []
 		},
 		"command": "084 PRECINCT"
@@ -78346,7 +78348,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -80189,7 +80191,7 @@
 			],
 			"arrests": {
 				"felony": 45,
-				"misdemeanor": 49,
+				"misdemeanor": 50,
 				"other": 2,
 				"violation": 2
 			},
@@ -85570,7 +85572,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -86534,8 +86536,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 16
+				"felony": 24,
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -88721,7 +88723,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 12
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -91596,7 +91598,18 @@
 				"shield_no": "5980",
 				"appt_date": "10/15/1990"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/15/1990",
+					"shield_no": "25913"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/5/1997",
+					"shield_no": "5980"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -98140,7 +98153,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "083 PRECINCT"
@@ -102885,7 +102900,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 54
+				"misdemeanor": 55
 			},
 			"awards": []
 		},
@@ -103391,7 +103406,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 27,
+				"misdemeanor": 28,
 				"violation": 2
 			},
 			"awards": []
@@ -106714,7 +106729,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -110862,8 +110877,24 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/21/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully threatened to remove an individual to the hospital",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 4,
@@ -112154,7 +112185,7 @@
 		"arrest_count": 186,
 		"reports": {
 			"summary": {
-				"command": "TRN BUR CMD LVL TRAINING SECT",
+				"command": "TRN BUR CMD LVL TRAINING UNIT",
 				"assignment_date": "10/25/2023",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
@@ -112192,7 +112223,7 @@
 				}
 			]
 		},
-		"command": "TRN BUR CMD LVL TRAINING SECT"
+		"command": "TRN BUR CMD LVL TRAINING UNIT"
 	},
 	{
 		"taxid": 935641,
@@ -113819,7 +113850,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -114771,10 +114802,45 @@
 				"shield_no": "17953",
 				"appt_date": "7/1/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2019",
+					"shield_no": "17953"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/8/2023 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "5/16/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to safeguard prisoner property.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully used physical force.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 53,
 				"misdemeanor": 27,
@@ -115627,7 +115693,13 @@
 				"shield_no": "6108",
 				"appt_date": "10/24/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/24/2018",
+					"shield_no": "6108"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -135382,7 +135454,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 2
 			},
 			"awards": []
 		},
@@ -136446,7 +136518,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 6,
 				"misdemeanor": 15
 			},
 			"awards": []
