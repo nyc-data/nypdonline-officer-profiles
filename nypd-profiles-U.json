@@ -209,7 +209,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 171,
+				"misdemeanor": 172,
 				"violation": 7
 			},
 			"awards": []
@@ -324,7 +324,7 @@
 		"arrest_count": 36,
 		"reports": {
 			"summary": {
-				"command": "TRN BUR CMD LVL TRAINING SECT",
+				"command": "TRN BUR CMD LVL TRAINING UNIT",
 				"assignment_date": "8/21/2023",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SGT SPECIAL ASSIGN",
@@ -368,7 +368,7 @@
 				}
 			]
 		},
-		"command": "TRN BUR CMD LVL TRAINING SECT"
+		"command": "TRN BUR CMD LVL TRAINING UNIT"
 	},
 	{
 		"taxid": 958134,
@@ -403,7 +403,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 11,
-				"misdemeanor": 37,
+				"misdemeanor": 38,
 				"violation": 7
 			},
 			"awards": [
@@ -2913,7 +2913,13 @@
 				"shield_no": "22877",
 				"appt_date": "7/8/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2008",
+					"shield_no": "22877"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -3505,23 +3511,7 @@
 				"shield_no": "2799",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2014",
-					"shield_no": "14621"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "9/29/2023",
-					"shield_no": "4903"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "2/5/2024",
-					"shield_no": "2799"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -4860,7 +4850,7 @@
 		"shield_no": "5420",
 		"appt_date": "7/8/2008",
 		"recognition_count": 0,
-		"arrest_count": 217,
+		"arrest_count": 218,
 		"reports": {
 			"summary": {
 				"command": "088 DET SQUAD",
