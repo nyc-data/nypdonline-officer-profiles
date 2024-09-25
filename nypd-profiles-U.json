@@ -187,7 +187,7 @@
 		"shield_no": "24539",
 		"appt_date": "7/11/2012",
 		"recognition_count": 0,
-		"arrest_count": 183,
+		"arrest_count": 184,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 12",
@@ -380,7 +380,7 @@
 		"shield_no": "22370",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 57,
+		"arrest_count": 58,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -2876,7 +2876,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 40,
+				"felony": 41,
 				"misdemeanor": 59,
 				"violation": 1
 			},
@@ -3511,7 +3511,23 @@
 				"shield_no": "2799",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2014",
+					"shield_no": "14621"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/29/2023",
+					"shield_no": "4903"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "2/5/2024",
+					"shield_no": "2799"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -6858,63 +6874,10 @@
 				"shield_no": "30590",
 				"appt_date": "1/10/2018"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2018",
-					"shield_no": "30590"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "12/5/2022 12:00:00 AM",
-					"allegations_count": 2
-				},
-				{
-					"entry": "2/23/2023 12:00:00 AM",
-					"allegations_count": 1
-				},
-				{
-					"entry": "1/2/2024 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "01.Wrongful removal to a hospital.",
-							"group_id": "1"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "02.Wrongfully used physical force.",
-							"group_id": "1"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to prepare required reports.",
-							"group_id": "2"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongful entry of a premises.",
-							"group_id": "3",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 14,
 				"misdemeanor": 25
