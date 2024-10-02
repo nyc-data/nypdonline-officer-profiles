@@ -1215,7 +1215,7 @@
 		"shield_no": "4607",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 35,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -5593,7 +5593,7 @@
 		"shield_no": "7711",
 		"appt_date": "10/18/2017",
 		"recognition_count": 6,
-		"arrest_count": 229,
+		"arrest_count": 230,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -5614,7 +5614,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 50,
+				"felony": 51,
 				"misdemeanor": 179
 			},
 			"awards": [
@@ -6038,7 +6038,7 @@
 		"shield_no": "19573",
 		"appt_date": "7/8/2015",
 		"recognition_count": 13,
-		"arrest_count": 573,
+		"arrest_count": 574,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -6775,10 +6775,63 @@
 				"shield_no": "30590",
 				"appt_date": "1/10/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2018",
+					"shield_no": "30590"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 2
+				},
+				{
+					"entry": "2/23/2023 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "1/2/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongful removal to a hospital.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Wrongfully used physical force.",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "2"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "3",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 14,
 				"misdemeanor": 25
