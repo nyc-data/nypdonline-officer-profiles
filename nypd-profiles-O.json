@@ -4303,8 +4303,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 40,
-				"misdemeanor": 41,
+				"felony": 41,
+				"misdemeanor": 42,
 				"violation": 2
 			},
 			"awards": [
@@ -12885,8 +12885,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 102,
-				"misdemeanor": 79
+				"felony": 103,
+				"misdemeanor": 80
 			},
 			"awards": [
 				{
@@ -16002,8 +16002,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 34
+				"felony": 11,
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -32757,7 +32757,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 13,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": [
 				{
@@ -33148,8 +33148,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/11/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongful removal to a hospital.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 20,
@@ -38251,8 +38267,8 @@
 				"command": "MTN DET SQUAD",
 				"assignment_date": "6/20/2023",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "13759",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "6889",
 				"appt_date": "1/8/2014"
 			},
 			"ranks": [
