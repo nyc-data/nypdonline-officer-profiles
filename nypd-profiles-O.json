@@ -993,7 +993,13 @@
 				"shield_no": "12444",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "12444"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -10764,8 +10770,42 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/23/2022 12:00:00 AM",
+					"allegations_count": 2
+				},
+				{
+					"entry": "3/25/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully stopped an individual known to the Department.",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"group_id": "2",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 89,
 				"misdemeanor": 81,
@@ -20318,7 +20358,13 @@
 				"shield_no": "9178",
 				"appt_date": "10/12/2021"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/12/2021",
+					"shield_no": "9178"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -28573,7 +28619,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 291,
-				"misdemeanor": 566,
+				"misdemeanor": 567,
 				"other": 2,
 				"violation": 1
 			},
@@ -39905,10 +39951,37 @@
 				"shield_no": "2649",
 				"appt_date": "10/11/2016"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/11/2016",
+					"shield_no": "24634"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "5/30/2023",
+					"shield_no": "2649"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/23/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Improper use of force",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 19
@@ -40628,7 +40701,7 @@
 			"arrests": {
 				"felony": 59,
 				"misdemeanor": 294,
-				"violation": 35
+				"violation": 36
 			},
 			"awards": [
 				{

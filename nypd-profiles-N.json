@@ -2283,7 +2283,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 476,
+				"felony": 480,
 				"misdemeanor": 371,
 				"other": 2,
 				"violation": 5
@@ -11228,7 +11228,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 161,
+				"felony": 163,
 				"misdemeanor": 154,
 				"violation": 18
 			},
@@ -18822,7 +18822,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 30,
-				"misdemeanor": 55
+				"misdemeanor": 56
 			},
 			"awards": [
 				{
@@ -29262,9 +29262,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
+				"felony": 7,
 				"misdemeanor": 55,
-				"violation": 4
+				"violation": 5
 			},
 			"awards": [
 				{
@@ -40695,8 +40695,30 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/7/2024 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Misuse of time.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Consumed alcohol while on-duty.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 57,

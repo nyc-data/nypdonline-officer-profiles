@@ -34622,11 +34622,31 @@
 			"documents": [],
 			"disciplineHistory": [
 				{
+					"entry": "9/28/2022 12:00:00 AM",
+					"charges_count": 2
+				},
+				{
 					"entry": "4/7/2023 12:00:00 AM",
 					"allegations_count": 1
 				}
 			],
 			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
 				{
 					"allegations": [
 						{
@@ -35817,7 +35837,18 @@
 				"shield_no": "3217",
 				"appt_date": "7/2/2001"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/2/2001",
+					"shield_no": "1140"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "8/31/2015",
+					"shield_no": "3217"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -51059,7 +51090,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 67,
+				"felony": 68,
 				"misdemeanor": 364,
 				"violation": 21
 			},
@@ -53001,10 +53032,32 @@
 				"shield_no": "17277",
 				"appt_date": "10/24/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/24/2018",
+					"shield_no": "17277"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/27/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 33
@@ -69258,7 +69311,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 356,
+				"felony": 359,
 				"misdemeanor": 508,
 				"other": 1,
 				"violation": 7
@@ -93132,7 +93185,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 53,
+				"misdemeanor": 54,
 				"other": 1,
 				"violation": 1
 			},
@@ -104828,10 +104881,63 @@
 				"shield_no": "468",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "5413"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "7/21/2022",
+					"shield_no": "468"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/22/2022 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "7/20/2022 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Failed to activate their body worn camera",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules - failed to provide business card",
+							"group_id": "2",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "3"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 60,
 				"misdemeanor": 20,

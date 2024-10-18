@@ -6763,8 +6763,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 322,
-				"misdemeanor": 718,
+				"felony": 323,
+				"misdemeanor": 719,
 				"violation": 21
 			},
 			"awards": [
@@ -17395,7 +17395,7 @@
 			],
 			"arrests": {
 				"felony": 102,
-				"misdemeanor": 244,
+				"misdemeanor": 245,
 				"other": 1,
 				"violation": 2
 			},
@@ -21697,7 +21697,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 79,
-				"misdemeanor": 382,
+				"misdemeanor": 384,
 				"violation": 32
 			},
 			"awards": [
@@ -26115,7 +26115,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 173,
+				"felony": 175,
 				"misdemeanor": 231,
 				"violation": 10
 			},
@@ -27978,10 +27978,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 3,
-				"misdemeanor": 6
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "HOUSING PSA 9"
@@ -33654,7 +33651,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 304,
+				"felony": 305,
 				"misdemeanor": 408,
 				"other": 2,
 				"violation": 2
@@ -36932,7 +36929,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 17
 			},
 			"awards": []
@@ -52546,14 +52543,46 @@
 			},
 			"ranks": [
 				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "16456"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "7/27/2018",
+					"shield_no": "1249"
+				},
+				{
 					"rank": "LIEUTENANT",
 					"date": "1/26/2024",
 					"shield_no": ""
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/17/2022 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Improper use of pepper spray.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"description": "02.Threat to use force.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
@@ -63986,8 +64015,8 @@
 		"arrest_count": 116,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 6",
-				"assignment_date": "3/25/2024",
+				"command": "MANHATTAN COURT SECTION",
+				"assignment_date": "10/10/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2385",
@@ -64076,7 +64105,7 @@
 				}
 			]
 		},
-		"command": "HOUSING PSA 6"
+		"command": "MANHATTAN COURT SECTION"
 	},
 	{
 		"taxid": 972605,
@@ -68566,7 +68595,7 @@
 			"arrests": {
 				"infraction": 49,
 				"felony": 56,
-				"misdemeanor": 631,
+				"misdemeanor": 634,
 				"other": 1,
 				"violation": 23
 			},
@@ -71385,7 +71414,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 280,
+				"felony": 282,
 				"misdemeanor": 432,
 				"violation": 27
 			},
@@ -100448,8 +100477,30 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/8/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"description": "01.Made inaccurate statements to investigators.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (20 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "02.Out of residence while on sick leave.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"misdemeanor": 23,
 				"violation": 2
@@ -105116,7 +105167,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 71,
-				"misdemeanor": 137,
+				"misdemeanor": 140,
 				"violation": 6
 			},
 			"awards": [
@@ -112425,7 +112476,23 @@
 				"shield_no": "1656",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "19219"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/21/2021",
+					"shield_no": "6104"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "2/9/2022",
+					"shield_no": "1656"
+				}
+			],
 			"documents": [
 				{
 					"date": "10/14/2021",
@@ -112433,8 +112500,24 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/3/2020 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongful used physical force.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (1 day(s) ), VACATION DAYS (4 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 107,
 				"misdemeanor": 86,
