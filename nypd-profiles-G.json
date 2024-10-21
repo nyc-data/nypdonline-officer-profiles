@@ -751,7 +751,30 @@
 		"recognition_count": 0,
 		"arrest_count": 23,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "100 PRECINCT",
+				"assignment_date": "7/26/2023",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "12446",
+				"appt_date": "1/17/2023"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/17/2023",
+					"shield_no": "12446"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 6,
+				"misdemeanor": 16,
+				"violation": 1
+			},
+			"awards": []
 		},
 		"command": "100 PRECINCT"
 	},
@@ -37632,7 +37655,31 @@
 		"recognition_count": 0,
 		"arrest_count": 113,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "CRITICAL RESPONSE COMMAND",
+				"assignment_date": "11/14/2015",
+				"ethnicity": "BLACK",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "14031",
+				"appt_date": "1/10/2005"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2005",
+					"shield_no": "14031"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 2,
+				"felony": 8,
+				"misdemeanor": 81,
+				"violation": 22
+			},
+			"awards": []
 		},
 		"command": "CRITICAL RESPONSE COMMAND"
 	},
@@ -54109,7 +54156,34 @@
 		"recognition_count": 0,
 		"arrest_count": 42,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "QS EVIDENCE COLLECTION TEAM",
+				"assignment_date": "9/4/2012",
+				"ethnicity": "WHITE",
+				"rank_desc": "DETECTIVE SPECIALIST",
+				"shield_no": "5964",
+				"appt_date": "9/29/2000"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "9/29/2000",
+					"shield_no": "8843"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/24/2022",
+					"shield_no": "5964"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 13,
+				"misdemeanor": 29
+			},
+			"awards": []
 		},
 		"command": "QS EVIDENCE COLLECTION TEAM"
 	},
@@ -55985,7 +56059,88 @@
 		"recognition_count": 7,
 		"arrest_count": 115,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "046 PRECINCT",
+				"assignment_date": "5/8/2019",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "10310",
+				"appt_date": "1/10/2018"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2018",
+					"shield_no": "10310"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully searched a vehicle",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to timely activate their body worn camera.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"felony": 56,
+				"misdemeanor": 58,
+				"other": 1
+			},
+			"awards": [
+				{
+					"date": "5/15/2021",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "2/28/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/23/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/20/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/12/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/3/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/21/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "046 PRECINCT"
 	},
