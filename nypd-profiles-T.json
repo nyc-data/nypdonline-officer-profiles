@@ -24538,7 +24538,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 56
+				"misdemeanor": 57
 			},
 			"awards": []
 		},
@@ -28280,8 +28280,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 161,
-				"misdemeanor": 125,
+				"felony": 163,
+				"misdemeanor": 126,
 				"violation": 6
 			},
 			"awards": [
@@ -40379,7 +40379,13 @@
 				"shield_no": "28621",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "28621"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -66752,8 +66758,8 @@
 		"arrest_count": 8,
 		"reports": {
 			"summary": {
-				"command": "MILITARY & EXTENDED LEAVE DESK",
-				"assignment_date": "5/12/2023",
+				"command": "IN-SERVICE TRAINING SECTION",
+				"assignment_date": "10/30/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "29786",
@@ -66774,7 +66780,7 @@
 			},
 			"awards": []
 		},
-		"command": "MILITARY & EXTENDED LEAVE DESK"
+		"command": "IN-SERVICE TRAINING SECTION"
 	},
 	{
 		"taxid": 972292,
@@ -67581,10 +67587,44 @@
 				"shield_no": "6605",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "6605"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/4/2022 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Failed to prepare memo book entries.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Failed to prepare property clerk invoice.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "03.Improperly seized property.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
 				"felony": 54,

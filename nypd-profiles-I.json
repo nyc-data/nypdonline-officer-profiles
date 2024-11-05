@@ -4265,7 +4265,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 14
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -5017,7 +5017,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 34,
+				"felony": 35,
 				"misdemeanor": 28,
 				"other": 1
 			},
@@ -10533,7 +10533,23 @@
 				"shield_no": "4433",
 				"appt_date": "1/20/2004"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/20/2004",
+					"shield_no": "7300"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "2/28/2008",
+					"shield_no": "2946"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/23/2010",
+					"shield_no": "4433"
+				}
+			],
 			"documents": [
 				{
 					"date": "12/28/2017",
@@ -10546,8 +10562,70 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/21/2010 12:00:00 AM",
+					"charges_count": 2
+				},
+				{
+					"entry": "7/7/2015 12:00:00 AM",
+					"charges_count": 2
+				},
+				{
+					"entry": "2/22/2017 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED TO COMPLY WITH AN ORDER .",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DISCOURTEOUS TO A SUPERVISOR .",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO A NEW YORK CITY POLICE DEPARTMENT SUPERVISOR.",
+							"group_id": "2",
+							"penalty": "TRAINING, VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY ABSENTED HERSELF FROM POLICE DUTIES",
+							"group_id": "2",
+							"penalty": "TRAINING, VACATION DAYS (25 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WRONGFULLY FAILED TO REMAIN ALERT AND REMAIN ON POST UNTIL RELIEVED, AS REQUIRED.",
+							"group_id": "3",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "MADE INACCURATE, INCOMPLETE, OR OTHERWISE MISLEADING STATEMENTS DURING AN OFFICIAL DEPARTMENT INTERVIEW.",
+							"group_id": "3",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -12441,7 +12519,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 14,
+				"felony": 15,
 				"misdemeanor": 30
 			},
 			"awards": []
@@ -13782,7 +13860,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 16
 			},
 			"awards": []
