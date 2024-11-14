@@ -553,7 +553,6 @@ async function scrapeTrialDecisions() {
     if (items[3].filterValue) {
       taxids = items[3].filterValue.split(',')
     }
-    let taxidIndex = 0
     doc.officers = doc.names.split('; ').map(name => {
       const [last_name, first_name] = name.replace(/<u>/g, '').replace(/<\/u>/g, '').split(', ')
       let officer = {
@@ -566,7 +565,9 @@ async function scrapeTrialDecisions() {
         officer.retired = true
         officer.first_name = officer.first_name.slice(0, -1)
       } else {
-        officer.taxid = taxids[taxidIndex++]
+        if (taxids.length == 1) {
+          officer.taxid = taxids[0]
+        }
       }
       return officer
     })
