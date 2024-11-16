@@ -1409,7 +1409,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "062 PRECINCT"
@@ -4795,7 +4797,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 6
+				"misdemeanor": 7,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -14644,7 +14647,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "101 PRECINCT"
@@ -17227,7 +17232,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 69
+				"misdemeanor": 71
 			},
 			"awards": []
 		},
@@ -17636,7 +17641,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -23428,7 +23433,13 @@
 				"shield_no": "8369",
 				"appt_date": "4/13/2022"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/13/2022",
+					"shield_no": "8369"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -24909,7 +24920,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 10,
+				"misdemeanor": 15,
 				"violation": 1
 			},
 			"awards": []
@@ -38993,8 +39004,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 7
+				"felony": 2,
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -42171,8 +42182,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 14
+				"felony": 3,
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -45877,7 +45888,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "104 PRECINCT"
@@ -61355,8 +61368,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 36
+				"felony": 7,
+				"misdemeanor": 38
 			},
 			"awards": []
 		},

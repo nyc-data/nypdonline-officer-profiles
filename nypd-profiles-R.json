@@ -148,7 +148,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 17,
+				"felony": 19,
 				"misdemeanor": 20
 			},
 			"awards": []
@@ -15308,7 +15308,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -19889,7 +19889,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -20141,7 +20141,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 17
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -24091,7 +24091,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 26
+				"misdemeanor": 27
 			},
 			"awards": []
 		},
@@ -43523,7 +43523,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -45450,7 +45450,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "020 PRECINCT"
@@ -51232,7 +51234,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -58273,14 +58275,6 @@
 		"recognition_count": 0,
 		"arrest_count": 29,
 		"reports": {
-			"summary": {
-				"command": "018 PCT-MIDTOWN NO. PCT",
-				"assignment_date": "4/25/2023",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "22504",
-				"appt_date": "10/19/2022"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -58291,14 +58285,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 9,
-				"misdemeanor": 18,
-				"violation": 2
-			},
+			"arrests": {},
 			"awards": []
-		},
-		"command": "018 PCT-MIDTOWN NO. PCT"
+		}
 	},
 	{
 		"taxid": 963716,
@@ -104827,7 +104816,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 42
+				"misdemeanor": 44
 			},
 			"awards": []
 		},
@@ -106366,7 +106355,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "110 PRECINCT"
@@ -114173,7 +114164,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 3
+			},
 			"awards": []
 		},
 		"command": "046 PRECINCT"
@@ -118020,7 +118013,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -120556,8 +120549,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 8
+				"felony": 4,
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -122706,7 +122699,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 25,
+				"misdemeanor": 27,
 				"other": 1
 			},
 			"awards": []
@@ -123439,7 +123432,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 40,
+				"felony": 44,
 				"misdemeanor": 51
 			},
 			"awards": []
@@ -132267,7 +132260,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 13,
+				"misdemeanor": 14,
 				"violation": 1
 			},
 			"awards": []
@@ -132305,7 +132298,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 32
 			},
 			"awards": []
@@ -134044,7 +134037,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "084 PRECINCT"
@@ -140260,7 +140256,16 @@
 				"felony": 31,
 				"misdemeanor": 26
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "7/21/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/13/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "073 PRECINCT"
 	},
@@ -141505,7 +141510,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "028 PRECINCT"
@@ -144292,7 +144299,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "020 PRECINCT"

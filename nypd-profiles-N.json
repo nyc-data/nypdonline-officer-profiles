@@ -4163,7 +4163,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 17,
+				"felony": 18,
 				"misdemeanor": 18,
 				"violation": 2
 			},
@@ -4764,7 +4764,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "025 PRECINCT"
@@ -9561,7 +9563,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 49
+				"misdemeanor": 50
 			},
 			"awards": []
 		},
@@ -13936,7 +13938,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 11,
 				"misdemeanor": 32
 			},
 			"awards": []
@@ -26069,8 +26071,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 54,
-				"misdemeanor": 55
+				"felony": 27,
+				"misdemeanor": 28
 			},
 			"awards": []
 		},
@@ -38784,7 +38786,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -39434,7 +39436,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 8
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -41095,10 +41097,44 @@
 				"shield_no": "13219",
 				"appt_date": "1/6/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/6/2020",
+					"shield_no": "13219"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/25/2024 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Failed to activate BWC in a timely manner",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Failed to make proper radio transmission",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "03.Failed to terminate a vehicle pursuit",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 52,

@@ -9270,9 +9270,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 34,
-				"misdemeanor": 12,
-				"violation": 2
+				"felony": 17,
+				"misdemeanor": 6,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -11127,7 +11127,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "108 PRECINCT"
@@ -14029,7 +14031,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 13
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -21180,7 +21182,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "052 PRECINCT"
@@ -22006,7 +22010,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 8
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -32998,7 +33002,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -33363,7 +33367,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 34
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -45222,7 +45226,7 @@
 			"arrests": {
 				"felony": 1,
 				"misdemeanor": 3,
-				"violation": 2
+				"violation": 3
 			},
 			"awards": []
 		},
@@ -46233,7 +46237,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -48580,18 +48584,7 @@
 				"shield_no": "4304",
 				"appt_date": "8/31/1998"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "8/31/1998",
-					"shield_no": "25603"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "3/31/2006",
-					"shield_no": "4304"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -54728,8 +54721,8 @@
 		"arrest_count": 18,
 		"reports": {
 			"summary": {
-				"command": "111 PRECINCT",
-				"assignment_date": "11/14/2022",
+				"command": "QUEENS WARRANT SQD",
+				"assignment_date": "11/12/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "31763",
@@ -54751,7 +54744,7 @@
 			},
 			"awards": []
 		},
-		"command": "111 PRECINCT"
+		"command": "QUEENS WARRANT SQD"
 	},
 	{
 		"taxid": 975607,
@@ -54828,7 +54821,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 9
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -66568,7 +66561,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -68908,7 +68901,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "109 PRECINCT"
@@ -74249,7 +74244,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -79806,7 +79801,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 20
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -80965,7 +80960,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "010 PRECINCT"
@@ -84186,8 +84183,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 24
+				"felony": 13,
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -86381,7 +86378,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 88,
+				"felony": 89,
 				"misdemeanor": 92
 			},
 			"awards": [
@@ -96155,7 +96152,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "066 PRECINCT"
@@ -96722,8 +96721,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/16/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Improper search of an individual",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 177,
@@ -102759,7 +102774,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},

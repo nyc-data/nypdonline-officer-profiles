@@ -3170,7 +3170,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 63,
+				"felony": 64,
 				"misdemeanor": 37,
 				"violation": 1
 			},
@@ -7872,7 +7872,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "047 PRECINCT"
@@ -13953,7 +13956,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "026 PRECINCT"
@@ -20081,7 +20086,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "108 PRECINCT"
@@ -29531,7 +29538,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "032 PRECINCT"
@@ -34967,7 +34976,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "047 PRECINCT"
@@ -45601,7 +45612,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 10
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -48716,7 +48727,7 @@
 		"arrest_count": 53,
 		"reports": {
 			"summary": {
-				"command": "108 PRECINCT",
+				"command": "HARBOR UNIT",
 				"assignment_date": "10/16/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
@@ -48750,7 +48761,7 @@
 				}
 			]
 		},
-		"command": "108 PRECINCT"
+		"command": "HARBOR UNIT"
 	},
 	{
 		"taxid": 946376,
@@ -49177,7 +49188,13 @@
 				"shield_no": "25122",
 				"appt_date": "11/2/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "11/2/2020",
+					"shield_no": "25122"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -49841,7 +49858,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 322,
+				"felony": 323,
 				"misdemeanor": 306,
 				"violation": 2
 			},
@@ -55436,7 +55453,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},

@@ -654,7 +654,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 22
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -6894,7 +6894,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -10521,7 +10521,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "005 PRECINCT"
@@ -16133,7 +16135,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "020 PRECINCT"
@@ -18937,7 +18941,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "030 PRECINCT"
@@ -30934,7 +30940,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 30
+				"misdemeanor": 35
 			},
 			"awards": []
 		},
@@ -31500,7 +31506,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -36005,7 +36011,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "047 PRECINCT"
@@ -38596,7 +38604,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "013 PRECINCT"
@@ -40709,8 +40719,36 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/26/2020 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Misuse of time (straight or overtime).",
+							"group_id": "1",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"group_id": "1",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to timely submit Reports (Executive Weekly Time Records)",
+							"group_id": "1",
+							"penalty": "DEDUCTION OF PENSIONABLE TIME, FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {},
 			"awards": [
 				{
@@ -44245,7 +44283,12 @@
 				"misdemeanor": 18,
 				"violation": 2
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "3/17/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "113 PRECINCT"
 	},
@@ -48038,7 +48081,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 7,
 				"misdemeanor": 32
 			},
 			"awards": []
@@ -66359,9 +66402,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 15,
-				"violation": 2
+				"felony": 4,
+				"misdemeanor": 8,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -84790,7 +84833,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": [
 				{
@@ -92611,7 +92654,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 13,
+				"misdemeanor": 14,
 				"violation": 1
 			},
 			"awards": []
@@ -95723,7 +95766,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "073 PRECINCT"
@@ -108031,7 +108076,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "109 PRECINCT"
@@ -108068,7 +108115,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 42
+				"misdemeanor": 43
 			},
 			"awards": []
 		},
@@ -108861,7 +108908,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "010 PRECINCT"
@@ -109081,7 +109130,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "025 PRECINCT"
@@ -113862,8 +113913,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 22
+				"felony": 5,
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -128911,13 +128962,7 @@
 				"shield_no": "3621",
 				"appt_date": "4/24/2024"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/24/2024",
-					"shield_no": "3621"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -132509,8 +132554,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 6,
-				"misdemeanor": 15,
+				"felony": 7,
+				"misdemeanor": 16,
 				"violation": 2
 			},
 			"awards": []
@@ -133489,7 +133534,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -143228,8 +143273,8 @@
 		"arrest_count": 162,
 		"reports": {
 			"summary": {
-				"command": "005 PRECINCT",
-				"assignment_date": "3/10/2021",
+				"command": "INTEL CIS FIO PROGRAM",
+				"assignment_date": "11/7/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "7196",
@@ -143284,7 +143329,7 @@
 				}
 			]
 		},
-		"command": "005 PRECINCT"
+		"command": "INTEL CIS FIO PROGRAM"
 	},
 	{
 		"taxid": 933380,
@@ -156388,7 +156433,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -157010,6 +157055,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 3
 			},
 			"awards": []
@@ -158850,7 +158896,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "109 PRECINCT"
@@ -160105,7 +160153,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": []
 		},
@@ -163313,7 +163361,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 24,
+				"misdemeanor": 25,
 				"violation": 5
 			},
 			"awards": []
@@ -171513,7 +171561,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "109 PRECINCT"
