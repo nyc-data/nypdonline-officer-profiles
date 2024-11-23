@@ -721,7 +721,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 6
 			},
 			"awards": []
@@ -27476,10 +27476,50 @@
 				"shield_no": "1028",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "1028"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/6/2024 12:00:00 AM",
+					"allegations_count": 4
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Interfere with a recording device.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "03.Wrongfully damaged property.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 42,
@@ -33179,7 +33219,12 @@
 				"misdemeanor": 23,
 				"violation": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "3/19/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "073 PRECINCT"
 	},
@@ -34786,13 +34831,7 @@
 				"shield_no": "16032",
 				"appt_date": "10/19/2022"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/19/2022",
-					"shield_no": "16032"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -51526,7 +51565,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 204,
+				"felony": 207,
 				"misdemeanor": 148,
 				"violation": 13
 			},
