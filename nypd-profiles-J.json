@@ -2673,7 +2673,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 82,
-				"misdemeanor": 151,
+				"misdemeanor": 152,
 				"violation": 1
 			},
 			"awards": [
@@ -9105,7 +9105,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 32,
-				"misdemeanor": 81,
+				"misdemeanor": 82,
 				"violation": 13
 			},
 			"awards": []
@@ -23296,7 +23296,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 176,
+				"felony": 177,
 				"misdemeanor": 201,
 				"other": 1,
 				"violation": 4
@@ -31587,10 +31587,32 @@
 				"shield_no": "17672",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "17672"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/17/2021 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Out of residence while on sick leave.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 7,
 				"felony": 34,
@@ -33560,8 +33582,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 63,
-				"misdemeanor": 55
+				"felony": 64,
+				"misdemeanor": 57
 			},
 			"awards": [
 				{
