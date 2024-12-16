@@ -7732,7 +7732,7 @@
 			],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 55
+				"misdemeanor": 56
 			},
 			"awards": []
 		},
@@ -27366,36 +27366,7 @@
 					"charges_count": 4
 				}
 			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "NOLO CONTENDRE",
-							"description": "FAILED TO PROPERLY SUPERVISE SUBORDINATE MEMBERS OF SERVICE.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "NOLO CONTENDRE",
-							"description": "WRONGFULLY DETAINED THREE (3) INDIVIDUALS KNOWN TO THE DEPARTMENT AND PLACED THEM IN A HOLDING CELL WITHOUT HAVING PROBABLE CAUSE TO BELIEVE THAT SAID INDIVIDUALS ENGAGED IN CRIMINAL ACTIVITIES.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "FAILED TO MAKE ACTIVITY LOG ENTRIES.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "FAILED TO ENSURE THAT A STOP, QUESTION AND FRISK REPORT WORKSHEET WAS PREPARED.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"misdemeanor": 30
@@ -38360,8 +38331,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/9/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 39
@@ -39287,7 +39274,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 40,
+				"felony": 41,
 				"misdemeanor": 141
 			},
 			"awards": [
@@ -49904,11 +49891,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 23,
-				"misdemeanor": 39,
-				"violation": 3
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "11/12/2018",
@@ -83923,7 +83906,7 @@
 			"documents": [],
 			"disciplineHistory": [
 				{
-					"entry": "10/23/2021 12:00:00 AM",
+					"entry": "9/17/2021 12:00:00 AM",
 					"allegations_count": 1
 				},
 				{
@@ -163275,10 +163258,7 @@
 					]
 				}
 			],
-			"arrests": {
-				"felony": 22,
-				"misdemeanor": 48
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "067 PRECINCT"
@@ -174229,7 +174209,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
+				"felony": 10,
 				"misdemeanor": 19
 			},
 			"awards": []
@@ -180180,7 +180160,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 97,
 				"violation": 2
 			},
