@@ -3748,8 +3748,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 19,
-				"misdemeanor": 133,
+				"felony": 20,
+				"misdemeanor": 135,
 				"violation": 15
 			},
 			"awards": [
@@ -30291,7 +30291,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 122,
+				"misdemeanor": 123,
 				"violation": 15
 			},
 			"awards": [
@@ -30913,7 +30913,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 111
+				"misdemeanor": 112
 			},
 			"awards": []
 		},
@@ -33601,7 +33601,13 @@
 				"shield_no": "7949",
 				"appt_date": "7/2/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/2/2018",
+					"shield_no": "7949"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -43684,7 +43690,13 @@
 				"shield_no": "3053",
 				"appt_date": "4/12/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/12/2017",
+					"shield_no": "3053"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -77808,7 +77820,13 @@
 				"shield_no": "920",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2006",
+					"shield_no": "14397"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -89299,10 +89317,32 @@
 				"shield_no": "14150",
 				"appt_date": "7/7/2021"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/7/2021",
+					"shield_no": "14150"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/20/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"description": "01.Out of residence",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 55,
 				"misdemeanor": 48
@@ -92193,7 +92233,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 26,
-				"misdemeanor": 79
+				"misdemeanor": 80
 			},
 			"awards": [
 				{
@@ -99492,7 +99532,13 @@
 				"shield_no": "30214",
 				"appt_date": "1/10/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2005",
+					"shield_no": "30214"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -102805,14 +102851,6 @@
 		"recognition_count": 66,
 		"arrest_count": 250,
 		"reports": {
-			"summary": {
-				"command": "NARC BORO BRONX MAJOR CASE UNIT",
-				"assignment_date": "2/12/2024",
-				"ethnicity": "WHITE",
-				"rank_desc": "LIEUTENANT",
-				"shield_no": "",
-				"appt_date": "7/6/2011"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -103108,8 +103146,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
-		},
-		"command": "NARC BORO BRONX MAJOR CASE UNIT"
+		}
 	},
 	{
 		"taxid": 932931,

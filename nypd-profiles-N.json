@@ -16867,7 +16867,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 23,
+				"misdemeanor": 25,
 				"violation": 1
 			},
 			"awards": []
@@ -40527,10 +40527,58 @@
 				"shield_no": "2580",
 				"appt_date": "1/10/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2018",
+					"shield_no": "2580"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/15/2021 12:00:00 AM",
+					"charges_count": 3
+				},
+				{
+					"entry": "1/22/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to activate timely his body-worn camera.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to timely make proper notification to his patrol supervisor.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully used physical force.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 71,
 				"misdemeanor": 119,

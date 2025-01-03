@@ -15845,8 +15845,17 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"arrests": {
+				"felony": 8,
+				"misdemeanor": 67,
+				"violation": 20
+			},
+			"awards": [
+				{
+					"date": "6/7/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "DET BORO BRONX"
 	},
@@ -22970,7 +22979,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 84,
+				"felony": 85,
 				"misdemeanor": 157,
 				"violation": 1
 			},
@@ -24117,7 +24126,13 @@
 				"shield_no": "6765",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "6765"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -30412,7 +30427,7 @@
 			"documents": [],
 			"disciplineHistory": [
 				{
-					"entry": "7/18/2022 12:00:00 AM",
+					"entry": "7/23/2022 12:00:00 AM",
 					"allegations_count": 1
 				}
 			],
@@ -31536,8 +31551,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 59,
-				"misdemeanor": 216
+				"felony": 61,
+				"misdemeanor": 217
 			},
 			"awards": [
 				{
@@ -74916,7 +74931,18 @@
 				"shield_no": "5939",
 				"appt_date": "7/10/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/10/2006",
+					"shield_no": "3627"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/21/2016",
+					"shield_no": "5939"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -90208,7 +90234,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 39,
+				"felony": 40,
 				"misdemeanor": 64,
 				"violation": 2
 			},
@@ -93261,8 +93287,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 132,
-				"misdemeanor": 116,
+				"felony": 133,
+				"misdemeanor": 117,
 				"violation": 20
 			},
 			"awards": [
@@ -106745,7 +106771,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 38,
-				"misdemeanor": 127
+				"misdemeanor": 128
 			},
 			"awards": []
 		},
@@ -112666,7 +112692,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 66,
+				"felony": 67,
 				"misdemeanor": 79,
 				"violation": 2
 			},
@@ -121761,7 +121787,13 @@
 				"shield_no": "475",
 				"appt_date": "7/3/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/3/2024",
+					"shield_no": "475"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -131453,10 +131485,58 @@
 				"shield_no": "25731",
 				"appt_date": "1/7/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2015",
+					"shield_no": "25731"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/3/2021 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "11/4/2023 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Improper Frisk of an individual",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Improper search of an individual",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Improper search of a vehicle",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Improper use of Body Worn Camera",
+							"group_id": "2",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 37,
 				"misdemeanor": 39
@@ -132343,7 +132423,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 5,
-				"felony": 220,
+				"felony": 221,
 				"misdemeanor": 166,
 				"other": 2,
 				"violation": 16
@@ -136345,10 +136425,36 @@
 				"shield_no": "1228",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "19013"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/21/2017",
+					"shield_no": "1228"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/8/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 44,
 				"misdemeanor": 80,
@@ -136996,7 +137102,13 @@
 				"shield_no": "16883",
 				"appt_date": "7/3/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/3/2024",
+					"shield_no": "16883"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -139327,7 +139439,13 @@
 				"shield_no": "8154",
 				"appt_date": "7/3/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/3/2024",
+					"shield_no": "8154"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
