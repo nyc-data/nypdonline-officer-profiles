@@ -2412,7 +2412,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 28,
-				"misdemeanor": 135,
+				"misdemeanor": 137,
 				"violation": 66
 			},
 			"awards": [
@@ -17342,7 +17342,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 27
+				"misdemeanor": 29
 			},
 			"awards": [
 				{
@@ -19068,7 +19068,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "107 PRECINCT"
@@ -20024,8 +20026,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 58,
-				"violation": 31
+				"misdemeanor": 61,
+				"violation": 33
 			},
 			"awards": []
 		},
@@ -20500,8 +20502,8 @@
 		"arrest_count": 157,
 		"reports": {
 			"summary": {
-				"command": "PATROL BORO BRONX",
-				"assignment_date": "12/16/2024",
+				"command": "040 PRECINCT",
+				"assignment_date": "1/20/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "CAPTAIN",
 				"shield_no": "",
@@ -20557,7 +20559,7 @@
 				}
 			]
 		},
-		"command": "PATROL BORO BRONX"
+		"command": "040 PRECINCT"
 	},
 	{
 		"taxid": 973417,
@@ -23282,7 +23284,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 169,
+				"felony": 170,
 				"misdemeanor": 239,
 				"violation": 18
 			},
@@ -27961,7 +27963,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 29,
+				"misdemeanor": 30,
 				"violation": 1
 			},
 			"awards": []
@@ -30406,23 +30408,7 @@
 				"shield_no": "978",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/6/2011",
-					"shield_no": "2291"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2016",
-					"shield_no": "27905"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "6/10/2021",
-					"shield_no": "978"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -38095,9 +38081,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 5,
-				"violation": 1
+				"felony": 32,
+				"misdemeanor": 10,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -38864,7 +38850,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 232,
-				"misdemeanor": 264,
+				"misdemeanor": 265,
 				"violation": 48
 			},
 			"awards": [
@@ -43656,8 +43642,8 @@
 		"arrest_count": 48,
 		"reports": {
 			"summary": {
-				"command": "PATROL BORO MAN NORTH",
-				"assignment_date": "12/26/2024",
+				"command": "PATROL BORO BRONX",
+				"assignment_date": "1/15/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "INSPECTOR",
 				"shield_no": "",
@@ -43715,7 +43701,7 @@
 				}
 			]
 		},
-		"command": "PATROL BORO MAN NORTH"
+		"command": "PATROL BORO BRONX"
 	},
 	{
 		"taxid": 957621,
@@ -48624,7 +48610,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 37,
-				"misdemeanor": 179,
+				"misdemeanor": 180,
 				"violation": 25
 			},
 			"awards": [
@@ -54842,7 +54828,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 26
+				"misdemeanor": 27
 			},
 			"awards": []
 		},
@@ -59297,8 +59283,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 90,
-				"misdemeanor": 146,
+				"felony": 91,
+				"misdemeanor": 147,
 				"violation": 15
 			},
 			"awards": []
@@ -61034,10 +61020,49 @@
 				"shield_no": "4171",
 				"appt_date": "7/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "24540"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "12/23/2022",
+					"shield_no": "4171"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/16/2022 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed an Integrity Test.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (21 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (21 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to activate their body worn camera.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (21 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 8,
 				"felony": 56,
@@ -62914,7 +62939,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 59,
+				"felony": 62,
 				"misdemeanor": 67,
 				"violation": 8
 			},
@@ -69351,7 +69376,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 82,
+				"misdemeanor": 83,
 				"violation": 18
 			},
 			"awards": [
@@ -80897,7 +80922,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 14,
+				"felony": 16,
 				"misdemeanor": 32,
 				"violation": 1
 			},
@@ -82278,7 +82303,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -92682,8 +92707,8 @@
 		"arrest_count": 32,
 		"reports": {
 			"summary": {
-				"command": "PATROL BORO BKLYN SOUTH",
-				"assignment_date": "2/19/2024",
+				"command": "FIRST DEPUTY COMMISSIONER",
+				"assignment_date": "1/16/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "LT SPECIAL ASSIGN",
 				"shield_no": "",
@@ -92738,7 +92763,7 @@
 				}
 			]
 		},
-		"command": "PATROL BORO BKLYN SOUTH"
+		"command": "FIRST DEPUTY COMMISSIONER"
 	},
 	{
 		"taxid": 950527,
@@ -96745,13 +96770,19 @@
 				"shield_no": "9633",
 				"appt_date": "4/13/2022"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/13/2022",
+					"shield_no": "9633"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 36
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -101886,7 +101917,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 38,
+				"misdemeanor": 39,
 				"violation": 1
 			},
 			"awards": []
@@ -126681,7 +126712,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 16,
-				"misdemeanor": 60,
+				"misdemeanor": 63,
 				"violation": 6
 			},
 			"awards": [
