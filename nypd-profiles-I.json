@@ -6676,6 +6676,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -6963,7 +6964,7 @@
 		"shield_no": "2271",
 		"appt_date": "1/10/2005",
 		"recognition_count": 54,
-		"arrest_count": 900,
+		"arrest_count": 902,
 		"reports": {
 			"summary": {
 				"command": "BKLYN NORTH VICE MODULE",
@@ -6991,7 +6992,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 193,
-				"misdemeanor": 677,
+				"misdemeanor": 679,
 				"violation": 28
 			},
 			"awards": [
@@ -7961,7 +7962,7 @@
 			"arrests": {
 				"felony": 425,
 				"misdemeanor": 111,
-				"other": 11,
+				"other": 13,
 				"violation": 1
 			},
 			"awards": [
@@ -8313,8 +8314,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 46
+				"felony": 21,
+				"misdemeanor": 47
 			},
 			"awards": []
 		},
@@ -10495,17 +10496,17 @@
 		"first_name": "EDRIAN",
 		"last_name": "IRIZARRY",
 		"middle_initial": "M",
-		"rank": "DETECTIVE 3RD GRADE",
+		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "6201",
 		"appt_date": "7/11/2005",
 		"recognition_count": 1,
 		"arrest_count": 751,
 		"reports": {
 			"summary": {
-				"command": "AC ZONE II BRONX/ MANHATTAN",
-				"assignment_date": "7/22/2024",
+				"command": "TRANSIT DISTRICT 3",
+				"assignment_date": "1/27/2025",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "DETECTIVE 3RD GRADE",
+				"rank_desc": "DETECTIVE SPECIALIST",
 				"shield_no": "6201",
 				"appt_date": "7/11/2005"
 			},
@@ -10537,7 +10538,7 @@
 				}
 			]
 		},
-		"command": "AC ZONE II BRONX/ MANHATTAN"
+		"command": "TRANSIT DISTRICT 3"
 	},
 	{
 		"taxid": 951842,
@@ -15219,7 +15220,13 @@
 				"shield_no": "",
 				"appt_date": "11/13/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "11/13/2024",
+					"shield_no": "8961"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -15359,7 +15366,7 @@
 		"shield_no": "16574",
 		"appt_date": "7/11/2005",
 		"recognition_count": 0,
-		"arrest_count": 142,
+		"arrest_count": 143,
 		"reports": {
 			"summary": {
 				"command": "115 PCT ROOSEVELT AVE TF",
@@ -16446,79 +16453,6 @@
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 1"
-	},
-	{
-		"taxid": 940290,
-		"full_name": "IUORIO, EDWARD V",
-		"first_name": "EDWARD",
-		"last_name": "IUORIO",
-		"middle_initial": "V",
-		"rank": "POLICE OFFICER",
-		"shield_no": "24123",
-		"appt_date": "1/9/2006",
-		"recognition_count": 0,
-		"arrest_count": 60,
-		"reports": {
-			"summary": {
-				"command": "AUXILIARY POLICE SECT",
-				"assignment_date": "10/5/2014",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "24123",
-				"appt_date": "1/9/2006"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2006",
-					"shield_no": "24123"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "1/31/2023 12:00:00 AM",
-					"charges_count": 4
-				}
-			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"description": "Operated a motor vehicle while under the influence of an intoxicant.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"description": "Operated a motor vehicle while under the influence of an intoxicant.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"description": "Operated a motor vehicle while ability impaired.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"description": "Unfit for duty.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"felony": 3,
-				"misdemeanor": 50,
-				"violation": 7
-			},
-			"awards": []
-		},
-		"command": "AUXILIARY POLICE SECT"
 	},
 	{
 		"taxid": 964071,
