@@ -724,7 +724,7 @@
 		"shield_no": "18087",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -1973,8 +1973,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/7/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Failed to process a civilian complaint.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
@@ -2892,7 +2908,7 @@
 		"shield_no": "7309",
 		"appt_date": "4/12/2017",
 		"recognition_count": 5,
-		"arrest_count": 107,
+		"arrest_count": 108,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -7683,7 +7699,7 @@
 		"shield_no": "5431",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 15,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",

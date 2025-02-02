@@ -755,7 +755,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 24,
+				"felony": 25,
 				"misdemeanor": 39,
 				"violation": 5
 			},
@@ -4033,7 +4033,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 60,
-				"misdemeanor": 82
+				"misdemeanor": 83
 			},
 			"awards": [
 				{
@@ -20597,8 +20597,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 43,
-				"misdemeanor": 225,
+				"felony": 44,
+				"misdemeanor": 228,
 				"violation": 25
 			},
 			"awards": [
@@ -25474,7 +25474,7 @@
 			],
 			"arrests": {
 				"felony": 53,
-				"misdemeanor": 60
+				"misdemeanor": 61
 			},
 			"awards": [
 				{
@@ -47516,7 +47516,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 8,
-				"misdemeanor": 57,
+				"misdemeanor": 58,
 				"violation": 1
 			},
 			"awards": [
@@ -47970,8 +47970,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/21/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 39,
 				"misdemeanor": 50
@@ -51346,45 +51361,7 @@
 					"allegations_count": 4
 				}
 			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"group_id": "1"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Violated patrol rules - failed to provide business card",
-							"group_id": "2",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
-						},
-						{
-							"recommendation": "B-CD",
-							"description": "02.Violated patrol rules - refused to provide shield number",
-							"group_id": "2",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
-						},
-						{
-							"recommendation": "B-CD",
-							"description": "03.Wrongfully frisked an individual known to the Department.",
-							"group_id": "2",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
-						},
-						{
-							"recommendation": "B-CD",
-							"description": "04.Wrongfully stopped an individual known to the Department.",
-							"group_id": "2",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 49,
 				"misdemeanor": 93
