@@ -562,7 +562,13 @@
 				"shield_no": "2709",
 				"appt_date": "12/29/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "12/29/2020",
+					"shield_no": "2709"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -892,7 +898,7 @@
 		"shield_no": "11799",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "TB TRAIN PATROL FORCE",
@@ -1003,8 +1009,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 12,
-				"violation": 1
+				"misdemeanor": 13,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -1232,8 +1238,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 15
+				"felony": 4,
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -2145,8 +2151,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "25014",
 		"appt_date": "10/7/2019",
-		"recognition_count": 16,
-		"arrest_count": 148,
+		"recognition_count": 18,
+		"arrest_count": 152,
 		"reports": {
 			"summary": {
 				"command": "BKLYN TRANSIT CRIMES SQUAD",
@@ -5594,7 +5600,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 30,
+				"misdemeanor": 31,
 				"violation": 1
 			},
 			"awards": []
@@ -5915,10 +5921,49 @@
 				"shield_no": "24649",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2017",
+					"shield_no": "24649"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/18/2023 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "5/9/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully searched a vehicle.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 38,
 				"misdemeanor": 35
