@@ -908,7 +908,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "HOUSING PSA 1"
@@ -1272,7 +1274,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 16,
-				"misdemeanor": 48
+				"misdemeanor": 49
 			},
 			"awards": []
 		},
@@ -9180,7 +9182,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
+				"felony": 30,
 				"misdemeanor": 44
 			},
 			"awards": []
@@ -12560,7 +12562,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"violation": 1
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 1"
@@ -25132,7 +25136,13 @@
 				"shield_no": "27405",
 				"appt_date": "7/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2005",
+					"shield_no": "27405"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -25635,7 +25645,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 39,
-				"misdemeanor": 236,
+				"misdemeanor": 237,
 				"other": 1,
 				"violation": 48
 			},
@@ -27732,7 +27742,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
+				"felony": 11,
 				"misdemeanor": 27
 			},
 			"awards": []
@@ -39555,7 +39565,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 3"
@@ -39675,7 +39687,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 149,
-				"misdemeanor": 250,
+				"misdemeanor": 251,
 				"violation": 17
 			},
 			"awards": [
@@ -45397,7 +45409,13 @@
 				"shield_no": "21724",
 				"appt_date": "7/19/2023"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/19/2023",
+					"shield_no": "21724"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -45928,7 +45946,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 20"

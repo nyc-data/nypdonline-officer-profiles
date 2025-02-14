@@ -1569,7 +1569,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 36
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -3468,8 +3468,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 24,
+				"felony": 23,
+				"misdemeanor": 26,
 				"violation": 1
 			},
 			"awards": []
@@ -3644,7 +3644,18 @@
 				"shield_no": "2902",
 				"appt_date": "7/9/2007"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "17784"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/26/2019",
+					"shield_no": "2902"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -5595,7 +5606,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
+				"felony": 28,
 				"misdemeanor": 29,
 				"violation": 4
 			},
@@ -19577,7 +19588,13 @@
 				"shield_no": "6641",
 				"appt_date": "4/24/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/24/2024",
+					"shield_no": "6641"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -26958,7 +26975,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 25
+				"misdemeanor": 28
 			},
 			"awards": []
 		},
@@ -49754,8 +49771,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 32
+				"felony": 5,
+				"misdemeanor": 33
 			},
 			"awards": []
 		},
@@ -64939,7 +64956,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 3"
@@ -78300,7 +78319,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 23"
@@ -82241,10 +82262,32 @@
 				"shield_no": "27380",
 				"appt_date": "1/10/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2005",
+					"shield_no": "27380"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/1/2019 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to conduct an investigation.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (33 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 29,
@@ -92291,7 +92334,13 @@
 				"shield_no": "7860",
 				"appt_date": "10/18/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/18/2017",
+					"shield_no": "7860"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -93648,7 +93697,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 61
 			},
 			"awards": []
@@ -111978,7 +112027,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 4"
@@ -118303,7 +118354,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 32,
-				"misdemeanor": 99
+				"misdemeanor": 100
 			},
 			"awards": []
 		},

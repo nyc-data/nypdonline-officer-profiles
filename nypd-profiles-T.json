@@ -8593,7 +8593,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "121 PRECINCT"
@@ -11957,7 +11959,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 39,
-				"misdemeanor": 34
+				"misdemeanor": 35
 			},
 			"awards": []
 		},
@@ -12769,7 +12771,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 38,
-				"misdemeanor": 41
+				"misdemeanor": 43
 			},
 			"awards": []
 		},
@@ -14199,8 +14201,72 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/30/2014 12:00:00 AM",
+					"charges_count": 9
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY USED HER POSITION AS A MEMBER OF THE SERVICE TO INFLUENCE THE INVESTIGATION AND/OR RESULTS OF AN INCIDENT.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY FAILED TO TRANSMIT VIA DEPARTMENT RADIO HER HAVING RESPONDED TO A REPORT OF MOTOR VEHICLE ACCIDENT INVOLVING A METROPOLITAN TRANSIT AUTHORITY BUS AND AN OFF-DUTY MEMBER OF THE SERVICE, HER ACTIVITIES AT THE ACCIDENT SCENE, AND ANY DISPOSITION OF THE DEPARTMENT's INVOLVEMENT IN THE INCIDENT.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY FAILED TO CONDUCT A PROPER INVESTIGATION AND DIRECTED A POLICE OFFICER UNDER HER SUPERVISION TO PREPARE A COMPLAINT REPORT CHARGING A MOTORIST WITH \"HARASSMENT IN THE 2ND DEGREE\" WHEN NO SUCH OFFENSE HAD OCCURRED.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY FAILED TO MAKE REQUIRED ENTRIES IN HER ACTIVITY LOG.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY FAILED TO MAKE REQUIRED ENTRIES IN HER ACTIVITY LOG, AND HAVING COMMITTED MISCONDUCT, WRONGFULLY FAILED TO NOTIFY THE DESK OFFICER, PRECINCT OF OCCURRENCE, AND THE INTERNAL AFFAIRS BUREAU COMMAND CENTER, AS REQUIRED.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY,  WRONGFULLY FAILED TO PREPARE OR TO DIRECT THE PREPARATION OF A POLICE ACCIDENT REPORT, AS REQUIRED.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY IMPEDED AN OFFICIAL INVESTIGATION REGARDING AN ACCIDENT.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY IMPEDED AN OFFICIAL DEPARTMENT INVESTIGATION.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY IMPEDED AN OFFICIAL DEPARTMENT INVESTIGATION CONDUCTED BY MEMBERS OF THE PATROL BOROUGH MANHATTAN NORTH INVESTIGATIONS UNIT BY MAKING MISLEADING OR OTHERWISE INACCURATE STATEMENTS DURING OFFICIAL INTERVIEWS.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (45 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 19,
@@ -17767,7 +17833,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 4"
@@ -21262,7 +21330,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 4,
-				"misdemeanor": 42,
+				"misdemeanor": 43,
 				"violation": 4
 			},
 			"awards": [
@@ -29976,7 +30044,13 @@
 				"shield_no": "9600",
 				"appt_date": "1/17/2023"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/17/2023",
+					"shield_no": "9600"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -34194,7 +34268,13 @@
 				"shield_no": "16017",
 				"appt_date": "10/19/2022"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/19/2022",
+					"shield_no": "16017"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -42156,7 +42236,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 54,
-				"misdemeanor": 74,
+				"misdemeanor": 76,
 				"other": 1,
 				"violation": 1
 			},
@@ -50543,7 +50623,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 73
+				"misdemeanor": 76
 			},
 			"awards": []
 		},
@@ -54305,7 +54385,13 @@
 				"shield_no": "4257",
 				"appt_date": "7/10/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/10/2006",
+					"shield_no": "4257"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -63325,10 +63411,72 @@
 				"shield_no": "4775",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/31/2009",
+					"shield_no": "31212"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/30/2016",
+					"shield_no": "7375"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "9/10/2019",
+					"shield_no": "4775"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/27/2019 12:00:00 AM",
+					"charges_count": 6
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Off-duty employment without permission.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Criminal association.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Made improper contact.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to make required entries in Department Logs.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Violated vehicle insurance rules.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 50,
@@ -64709,8 +64857,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 19
+				"felony": 8,
+				"misdemeanor": 21
 			},
 			"awards": []
 		},
@@ -66777,7 +66925,18 @@
 				"shield_no": "2364",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2006",
+					"shield_no": "18149"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/28/2012",
+					"shield_no": "2364"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -67526,7 +67685,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 11,
+				"misdemeanor": 12,
 				"violation": 2
 			},
 			"awards": []
@@ -68607,8 +68766,8 @@
 		"arrest_count": 128,
 		"reports": {
 			"summary": {
-				"command": "088 PRECINCT",
-				"assignment_date": "9/25/2023",
+				"command": "AUTO POUNDS",
+				"assignment_date": "2/10/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1609",
@@ -68645,7 +68804,7 @@
 				}
 			]
 		},
-		"command": "088 PRECINCT"
+		"command": "AUTO POUNDS"
 	},
 	{
 		"taxid": 926229,
