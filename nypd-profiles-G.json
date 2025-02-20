@@ -24322,7 +24322,7 @@
 			],
 			"arrests": {
 				"felony": 32,
-				"misdemeanor": 128
+				"misdemeanor": 131
 			},
 			"awards": [
 				{
@@ -70400,7 +70400,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 136,
+				"felony": 137,
 				"misdemeanor": 275,
 				"violation": 26
 			},
@@ -94410,7 +94410,13 @@
 				"shield_no": "19863",
 				"appt_date": "4/24/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/24/2024",
+					"shield_no": "19863"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -103542,7 +103548,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 5,
-				"felony": 173,
+				"felony": 174,
 				"misdemeanor": 273,
 				"violation": 12
 			},
@@ -115385,7 +115391,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 190,
-				"misdemeanor": 248,
+				"misdemeanor": 249,
 				"violation": 9
 			},
 			"awards": [
@@ -116077,7 +116083,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 233,
+				"felony": 234,
 				"misdemeanor": 536,
 				"other": 1,
 				"violation": 32
@@ -125541,10 +125547,43 @@
 				"shield_no": "4596",
 				"appt_date": "7/1/2003"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2003",
+					"shield_no": "19556"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/29/2014",
+					"shield_no": "4596"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/27/2017 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "CONDUCTED NA INQUIRY IN DEPARTMENT COMPUTERS RELATED TO AN ARREST ON SEVEN (7) OCCASIONS AND SAID INQUIRIES WERE NOT RELATED TO THE OFFICIAL BUSINESS OF THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DIVULGED OR DISCUSSED OFFICIAL DEPARTMENT BUSINESS WITHOUT PERMISSION OR AUTHORITY TO DO SO.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 6,
 				"felony": 361,
