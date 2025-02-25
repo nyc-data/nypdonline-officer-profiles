@@ -8738,7 +8738,7 @@
 			],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 10,
+				"misdemeanor": 11,
 				"violation": 1
 			},
 			"awards": [
@@ -14344,8 +14344,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/16/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 35,
@@ -16032,7 +16047,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 134,
+				"felony": 135,
 				"misdemeanor": 54,
 				"violation": 1
 			},

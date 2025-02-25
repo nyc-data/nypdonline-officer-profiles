@@ -4044,7 +4044,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 61,
-				"misdemeanor": 83
+				"misdemeanor": 84
 			},
 			"awards": [
 				{
@@ -21648,7 +21648,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 18
+				"misdemeanor": 19
 			},
 			"awards": [
 				{
@@ -31575,8 +31575,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 53,
 				"misdemeanor": 82,
@@ -47626,7 +47641,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 52,
+				"misdemeanor": 54,
 				"violation": 4
 			},
 			"awards": [
