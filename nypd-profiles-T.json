@@ -11050,7 +11050,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 92,
+				"felony": 95,
 				"misdemeanor": 37,
 				"violation": 1
 			},
@@ -14873,8 +14873,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/20/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Abuse of authority when issuing a summons (wrongful summons)",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 8,
 				"misdemeanor": 102,
@@ -19822,7 +19838,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 79,
+				"felony": 82,
 				"misdemeanor": 50
 			},
 			"awards": []
@@ -35375,10 +35391,37 @@
 				"shield_no": "5516",
 				"appt_date": "7/1/1998"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/1998",
+					"shield_no": "9424"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/23/2008",
+					"shield_no": "5516"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/20/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to follow arrest procedures.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 464,
 				"misdemeanor": 194,
@@ -35477,7 +35520,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 43,
-				"misdemeanor": 126,
+				"misdemeanor": 128,
 				"violation": 2
 			},
 			"awards": [
@@ -59910,7 +59953,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 36
+				"misdemeanor": 38
 			},
 			"awards": [
 				{
@@ -65183,7 +65226,13 @@
 					"shield_no": "17535"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "11/13/2024",
+					"url": "https://nypdonline.org/files/959786_11132024_2024074.pdf",
+					"type": "Trial Decision"
+				}
+			],
 			"disciplineHistory": [
 				{
 					"entry": "3/18/2019 12:00:00 AM",
@@ -72370,9 +72419,18 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "5/24/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/31/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "076 PRECINCT"
 	},

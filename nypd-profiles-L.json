@@ -48871,7 +48871,13 @@
 				"shield_no": "20374",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2017",
+					"shield_no": "20374"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -68883,7 +68889,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "090 PRECINCT"
@@ -71917,10 +71925,32 @@
 				"shield_no": "1471",
 				"appt_date": "12/29/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "12/29/2020",
+					"shield_no": "1471"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/13/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to obtain language interpretation services.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 13
@@ -80071,7 +80101,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -81099,7 +81129,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 52,
 				"violation": 2
 			},
@@ -85986,7 +86016,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 32,
 				"violation": 1
 			},
@@ -99278,10 +99308,36 @@
 				"shield_no": "2568",
 				"appt_date": "1/7/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "28336"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "2/26/2020",
+					"shield_no": "2568"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/23/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully disseminated confidential Department information.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 187,
