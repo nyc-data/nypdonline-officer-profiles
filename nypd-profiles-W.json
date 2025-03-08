@@ -2039,7 +2039,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 49
+				"misdemeanor": 55
 			},
 			"awards": []
 		},
@@ -3335,8 +3335,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 24,
-				"misdemeanor": 35
+				"felony": 25,
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -3452,7 +3452,7 @@
 		"shield_no": "8040",
 		"appt_date": "1/14/2009",
 		"recognition_count": 1,
-		"arrest_count": 112,
+		"arrest_count": 113,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -5246,7 +5246,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 72,
+				"felony": 73,
 				"misdemeanor": 138,
 				"violation": 4
 			},
@@ -12153,7 +12153,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 47,
+				"felony": 48,
 				"misdemeanor": 58
 			},
 			"awards": [
@@ -20917,7 +20917,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 2,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -29022,47 +29023,6 @@
 		"command": "019 PRECINCT"
 	},
 	{
-		"taxid": 942695,
-		"full_name": "WHILCHEZ, VICTOR E",
-		"first_name": "VICTOR",
-		"last_name": "WHILCHEZ",
-		"middle_initial": "E",
-		"rank": "POLICE OFFICER",
-		"shield_no": "18512",
-		"appt_date": "7/10/2006",
-		"recognition_count": 0,
-		"arrest_count": 167,
-		"reports": {
-			"summary": {
-				"command": "MEDICAL DIVISION",
-				"assignment_date": "1/27/2025",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "18512",
-				"appt_date": "7/10/2006"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/10/2006",
-					"shield_no": "18512"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 4,
-				"felony": 35,
-				"misdemeanor": 108,
-				"other": 1,
-				"violation": 19
-			},
-			"awards": []
-		},
-		"command": "MEDICAL DIVISION"
-	},
-	{
 		"taxid": 937726,
 		"full_name": "WHIRL, MARC C",
 		"first_name": "MARC",
@@ -30070,7 +30030,7 @@
 			],
 			"arrests": {
 				"infraction": 7,
-				"felony": 323,
+				"felony": 324,
 				"misdemeanor": 475,
 				"other": 2,
 				"violation": 7
@@ -32137,7 +32097,7 @@
 		"shield_no": "6961",
 		"appt_date": "7/11/2005",
 		"recognition_count": 22,
-		"arrest_count": 787,
+		"arrest_count": 790,
 		"reports": {
 			"summary": {
 				"command": "073 DET SQUAD",
@@ -34037,7 +33997,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
+				"felony": 53,
 				"misdemeanor": 59,
 				"violation": 1
 			},
@@ -34605,7 +34565,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 59
+				"misdemeanor": 62
 			},
 			"awards": []
 		},
@@ -37733,7 +37693,7 @@
 		"shield_no": "19365",
 		"appt_date": "11/2/2020",
 		"recognition_count": 10,
-		"arrest_count": 59,
+		"arrest_count": 60,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -38028,9 +37988,9 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 351,
+				"felony": 352,
 				"misdemeanor": 260,
-				"other": 3,
+				"other": 4,
 				"violation": 7
 			},
 			"awards": [
@@ -42514,10 +42474,61 @@
 				"shield_no": "3340",
 				"appt_date": "1/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2013",
+					"shield_no": "29420"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "2/9/2022",
+					"shield_no": "3340"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/11/2016 12:00:00 AM",
+					"charges_count": 5
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, DISPLAYED HER RESTRICTED PARKING PERMIT ON THE DASHBOARD OF HER PERSONAL VEHICLE WHILE PARKED IN A NO PARKING ZONE.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, DID WRONGFULLY AND WITHOUT JUST CAUSE PREVENT OR INTERFERE WITH A POLICE INVESTIGATION.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, WAS DISCOURTEOUS WHILE ADDRESSING A POLICE OFFICER KNOWN TO THE DEPARTMENT FROM ANOTHER JURISDICTION",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, CALLED A POLICE DEPARTMENT IN ANOTHER JURISDICTION ON NUMEROUS OCCASIONS INDICATING THE SHE WAS A LIEUTENANT WHEN THAT WAS NOT IN FACT TRUE.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, FAILED TO COOPERATE WITH A POLICE OFFICER KNOWN TO THE DEPARTMENT FROM ANOTHER JURISDICTION RESULTING IN THE RESPONSE OF ADDITIONAL POLICE OFFICERS TO THE SCENE.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 14,
 				"misdemeanor": 88,
@@ -44805,7 +44816,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 12,
-				"misdemeanor": 42,
+				"misdemeanor": 43,
 				"violation": 3
 			},
 			"awards": [
@@ -44854,8 +44865,8 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 42,
-				"misdemeanor": 215,
-				"violation": 46
+				"misdemeanor": 217,
+				"violation": 47
 			},
 			"awards": [
 				{
@@ -46538,8 +46549,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 24
+				"felony": 15,
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -48044,7 +48055,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 38,
-				"misdemeanor": 374,
+				"misdemeanor": 375,
 				"violation": 7
 			},
 			"awards": []
@@ -49129,7 +49140,7 @@
 		"shield_no": "6500",
 		"appt_date": "7/1/2004",
 		"recognition_count": 2,
-		"arrest_count": 184,
+		"arrest_count": 185,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -54229,7 +54240,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 18
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -57976,7 +57987,7 @@
 		"shield_no": "21755",
 		"appt_date": "7/1/2002",
 		"recognition_count": 11,
-		"arrest_count": 342,
+		"arrest_count": 345,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -58194,7 +58205,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -60081,7 +60092,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 99,
+				"misdemeanor": 102,
 				"violation": 1
 			},
 			"awards": [
@@ -62035,7 +62046,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 28
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -64092,7 +64103,7 @@
 		"shield_no": "3889",
 		"appt_date": "7/1/2002",
 		"recognition_count": 3,
-		"arrest_count": 770,
+		"arrest_count": 771,
 		"reports": {
 			"summary": {
 				"command": "101ST DET SQUAD",
