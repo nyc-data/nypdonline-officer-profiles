@@ -543,7 +543,7 @@
 		"shield_no": "22783",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -2001,11 +2001,27 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/25/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 22
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -2176,7 +2192,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 46,
+				"misdemeanor": 47,
 				"violation": 1
 			},
 			"awards": [
@@ -2348,7 +2364,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 45,
+				"felony": 46,
 				"misdemeanor": 100,
 				"violation": 7
 			},
@@ -4884,13 +4900,7 @@
 				"shield_no": "28004",
 				"appt_date": "1/10/2018"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2018",
-					"shield_no": "28004"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -8458,7 +8468,7 @@
 		"shield_no": "6185",
 		"appt_date": "1/11/2010",
 		"recognition_count": 27,
-		"arrest_count": 408,
+		"arrest_count": 411,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",

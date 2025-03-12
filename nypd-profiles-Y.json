@@ -2173,7 +2173,7 @@
 			],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 14
+				"misdemeanor": 16
 			},
 			"awards": [
 				{
@@ -4882,8 +4882,8 @@
 		"arrest_count": 235,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "1/31/2025",
+				"command": "078 PRECINCT",
+				"assignment_date": "3/3/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3681",
@@ -4944,7 +4944,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "078 PRECINCT"
 	},
 	{
 		"taxid": 970948,
@@ -5107,8 +5107,42 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 2
+				},
+				{
+					"entry": "8/8/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully used physical force.",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "2",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 67,
@@ -10237,7 +10271,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 76,
 				"other": 2
 			},
