@@ -822,7 +822,7 @@
 		"shield_no": "16925",
 		"appt_date": "1/7/2015",
 		"recognition_count": 4,
-		"arrest_count": 276,
+		"arrest_count": 277,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -1297,8 +1297,16 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"arrests": {
+				"felony": 27,
+				"misdemeanor": 40
+			},
+			"awards": [
+				{
+					"date": "1/26/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "INTEL CIS FIO PROGRAM"
 	},
@@ -1312,7 +1320,7 @@
 		"shield_no": "25700",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 83,
+		"arrest_count": 85,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -4324,7 +4332,7 @@
 		"shield_no": "8312",
 		"appt_date": "1/6/2016",
 		"recognition_count": 4,
-		"arrest_count": 70,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 5 SI",
@@ -7451,7 +7459,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 74,
+				"felony": 75,
 				"misdemeanor": 69
 			},
 			"awards": [
@@ -8479,10 +8487,6 @@
 				{
 					"entry": "2/10/2015 12:00:00 AM",
 					"charges_count": 3
-				},
-				{
-					"entry": "3/3/2024 12:00:00 AM",
-					"allegations_count": 1
 				}
 			],
 			"discipline": [
@@ -8505,15 +8509,6 @@
 							"description": "WHILE ON-DUTY, HAVING RESPONDED TO AN ASSIGNMENT INVOLVING AN ALLEGED ROBBERY WITH A FIREARM, WRONGFULLY FAILED TO NOTIFY  THE DETECTIVE SQUAD FOR FURTHER INVESTIGATION",
 							"group_id": "1",
 							"penalty": "VACATION DAYS (15 day(s) )"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongful entry of a premises.",
-							"group_id": "1"
 						}
 					]
 				}
@@ -14182,8 +14177,8 @@
 		"arrest_count": 21,
 		"reports": {
 			"summary": {
-				"command": "122 PRECINCT",
-				"assignment_date": "8/16/2023",
+				"command": "BROOKLYN COURT SECTION",
+				"assignment_date": "3/17/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "18921",
@@ -14211,7 +14206,7 @@
 				}
 			]
 		},
-		"command": "122 PRECINCT"
+		"command": "BROOKLYN COURT SECTION"
 	},
 	{
 		"taxid": 976104,
@@ -15216,8 +15211,8 @@
 		"arrest_count": 204,
 		"reports": {
 			"summary": {
-				"command": "CITYWIDE TRAFFIC TF",
-				"assignment_date": "5/24/2023",
+				"command": "110 PRECINCT",
+				"assignment_date": "3/10/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "17907",
@@ -15249,7 +15244,7 @@
 				}
 			]
 		},
-		"command": "CITYWIDE TRAFFIC TF"
+		"command": "110 PRECINCT"
 	},
 	{
 		"taxid": 978484,
@@ -16818,7 +16813,7 @@
 		"shield_no": "13299",
 		"appt_date": "1/6/2016",
 		"recognition_count": 7,
-		"arrest_count": 125,
+		"arrest_count": 126,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 4 QUEENS",
@@ -18882,7 +18877,7 @@
 		"shield_no": "16374",
 		"appt_date": "1/7/2015",
 		"recognition_count": 0,
-		"arrest_count": 67,
+		"arrest_count": 68,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 4 QUEENS",
@@ -19972,8 +19967,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/1/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 53,
 				"misdemeanor": 40,
@@ -23627,7 +23637,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 63,
+				"felony": 64,
 				"misdemeanor": 83
 			},
 			"awards": [
@@ -25580,7 +25590,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 35,
-				"misdemeanor": 51,
+				"misdemeanor": 53,
 				"violation": 17
 			},
 			"awards": [
@@ -26486,7 +26496,7 @@
 		"shield_no": "2470",
 		"appt_date": "4/12/2017",
 		"recognition_count": 31,
-		"arrest_count": 107,
+		"arrest_count": 108,
 		"reports": {
 			"summary": {
 				"command": "PBBX PUBLIC SAFETY TEAMS",
@@ -26507,7 +26517,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 56,
+				"felony": 57,
 				"misdemeanor": 50,
 				"other": 1
 			},
@@ -30197,7 +30207,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 84,
+				"felony": 85,
 				"misdemeanor": 218,
 				"violation": 2
 			},
@@ -30411,7 +30421,7 @@
 		"shield_no": "13679",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 304,
+		"arrest_count": 306,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -34061,7 +34071,7 @@
 			],
 			"arrests": {
 				"felony": 117,
-				"misdemeanor": 123,
+				"misdemeanor": 124,
 				"violation": 3
 			},
 			"awards": [
@@ -35608,8 +35618,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongful removal to a hospital.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 32,
