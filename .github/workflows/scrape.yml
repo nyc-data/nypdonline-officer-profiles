@@ -19,12 +19,24 @@ jobs:
       run: |-
         yarn install
         yarn start
-        yarn tocsv officers ranks discipline documents awards
+        yarn tocsv
+    - name: 'Upload Training Artifact'
+      uses: actions/upload-artifact@v4
+      with:
+        name: training-json
+        path: nypd-profiles-*-training-*.json
+        retention-days: 3
+    - name: 'Upload CVS Artifact'
+      uses: actions/upload-artifact@v4
+      with:
+        name: nypd-profiles-csv
+        path: *.csv
+        retention-days: 3
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
-        git add -A
+        git add -A nypd-profiles-[A-Z].json trial-decisions.json
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
