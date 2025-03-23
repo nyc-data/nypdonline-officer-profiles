@@ -30,7 +30,13 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: nypd-profiles-csv
-        path: *.csv
+        path: |
+          officers.csv 
+          discipline.csv 
+          ranks.csv 
+          documents.csv 
+          awards.csv 
+          training.csv
         retention-days: 3
     - name: Commit and push if it changed
       run: |-
