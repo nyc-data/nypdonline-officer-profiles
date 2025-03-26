@@ -25,7 +25,7 @@ jobs:
       with:
         name: training-json
         path: nypd-profiles-*-training-*.json
-        retention-days: 3
+        retention-days: 2
     - name: 'Upload CVS Artifact'
       uses: actions/upload-artifact@v4
       with:
@@ -37,7 +37,7 @@ jobs:
           documents.csv 
           awards.csv 
           training.csv
-        retention-days: 3
+        retention-days: 2
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
