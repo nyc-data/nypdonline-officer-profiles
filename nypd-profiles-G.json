@@ -5662,7 +5662,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": []
 		},
@@ -7149,7 +7149,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
+				"felony": 12,
 				"misdemeanor": 27,
 				"violation": 2
 			},
@@ -7189,7 +7189,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": [
 				{
@@ -24128,8 +24128,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 11
+				"felony": 6,
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -24612,7 +24612,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"felony": 1,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -26719,7 +26720,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 3,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -26795,7 +26797,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 23
+				"misdemeanor": 24
 			},
 			"awards": []
 		},
@@ -26921,7 +26923,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 25
+				"misdemeanor": 26
 			},
 			"awards": []
 		},
@@ -27608,7 +27610,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"felony": 1,
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -31097,7 +31100,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -42781,8 +42784,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 10,
-				"violation": 8
+				"misdemeanor": 6,
+				"violation": 4
 			},
 			"awards": []
 		},
@@ -48401,7 +48404,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 36,
-				"misdemeanor": 89,
+				"misdemeanor": 90,
 				"violation": 2
 			},
 			"awards": [
@@ -51569,8 +51572,8 @@
 		"arrest_count": 115,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 1",
-				"assignment_date": "7/1/2024",
+				"command": "TRANSIT AUTHORITY LIAISON",
+				"assignment_date": "3/24/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2237",
@@ -51646,7 +51649,7 @@
 				}
 			]
 		},
-		"command": "TRANSIT DISTRICT 1"
+		"command": "TRANSIT AUTHORITY LIAISON"
 	},
 	{
 		"taxid": 949027,
@@ -68706,8 +68709,22 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"arrests": {
+				"felony": 7,
+				"misdemeanor": 106,
+				"other": 1,
+				"violation": 1
+			},
+			"awards": [
+				{
+					"date": "9/23/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/11/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "114 PRECINCT"
 	},
@@ -69341,7 +69358,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -71101,32 +71118,7 @@
 				"misdemeanor": 232,
 				"violation": 49
 			},
-			"awards": [
-				{
-					"date": "10/12/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/5/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/17/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/25/2015",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/14/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/1/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "BRONX TRANSIT CRIMES SQUAD"
 	},
@@ -72801,10 +72793,32 @@
 				"shield_no": "12082",
 				"appt_date": "1/10/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2018",
+					"shield_no": "12082"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/29/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.improperly entered location without sufficient legal authority",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 32,
@@ -76962,7 +76976,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 27,
+				"misdemeanor": 28,
 				"other": 1
 			},
 			"awards": [
@@ -78187,7 +78201,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 19
 			},
 			"awards": []
@@ -80774,7 +80788,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 57
+				"misdemeanor": 59
 			},
 			"awards": []
 		},
@@ -86963,8 +86977,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 2
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -91817,7 +91831,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -103953,7 +103967,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -110298,7 +110312,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
-				"misdemeanor": 21
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -111566,7 +111580,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -113349,7 +113363,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -113915,7 +113929,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 3
 			},
 			"awards": []
@@ -116204,8 +116218,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 2
+				"felony": 4,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -124581,14 +124595,6 @@
 		"recognition_count": 5,
 		"arrest_count": 370,
 		"reports": {
-			"summary": {
-				"command": "INTERNAL AFFAIRS BUREAU",
-				"assignment_date": "4/10/2023",
-				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
-				"shield_no": "2128",
-				"appt_date": "1/9/2012"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -124637,8 +124643,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
-		},
-		"command": "INTERNAL AFFAIRS BUREAU"
+		}
 	},
 	{
 		"taxid": 969762,
@@ -125314,7 +125319,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 19,
+				"felony": 22,
 				"misdemeanor": 32
 			},
 			"awards": []
@@ -126250,7 +126255,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 51,
-				"misdemeanor": 81
+				"misdemeanor": 82
 			},
 			"awards": []
 		},
