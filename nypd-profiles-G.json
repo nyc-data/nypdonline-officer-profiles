@@ -1959,7 +1959,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 26,
-				"misdemeanor": 129,
+				"misdemeanor": 130,
 				"violation": 2
 			},
 			"awards": [
@@ -3008,7 +3008,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 95,
-				"misdemeanor": 100,
+				"misdemeanor": 103,
 				"other": 18
 			},
 			"awards": [
@@ -6841,7 +6841,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 56
+				"misdemeanor": 58
 			},
 			"awards": []
 		},
@@ -18421,7 +18421,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "043 PRECINCT"
@@ -22474,7 +22476,7 @@
 			"arrests": {
 				"infraction": 4,
 				"felony": 154,
-				"misdemeanor": 472,
+				"misdemeanor": 474,
 				"violation": 140
 			},
 			"awards": [
@@ -28913,7 +28915,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 34,
+				"misdemeanor": 38,
 				"violation": 1
 			},
 			"awards": []
@@ -41515,7 +41517,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 39,
+				"felony": 42,
 				"misdemeanor": 47
 			},
 			"awards": []
@@ -44555,7 +44557,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 259,
-				"misdemeanor": 167,
+				"misdemeanor": 168,
 				"other": 1,
 				"violation": 5
 			},
@@ -45860,7 +45862,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 430,
+				"felony": 431,
 				"misdemeanor": 277,
 				"violation": 3
 			},
@@ -51723,7 +51725,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 33
+				"misdemeanor": 35
 			},
 			"awards": [
 				{
@@ -61934,12 +61936,16 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 447,
-				"misdemeanor": 206,
-				"other": 1,
-				"violation": 18
+				"felony": 894,
+				"misdemeanor": 412,
+				"other": 2,
+				"violation": 36
 			},
 			"awards": [
+				{
+					"date": "2/17/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "2/17/2010",
 					"name": "EXCELLENT POLICE DUTY"
@@ -79458,14 +79464,22 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 44,
-				"misdemeanor": 155,
-				"violation": 15
+				"infraction": 4,
+				"felony": 88,
+				"misdemeanor": 310,
+				"violation": 30
 			},
 			"awards": [
 				{
 					"date": "11/6/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/6/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/13/2010",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -79477,7 +79491,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "9/14/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "12/25/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/25/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/25/2007",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -88417,7 +88443,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 33
+				"misdemeanor": 35
 			},
 			"awards": [
 				{
@@ -94357,7 +94383,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 65,
+				"misdemeanor": 66,
 				"violation": 10
 			},
 			"awards": [
@@ -110578,7 +110604,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 99,
-				"misdemeanor": 354,
+				"misdemeanor": 356,
 				"violation": 246
 			},
 			"awards": [
@@ -114590,10 +114616,42 @@
 				"shield_no": "4873",
 				"appt_date": "7/1/2003"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2003",
+					"shield_no": "474"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "8/20/2004",
+					"shield_no": "169"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/24/2020",
+					"shield_no": "4873"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/3/2018 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "while off-duty did fail and neglect to obtain approval of the Chief of Personnel to travel out of the confines of the City or residence counties while on sick report.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 95,
@@ -125051,7 +125109,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -125922,7 +125980,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 864,
+				"felony": 865,
 				"misdemeanor": 155,
 				"other": 20,
 				"violation": 4
@@ -126802,7 +126860,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 42,
+				"misdemeanor": 43,
 				"violation": 1
 			},
 			"awards": [
@@ -128492,8 +128550,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 250,
-				"misdemeanor": 229,
+				"felony": 251,
+				"misdemeanor": 230,
 				"violation": 26
 			},
 			"awards": [
@@ -128842,7 +128900,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 26,
-				"misdemeanor": 27,
+				"misdemeanor": 28,
 				"violation": 1
 			},
 			"awards": []
@@ -129929,7 +129987,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 24
+				"misdemeanor": 26
 			},
 			"awards": []
 		},
