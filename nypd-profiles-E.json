@@ -10603,13 +10603,7 @@
 				"shield_no": "11753",
 				"appt_date": "1/6/2020"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/6/2020",
-					"shield_no": "11753"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -12038,7 +12032,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 44,
+				"felony": 45,
 				"misdemeanor": 74
 			},
 			"awards": [
@@ -12436,7 +12430,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 169,
+				"felony": 170,
 				"misdemeanor": 81,
 				"other": 1
 			},
@@ -17904,10 +17898,38 @@
 				"shield_no": "22228",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "22228"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/15/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"description": "01.Failed to safeguard a prisoner resulting in attempted escape.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "02.Failed to safeguard a prisoner.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 15,
@@ -21860,7 +21882,12 @@
 				"felony": 36,
 				"misdemeanor": 46
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "12/16/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "110 PRECINCT"
 	},
@@ -23459,7 +23486,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 181,
-				"misdemeanor": 149,
+				"misdemeanor": 151,
 				"violation": 7
 			},
 			"awards": [
