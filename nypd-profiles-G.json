@@ -18043,7 +18043,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 27
+				"misdemeanor": 29
 			},
 			"awards": [
 				{
@@ -21555,7 +21555,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 73,
+				"misdemeanor": 74,
 				"other": 1
 			},
 			"awards": []
@@ -22741,10 +22741,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 13,
-				"misdemeanor": 24
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "2/9/2022",
@@ -22868,7 +22865,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 35,
+				"misdemeanor": 36,
 				"violation": 5
 			},
 			"awards": [
@@ -29654,10 +29651,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 30,
-				"misdemeanor": 70
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "044 PRECINCT"
@@ -42986,7 +42980,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 15
+				"misdemeanor": 15,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -51907,7 +51902,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 45,
+				"felony": 46,
 				"misdemeanor": 53
 			},
 			"awards": [
@@ -65747,7 +65742,18 @@
 				"shield_no": "4278",
 				"appt_date": "1/14/2009"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/14/2009",
+					"shield_no": "7615"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "10/26/2018",
+					"shield_no": "4278"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -83668,7 +83674,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 84,
+				"felony": 88,
 				"misdemeanor": 88,
 				"violation": 11
 			},
@@ -90044,7 +90050,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 22,
+				"misdemeanor": 23,
 				"violation": 1
 			},
 			"awards": []
@@ -94384,8 +94390,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/13/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongful detainment.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 11
@@ -107232,7 +107253,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 38,
+				"felony": 39,
 				"misdemeanor": 50
 			},
 			"awards": [
@@ -131043,7 +131064,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 37,
+				"misdemeanor": 38,
 				"violation": 1
 			},
 			"awards": []
