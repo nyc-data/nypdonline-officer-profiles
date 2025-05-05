@@ -2529,7 +2529,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 26,
+				"misdemeanor": 27,
 				"violation": 2
 			},
 			"awards": []
@@ -14842,8 +14842,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/6/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully threatened to damage property.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 47
@@ -24382,7 +24397,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 32,
+				"felony": 33,
 				"misdemeanor": 175,
 				"violation": 67
 			},
@@ -33437,7 +33452,16 @@
 				"misdemeanor": 142,
 				"violation": 8
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "7/14/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/7/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "TRANSIT DISTRICT 33"
 	},
@@ -34188,7 +34212,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 43,
-				"misdemeanor": 101
+				"misdemeanor": 102
 			},
 			"awards": []
 		},
@@ -46971,7 +46995,7 @@
 			],
 			"arrests": {
 				"felony": 46,
-				"misdemeanor": 66,
+				"misdemeanor": 68,
 				"violation": 1
 			},
 			"awards": [

@@ -508,7 +508,7 @@
 			],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 52,
+				"misdemeanor": 53,
 				"violation": 34
 			},
 			"awards": [
@@ -4513,7 +4513,7 @@
 			],
 			"arrests": {
 				"felony": 65,
-				"misdemeanor": 112,
+				"misdemeanor": 113,
 				"violation": 3
 			},
 			"awards": [
@@ -7597,7 +7597,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 59,
+				"felony": 61,
 				"misdemeanor": 80,
 				"violation": 10
 			},
@@ -17444,8 +17444,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/5/2021 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Improper use of force",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 64,
@@ -32890,7 +32906,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 90,
-				"misdemeanor": 93,
+				"misdemeanor": 94,
 				"violation": 1
 			},
 			"awards": [
@@ -42214,8 +42230,37 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/28/2022 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to make required entries in Department Logs.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 150,
 				"misdemeanor": 143,
@@ -42316,7 +42361,13 @@
 				"shield_no": "8976",
 				"appt_date": "1/7/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2015",
+					"shield_no": "8976"
+				}
+			],
 			"documents": [
 				{
 					"date": "8/13/2024",
@@ -43182,7 +43233,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 55,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": [
 				{

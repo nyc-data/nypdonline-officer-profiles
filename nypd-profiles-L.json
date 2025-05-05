@@ -12017,8 +12017,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 45
+				"felony": 11,
+				"misdemeanor": 46
 			},
 			"awards": [
 				{
@@ -23205,7 +23205,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 112,
-				"misdemeanor": 329,
+				"misdemeanor": 330,
 				"violation": 7
 			},
 			"awards": [
@@ -32023,8 +32023,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/3/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongful search of a premises.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 54,
@@ -48030,7 +48045,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 168,
+				"felony": 169,
 				"misdemeanor": 62,
 				"other": 6,
 				"violation": 3
@@ -67731,8 +67746,28 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/31/2023 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Wrongfully threatened to arrest an individual known to the Department.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 39,
@@ -77428,7 +77463,18 @@
 				"shield_no": "4827",
 				"appt_date": "1/7/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "28801"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/3/2014",
+					"shield_no": "4827"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -90090,7 +90136,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 102,
+				"felony": 103,
 				"misdemeanor": 101,
 				"violation": 1
 			},
