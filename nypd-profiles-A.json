@@ -4003,7 +4003,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -6259,7 +6259,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 53,
+				"felony": 54,
 				"misdemeanor": 55,
 				"violation": 1
 			},
@@ -9942,7 +9942,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 42
 			},
 			"awards": []
@@ -13066,7 +13066,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 58,
+				"felony": 60,
 				"misdemeanor": 37
 			},
 			"awards": []
@@ -32620,7 +32620,18 @@
 				"shield_no": "4942",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "4952"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "1/7/2017",
+					"shield_no": "4942"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -34204,7 +34215,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "025 PRECINCT"
@@ -60713,7 +60726,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 88,
+				"felony": 90,
 				"misdemeanor": 162,
 				"violation": 19
 			},
@@ -66677,7 +66690,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -78495,7 +78508,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 168,
+				"felony": 169,
 				"misdemeanor": 217,
 				"violation": 3
 			},
