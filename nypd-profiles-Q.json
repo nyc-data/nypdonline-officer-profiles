@@ -1083,7 +1083,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 165,
+				"felony": 166,
 				"misdemeanor": 171,
 				"violation": 12
 			},
@@ -4248,7 +4248,7 @@
 		"shield_no": "1840",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 101,
+		"arrest_count": 102,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 1",
@@ -4258,10 +4258,31 @@
 				"shield_no": "1840",
 				"appt_date": "10/24/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/24/2018",
+					"shield_no": "1840"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/27/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 88,
@@ -7376,7 +7397,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 17,
 				"misdemeanor": 26
 			},
 			"awards": []
@@ -7739,6 +7760,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 6
 			},
 			"awards": []
