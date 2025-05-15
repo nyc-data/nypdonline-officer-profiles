@@ -25982,7 +25982,7 @@
 			"arrests": {
 				"felony": 215,
 				"misdemeanor": 258,
-				"other": 69,
+				"other": 70,
 				"violation": 1
 			},
 			"awards": [
@@ -57384,7 +57384,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 244,
+				"felony": 246,
 				"misdemeanor": 338,
 				"violation": 62
 			},
@@ -96212,7 +96212,13 @@
 				"shield_no": "31227",
 				"appt_date": "7/5/2023"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2023",
+					"shield_no": "31227"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -96706,10 +96712,56 @@
 				"shield_no": "672",
 				"appt_date": "7/1/1998"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/1998",
+					"shield_no": "672"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/17/2021 12:00:00 AM",
+					"charges_count": 5
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Misuse of time.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Violated Department of Motor Vehicles rules.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Violated vehicle insurance rules.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Left the scene of a motor vehicle accident.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 140,
 				"misdemeanor": 215,
