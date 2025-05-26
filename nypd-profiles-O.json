@@ -1204,20 +1204,6 @@
 							"penalty": "VACATION DAYS (15 day(s) )"
 						}
 					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"description": "01.Wrongful entry of a premises.",
-							"group_id": "1"
-						},
-						{
-							"recommendation": "A-CD",
-							"description": "02.Wrongful search of a premises.",
-							"group_id": "1"
-						}
-					]
 				}
 			],
 			"arrests": {
@@ -42333,8 +42319,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/23/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Improper use of force",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 19

@@ -44667,7 +44667,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 59,
+				"felony": 60,
 				"misdemeanor": 63
 			},
 			"awards": [
@@ -64488,8 +64488,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/13/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongful detainment.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 134,
@@ -72247,8 +72263,8 @@
 		"arrest_count": 139,
 		"reports": {
 			"summary": {
-				"command": "QN EVIDENCE COLLECTION TEAM",
-				"assignment_date": "12/20/2024",
+				"command": "DBQN EVIDENCE COLLECTION TEAM",
+				"assignment_date": "5/19/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4793",
@@ -72293,7 +72309,7 @@
 				}
 			]
 		},
-		"command": "QN EVIDENCE COLLECTION TEAM"
+		"command": "DBQN EVIDENCE COLLECTION TEAM"
 	},
 	{
 		"taxid": 949210,
@@ -111708,7 +111724,7 @@
 			],
 			"arrests": {
 				"infraction": 3,
-				"felony": 83,
+				"felony": 84,
 				"misdemeanor": 203,
 				"violation": 11
 			},

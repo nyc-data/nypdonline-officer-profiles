@@ -11822,15 +11822,20 @@
 							"recommendation": "A-CD",
 							"description": "01.Violated patrol rules.",
 							"group_id": "1"
+						},
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 2,
-				"misdemeanor": 34,
-				"violation": 10
+				"infraction": 2,
+				"felony": 4,
+				"misdemeanor": 68,
+				"violation": 20
 			},
 			"awards": [
 				{
@@ -24658,7 +24663,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 236,
+				"felony": 237,
 				"misdemeanor": 293,
 				"violation": 26
 			},
@@ -50000,8 +50005,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 53,
 				"misdemeanor": 191,
@@ -65320,23 +65340,8 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [
-				{
-					"entry": "5/11/2022 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Wrongfully stopped an individual known to the Department.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"infraction": 2,
 				"felony": 63,
