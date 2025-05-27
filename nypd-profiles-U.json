@@ -1324,7 +1324,7 @@
 		"shield_no": "13235",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 8,
+		"arrest_count": 9,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 32",
@@ -1346,7 +1346,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -3376,10 +3376,36 @@
 				"shield_no": "19935",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "19935"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 118,
 				"misdemeanor": 229,
@@ -3798,8 +3824,8 @@
 		"arrest_count": 296,
 		"reports": {
 			"summary": {
-				"command": "MN EVIDENCE COLLECTION TEAM",
-				"assignment_date": "9/16/2021",
+				"command": "DBMN EVIDENCE COLLECTION TEAM",
+				"assignment_date": "5/19/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "2356",
@@ -3879,7 +3905,7 @@
 				}
 			]
 		},
-		"command": "MN EVIDENCE COLLECTION TEAM"
+		"command": "DBMN EVIDENCE COLLECTION TEAM"
 	},
 	{
 		"taxid": 945449,
@@ -5753,7 +5779,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
+				"felony": 49,
 				"misdemeanor": 116,
 				"other": 1
 			},
@@ -6878,7 +6904,7 @@
 		"shield_no": "19573",
 		"appt_date": "7/8/2015",
 		"recognition_count": 15,
-		"arrest_count": 631,
+		"arrest_count": 633,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -8300,7 +8326,7 @@
 		"shield_no": "5431",
 		"appt_date": "12/29/2020",
 		"recognition_count": 1,
-		"arrest_count": 19,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -8745,7 +8771,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 213,
+				"felony": 214,
 				"misdemeanor": 181,
 				"other": 1,
 				"violation": 37
