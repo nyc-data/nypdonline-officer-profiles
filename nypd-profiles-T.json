@@ -2346,7 +2346,11 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 51,
+				"misdemeanor": 153,
+				"violation": 1
+			},
 			"awards": [
 				{
 					"date": "11/30/2010",
@@ -26815,7 +26819,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 106,
+				"misdemeanor": 107,
 				"violation": 12
 			},
 			"awards": [
@@ -33814,7 +33818,11 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 4,
+				"misdemeanor": 8,
+				"violation": 1
+			},
 			"awards": [
 				{
 					"date": "2/15/2018",
@@ -39943,13 +39951,78 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/21/2023 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Discharged a firearm outside Department guidelines.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 65,
 				"misdemeanor": 46
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "8/18/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/6/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/4/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/22/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/7/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/24/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/19/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/10/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/6/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/2/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/19/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/1/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "PATROL SERVICES BUREAU WHEEL"
 	},
@@ -44911,10 +44984,10 @@
 		"arrest_count": 91,
 		"reports": {
 			"summary": {
-				"command": "DOMESTIC VIOLENCE INSP UNIT",
-				"assignment_date": "6/11/2022",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "5/30/2025",
 				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
+				"rank_desc": "LIEUTENANT",
 				"shield_no": "2357",
 				"appt_date": "7/11/2012"
 			},
@@ -44965,7 +45038,7 @@
 				}
 			]
 		},
-		"command": "DOMESTIC VIOLENCE INSP UNIT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 945329,
@@ -48728,8 +48801,44 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/15/2015 12:00:00 AM",
+					"charges_count": 2
+				},
+				{
+					"entry": "4/22/2020 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, SAID POLICE OFFICER DID LEAVE HIS FIREARM UNSECURED IN HIS HOTEL ROOM IN ATLANTIC CITY, NEW JERSEY.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (36 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY,  SAID POLICE OFFICER DID LEAVE HIS FIREARM UNSECURED IN HIS HOTEL ROOM, IN ATLANTIC CITY, NEW JERSEY, WHILE A CIVILIAN WAS PRESENT IN THE ROOM.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (36 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to safeguard a firearm (resulting in loss/theft or not).",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 17,
@@ -55090,7 +55199,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 4,
+				"misdemeanor": 13
+			},
 			"awards": []
 		},
 		"command": "046 PRECINCT"
@@ -60278,7 +60390,20 @@
 				"other": 2,
 				"violation": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "10/19/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/17/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/6/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "040 PRECINCT"
 	},
@@ -60550,8 +60675,39 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"arrests": {
+				"infraction": 1,
+				"felony": 54,
+				"misdemeanor": 187,
+				"other": 1,
+				"violation": 1
+			},
+			"awards": [
+				{
+					"date": "4/16/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/23/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/31/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/23/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/8/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/5/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "BRONX COURT SECTION"
 	},
@@ -71228,7 +71384,64 @@
 				"misdemeanor": 332,
 				"violation": 2
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "12/2/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/3/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/16/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/30/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/11/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/19/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/8/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/17/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/12/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/29/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/18/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/6/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/4/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/8/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "INTEL CIS FIO PROGRAM"
 	},
