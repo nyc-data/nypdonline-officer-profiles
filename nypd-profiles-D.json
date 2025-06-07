@@ -588,7 +588,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "077 PRECINCT"
@@ -1785,8 +1787,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 35,
-				"misdemeanor": 55
+				"felony": 36,
+				"misdemeanor": 56
 			},
 			"awards": []
 		},
@@ -4250,7 +4252,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 10
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -4659,7 +4661,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 64
+				"misdemeanor": 65
 			},
 			"awards": []
 		},
@@ -9728,8 +9730,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 13
+				"felony": 4,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -13680,7 +13682,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 21
 			},
 			"awards": []
@@ -38112,7 +38114,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 7
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -40624,7 +40626,18 @@
 				"shield_no": "720",
 				"appt_date": "1/10/2007"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2007",
+					"shield_no": "20567"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "4/25/2014",
+					"shield_no": "720"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -45877,7 +45890,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "077 PRECINCT"
@@ -46190,7 +46205,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 18,
 				"misdemeanor": 48
 			},
 			"awards": []
@@ -48790,7 +48805,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 1,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -65080,7 +65096,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2,
+				"misdemeanor": 3,
 				"violation": 1
 			},
 			"awards": []
@@ -71449,7 +71465,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 5,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -75714,7 +75730,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 8
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -90024,7 +90040,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TIMES SQUARE UNIT"
@@ -94877,8 +94895,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 7,
-				"felony": 67,
-				"misdemeanor": 174,
+				"felony": 68,
+				"misdemeanor": 175,
 				"violation": 11
 			},
 			"awards": [
@@ -97070,13 +97088,7 @@
 				"shield_no": "5931",
 				"appt_date": "1/10/2007"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2007",
-					"shield_no": "5931"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -102373,7 +102385,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
+				"felony": 15,
 				"misdemeanor": 167,
 				"violation": 8
 			},
@@ -104421,7 +104433,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "075 PRECINCT"
@@ -106364,7 +106378,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 120,
-				"misdemeanor": 99
+				"misdemeanor": 100
 			},
 			"awards": [
 				{
@@ -107506,7 +107520,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "073 PRECINCT"
@@ -110306,7 +110322,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "HOUSING PSA 7"
@@ -119451,8 +119469,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 120,
-				"misdemeanor": 152
+				"felony": 121,
+				"misdemeanor": 153
 			},
 			"awards": []
 		},
@@ -120382,8 +120400,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 70,
-				"misdemeanor": 328,
+				"felony": 71,
+				"misdemeanor": 330,
 				"other": 1,
 				"violation": 2
 			},
