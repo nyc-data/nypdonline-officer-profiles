@@ -2416,7 +2416,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 89,
+				"misdemeanor": 90,
 				"violation": 4
 			},
 			"awards": []
@@ -4180,7 +4180,7 @@
 		"shield_no": "23247",
 		"appt_date": "10/11/2016",
 		"recognition_count": 16,
-		"arrest_count": 164,
+		"arrest_count": 166,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -5580,7 +5580,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 58
+				"misdemeanor": 59
 			},
 			"awards": []
 		},
@@ -10588,7 +10588,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 55,
+				"felony": 56,
 				"misdemeanor": 92,
 				"violation": 4
 			},
@@ -15693,7 +15693,7 @@
 		"shield_no": "30935",
 		"appt_date": "1/10/2018",
 		"recognition_count": 3,
-		"arrest_count": 70,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 1",
@@ -16866,7 +16866,7 @@
 		"shield_no": "16225",
 		"appt_date": "4/28/2021",
 		"recognition_count": 2,
-		"arrest_count": 102,
+		"arrest_count": 103,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -18589,7 +18589,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 351,
+				"felony": 352,
 				"misdemeanor": 133,
 				"other": 1,
 				"violation": 1
@@ -20391,8 +20391,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 34
+				"felony": 12,
+				"misdemeanor": 35
 			},
 			"awards": []
 		},
@@ -24823,8 +24823,8 @@
 		"arrest_count": 123,
 		"reports": {
 			"summary": {
-				"command": "PBQN PUBLIC SAFETY TEAMS",
-				"assignment_date": "12/20/2024",
+				"command": "104 PRECINCT",
+				"assignment_date": "6/6/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3141",
@@ -24868,7 +24868,7 @@
 			},
 			"awards": []
 		},
-		"command": "PBQN PUBLIC SAFETY TEAMS"
+		"command": "104 PRECINCT"
 	},
 	{
 		"taxid": 947924,
@@ -25697,7 +25697,7 @@
 		"shield_no": "30983",
 		"appt_date": "1/10/2018",
 		"recognition_count": 6,
-		"arrest_count": 153,
+		"arrest_count": 154,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -25719,7 +25719,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 66,
+				"felony": 67,
 				"misdemeanor": 85,
 				"violation": 1
 			},
@@ -27262,7 +27262,8 @@
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 24,
-				"other": 11
+				"other": 11,
+				"violation": 1
 			},
 			"awards": [
 				{
@@ -30763,7 +30764,7 @@
 		"shield_no": "4618",
 		"appt_date": "10/7/2015",
 		"recognition_count": 11,
-		"arrest_count": 288,
+		"arrest_count": 291,
 		"reports": {
 			"summary": {
 				"command": "045 DET SQUAD",
@@ -35255,7 +35256,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 217,
-				"misdemeanor": 249,
+				"misdemeanor": 250,
 				"violation": 23
 			},
 			"awards": []
@@ -36965,7 +36966,7 @@
 		"shield_no": "1510",
 		"appt_date": "4/12/2017",
 		"recognition_count": 5,
-		"arrest_count": 331,
+		"arrest_count": 332,
 		"reports": {
 			"summary": {
 				"command": "BRONX ROBBERY SQUAD",
@@ -39801,7 +39802,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 74,
+				"felony": 77,
 				"misdemeanor": 71,
 				"violation": 1
 			},
@@ -42358,7 +42359,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 34,
-				"misdemeanor": 39
+				"misdemeanor": 40
 			},
 			"awards": [
 				{
@@ -46749,10 +46750,31 @@
 				"shield_no": "12550",
 				"appt_date": "4/15/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/15/2019",
+					"shield_no": "12550"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/4/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"misdemeanor": 1,
 				"violation": 1
