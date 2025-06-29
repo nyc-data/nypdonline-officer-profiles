@@ -48,7 +48,7 @@
 		"shield_no": "6750",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 25,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -69,7 +69,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 19
 			},
 			"awards": []
@@ -397,7 +397,7 @@
 			],
 			"arrests": {
 				"felony": 122,
-				"misdemeanor": 161,
+				"misdemeanor": 162,
 				"other": 1
 			},
 			"awards": [
@@ -2871,7 +2871,7 @@
 		"shield_no": "24718",
 		"appt_date": "10/11/2016",
 		"recognition_count": 12,
-		"arrest_count": 164,
+		"arrest_count": 165,
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
@@ -2893,7 +2893,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 50,
-				"misdemeanor": 113,
+				"misdemeanor": 114,
 				"violation": 1
 			},
 			"awards": [
@@ -5319,7 +5319,7 @@
 		"shield_no": "6977",
 		"appt_date": "1/9/2006",
 		"recognition_count": 9,
-		"arrest_count": 688,
+		"arrest_count": 691,
 		"reports": {
 			"summary": {
 				"command": "090 DET SQUAD",
@@ -5367,7 +5367,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 304,
+				"felony": 307,
 				"misdemeanor": 360,
 				"violation": 24
 			},
@@ -6149,8 +6149,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 25,
-				"misdemeanor": 58
+				"felony": 26,
+				"misdemeanor": 59
 			},
 			"awards": []
 		},
@@ -6719,8 +6719,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/12/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 19
@@ -7912,7 +7927,7 @@
 		"shield_no": "8476",
 		"appt_date": "4/12/2017",
 		"recognition_count": 0,
-		"arrest_count": 208,
+		"arrest_count": 211,
 		"reports": {
 			"summary": {
 				"command": "045 DET SQUAD",
@@ -7933,7 +7948,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 70,
+				"felony": 73,
 				"misdemeanor": 138
 			},
 			"awards": []
@@ -12217,7 +12232,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 102,
-				"misdemeanor": 85
+				"misdemeanor": 86
 			},
 			"awards": [
 				{
@@ -12909,6 +12924,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/6/2016",
 					"shield_no": "8731"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/27/2025",
+					"shield_no": "1972"
 				}
 			],
 			"documents": [],
@@ -15059,7 +15079,7 @@
 		"shield_no": "8388",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 30,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -16370,8 +16390,8 @@
 		"arrest_count": 97,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 1",
-				"assignment_date": "5/29/2025",
+				"command": "TB ANTI TERRORISM 3",
+				"assignment_date": "6/23/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21091",
@@ -16407,7 +16427,7 @@
 				}
 			]
 		},
-		"command": "TRANSIT DISTRICT 1"
+		"command": "TB ANTI TERRORISM 3"
 	},
 	{
 		"taxid": 972326,
