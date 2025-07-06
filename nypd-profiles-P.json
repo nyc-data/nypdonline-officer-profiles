@@ -7578,7 +7578,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 88,
+				"felony": 89,
 				"misdemeanor": 85
 			},
 			"awards": [
@@ -8113,7 +8113,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 28,
+				"felony": 29,
 				"misdemeanor": 68,
 				"violation": 1
 			},
@@ -19097,7 +19097,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 45,
-				"misdemeanor": 72,
+				"misdemeanor": 73,
 				"other": 1
 			},
 			"awards": [
@@ -19274,7 +19274,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 19,
-				"misdemeanor": 52
+				"misdemeanor": 53
 			},
 			"awards": [
 				{
@@ -29364,7 +29364,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -34342,8 +34342,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 14
+				"felony": 11,
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -46404,7 +46404,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 119,
-				"misdemeanor": 111,
+				"misdemeanor": 112,
 				"violation": 2
 			},
 			"awards": [
@@ -48515,7 +48515,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 80
+				"misdemeanor": 82
 			},
 			"awards": [
 				{
@@ -56681,7 +56681,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 34,
+				"misdemeanor": 36,
 				"violation": 1
 			},
 			"awards": [
@@ -58849,7 +58849,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 66
+				"misdemeanor": 67
 			},
 			"awards": []
 		},
@@ -60377,7 +60377,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 44,
-				"misdemeanor": 157,
+				"misdemeanor": 158,
 				"violation": 3
 			},
 			"awards": [
@@ -62013,7 +62013,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": [
 				{
@@ -65655,7 +65655,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 35,
+				"felony": 36,
 				"misdemeanor": 16
 			},
 			"awards": [
@@ -70012,7 +70012,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 151,
-				"misdemeanor": 152
+				"misdemeanor": 153
 			},
 			"awards": [
 				{
@@ -72593,7 +72593,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
+				"felony": 12,
 				"misdemeanor": 18
 			},
 			"awards": []
@@ -76014,7 +76014,7 @@
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 87,
-				"violation": 2
+				"violation": 3
 			},
 			"awards": [
 				{
@@ -85155,7 +85155,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 26,
 				"violation": 1
 			},
@@ -86661,7 +86661,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 76,
+				"misdemeanor": 78,
 				"violation": 8
 			},
 			"awards": []
@@ -92619,7 +92619,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 73
+				"misdemeanor": 74
 			},
 			"awards": []
 		},
@@ -93857,7 +93857,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 32,
-				"misdemeanor": 51
+				"misdemeanor": 52
 			},
 			"awards": []
 		},
@@ -101022,10 +101022,45 @@
 				"shield_no": "489",
 				"appt_date": "7/2/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/2/2018",
+					"shield_no": "489"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/3/2022 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "9/2/2022 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "failed to render police services.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (32 day(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 27,
 				"misdemeanor": 51,
@@ -106464,8 +106499,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 89,
-				"misdemeanor": 193,
+				"felony": 90,
+				"misdemeanor": 194,
 				"violation": 7
 			},
 			"awards": [
@@ -111364,7 +111399,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 264,
+				"felony": 265,
 				"misdemeanor": 137,
 				"violation": 1
 			},
@@ -115809,7 +115844,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
-				"felony": 32,
+				"felony": 34,
 				"misdemeanor": 165,
 				"violation": 3
 			},
