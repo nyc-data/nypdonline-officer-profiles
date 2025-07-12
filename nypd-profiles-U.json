@@ -2067,7 +2067,7 @@
 			],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -2398,8 +2398,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/14/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 50,
 				"misdemeanor": 115,
