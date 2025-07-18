@@ -13179,7 +13179,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 111,
+				"felony": 112,
 				"misdemeanor": 116,
 				"violation": 1
 			},
@@ -61177,8 +61177,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/1/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 84,
@@ -72988,7 +73003,7 @@
 			],
 			"arrests": {
 				"felony": 46,
-				"misdemeanor": 89
+				"misdemeanor": 91
 			},
 			"awards": [
 				{

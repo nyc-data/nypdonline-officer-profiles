@@ -10065,7 +10065,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 155,
+				"felony": 157,
 				"misdemeanor": 147
 			},
 			"awards": [
@@ -20088,8 +20088,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/1/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 82,
 				"misdemeanor": 37,
@@ -25530,8 +25545,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/12/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 8
@@ -37022,17 +37052,7 @@
 					"allegations_count": 1
 				}
 			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Violated patrol rules.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 223,
 				"misdemeanor": 108,

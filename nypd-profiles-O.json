@@ -488,7 +488,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 63,
+				"felony": 64,
 				"misdemeanor": 43,
 				"violation": 1
 			},
@@ -16418,7 +16418,7 @@
 			],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -24417,8 +24417,33 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/1/2024 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "TRAINING",
+							"description": "02.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "TRAINING",
+							"description": "03.Failed to prepare required reports.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 40,
@@ -32685,7 +32710,13 @@
 				"shield_no": "3209",
 				"appt_date": "7/6/2010"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2010",
+					"shield_no": "3209"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [
 				{
@@ -32697,7 +32728,26 @@
 					"allegations_count": 1
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Made false statements during a Civilian Complaint Review Board interview.",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 24,
@@ -39401,7 +39451,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 136,
+				"felony": 141,
 				"misdemeanor": 209,
 				"violation": 3
 			},
