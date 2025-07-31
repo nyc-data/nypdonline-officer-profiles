@@ -681,20 +681,7 @@
 		"recognition_count": 0,
 		"arrest_count": 0,
 		"reports": {
-			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "",
-				"appt_date": "4/30/2025"
-			},
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"discipline": []
 		},
 		"command": "RTS RECRUITS"
 	},
@@ -2499,7 +2486,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3339",
 		"appt_date": "1/6/2016",
-		"recognition_count": 11,
+		"recognition_count": 12,
 		"arrest_count": 127,
 		"reports": {
 			"summary": {
@@ -2933,7 +2920,7 @@
 		"shield_no": "5457",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 18,
+		"arrest_count": 19,
 		"reports": {
 			"summary": {
 				"command": "076 PRECINCT",
@@ -3170,7 +3157,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "7781",
 		"appt_date": "4/6/2016",
-		"recognition_count": 12,
+		"recognition_count": 23,
 		"arrest_count": 296,
 		"reports": {
 			"summary": {
@@ -4428,10 +4415,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 26,
-				"misdemeanor": 51
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "047 PRECINCT"
@@ -5349,7 +5333,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 56,
+				"felony": 57,
 				"misdemeanor": 112,
 				"violation": 1
 			},
@@ -6935,36 +6919,7 @@
 		"recognition_count": 0,
 		"arrest_count": 153,
 		"reports": {
-			"summary": {
-				"command": "MISSING PERSONS SQUAD",
-				"assignment_date": "1/16/2021",
-				"ethnicity": "BLACK",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "973",
-				"appt_date": "7/10/2006"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/10/2006",
-					"shield_no": "11581"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "5/27/2022",
-					"shield_no": "973"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 17,
-				"misdemeanor": 118,
-				"violation": 17
-			},
-			"awards": []
+			"discipline": []
 		},
 		"command": "MISSING PERSONS SQUAD"
 	},
@@ -8341,7 +8296,7 @@
 		"shield_no": "6370",
 		"appt_date": "7/9/2013",
 		"recognition_count": 10,
-		"arrest_count": 381,
+		"arrest_count": 384,
 		"reports": {
 			"summary": {
 				"command": "070 DET SQUAD",
@@ -9267,8 +9222,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 183,
-				"misdemeanor": 56,
+				"felony": 184,
+				"misdemeanor": 57,
 				"other": 1,
 				"violation": 2
 			},
@@ -14500,7 +14455,7 @@
 		"shield_no": "21847",
 		"appt_date": "1/4/2017",
 		"recognition_count": 1,
-		"arrest_count": 56,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -16194,7 +16149,7 @@
 		"shield_no": "25650",
 		"appt_date": "11/2/2020",
 		"recognition_count": 3,
-		"arrest_count": 200,
+		"arrest_count": 203,
 		"reports": {
 			"summary": {
 				"command": "BX AUTO LARCENY UNIT",
@@ -21011,10 +20966,75 @@
 				"shield_no": "906",
 				"appt_date": "7/14/2009"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/14/2009",
+					"shield_no": "26421"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/25/2023",
+					"shield_no": "906"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/18/2016 12:00:00 AM",
+					"charges_count": 3
+				},
+				{
+					"entry": "2/15/2024 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, IMPROPERLY DISPLAYED HIS FIREARM.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, FAILED TO MAKE PROPER ACTIVITY LOG ENTRIES.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WRONGFULLY  POINTED A FIREARM AT ANOTHER MOTORIST, AND DID SO WHILE IN THE PRESENCE OF OTHER MEMBERS OF SERVICE, PLACING ALL PARTIES IN DANGER.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully questioned an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "03.Wrongfully searched a vehicle.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 120,
 				"misdemeanor": 253,
@@ -25072,7 +25092,7 @@
 		"shield_no": "3990",
 		"appt_date": "1/10/2005",
 		"recognition_count": 5,
-		"arrest_count": 861,
+		"arrest_count": 862,
 		"reports": {
 			"summary": {
 				"command": "072 DET SQUAD",
@@ -33955,7 +33975,7 @@
 			"arrests": {
 				"felony": 31,
 				"misdemeanor": 153,
-				"violation": 11
+				"violation": 12
 			},
 			"awards": [
 				{
@@ -34658,30 +34678,7 @@
 		"recognition_count": 0,
 		"arrest_count": 96,
 		"reports": {
-			"summary": {
-				"command": "EMER SERV SQ 02",
-				"assignment_date": "7/8/2025",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "27507",
-				"appt_date": "1/7/2008"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/7/2008",
-					"shield_no": "27507"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 17,
-				"misdemeanor": 70,
-				"violation": 9
-			},
-			"awards": []
+			"discipline": []
 		},
 		"command": "EMER SERV SQ 02"
 	},
@@ -34717,7 +34714,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 43,
-				"misdemeanor": 108
+				"misdemeanor": 110
 			},
 			"awards": []
 		},
@@ -34735,30 +34732,7 @@
 		"recognition_count": 0,
 		"arrest_count": 46,
 		"reports": {
-			"summary": {
-				"command": "040 PRECINCT",
-				"assignment_date": "12/13/2017",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "19246",
-				"appt_date": "10/11/2016"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/11/2016",
-					"shield_no": "19246"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 23,
-				"misdemeanor": 21,
-				"violation": 2
-			},
-			"awards": []
+			"discipline": []
 		},
 		"command": "040 PRECINCT"
 	},
@@ -38579,7 +38553,7 @@
 			],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 46
+				"misdemeanor": 48
 			},
 			"awards": []
 		},
@@ -40283,7 +40257,7 @@
 		"shield_no": "22237",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "116 PRECINCT",
@@ -47675,7 +47649,7 @@
 			],
 			"arrests": {
 				"felony": 49,
-				"misdemeanor": 71,
+				"misdemeanor": 72,
 				"violation": 1
 			},
 			"awards": [
@@ -50137,8 +50111,8 @@
 			],
 			"arrests": {
 				"infraction": 3,
-				"felony": 106,
-				"misdemeanor": 314
+				"felony": 107,
+				"misdemeanor": 315
 			},
 			"awards": [
 				{
@@ -51506,7 +51480,7 @@
 		"shield_no": "2685",
 		"appt_date": "7/8/2015",
 		"recognition_count": 3,
-		"arrest_count": 341,
+		"arrest_count": 342,
 		"reports": {
 			"summary": {
 				"command": "102ND DET SQUAD",
@@ -56109,7 +56083,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 29,
+				"misdemeanor": 30,
 				"other": 1
 			},
 			"awards": [
@@ -56759,7 +56733,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 75,
-				"misdemeanor": 79,
+				"misdemeanor": 80,
 				"violation": 1
 			},
 			"awards": [
@@ -57598,6 +57572,10 @@
 				"violation": 3
 			},
 			"awards": [
+				{
+					"date": "8/29/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "7/30/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -60842,7 +60820,7 @@
 		"shield_no": "4255",
 		"appt_date": "7/1/2004",
 		"recognition_count": 11,
-		"arrest_count": 1523,
+		"arrest_count": 1527,
 		"reports": {
 			"summary": {
 				"command": "104 PRECINCT",
@@ -60923,8 +60901,8 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 302,
-				"misdemeanor": 1185,
+				"felony": 304,
+				"misdemeanor": 1187,
 				"violation": 35
 			},
 			"awards": [
@@ -61337,7 +61315,7 @@
 		"shield_no": "2422",
 		"appt_date": "1/4/2017",
 		"recognition_count": 7,
-		"arrest_count": 204,
+		"arrest_count": 205,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN ADULT SEX CRIMES SQUAD",
@@ -61701,13 +61679,7 @@
 				"shield_no": "16410",
 				"appt_date": "1/29/2025"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/29/2025",
-					"shield_no": "16410"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -62762,29 +62734,7 @@
 		"recognition_count": 0,
 		"arrest_count": 7,
 		"reports": {
-			"summary": {
-				"command": "017 PRECINCT",
-				"assignment_date": "5/7/2024",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "11670",
-				"appt_date": "10/25/2023"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/25/2023",
-					"shield_no": "11670"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 2,
-				"misdemeanor": 5
-			},
-			"awards": []
+			"discipline": []
 		},
 		"command": "017 PRECINCT"
 	},
