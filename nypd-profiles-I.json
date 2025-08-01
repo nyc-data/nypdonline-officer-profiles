@@ -1387,35 +1387,6 @@
 		"command": "TRANSIT DISTRICT 12"
 	},
 	{
-		"taxid": 981414,
-		"full_name": "IBRAHIM, BESHOY S",
-		"first_name": "BESHOY",
-		"last_name": "IBRAHIM",
-		"middle_initial": "S",
-		"rank": "POLICE OFFICER",
-		"shield_no": "1289",
-		"appt_date": "1/29/2025",
-		"recognition_count": 0,
-		"arrest_count": 0,
-		"reports": {
-			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/29/2025",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "1289",
-				"appt_date": "1/29/2025"
-			},
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "RTS RECRUITS"
-	},
-	{
 		"taxid": 975547,
 		"full_name": "IBRAHIM, FARED",
 		"first_name": "FARED",
@@ -1799,7 +1770,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 37,
-				"misdemeanor": 55
+				"misdemeanor": 57
 			},
 			"awards": []
 		},
@@ -2166,35 +2137,6 @@
 			"awards": []
 		},
 		"command": "HOUSING PSA 3"
-	},
-	{
-		"taxid": 981415,
-		"full_name": "IDREES, ABDULLAH",
-		"first_name": "ABDULLAH",
-		"last_name": "IDREES",
-		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "3578",
-		"appt_date": "1/29/2025",
-		"recognition_count": 0,
-		"arrest_count": 0,
-		"reports": {
-			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/29/2025",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "3578",
-				"appt_date": "1/29/2025"
-			},
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "RTS RECRUITS"
 	},
 	{
 		"taxid": 932999,
@@ -3286,41 +3228,12 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 35
+				"felony": 12,
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
 		"command": "019 PRECINCT"
-	},
-	{
-		"taxid": 981416,
-		"full_name": "IJAZ, ALI",
-		"first_name": "ALI",
-		"last_name": "IJAZ",
-		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "25309",
-		"appt_date": "1/29/2025",
-		"recognition_count": 0,
-		"arrest_count": 0,
-		"reports": {
-			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "1/29/2025",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "25309",
-				"appt_date": "1/29/2025"
-			},
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "RTS RECRUITS"
 	},
 	{
 		"taxid": 982366,
@@ -3771,7 +3684,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -5246,7 +5159,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
+				"felony": 26,
 				"misdemeanor": 31
 			},
 			"awards": []
@@ -7694,7 +7607,7 @@
 		"shield_no": "6070",
 		"appt_date": "1/6/2016",
 		"recognition_count": 26,
-		"arrest_count": 231,
+		"arrest_count": 232,
 		"reports": {
 			"summary": {
 				"command": "077 DET SQUAD",
@@ -8650,7 +8563,7 @@
 		"shield_no": "23489",
 		"appt_date": "7/5/2017",
 		"recognition_count": 3,
-		"arrest_count": 144,
+		"arrest_count": 145,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -8660,10 +8573,38 @@
 				"shield_no": "23489",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2017",
+					"shield_no": "23489"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/10/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"description": "01.Failed to activate their body-worn camera.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 96,
@@ -10068,7 +10009,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 48,
+				"felony": 50,
 				"misdemeanor": 51
 			},
 			"awards": [
@@ -10322,7 +10263,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 36,
+				"misdemeanor": 37,
 				"violation": 13
 			},
 			"awards": [
@@ -12389,7 +12330,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 35,
+				"misdemeanor": 37,
 				"violation": 2
 			},
 			"awards": []
@@ -12602,7 +12543,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
+				"felony": 12,
 				"misdemeanor": 31,
 				"violation": 2
 			},
@@ -14251,7 +14192,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 51,
+				"misdemeanor": 52,
 				"violation": 2
 			},
 			"awards": [
@@ -16904,7 +16845,13 @@
 				"shield_no": "3985",
 				"appt_date": "10/18/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/18/2017",
+					"shield_no": "3985"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],

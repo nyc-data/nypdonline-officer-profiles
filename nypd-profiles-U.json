@@ -2148,35 +2148,6 @@
 		"command": "NARC BORO BRONX"
 	},
 	{
-		"taxid": 963785,
-		"full_name": "ULLAH, ASAD",
-		"first_name": "ASAD",
-		"last_name": "ULLAH",
-		"middle_initial": "",
-		"rank": "SERGEANT",
-		"shield_no": "1963",
-		"appt_date": "4/12/2017",
-		"recognition_count": 3,
-		"arrest_count": 69,
-		"reports": {
-			"summary": {
-				"command": "LATENT PRINT SECTION",
-				"assignment_date": "3/31/2025",
-				"ethnicity": "ASIAN",
-				"rank_desc": "SERGEANT",
-				"shield_no": "1963",
-				"appt_date": "4/12/2017"
-			},
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "LATENT PRINT SECTION"
-	},
-	{
 		"taxid": 964812,
 		"full_name": "ULLAH, IKRAM",
 		"first_name": "IKRAM",
@@ -2186,7 +2157,7 @@
 		"shield_no": "11914",
 		"appt_date": "10/18/2017",
 		"recognition_count": 3,
-		"arrest_count": 65,
+		"arrest_count": 66,
 		"reports": {
 			"summary": {
 				"command": "078 PRECINCT",
@@ -2360,10 +2331,32 @@
 				"shield_no": "25014",
 				"appt_date": "10/7/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/7/2019",
+					"shield_no": "25014"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/14/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 52,
 				"misdemeanor": 116,
@@ -3189,7 +3182,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 12,
+				"felony": 14,
 				"misdemeanor": 26
 			},
 			"awards": []
@@ -3608,7 +3601,13 @@
 				"shield_no": "6021",
 				"appt_date": "1/29/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/29/2025",
+					"shield_no": "6021"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -4559,7 +4558,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 28,
 				"violation": 1
 			},
@@ -6173,7 +6172,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 34,
+				"misdemeanor": 35,
 				"violation": 1
 			},
 			"awards": []
