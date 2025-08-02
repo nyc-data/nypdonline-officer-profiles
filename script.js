@@ -4,7 +4,7 @@
 import { promises as fs } from 'fs'
 import { Scheduler } from 'async-scheduler'
 
-const scheduler = new Scheduler(20)
+const scheduler = new Scheduler(24)
 
 const reportList = {
   summary:        'https://nypdonline.org/api/reports/c211f8e0-625b-478a-9b68-ceef86098a67/data',
@@ -25,14 +25,14 @@ let officersRetry = new Map()
 let headers = {
   'Accept': 'application/json, text/plain, */*',
   'Content-Type': 'application/json;charset=UTF-8',
-  'Accept-Encoding': 'gzip, deflate, br',
+  'Accept-Encoding': 'gzip, deflate, br, zstd',
   'Accept-Language': 'en-US,en;q=0.9',
   'Referer': 'https://nypdonline.org/link/2',
   'Sec-Fetch-Dest': 'empty',
   'Sec-Fetch-Mode': 'cors',
   'Sec-Fetch-Site': 'same-origin',
-  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-  'sec-ch-ua': 'Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'

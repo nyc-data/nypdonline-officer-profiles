@@ -14,7 +14,7 @@ jobs:
     - name: Setup node
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '22'
     - name: Install and run
       run: |-
         yarn install
@@ -26,16 +26,16 @@ jobs:
         name: training-json
         path: nypd-profiles-*-training-*.json
         retention-days: 2
-    - name: 'Upload CVS Artifact'
+    - name: 'Upload CSV Artifact'
       uses: actions/upload-artifact@v4
       with:
         name: nypd-profiles-csv
         path: |
-          officers.csv 
-          discipline.csv 
-          ranks.csv 
-          documents.csv 
-          awards.csv 
+          officers.csv
+          discipline.csv
+          ranks.csv
+          documents.csv
+          awards.csv
           training.csv
         retention-days: 2
     - name: Commit and push if it changed
