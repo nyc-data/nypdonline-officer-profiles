@@ -3485,7 +3485,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 26,
-				"misdemeanor": 53
+				"misdemeanor": 54
 			},
 			"awards": []
 		},
@@ -8921,7 +8921,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -17640,8 +17640,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 378,
-				"misdemeanor": 284,
+				"felony": 379,
+				"misdemeanor": 285,
 				"violation": 27
 			},
 			"awards": [
@@ -28795,7 +28795,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 48,
+				"misdemeanor": 50,
 				"violation": 1
 			},
 			"awards": []
@@ -33664,7 +33664,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 322,
+				"felony": 323,
 				"misdemeanor": 182,
 				"other": 1,
 				"violation": 4
@@ -42005,7 +42005,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "041 PCT FIELD TRAINING UNIT"
@@ -42473,8 +42475,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 18
+				"felony": 8,
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -48667,6 +48669,16 @@
 				"appt_date": "1/10/2007"
 			},
 			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2007",
+					"shield_no": "10836"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "10/28/2016",
+					"shield_no": "4699"
+				},
 				{
 					"rank": "LIEUTENANT",
 					"date": "7/21/2022",
@@ -55943,8 +55955,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/24/2022 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to conduct an investigation.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 25,
@@ -61347,7 +61375,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 128,
+				"misdemeanor": 129,
 				"violation": 1
 			},
 			"awards": [
