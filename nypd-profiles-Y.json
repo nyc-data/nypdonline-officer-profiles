@@ -4281,7 +4281,7 @@
 		"shield_no": "4758",
 		"appt_date": "1/7/2015",
 		"recognition_count": 0,
-		"arrest_count": 220,
+		"arrest_count": 221,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -5458,7 +5458,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 80,
+				"felony": 81,
 				"misdemeanor": 37,
 				"violation": 1
 			},
@@ -6344,7 +6344,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 22,
+				"felony": 26,
 				"misdemeanor": 21,
 				"violation": 1
 			},
@@ -7032,8 +7032,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/3/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 40,
 				"misdemeanor": 78
@@ -8658,7 +8673,7 @@
 			],
 			"arrests": {
 				"felony": 57,
-				"misdemeanor": 81,
+				"misdemeanor": 82,
 				"violation": 1
 			},
 			"awards": []
@@ -9654,7 +9669,18 @@
 				"shield_no": "3059",
 				"appt_date": "7/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "19828"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "1/26/2024",
+					"shield_no": "3059"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],

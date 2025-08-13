@@ -1343,7 +1343,7 @@
 		"shield_no": "13235",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 32",
@@ -2058,24 +2058,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "2/25/2023 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Failed to prepare required reports.",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 34
@@ -2976,7 +2960,7 @@
 		"shield_no": "15827",
 		"appt_date": "1/7/2015",
 		"recognition_count": 3,
-		"arrest_count": 76,
+		"arrest_count": 77,
 		"reports": {
 			"summary": {
 				"command": "028 DET SQUAD",
@@ -3086,7 +3070,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "RTS RECRUITS"
