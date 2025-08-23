@@ -4513,7 +4513,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -5019,7 +5019,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4,
+				"misdemeanor": 6,
 				"violation": 1
 			},
 			"awards": []
@@ -8925,6 +8925,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"infraction": 1,
 				"felony": 1,
 				"misdemeanor": 4
 			},
@@ -9751,7 +9752,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 209,
-				"misdemeanor": 327,
+				"misdemeanor": 329,
 				"violation": 3
 			},
 			"awards": [
@@ -10973,7 +10974,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -13730,6 +13731,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
+				"felony": 1,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -15251,7 +15253,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 44,
+				"misdemeanor": 45,
 				"violation": 1
 			},
 			"awards": []
@@ -19416,7 +19418,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 21
 			},
 			"awards": []
@@ -19856,10 +19858,64 @@
 				"shield_no": "31795",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "31795"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/18/2015 12:00:00 AM",
+					"charges_count": 2
+				},
+				{
+					"entry": "8/4/2015 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "OFFICER ENGAGED IN A PHYSICAL ALTERCATION AND OBSTRUCTED THE BREATHING OF A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "OFFICER ENGAGED IN A PHYSICAL ALTERCATION WITH  A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (60 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "OFFICER VIOLATED A VALID BRONX CRIMINAL COURT ORDER OF PROTECTION.",
+							"group_id": "2",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "OFFICER WAS INVOLVED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "2",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "OFFICER ENTERED A LOCATION WITHOUT PERMISSION OR AUTHORITY TO DO SO.",
+							"group_id": "2",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (60 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 10,
@@ -21060,7 +21116,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 48
+				"misdemeanor": 51
 			},
 			"awards": []
 		},
@@ -23795,7 +23851,7 @@
 		"shield_no": "2260",
 		"appt_date": "7/11/2005",
 		"recognition_count": 14,
-		"arrest_count": 527,
+		"arrest_count": 528,
 		"reports": {
 			"summary": {
 				"command": "BKLYN TRANSIT CRIMES SQUAD",
@@ -26193,7 +26249,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 53,
+				"felony": 54,
 				"misdemeanor": 77
 			},
 			"awards": [
@@ -27764,7 +27820,7 @@
 		"shield_no": "16504",
 		"appt_date": "4/13/2022",
 		"recognition_count": 1,
-		"arrest_count": 17,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -29461,7 +29517,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -29805,7 +29861,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 346,
+				"felony": 348,
 				"misdemeanor": 414,
 				"violation": 20
 			},
@@ -29974,8 +30030,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 190,
-				"misdemeanor": 130,
+				"felony": 192,
+				"misdemeanor": 131,
 				"violation": 6
 			},
 			"awards": [
@@ -34568,7 +34624,7 @@
 		"shield_no": "15823",
 		"appt_date": "1/7/2015",
 		"recognition_count": 15,
-		"arrest_count": 404,
+		"arrest_count": 407,
 		"reports": {
 			"summary": {
 				"command": "107 PRECINCT",
@@ -37454,7 +37510,7 @@
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 39,
-				"other": 8,
+				"other": 9,
 				"violation": 1
 			},
 			"awards": [
@@ -38542,7 +38598,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -42708,8 +42764,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 33,
-				"misdemeanor": 22
+				"felony": 34,
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -43960,7 +44016,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 63,
+				"felony": 64,
 				"misdemeanor": 87,
 				"other": 1,
 				"violation": 1
@@ -46168,7 +46224,7 @@
 		"shield_no": "28652",
 		"appt_date": "10/7/2019",
 		"recognition_count": 58,
-		"arrest_count": 160,
+		"arrest_count": 161,
 		"reports": {
 			"summary": {
 				"command": "PBBS COMMUNITY RESPONSE TEAM",
@@ -48724,7 +48780,7 @@
 		"shield_no": "18908",
 		"appt_date": "4/13/2022",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 3",
@@ -50384,7 +50440,7 @@
 		"shield_no": "25643",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 129,
+		"arrest_count": 133,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -51193,7 +51249,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -52320,7 +52376,13 @@
 				"shield_no": "29461",
 				"appt_date": "7/19/2023"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/19/2023",
+					"shield_no": "29461"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -52706,7 +52768,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 169,
+				"felony": 170,
 				"misdemeanor": 176,
 				"violation": 3
 			},
@@ -52775,7 +52837,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 48,
-				"misdemeanor": 106
+				"misdemeanor": 107
 			},
 			"awards": []
 		},
@@ -53698,7 +53760,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
+				"felony": 29,
 				"misdemeanor": 61
 			},
 			"awards": []
@@ -55638,7 +55700,7 @@
 		"shield_no": "5001",
 		"appt_date": "7/5/2023",
 		"recognition_count": 0,
-		"arrest_count": 60,
+		"arrest_count": 62,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -58758,7 +58820,7 @@
 		"shield_no": "1899",
 		"appt_date": "4/13/2022",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -59343,8 +59405,8 @@
 		"arrest_count": 116,
 		"reports": {
 			"summary": {
-				"command": "PBQN COMMUNITY AFFAIRS SECTION",
-				"assignment_date": "3/2/2023",
+				"command": "114 PRECINCT",
+				"assignment_date": "8/18/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "10681",
@@ -59373,7 +59435,7 @@
 				}
 			]
 		},
-		"command": "PBQN COMMUNITY AFFAIRS SECTION"
+		"command": "114 PRECINCT"
 	},
 	{
 		"taxid": 976887,
@@ -63660,8 +63722,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 6
+				"felony": 4,
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -66740,7 +66802,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 46,
-				"misdemeanor": 58
+				"misdemeanor": 60
 			},
 			"awards": []
 		},
@@ -68092,7 +68154,7 @@
 		"shield_no": "16809",
 		"appt_date": "1/7/2015",
 		"recognition_count": 181,
-		"arrest_count": 434,
+		"arrest_count": 435,
 		"reports": {
 			"summary": {
 				"command": "TIMES SQUARE UNIT",
@@ -68911,7 +68973,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -70518,7 +70580,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 17,
+				"misdemeanor": 18,
 				"violation": 2
 			},
 			"awards": []
@@ -70839,7 +70901,7 @@
 		"shield_no": "24869",
 		"appt_date": "4/26/2023",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -74906,13 +74968,7 @@
 				"shield_no": "4456",
 				"appt_date": "10/12/2021"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/12/2021",
-					"shield_no": "4456"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
