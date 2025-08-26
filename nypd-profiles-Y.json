@@ -517,7 +517,7 @@
 		"shield_no": "16439",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 114,
+		"arrest_count": 115,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -2232,8 +2232,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 15,
-				"misdemeanor": 22
+				"felony": 16,
+				"misdemeanor": 23
 			},
 			"awards": [
 				{
@@ -5670,7 +5670,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 124
+				"misdemeanor": 125
 			},
 			"awards": [
 				{
@@ -6363,7 +6363,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 21,
 				"violation": 1
 			},
@@ -8029,7 +8029,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "073 PCT FIELD TRAINING UNIT"
@@ -8189,7 +8191,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 22,
+				"misdemeanor": 23,
 				"violation": 1
 			},
 			"awards": [
@@ -8692,7 +8694,7 @@
 			],
 			"arrests": {
 				"felony": 57,
-				"misdemeanor": 82,
+				"misdemeanor": 84,
 				"violation": 1
 			},
 			"awards": []
@@ -10636,7 +10638,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 67,
 				"violation": 2
 			},
@@ -11708,8 +11710,28 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/28/2022 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "TRAINING",
+							"description": "02.Violated patrol rules.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 36
