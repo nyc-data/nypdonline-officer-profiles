@@ -1077,7 +1077,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 252,
+				"felony": 253,
 				"misdemeanor": 214,
 				"violation": 21
 			},
@@ -23263,10 +23263,43 @@
 				"shield_no": "1809",
 				"appt_date": "1/10/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2005",
+					"shield_no": "31035"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/2/2009",
+					"shield_no": "1809"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/29/2014 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED TO SAFEGUARD A PRISONER.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED TO SAFEGUARD ARREST EVIDENCE.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 266,
 				"misdemeanor": 352,
@@ -38132,7 +38165,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 48,
-				"misdemeanor": 51,
+				"misdemeanor": 52,
 				"violation": 1
 			},
 			"awards": [
@@ -38754,7 +38787,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 65,
+				"misdemeanor": 66,
 				"other": 2
 			},
 			"awards": []
@@ -43296,7 +43329,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 56,
-				"misdemeanor": 105,
+				"misdemeanor": 107,
 				"violation": 1
 			},
 			"awards": [
@@ -46781,8 +46814,8 @@
 		"arrest_count": 46,
 		"reports": {
 			"summary": {
-				"command": "IN-SERVICE TRAINING SECTION",
-				"assignment_date": "8/19/2025",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "8/25/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -46815,7 +46848,7 @@
 			},
 			"awards": []
 		},
-		"command": "IN-SERVICE TRAINING SECTION"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 933413,
@@ -55495,6 +55528,10 @@
 				},
 				{
 					"date": "7/15/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/17/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				}
 			]
