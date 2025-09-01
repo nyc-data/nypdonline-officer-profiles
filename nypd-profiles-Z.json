@@ -70,7 +70,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -578,7 +578,12 @@
 				"felony": 3,
 				"misdemeanor": 24
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "6/30/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "048 PRECINCT"
 	},
@@ -1520,13 +1525,7 @@
 				"shield_no": "9196",
 				"appt_date": "12/29/2020"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "12/29/2020",
-					"shield_no": "9196"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -2448,7 +2447,7 @@
 		"shield_no": "20778",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 17,
+		"arrest_count": 18,
 		"reports": {
 			"summary": {
 				"command": "TB TRAIN PATROL FORCE",
@@ -2471,7 +2470,7 @@
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 11,
-				"violation": 3
+				"violation": 4
 			},
 			"awards": []
 		},
@@ -5420,7 +5419,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 319,
+				"felony": 320,
 				"misdemeanor": 362,
 				"violation": 24
 			},
@@ -7036,7 +7035,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "042 PCT FIELD TRAINING UNIT"
@@ -9798,6 +9799,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 3,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -13666,7 +13668,7 @@
 		"shield_no": "30025",
 		"appt_date": "7/8/2015",
 		"recognition_count": 1,
-		"arrest_count": 43,
+		"arrest_count": 44,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -14658,7 +14660,7 @@
 		"shield_no": "23810",
 		"appt_date": "7/11/2012",
 		"recognition_count": 0,
-		"arrest_count": 78,
+		"arrest_count": 80,
 		"reports": {
 			"summary": {
 				"command": "107 PRECINCT",
@@ -18177,8 +18179,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/2/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully threatened to damage property.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 104,
@@ -18312,7 +18329,7 @@
 		"shield_no": "2721",
 		"appt_date": "1/8/2014",
 		"recognition_count": 12,
-		"arrest_count": 247,
+		"arrest_count": 248,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -18405,7 +18422,7 @@
 		"shield_no": "6156",
 		"appt_date": "10/30/2024",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "109 PCT FIELD TRAINING UNIT",
