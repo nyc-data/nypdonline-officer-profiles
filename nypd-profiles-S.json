@@ -19246,7 +19246,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "047 PCT FIELD TRAINING UNIT"
@@ -19276,6 +19278,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/7/2015",
 					"shield_no": "13822"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/5/2025",
+					"shield_no": "2443"
 				}
 			],
 			"documents": [
@@ -20001,8 +20008,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/4/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 67,
 				"misdemeanor": 102,
@@ -30243,7 +30265,7 @@
 			],
 			"arrests": {
 				"infraction": 3,
-				"felony": 118,
+				"felony": 121,
 				"misdemeanor": 206,
 				"violation": 3
 			},
@@ -39292,7 +39314,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "043 PCT FIELD TRAINING UNIT"
@@ -47003,13 +47027,7 @@
 				"shield_no": "24734",
 				"appt_date": "4/30/2025"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/30/2025",
-					"shield_no": "24734"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -68993,6 +69011,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/6/2016",
 					"shield_no": "887"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/5/2025",
+					"shield_no": "3723"
 				}
 			],
 			"documents": [],
@@ -75399,7 +75422,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -81046,7 +81069,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -82341,7 +82364,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 83,
+				"felony": 84,
 				"misdemeanor": 93,
 				"violation": 2
 			},
@@ -83854,11 +83877,11 @@
 		"arrest_count": 77,
 		"reports": {
 			"summary": {
-				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
-				"assignment_date": "2/27/2020",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "9/5/2025",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "21077",
+				"rank_desc": "SERGEANT",
+				"shield_no": "2467",
 				"appt_date": "1/4/2017"
 			},
 			"ranks": [
@@ -83896,7 +83919,7 @@
 				}
 			]
 		},
-		"command": "STRATEGIC RESP GRP 1 MANHATTAN"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 974538,
@@ -85019,24 +85042,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "6/6/2024 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"description": "01.Violated patrol rules - failed to provide a business card",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -88536,7 +88543,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"felony": 1,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -91579,23 +91587,7 @@
 				"shield_no": "",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/6/2011",
-					"shield_no": "1859"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "1/30/2018",
-					"shield_no": "4356"
-				},
-				{
-					"rank": "LIEUTENANT",
-					"date": "1/26/2024",
-					"shield_no": ""
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [
 				{
@@ -91603,32 +91595,9 @@
 					"allegations_count": 1
 				}
 			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongful entry of a premises.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"felony": 37,
-				"misdemeanor": 301,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "6/6/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/22/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"discipline": [],
+			"arrests": {},
+			"awards": []
 		},
 		"command": "111 PRECINCT"
 	},
@@ -95878,7 +95847,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "034 PCT FIELD TRAINING UNIT"
@@ -105383,7 +105354,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "110 PCT FIELD TRAINING UNIT"
@@ -107570,7 +107543,7 @@
 			"arrests": {
 				"felony": 143,
 				"misdemeanor": 314,
-				"other": 32,
+				"other": 33,
 				"violation": 29
 			},
 			"awards": [
@@ -112838,7 +112811,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 69,
+				"felony": 70,
 				"misdemeanor": 75,
 				"violation": 6
 			},
@@ -121258,7 +121231,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 58,
-				"misdemeanor": 102,
+				"misdemeanor": 103,
 				"violation": 6
 			},
 			"awards": [
@@ -137764,14 +137737,6 @@
 		"recognition_count": 1,
 		"arrest_count": 106,
 		"reports": {
-			"summary": {
-				"command": "066 PRECINCT",
-				"assignment_date": "10/4/2021",
-				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
-				"shield_no": "2548",
-				"appt_date": "7/1/2004"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -137785,56 +137750,11 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "12/8/2021 12:00:00 AM",
-					"allegations_count": 4
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Failed to activate body-worn camera.",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES, TRAINING"
-						},
-						{
-							"recommendation": "OTHER",
-							"description": "02.Failed to make required entries in Department Logs.",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES, TRAINING"
-						},
-						{
-							"recommendation": "A-CD",
-							"description": "03.Wrongfully stopped an individual known to the Department.",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES, TRAINING"
-						},
-						{
-							"recommendation": "A-CD",
-							"description": "04.Wrongfully threatened to arrest an individual known to the Department.",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES, TRAINING"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"infraction": 1,
-				"felony": 8,
-				"misdemeanor": 90,
-				"violation": 7
-			},
-			"awards": [
-				{
-					"date": "5/12/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "066 PRECINCT"
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {},
+			"awards": []
+		}
 	},
 	{
 		"taxid": 939495,
@@ -143257,8 +143177,8 @@
 		"arrest_count": 21,
 		"reports": {
 			"summary": {
-				"command": "TD 34 SUMMER DETAIL",
-				"assignment_date": "5/20/2025",
+				"command": "TRANSIT DISTRICT 32",
+				"assignment_date": "9/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6903",
@@ -143286,7 +143206,7 @@
 				}
 			]
 		},
-		"command": "TD 34 SUMMER DETAIL"
+		"command": "TRANSIT DISTRICT 32"
 	},
 	{
 		"taxid": 953425,
@@ -152756,7 +152676,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -187347,8 +187267,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 34,
-				"misdemeanor": 366,
+				"felony": 35,
+				"misdemeanor": 368,
 				"violation": 1
 			},
 			"awards": [

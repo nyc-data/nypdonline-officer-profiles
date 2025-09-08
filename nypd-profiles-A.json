@@ -2818,7 +2818,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 92,
-				"misdemeanor": 81,
+				"misdemeanor": 82,
 				"violation": 5
 			},
 			"awards": [
@@ -7115,7 +7115,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "110 PCT FIELD TRAINING UNIT"
@@ -7647,7 +7649,7 @@
 			],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 70
+				"misdemeanor": 71
 			},
 			"awards": [
 				{
@@ -9585,7 +9587,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 2
 			},
 			"awards": []
 		},
@@ -14823,7 +14825,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 2,
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "032 PCT FIELD TRAINING UNIT"
@@ -17089,7 +17094,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 12,
+				"misdemeanor": 38
+			},
 			"awards": []
 		},
 		"command": "070 PRECINCT"
@@ -25499,8 +25507,8 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 248,
-				"misdemeanor": 300,
+				"felony": 253,
+				"misdemeanor": 302,
 				"violation": 26
 			},
 			"awards": [
@@ -26533,7 +26541,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 30,
 				"violation": 1
 			},
@@ -26576,7 +26584,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "PSA 2 FIELD TRAINING UNIT"
@@ -35330,13 +35340,7 @@
 				"shield_no": "18075",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/5/2017",
-					"shield_no": "18075"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -38493,7 +38497,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -41599,7 +41603,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "101 PCT FIELD TRAINING UNIT"
@@ -42084,7 +42090,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "PSA 8 FIELD TRAINING UNIT"
@@ -46155,7 +46163,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 104,
+				"felony": 105,
 				"misdemeanor": 103
 			},
 			"awards": [
@@ -87264,12 +87272,32 @@
 			},
 			"awards": [
 				{
+					"date": "1/18/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/23/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/1/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "9/1/2023",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "3/15/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "10/31/2021",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/10/2019",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "5/23/2019",
@@ -95178,36 +95206,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "1/24/2023 12:00:00 AM",
-					"allegations_count": 3
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "01.Failed to activate body-worn camera.",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "02.Failed to make proper notifications.\r\nFailed to prepare required reports.\r\nFailed to make required entries in Department logs.",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "03.Wrongfully used physical force.",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 215,
 				"misdemeanor": 95,
@@ -97299,10 +97299,22 @@
 			],
 			"arrests": {
 				"felony": 190,
-				"misdemeanor": 124,
+				"misdemeanor": 125,
 				"violation": 10
 			},
 			"awards": [
+				{
+					"date": "8/28/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/26/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/16/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "8/30/2023",
 					"name": "EXCELLENT POLICE DUTY"

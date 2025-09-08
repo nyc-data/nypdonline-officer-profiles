@@ -1342,7 +1342,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 54,
 				"violation": 3
 			},
@@ -34849,8 +34849,33 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/2/2023 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "TRAINING",
+							"description": "03.Wrongful entry of a premises.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 130,
@@ -35734,7 +35759,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 145,
+				"felony": 148,
 				"misdemeanor": 60,
 				"violation": 2
 			},
@@ -48522,8 +48547,38 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/9/2023 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "7/4/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD,                                                                                                                                                                                                             TRAINING",
+							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, TRAINING"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "2",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 31,
 				"misdemeanor": 42
@@ -48631,23 +48686,8 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [
-				{
-					"entry": "5/2/2022 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to activate their body worn camera.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"infraction": 3,
 				"felony": 37,
@@ -48751,13 +48791,7 @@
 				"shield_no": "22185",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/11/2012",
-					"shield_no": "22185"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [
 				{
@@ -48789,11 +48823,7 @@
 					]
 				}
 			],
-			"arrests": {
-				"felony": 6,
-				"misdemeanor": 37,
-				"violation": 9
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "4/19/2013",
@@ -75953,7 +75983,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 164,
+				"felony": 165,
 				"misdemeanor": 70,
 				"violation": 1
 			},
@@ -95056,6 +95086,10 @@
 			},
 			"awards": [
 				{
+					"date": "4/15/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "8/2/2023",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -99595,7 +99629,7 @@
 			],
 			"arrests": {
 				"infraction": 6,
-				"felony": 188,
+				"felony": 190,
 				"misdemeanor": 180,
 				"violation": 3
 			},

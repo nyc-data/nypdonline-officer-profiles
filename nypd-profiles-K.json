@@ -8055,7 +8055,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "075 PCT FIELD TRAINING UNIT"
@@ -12888,7 +12890,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 36,
-				"misdemeanor": 127,
+				"misdemeanor": 128,
 				"violation": 2
 			},
 			"awards": [
@@ -13158,7 +13160,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "034 PCT FIELD TRAINING UNIT"
@@ -13366,8 +13370,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/30/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Improper Search",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 15,
 				"misdemeanor": 250,
@@ -23697,7 +23717,7 @@
 			],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 61,
+				"misdemeanor": 62,
 				"violation": 1
 			},
 			"awards": [
@@ -24959,96 +24979,7 @@
 				"misdemeanor": 64,
 				"violation": 1
 			},
-			"awards": [
-				{
-					"date": "9/10/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/8/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/19/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/21/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/10/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/5/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/4/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/21/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/24/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/2/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/17/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/23/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/30/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/8/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/23/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/8/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/20/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/10/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/4/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "MANHATTAN SOUTH GRAND LARCENY SQD"
 	},
@@ -34628,7 +34559,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 20,
-				"misdemeanor": 87,
+				"misdemeanor": 88,
 				"violation": 3
 			},
 			"awards": [
@@ -48035,7 +47966,12 @@
 				"misdemeanor": 54,
 				"violation": 4
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "12/21/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "048 PRECINCT"
 	},
@@ -48717,8 +48653,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 274,
-				"misdemeanor": 294,
+				"felony": 275,
+				"misdemeanor": 295,
 				"violation": 76
 			},
 			"awards": []
@@ -48877,7 +48813,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 131,
+				"felony": 132,
 				"misdemeanor": 73,
 				"other": 1,
 				"violation": 1
@@ -54505,7 +54441,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "TIMES SQUARE FIELD TRAINING UNIT"
@@ -65001,30 +64939,9 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "4/3/2024 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Violated patrol rules - failed to provide a business card",
-							"group_id": "1",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"infraction": 1,
-				"felony": 42,
-				"misdemeanor": 95,
-				"violation": 4
-			},
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {},
 			"awards": [
 				{
 					"date": "12/31/2017",
@@ -71960,6 +71877,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []

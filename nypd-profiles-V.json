@@ -1013,7 +1013,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "067 PCT FIELD TRAINING UNIT"
@@ -5707,7 +5709,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "052 PCT FIELD TRAINING UNIT"
@@ -13920,20 +13924,11 @@
 				"shield_no": "10404",
 				"appt_date": "1/6/2016"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/6/2016",
-					"shield_no": "10404"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 6,
-				"misdemeanor": 33
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "HIGHWAY UNIT 5"
@@ -14732,7 +14727,7 @@
 			],
 			"arrests": {
 				"felony": 284,
-				"misdemeanor": 733,
+				"misdemeanor": 734,
 				"other": 33,
 				"violation": 1
 			},
@@ -15578,8 +15573,8 @@
 				"command": "TRANSIT DISTRICT 11",
 				"assignment_date": "8/28/2017",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "4353",
+				"rank_desc": "DETECTIVE SPECIALIST",
+				"shield_no": "4282",
 				"appt_date": "4/6/2016"
 			},
 			"ranks": [
@@ -18585,7 +18580,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 56
+				"misdemeanor": 57
 			},
 			"awards": []
 		},
@@ -21873,7 +21868,7 @@
 			],
 			"arrests": {
 				"felony": 55,
-				"misdemeanor": 285,
+				"misdemeanor": 288,
 				"violation": 26
 			},
 			"awards": [
@@ -30523,7 +30518,7 @@
 			],
 			"arrests": {
 				"felony": 54,
-				"misdemeanor": 136
+				"misdemeanor": 138
 			},
 			"awards": [
 				{
@@ -34908,7 +34903,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 1,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -35767,6 +35763,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "9/27/2024",
 					"shield_no": "1434"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "9/5/2025",
+					"shield_no": "3757"
 				}
 			],
 			"documents": [],
@@ -36062,11 +36063,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "6/13/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/12/2024",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "5/9/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/20/2024",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -49138,8 +49147,8 @@
 		"arrest_count": 85,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 30",
-				"assignment_date": "2/27/2025",
+				"command": "116 PRECINCT",
+				"assignment_date": "9/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "15552",
@@ -49167,7 +49176,7 @@
 				}
 			]
 		},
-		"command": "TRANSIT DISTRICT 30"
+		"command": "116 PRECINCT"
 	},
 	{
 		"taxid": 967715,
@@ -50133,7 +50142,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -50510,16 +50519,6 @@
 							"description": "WHILE OFF-DUTY, FAILED AND NEGLECTED TO PROPERLY SAFEGUARD HIS OFF-DUTY FIREARM.",
 							"group_id": "1",
 							"penalty": "VACATION DAYS (15 day(s) )"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongfully searched a vehicle.",
-							"group_id": "1",
-							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -54110,7 +54109,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "110 PCT FIELD TRAINING UNIT"
@@ -57353,7 +57354,7 @@
 				"command": "FORCE INVESTIGATION DIVISION",
 				"assignment_date": "2/9/2022",
 				"ethnicity": "WHITE",
-				"rank_desc": "LIEUTENANT",
+				"rank_desc": "LT DET COMMANDER",
 				"shield_no": "",
 				"appt_date": "7/8/2008"
 			},
