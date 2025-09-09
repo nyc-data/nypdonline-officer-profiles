@@ -2219,7 +2219,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "PSA 2 FIELD TRAINING UNIT"
@@ -3106,7 +3108,18 @@
 				"shield_no": "2573",
 				"appt_date": "11/2/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "11/2/2020",
+					"shield_no": "22203"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/23/2024",
+					"shield_no": "2573"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -3336,7 +3349,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "070 PCT FIELD TRAINING UNIT"
@@ -13667,7 +13682,13 @@
 				"shield_no": "24685",
 				"appt_date": "11/2/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "11/2/2020",
+					"shield_no": "24685"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -17068,8 +17089,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
-				"misdemeanor": 49
+				"felony": 38,
+				"misdemeanor": 50
 			},
 			"awards": [
 				{
