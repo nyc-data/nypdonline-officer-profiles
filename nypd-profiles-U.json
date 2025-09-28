@@ -3340,7 +3340,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"felony": 1,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -6773,7 +6774,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "023 PCT FIELD TRAINING UNIT"
@@ -7955,8 +7958,8 @@
 		"arrest_count": 110,
 		"reports": {
 			"summary": {
-				"command": "QN CRIME ANALYSIS UNIT",
-				"assignment_date": "10/14/2024",
+				"command": "CERT COND & NON CRIM FGRPRT UN",
+				"assignment_date": "9/22/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4908",
@@ -8034,7 +8037,7 @@
 				}
 			]
 		},
-		"command": "QN CRIME ANALYSIS UNIT"
+		"command": "CERT COND & NON CRIM FGRPRT UN"
 	},
 	{
 		"taxid": 965582,
@@ -8115,7 +8118,7 @@
 			],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 28
+				"misdemeanor": 31
 			},
 			"awards": [
 				{
