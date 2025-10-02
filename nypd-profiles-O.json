@@ -863,6 +863,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -3495,7 +3496,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -16666,7 +16667,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -27465,14 +27466,6 @@
 		"recognition_count": 0,
 		"arrest_count": 114,
 		"reports": {
-			"summary": {
-				"command": "009 PRECINCT",
-				"assignment_date": "8/31/2015",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "6905",
-				"appt_date": "1/14/2009"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -27483,14 +27476,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 14,
-				"misdemeanor": 92,
-				"violation": 8
-			},
+			"arrests": {},
 			"awards": []
-		},
-		"command": "009 PRECINCT"
+		}
 	},
 	{
 		"taxid": 976319,
@@ -33286,7 +33274,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 115,
+				"misdemeanor": 116,
 				"violation": 1
 			},
 			"awards": [
@@ -33770,7 +33758,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 69,
+				"felony": 70,
 				"misdemeanor": 187,
 				"other": 1,
 				"violation": 2
@@ -37974,7 +37962,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 24,
-				"misdemeanor": 59,
+				"misdemeanor": 60,
 				"violation": 8
 			},
 			"awards": [
@@ -38598,7 +38586,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -39449,7 +39437,13 @@
 				"shield_no": "27577",
 				"appt_date": "7/9/2021"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2021",
+					"shield_no": "27577"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -40686,32 +40680,10 @@
 				"shield_no": "8354",
 				"appt_date": "7/6/2010"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/6/2010",
-					"shield_no": "8354"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "4/8/2014 12:00:00 AM",
-					"charges_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"description": "WHILE ON-DUTY, WRONGFULLY FAILED TO MAKE REQUIRED RADIO TRANSMISSIONS AND NOTIFICATIONS REGARDING HIS PATROL ACTIVITIES.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 47,

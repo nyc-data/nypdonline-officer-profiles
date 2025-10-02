@@ -3504,7 +3504,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "109 PCT FIELD TRAINING UNIT"
@@ -14417,7 +14419,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 269,
-				"misdemeanor": 269,
+				"misdemeanor": 270,
 				"violation": 21
 			},
 			"awards": [
@@ -19304,7 +19306,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 100,
+				"felony": 101,
 				"misdemeanor": 128,
 				"violation": 2
 			},
@@ -19895,6 +19897,10 @@
 				"violation": 4
 			},
 			"awards": [
+				{
+					"date": "2/28/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "11/9/2023",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -21181,14 +21187,6 @@
 		"recognition_count": 8,
 		"arrest_count": 105,
 		"reports": {
-			"summary": {
-				"command": "QUEENS WARRANT SQD",
-				"assignment_date": "2/14/2023",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "CAPTAIN",
-				"shield_no": "",
-				"appt_date": "1/14/2009"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -21214,11 +21212,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 30,
-				"misdemeanor": 62,
-				"violation": 13
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "12/7/2023",
@@ -21253,8 +21247,7 @@
 					"name": "COMMENDATION"
 				}
 			]
-		},
-		"command": "QUEENS WARRANT SQD"
+		}
 	},
 	{
 		"taxid": 977518,
@@ -32059,7 +32052,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 134,
+				"felony": 135,
 				"misdemeanor": 83,
 				"other": 1,
 				"violation": 2
@@ -32573,7 +32566,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 61,
-				"misdemeanor": 260,
+				"misdemeanor": 261,
 				"other": 1
 			},
 			"awards": [
