@@ -2356,7 +2356,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 24
 			},
 			"awards": [
@@ -5894,7 +5894,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 48,
-				"misdemeanor": 130
+				"misdemeanor": 131
 			},
 			"awards": [
 				{
@@ -6559,16 +6559,21 @@
 			"disciplineHistory": [
 				{
 					"entry": "9/27/2022 12:00:00 AM",
-					"allegations_count": 1
+					"allegations_count": 2
 				},
 				{
 					"entry": "1/17/2023 12:00:00 AM",
-					"allegations_count": 1
+					"allegations_count": 2
 				}
 			],
 			"discipline": [
 				{
 					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully used physical force.",
+							"group_id": "1"
+						},
 						{
 							"recommendation": "B-CD",
 							"description": "01.Wrongfully used physical force.",
@@ -6582,14 +6587,19 @@
 							"recommendation": "OTHER",
 							"description": "01.Failed to activate their body worn camera.",
 							"group_id": "2"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "2"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 29,
-				"misdemeanor": 22,
-				"violation": 1
+				"felony": 58,
+				"misdemeanor": 44,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -7466,7 +7476,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 1,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -11061,7 +11072,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 67,
 				"violation": 2
 			},
