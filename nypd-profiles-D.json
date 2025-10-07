@@ -4439,8 +4439,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
-				"misdemeanor": 17
+				"felony": 10,
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -4849,8 +4849,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 70
+				"felony": 27,
+				"misdemeanor": 72
 			},
 			"awards": []
 		},
@@ -9790,7 +9790,13 @@
 				"shield_no": "21445",
 				"appt_date": "7/1/2004"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2004",
+					"shield_no": "21445"
+				}
+			],
 			"documents": [
 				{
 					"date": "7/19/2019",
@@ -9798,8 +9804,24 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/23/2016 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY AFTER HAVING BEEN ARRESTED FOR OPERATING A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT, WRONGFULLY REFUSED TO SUBMIT TO A CHEMICAL BREATH TEST TO DETERMINE HIS BLOOD ALCOHOL CONCENTRATION.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 53,
@@ -10011,7 +10033,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -10296,7 +10318,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 28,
+				"misdemeanor": 29,
 				"violation": 1
 			},
 			"awards": []
@@ -15264,10 +15286,64 @@
 				"shield_no": "6304",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "6304"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/19/2018 12:00:00 AM",
+					"charges_count": 3
+				},
+				{
+					"entry": "6/1/2021 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "LEFT HIS ASSIGNMENT WITHOUT PERMISSION AND ALLOWED TWO UNAUTHORIZED CIVILIANS IN HIS RMP AND THEN DROVE THEM TO ANOTHER LOCATION OUTSIDE THE CONFINES OF THE 7TH PRECINCT.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "UTILIZED HIS PERSONAL VEHICLE WHILE IN UNIFORM WITHOUT AUTHORIZATION OR PERMISSION.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DID NOT TAKE HIS MEAL IN A POLICE FACILITY, RESTAURANT OR DEPARTMENT VEHICLE, AND FAILED TO MAKE PROPER ACTIVITY LOG ENTRIES.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Wrongfully discourteous to a person known to the department.",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Wrongfully discourteous to a person known to the department.",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 58,
@@ -18546,32 +18622,10 @@
 				"shield_no": "17071",
 				"appt_date": "10/24/2018"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/24/2018",
-					"shield_no": "17071"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "11/17/2021 12:00:00 AM",
-					"charges_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"description": "Made misleading or inaccurate statements during an official department interview.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 13
@@ -24875,7 +24929,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -28712,8 +28766,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 90
+				"felony": 11,
+				"misdemeanor": 45
 			},
 			"awards": []
 		},
@@ -30656,7 +30710,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -35832,7 +35886,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 130,
+				"felony": 133,
 				"misdemeanor": 160
 			},
 			"awards": [
@@ -37210,8 +37264,8 @@
 		"arrest_count": 9,
 		"reports": {
 			"summary": {
-				"command": "052 PRECINCT",
-				"assignment_date": "11/1/2024",
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "7/1/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "9948",
@@ -37233,7 +37287,7 @@
 			},
 			"awards": []
 		},
-		"command": "052 PRECINCT"
+		"command": "MILITARY & EXTENDED LEAVE DESK"
 	},
 	{
 		"taxid": 941626,
@@ -37279,6 +37333,11 @@
 				{
 					"rank": "DEPUTY INSPECTOR",
 					"date": "9/30/2022",
+					"shield_no": ""
+				},
+				{
+					"rank": "INSPECTOR",
+					"date": "10/3/2025",
 					"shield_no": ""
 				}
 			],
@@ -48439,7 +48498,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 37,
+				"felony": 38,
 				"misdemeanor": 45
 			},
 			"awards": [
@@ -51866,8 +51925,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 8,
+				"felony": 4,
+				"misdemeanor": 10,
 				"violation": 1
 			},
 			"awards": []
@@ -55284,7 +55343,16 @@
 				"felony": 15,
 				"misdemeanor": 26
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "12/29/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/10/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "081 PRECINCT"
 	},
@@ -88014,7 +88082,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 35
 			},
 			"awards": []
@@ -95447,7 +95515,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 33,
+				"misdemeanor": 34,
 				"violation": 6
 			},
 			"awards": [
@@ -102406,7 +102474,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 265,
+				"felony": 269,
 				"misdemeanor": 286,
 				"other": 2,
 				"violation": 4
@@ -108788,7 +108856,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 13
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -113206,7 +113274,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 153,
+				"felony": 154,
 				"misdemeanor": 141,
 				"other": 1,
 				"violation": 1
@@ -118237,7 +118305,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 291,
+				"misdemeanor": 293,
 				"violation": 88
 			},
 			"awards": [
@@ -118345,8 +118413,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
-				"misdemeanor": 40,
+				"felony": 21,
+				"misdemeanor": 42,
 				"violation": 5
 			},
 			"awards": [
@@ -118974,35 +119042,12 @@
 				"shield_no": "387",
 				"appt_date": "7/22/2002"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2002",
-					"shield_no": "13171"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "12/21/2012",
-					"shield_no": "387"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 158,
-				"misdemeanor": 398
-			},
-			"awards": [
-				{
-					"date": "1/22/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/7/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "MANHATTAN ADULT SEX CRIMES SQUAD"
 	},
@@ -124725,7 +124770,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 47,
+				"misdemeanor": 48,
 				"violation": 1
 			},
 			"awards": [
@@ -127240,7 +127285,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 77
+				"misdemeanor": 78
 			},
 			"awards": [
 				{
@@ -129580,7 +129625,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": [
 				{
