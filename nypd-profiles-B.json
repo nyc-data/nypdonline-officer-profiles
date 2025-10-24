@@ -1881,7 +1881,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 48,
+				"felony": 49,
 				"misdemeanor": 82,
 				"violation": 1
 			},
@@ -7506,7 +7506,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 16
 			},
 			"awards": []
@@ -11774,7 +11774,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 52,
+				"felony": 54,
 				"misdemeanor": 61,
 				"violation": 1
 			},
@@ -12049,7 +12049,13 @@
 				"shield_no": "7366",
 				"appt_date": "1/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2013",
+					"shield_no": "7366"
+				}
+			],
 			"documents": [
 				{
 					"date": "5/20/2022",
@@ -12057,20 +12063,82 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/11/2020 12:00:00 AM",
+					"charges_count": 5
+				},
+				{
+					"entry": "10/14/2020 12:00:00 AM",
+					"charges_count": 1
+				},
+				{
+					"entry": "12/12/2021 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Said Police Officer engaged in off-duty employment without permission.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (12 day(s) ), VACATION DAYS (58 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Said Police Officer failed to take police action.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (12 day(s) ), VACATION DAYS (58 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Said Police Officer made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (12 day(s) ), VACATION DAYS (58 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Said Police Officer made misleading statements during an official Department interview.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (12 day(s) ), VACATION DAYS (58 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Said Police Officer associated with a criminal.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (12 day(s) ), VACATION DAYS (58 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to conduct an investigation.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (12 day(s) ), VACATION DAYS (58 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Criminal Association.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 25,
 				"misdemeanor": 73,
 				"violation": 13
 			},
-			"awards": [
-				{
-					"date": "7/15/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "079 PRECINCT"
 	},
@@ -21024,7 +21092,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 72,
+				"felony": 74,
 				"misdemeanor": 40
 			},
 			"awards": []
@@ -24086,8 +24154,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 24
+				"felony": 13,
+				"misdemeanor": 26
 			},
 			"awards": []
 		},
@@ -26868,7 +26936,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 115,
-				"misdemeanor": 65
+				"misdemeanor": 66
 			},
 			"awards": []
 		},
@@ -31454,8 +31522,8 @@
 		"arrest_count": 189,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 8",
-				"assignment_date": "11/25/2024",
+				"command": "049 DOMESTIC VIOLENCE SQUAD",
+				"assignment_date": "10/20/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "131",
@@ -31549,7 +31617,7 @@
 			},
 			"awards": []
 		},
-		"command": "HOUSING PSA 8"
+		"command": "049 DOMESTIC VIOLENCE SQUAD"
 	},
 	{
 		"taxid": 977055,
@@ -35394,7 +35462,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 35,
 				"violation": 1
 			},
@@ -35469,7 +35537,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 35
+				"misdemeanor": 36
 			},
 			"awards": []
 		},
@@ -36225,7 +36293,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 22,
 				"violation": 1
 			},
@@ -40300,7 +40368,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -43788,7 +43856,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 46,
-				"misdemeanor": 64
+				"misdemeanor": 65
 			},
 			"awards": []
 		},
@@ -46230,14 +46298,59 @@
 			},
 			"ranks": [
 				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2010",
+					"shield_no": "2501"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/22/2016",
+					"shield_no": "1985"
+				},
+				{
 					"rank": "LIEUTENANT",
 					"date": "11/24/2020",
 					"shield_no": ""
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "12/9/2021",
+					"shield_no": "1967"
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/11/2021 12:00:00 AM",
+					"charges_count": 1
+				},
+				{
+					"entry": "4/3/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongfully un-holstered a firearm while on duty.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (24 day(s) ), VACATION DAYS (6 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -51730,7 +51843,13 @@
 					"shield_no": "14985"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "10/21/2025",
+					"url": "https://nypdonline.org/files/Bhatti_10_21_2025.pdf",
+					"type": "Deviation Letter"
+				}
+			],
 			"disciplineHistory": [
 				{
 					"entry": "4/29/2024 12:00:00 AM",
@@ -53313,7 +53432,7 @@
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 43,
-				"violation": 5
+				"violation": 7
 			},
 			"awards": []
 		},
@@ -59768,7 +59887,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 30,
-				"misdemeanor": 132
+				"misdemeanor": 135
 			},
 			"awards": []
 		},
@@ -65676,7 +65795,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "042 PCT FIELD TRAINING UNIT"
@@ -68300,18 +68421,7 @@
 				"shield_no": "1771",
 				"appt_date": "7/13/2022"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/13/2022",
-					"shield_no": "17927"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "10/25/2024",
-					"shield_no": "1771"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -70624,14 +70734,52 @@
 			},
 			"ranks": [
 				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "633"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/24/2020",
+					"shield_no": "3201"
+				},
+				{
 					"rank": "LIEUTENANT",
 					"date": "8/30/2024",
 					"shield_no": ""
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/5/2024 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Bias-Based Policing.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "02.Wrongfully searched an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "A-CD",
+							"description": "03.Wrongfully stopped an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 55,
@@ -74958,7 +75106,7 @@
 			],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 164,
+				"misdemeanor": 165,
 				"violation": 30
 			},
 			"awards": []
@@ -77190,8 +77338,8 @@
 		"arrest_count": 99,
 		"reports": {
 			"summary": {
-				"command": "043 PRECINCT",
-				"assignment_date": "5/10/2021",
+				"command": "043 DOMESTIC VIOLENCE SQUAD",
+				"assignment_date": "10/20/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21404",
@@ -77962,7 +78110,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 44,
-				"misdemeanor": 41,
+				"misdemeanor": 44,
 				"violation": 1
 			},
 			"awards": []
@@ -82393,8 +82541,8 @@
 		"arrest_count": 229,
 		"reports": {
 			"summary": {
-				"command": "044 PRECINCT",
-				"assignment_date": "12/13/2017",
+				"command": "044 DOMESTIC VIOLENCE SQUAD",
+				"assignment_date": "10/20/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22450",
@@ -82417,7 +82565,7 @@
 			},
 			"awards": []
 		},
-		"command": "044 PRECINCT"
+		"command": "044 DOMESTIC VIOLENCE SQUAD"
 	},
 	{
 		"taxid": 970996,
@@ -83036,7 +83184,12 @@
 				"felony": 14,
 				"misdemeanor": 31
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "12/11/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "049 PRECINCT"
 	},
@@ -90832,7 +90985,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 104,
-				"misdemeanor": 162,
+				"misdemeanor": 163,
 				"violation": 1
 			},
 			"awards": []
@@ -91842,8 +91995,8 @@
 		"arrest_count": 194,
 		"reports": {
 			"summary": {
-				"command": "025 PRECINCT",
-				"assignment_date": "4/16/2018",
+				"command": "025 DOMESTIC VIOLENCE SQUAD",
+				"assignment_date": "10/20/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "17999",
@@ -91866,7 +92019,7 @@
 			},
 			"awards": []
 		},
-		"command": "025 PRECINCT"
+		"command": "025 DOMESTIC VIOLENCE SQUAD"
 	},
 	{
 		"taxid": 960281,
@@ -98162,7 +98315,13 @@
 				"shield_no": "18974",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "18974"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -99718,8 +99877,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 38,
-				"misdemeanor": 104,
+				"felony": 39,
+				"misdemeanor": 105,
 				"violation": 2
 			},
 			"awards": []
@@ -100615,18 +100774,7 @@
 				"shield_no": "4081",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/6/2011",
-					"shield_no": "15646"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "11/24/2020",
-					"shield_no": "4081"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -100635,7 +100783,12 @@
 				"misdemeanor": 53,
 				"violation": 3
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "3/23/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "CRIMINAL INTELLIGENCE SECTION"
 	},
@@ -102549,7 +102702,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 39,
+				"misdemeanor": 40,
 				"violation": 1
 			},
 			"awards": []
@@ -104166,7 +104319,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 19,
-				"misdemeanor": 74
+				"misdemeanor": 76
 			},
 			"awards": []
 		},
@@ -105648,20 +105801,7 @@
 				"misdemeanor": 56,
 				"violation": 1
 			},
-			"awards": [
-				{
-					"date": "2/27/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/9/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/2/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "044 PRECINCT"
 	},
@@ -106663,84 +106803,7 @@
 				"felony": 48,
 				"misdemeanor": 40
 			},
-			"awards": [
-				{
-					"date": "9/21/2023",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/21/2023",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/21/2023",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/1/2023",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/27/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/17/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/12/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/9/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/3/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/1/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/19/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/15/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/1/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/31/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/24/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/18/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/19/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/6/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/11/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "INTEL CIS FIO PROGRAM"
 	},
@@ -107105,8 +107168,8 @@
 		"arrest_count": 149,
 		"reports": {
 			"summary": {
-				"command": "109 PRECINCT",
-				"assignment_date": "10/16/2022",
+				"command": "109 DOMESTIC VIOLENCE SQUAD",
+				"assignment_date": "10/20/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "20264",
@@ -107130,7 +107193,7 @@
 			},
 			"awards": []
 		},
-		"command": "109 PRECINCT"
+		"command": "109 DOMESTIC VIOLENCE SQUAD"
 	},
 	{
 		"taxid": 973970,
@@ -108729,7 +108792,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 12,
-				"misdemeanor": 31,
+				"misdemeanor": 33,
 				"violation": 1
 			},
 			"awards": []
@@ -110921,22 +110984,43 @@
 				"shield_no": "1228",
 				"appt_date": "7/11/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "19013"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/21/2017",
+					"shield_no": "1228"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/8/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 44,
 				"misdemeanor": 80,
 				"other": 3,
 				"violation": 13
 			},
-			"awards": [
-				{
-					"date": "5/8/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "WARRANT SECTION"
 	},
