@@ -31,7 +31,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 35,
-				"misdemeanor": 52
+				"misdemeanor": 53
 			},
 			"awards": []
 		},
@@ -3641,10 +3641,37 @@
 				"shield_no": "2900",
 				"appt_date": "1/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2013",
+					"shield_no": "11630"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "4/4/2024",
+					"shield_no": "2900"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/14/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"description": "01.Discourtesy",
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 86,
@@ -6248,7 +6275,7 @@
 		"shield_no": "390",
 		"appt_date": "1/10/2018",
 		"recognition_count": 2,
-		"arrest_count": 164,
+		"arrest_count": 165,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -6985,7 +7012,7 @@
 		"rank": "SERGEANT",
 		"shield_no": "492",
 		"appt_date": "1/10/2007",
-		"recognition_count": 0,
+		"recognition_count": 1,
 		"arrest_count": 119,
 		"reports": {
 			"summary": {
@@ -7122,8 +7149,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "115 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "20336",
@@ -7142,7 +7169,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "115 PRECINCT"
 	},
 	{
 		"taxid": 954910,
@@ -8883,8 +8910,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "109 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "10705",
@@ -8903,7 +8930,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "109 PRECINCT"
 	},
 	{
 		"taxid": 957655,
@@ -9437,7 +9464,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 32,
+				"misdemeanor": 33,
 				"violation": 2
 			},
 			"awards": []
@@ -11124,7 +11151,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 165,
-				"misdemeanor": 94,
+				"misdemeanor": 95,
 				"violation": 1
 			},
 			"awards": [
@@ -11210,8 +11237,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "047 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21802",
@@ -11230,7 +11257,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "047 PRECINCT"
 	},
 	{
 		"taxid": 964045,
@@ -11242,7 +11269,7 @@
 		"shield_no": "16378",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 98,
+		"arrest_count": 100,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -13906,7 +13933,7 @@
 		"rank": "SERGEANT",
 		"shield_no": "2200",
 		"appt_date": "1/10/2007",
-		"recognition_count": 14,
+		"recognition_count": 15,
 		"arrest_count": 214,
 		"reports": {
 			"summary": {
@@ -15633,8 +15660,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "076 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22800",
@@ -15653,7 +15680,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "076 PRECINCT"
 	},
 	{
 		"taxid": 981372,
@@ -16470,7 +16497,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -18176,6 +18203,112 @@
 		"command": "FIREARMS SUPPRESSION SECTION"
 	},
 	{
+		"taxid": 961805,
+		"full_name": "HARKINS, RYAN P",
+		"first_name": "RYAN",
+		"last_name": "HARKINS",
+		"middle_initial": "P",
+		"rank": "DETECTIVE SPECIALIST",
+		"shield_no": "1064",
+		"appt_date": "7/13/2016",
+		"recognition_count": 14,
+		"arrest_count": 259,
+		"reports": {
+			"summary": {
+				"command": "120 PRECINCT",
+				"assignment_date": "10/9/2017",
+				"ethnicity": "WHITE",
+				"rank_desc": "DETECTIVE SPECIALIST",
+				"shield_no": "1064",
+				"appt_date": "7/13/2016"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/13/2016",
+					"shield_no": "10194"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "3/28/2019",
+					"shield_no": "13542"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/22/2023",
+					"shield_no": "1064"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 59,
+				"misdemeanor": 199,
+				"violation": 1
+			},
+			"awards": [
+				{
+					"date": "10/11/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/17/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/27/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/25/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/2/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/29/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/25/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/14/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/16/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/3/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/26/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/15/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/8/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/17/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "120 PRECINCT"
+	},
+	{
 		"taxid": 904113,
 		"full_name": "HARKINS, WALTER E",
 		"first_name": "WALTER",
@@ -18300,7 +18433,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -18403,7 +18536,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 131
+				"misdemeanor": 133
 			},
 			"awards": [
 				{
@@ -22329,8 +22462,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "088 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3591",
@@ -22349,7 +22482,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "088 PRECINCT"
 	},
 	{
 		"taxid": 981377,
@@ -27574,8 +27707,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "032 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "29720",
@@ -27594,7 +27727,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "032 PRECINCT"
 	},
 	{
 		"taxid": 975563,
@@ -28955,8 +29088,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "115 PRECINCT",
+				"assignment_date": "11/5/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "31043",
@@ -28975,7 +29108,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "115 PRECINCT"
 	},
 	{
 		"taxid": 947067,
@@ -30624,8 +30757,8 @@
 		"arrest_count": 98,
 		"reports": {
 			"summary": {
-				"command": "STRATEGIC RESP GRP 4 QUEENS",
-				"assignment_date": "6/17/2024",
+				"command": "EMERGENCY SERVICE UNIT",
+				"assignment_date": "11/3/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "244",
@@ -30679,7 +30812,7 @@
 				}
 			]
 		},
-		"command": "STRATEGIC RESP GRP 4 QUEENS"
+		"command": "EMERGENCY SERVICE UNIT"
 	},
 	{
 		"taxid": 977544,
@@ -31213,7 +31346,7 @@
 		"shield_no": "19893",
 		"appt_date": "7/5/2017",
 		"recognition_count": 84,
-		"arrest_count": 229,
+		"arrest_count": 230,
 		"reports": {
 			"summary": {
 				"command": "PBBS COMMUNITY RESPONSE TEAM",
@@ -34952,6 +35085,75 @@
 		"command": "DET BORO MANHATTAN SOUTH"
 	},
 	{
+		"taxid": 955978,
+		"full_name": "HEHIR, SEAN P",
+		"first_name": "SEAN",
+		"last_name": "HEHIR",
+		"middle_initial": "P",
+		"rank": "POLICE OFFICER",
+		"shield_no": "11696",
+		"appt_date": "1/8/2014",
+		"recognition_count": 7,
+		"arrest_count": 76,
+		"reports": {
+			"summary": {
+				"command": "OPERATIONS UNIT",
+				"assignment_date": "9/17/2025",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "11696",
+				"appt_date": "1/8/2014"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/8/2014",
+					"shield_no": "11696"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 6,
+				"felony": 22,
+				"misdemeanor": 38,
+				"violation": 10
+			},
+			"awards": [
+				{
+					"date": "4/12/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/21/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/20/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/16/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/25/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/3/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/3/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "OPERATIONS UNIT"
+	},
+	{
 		"taxid": 952838,
 		"full_name": "HEIDANUS, ANDREW J",
 		"first_name": "ANDREW",
@@ -36117,6 +36319,227 @@
 		"command": "LOWER MANHATTAN SECURITY INITIATIVE"
 	},
 	{
+		"taxid": 944641,
+		"full_name": "HELLBERG, BRIAN J",
+		"first_name": "BRIAN",
+		"last_name": "HELLBERG",
+		"middle_initial": "J",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "2859",
+		"appt_date": "7/9/2007",
+		"recognition_count": 44,
+		"arrest_count": 242,
+		"reports": {
+			"summary": {
+				"command": "INTEL CIS FIO PROGRAM",
+				"assignment_date": "7/15/2021",
+				"ethnicity": "WHITE",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "2859",
+				"appt_date": "7/9/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "8253"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/10/2021",
+					"shield_no": "2859"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 107,
+				"misdemeanor": 100,
+				"violation": 35
+			},
+			"awards": [
+				{
+					"date": "8/29/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/27/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/14/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/14/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/15/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/22/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/5/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/13/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/21/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/13/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/30/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/22/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/2/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/29/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/4/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/19/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/14/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/20/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/28/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/18/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/17/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/10/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/15/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/20/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/20/2017",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/2/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/19/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/28/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/19/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/12/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/19/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/5/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/20/2016",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/30/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/26/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/28/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/22/2015",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/18/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/3/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/14/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/27/2014",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/29/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/11/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/15/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "INTEL CIS FIO PROGRAM"
+	},
+	{
 		"taxid": 958687,
 		"full_name": "HELLERER, RICHARD R",
 		"first_name": "RICHARD",
@@ -36177,8 +36600,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "114 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "23951",
@@ -36197,7 +36620,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "114 PRECINCT"
 	},
 	{
 		"taxid": 923940,
@@ -36614,6 +37037,80 @@
 		"command": "122 PRECINCT"
 	},
 	{
+		"taxid": 944642,
+		"full_name": "HELTON, LEE E",
+		"first_name": "LEE",
+		"last_name": "HELTON",
+		"middle_initial": "E",
+		"rank": "SERGEANT",
+		"shield_no": "4956",
+		"appt_date": "7/9/2007",
+		"recognition_count": 0,
+		"arrest_count": 50,
+		"reports": {
+			"summary": {
+				"command": "BN CRIME ANALYSIS UNIT",
+				"assignment_date": "7/2/2025",
+				"ethnicity": "WHITE",
+				"rank_desc": "SERGEANT",
+				"shield_no": "4956",
+				"appt_date": "7/9/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "5883"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/31/2015",
+					"shield_no": "4956"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/24/2023 12:00:00 AM",
+					"charges_count": 1
+				},
+				{
+					"entry": "7/11/2023 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Living outside of the state or permissible counties.",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"felony": 6,
+				"misdemeanor": 43,
+				"violation": 1
+			},
+			"awards": []
+		},
+		"command": "BN CRIME ANALYSIS UNIT"
+	},
+	{
 		"taxid": 940249,
 		"full_name": "HELTZER, LISA A",
 		"first_name": "LISA",
@@ -36772,8 +37269,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "5/14/2025",
+				"command": "030 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22268",
@@ -36792,7 +37289,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "030 PRECINCT"
 	},
 	{
 		"taxid": 949094,
@@ -38926,7 +39423,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 9
 			},
 			"awards": []
@@ -40955,7 +41452,7 @@
 		"shield_no": "25202",
 		"appt_date": "1/4/2017",
 		"recognition_count": 1,
-		"arrest_count": 68,
+		"arrest_count": 70,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -41887,8 +42384,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "069 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22289",
@@ -41907,7 +42404,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "069 PRECINCT"
 	},
 	{
 		"taxid": 983298,
@@ -42168,7 +42665,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 112,
+				"misdemeanor": 113,
 				"violation": 11
 			},
 			"awards": [
@@ -43060,7 +43557,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 37,
+				"felony": 38,
 				"misdemeanor": 113,
 				"violation": 1
 			},
@@ -43293,8 +43790,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "115 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22688",
@@ -43313,7 +43810,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "115 PRECINCT"
 	},
 	{
 		"taxid": 981384,
@@ -45358,8 +45855,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "047 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3381",
@@ -45378,7 +45875,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "047 PRECINCT"
 	},
 	{
 		"taxid": 935012,
@@ -48513,8 +49010,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "110 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3754",
@@ -48533,7 +49030,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "110 PRECINCT"
 	},
 	{
 		"taxid": 983300,
@@ -48925,8 +49422,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "028 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6340",
@@ -48945,7 +49442,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "028 PRECINCT"
 	},
 	{
 		"taxid": 965749,
@@ -51330,7 +51827,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 46
+				"misdemeanor": 47
 			},
 			"awards": []
 		},
@@ -51544,8 +52041,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 21,
-				"misdemeanor": 76,
+				"felony": 22,
+				"misdemeanor": 77,
 				"other": 1,
 				"violation": 1
 			},
@@ -53452,7 +53949,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 123,
+				"felony": 131,
 				"misdemeanor": 29
 			},
 			"awards": []
@@ -54083,8 +54580,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "040 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3208",
@@ -54103,7 +54600,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "040 PRECINCT"
 	},
 	{
 		"taxid": 980588,
@@ -54394,8 +54891,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "028 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3613",
@@ -54414,7 +54911,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "028 PRECINCT"
 	},
 	{
 		"taxid": 967108,
@@ -55097,8 +55594,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "073 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "10779",
@@ -55117,7 +55614,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "073 PRECINCT"
 	},
 	{
 		"taxid": 981388,
@@ -55150,7 +55647,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 4,
 				"misdemeanor": 5,
 				"violation": 1
 			},
@@ -55707,8 +56204,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "077 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "13270",
@@ -55727,7 +56224,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "077 PRECINCT"
 	},
 	{
 		"taxid": 978920,
@@ -56892,8 +57389,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "023 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "19593",
@@ -56912,7 +57409,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "023 PRECINCT"
 	},
 	{
 		"taxid": 974184,
@@ -57296,7 +57793,7 @@
 		"shield_no": "1802",
 		"appt_date": "10/18/2017",
 		"recognition_count": 7,
-		"arrest_count": 174,
+		"arrest_count": 177,
 		"reports": {
 			"summary": {
 				"command": "116TH DET SQUAD",
@@ -57322,8 +57819,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 99,
-				"misdemeanor": 72,
+				"felony": 101,
+				"misdemeanor": 73,
 				"violation": 3
 			},
 			"awards": [
@@ -57473,7 +57970,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 135,
-				"misdemeanor": 120,
+				"misdemeanor": 122,
 				"violation": 2
 			},
 			"awards": [
@@ -59752,7 +60249,7 @@
 		"shield_no": "26614",
 		"appt_date": "7/7/2021",
 		"recognition_count": 1,
-		"arrest_count": 38,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -59791,7 +60288,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 9,
-				"misdemeanor": 28
+				"misdemeanor": 29
 			},
 			"awards": [
 				{
@@ -61829,8 +62326,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "075 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "20344",
@@ -61849,7 +62346,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "075 PRECINCT"
 	},
 	{
 		"taxid": 976962,
@@ -62098,7 +62595,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 60,
-				"misdemeanor": 65
+				"misdemeanor": 66
 			},
 			"awards": [
 				{
@@ -62214,8 +62711,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "088 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "9287",
@@ -62239,7 +62736,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "088 PRECINCT"
 	},
 	{
 		"taxid": 969792,
@@ -63189,7 +63686,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 31,
+				"felony": 32,
 				"misdemeanor": 55,
 				"violation": 2
 			},
@@ -63379,8 +63876,8 @@
 		"arrest_count": 72,
 		"reports": {
 			"summary": {
-				"command": "069 PRECINCT",
-				"assignment_date": "8/29/2023",
+				"command": "075 PRECINCT",
+				"assignment_date": "11/3/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "DEPUTY INSPECTOR",
 				"shield_no": "",
@@ -63549,7 +64046,7 @@
 				}
 			]
 		},
-		"command": "069 PRECINCT"
+		"command": "075 PRECINCT"
 	},
 	{
 		"taxid": 968492,
@@ -63789,7 +64286,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 49,
+				"felony": 50,
 				"misdemeanor": 60
 			},
 			"awards": [
@@ -67159,8 +67656,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "072 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21012",
@@ -67179,7 +67676,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "072 PRECINCT"
 	},
 	{
 		"taxid": 952299,
@@ -70470,8 +70967,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "114 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21418",
@@ -70490,7 +70987,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "114 PRECINCT"
 	},
 	{
 		"taxid": 974189,
@@ -71494,6 +71991,81 @@
 		"command": "HOUSING PSA 6"
 	},
 	{
+		"taxid": 949109,
+		"full_name": "HOLLANDER, STEVEN G",
+		"first_name": "STEVEN",
+		"last_name": "HOLLANDER",
+		"middle_initial": "G",
+		"rank": "LIEUTENANT",
+		"shield_no": "",
+		"appt_date": "7/6/2010",
+		"recognition_count": 6,
+		"arrest_count": 192,
+		"reports": {
+			"summary": {
+				"command": "PATROL BORO QUEENS NORTH",
+				"assignment_date": "2/19/2024",
+				"ethnicity": "WHITE",
+				"rank_desc": "LIEUTENANT",
+				"shield_no": "",
+				"appt_date": "7/6/2010"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2010",
+					"shield_no": "11906"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/30/2016",
+					"shield_no": "1595"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "8/30/2019",
+					"shield_no": ""
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 1,
+				"felony": 47,
+				"misdemeanor": 116,
+				"violation": 28
+			},
+			"awards": [
+				{
+					"date": "12/3/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/14/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/5/2012",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/29/2012",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/30/2012",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/16/2011",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
+		},
+		"command": "PATROL BORO QUEENS NORTH"
+	},
+	{
 		"taxid": 974191,
 		"full_name": "HOLLENQUEST, RASHAWN",
 		"first_name": "RASHAWN",
@@ -72203,8 +72775,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 4
+				"felony": 2,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -73017,8 +73589,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "114 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "820",
@@ -73037,7 +73609,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "114 PRECINCT"
 	},
 	{
 		"taxid": 936775,
@@ -74801,8 +75373,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "075 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "21019",
@@ -74821,7 +75393,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "075 PRECINCT"
 	},
 	{
 		"taxid": 930365,
@@ -76285,8 +76857,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "040 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3761",
@@ -76305,7 +76877,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "040 PRECINCT"
 	},
 	{
 		"taxid": 983315,
@@ -76349,8 +76921,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "034 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22095",
@@ -76374,7 +76946,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "034 PRECINCT"
 	},
 	{
 		"taxid": 956741,
@@ -76558,6 +77130,64 @@
 			"awards": []
 		},
 		"command": "ESU CANINE TEAM"
+	},
+	{
+		"taxid": 944659,
+		"full_name": "HORN, STEVEN M",
+		"first_name": "STEVEN",
+		"last_name": "HORN",
+		"middle_initial": "M",
+		"rank": "DETECTIVE 2ND GRADE",
+		"shield_no": "4378",
+		"appt_date": "7/9/2007",
+		"recognition_count": 3,
+		"arrest_count": 127,
+		"reports": {
+			"summary": {
+				"command": "HWY DIST COLLISION INV SQD",
+				"assignment_date": "12/27/2019",
+				"ethnicity": "WHITE",
+				"rank_desc": "DETECTIVE 2ND GRADE",
+				"shield_no": "4378",
+				"appt_date": "7/9/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "8996"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/22/2017",
+					"shield_no": "4378"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 4,
+				"felony": 44,
+				"misdemeanor": 75,
+				"violation": 4
+			},
+			"awards": [
+				{
+					"date": "8/1/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/4/2010",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/24/2008",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "HWY DIST COLLISION INV SQD"
 	},
 	{
 		"taxid": 947085,
@@ -77846,7 +78476,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -78044,7 +78674,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 37,
+				"misdemeanor": 39,
 				"violation": 7
 			},
 			"awards": [
@@ -79008,7 +79638,7 @@
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 89,
-				"violation": 15
+				"violation": 17
 			},
 			"awards": []
 		},
@@ -81145,8 +81775,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "120 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "23278",
@@ -81165,7 +81795,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "120 PRECINCT"
 	},
 	{
 		"taxid": 961822,
@@ -81768,8 +82398,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 3
+				"felony": 3,
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -82403,7 +83033,7 @@
 		"shield_no": "1471",
 		"appt_date": "1/8/2014",
 		"recognition_count": 14,
-		"arrest_count": 175,
+		"arrest_count": 176,
 		"reports": {
 			"summary": {
 				"command": "042 DET SQUAD",
@@ -83272,13 +83902,7 @@
 				"shield_no": "6821",
 				"appt_date": "1/29/2025"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/29/2025",
-					"shield_no": "6821"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -84664,7 +85288,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 25,
-				"misdemeanor": 57,
+				"misdemeanor": 58,
 				"violation": 11
 			},
 			"awards": [
@@ -88064,7 +88688,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 32,
+				"felony": 33,
 				"misdemeanor": 83
 			},
 			"awards": [
@@ -91078,8 +91702,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "073 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "29083",
@@ -91098,7 +91722,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "073 PRECINCT"
 	},
 	{
 		"taxid": 979233,
@@ -95527,8 +96151,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "030 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "31097",
@@ -95547,7 +96171,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "030 PRECINCT"
 	},
 	{
 		"taxid": 976717,
@@ -95761,8 +96385,8 @@
 		"arrest_count": 0,
 		"reports": {
 			"summary": {
-				"command": "RTS RECRUITS",
-				"assignment_date": "4/30/2025",
+				"command": "046 PRECINCT",
+				"assignment_date": "11/4/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "31824",
@@ -95781,7 +96405,7 @@
 			"arrests": {},
 			"awards": []
 		},
-		"command": "RTS RECRUITS"
+		"command": "046 PRECINCT"
 	},
 	{
 		"taxid": 972700,
@@ -95877,8 +96501,8 @@
 		"arrest_count": 106,
 		"reports": {
 			"summary": {
-				"command": "033 PRECINCT",
-				"assignment_date": "10/15/2020",
+				"command": "033 DET SQUAD",
+				"assignment_date": "11/3/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "11464",
@@ -95933,7 +96557,7 @@
 				}
 			]
 		},
-		"command": "033 PRECINCT"
+		"command": "033 DET SQUAD"
 	},
 	{
 		"taxid": 951835,
