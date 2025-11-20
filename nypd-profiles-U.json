@@ -1711,6 +1711,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 10,
 				"violation": 1
 			},
@@ -2740,7 +2741,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"infraction": 1
+			},
 			"awards": []
 		},
 		"command": "110 PRECINCT"
@@ -3396,8 +3399,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 3
+				"felony": 2,
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -3643,7 +3646,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "018 PCT-MIDTOWN NO. PCT"
@@ -7418,7 +7423,7 @@
 		"shield_no": "4259",
 		"appt_date": "7/8/2015",
 		"recognition_count": 21,
-		"arrest_count": 658,
+		"arrest_count": 659,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -9373,7 +9378,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 237,
+				"felony": 239,
 				"misdemeanor": 182,
 				"other": 1,
 				"violation": 37
