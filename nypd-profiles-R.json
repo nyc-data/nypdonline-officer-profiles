@@ -2785,7 +2785,7 @@
 		"shield_no": "30054",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -2805,7 +2805,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "115 PRECINCT"
@@ -8792,7 +8794,13 @@
 				"shield_no": "",
 				"appt_date": "8/20/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "8/20/2025",
+					"shield_no": "477"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -9885,7 +9893,7 @@
 		"shield_no": "19536",
 		"appt_date": "7/8/2015",
 		"recognition_count": 4,
-		"arrest_count": 194,
+		"arrest_count": 195,
 		"reports": {
 			"summary": {
 				"command": "123 DOMESTIC VIOLENCE SQUAD",
@@ -11134,7 +11142,13 @@
 				"shield_no": "",
 				"appt_date": "8/20/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "8/20/2025",
+					"shield_no": "18756"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -13081,7 +13095,7 @@
 		"shield_no": "4816",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 19,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "101 PCT FIELD TRAINING UNIT",
@@ -13103,7 +13117,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -13373,7 +13387,7 @@
 		"shield_no": "21541",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -13393,7 +13407,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "043 PRECINCT"
@@ -13824,8 +13840,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
-				"misdemeanor": 53
+				"felony": 49,
+				"misdemeanor": 54
 			},
 			"awards": []
 		},
@@ -13965,8 +13981,8 @@
 		"arrest_count": 189,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT BORO MANHATTAN",
-				"assignment_date": "9/17/2025",
+				"command": "084 DET SQUAD",
+				"assignment_date": "11/20/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "12699",
@@ -14023,7 +14039,7 @@
 				}
 			]
 		},
-		"command": "TRANSIT BORO MANHATTAN"
+		"command": "084 DET SQUAD"
 	},
 	{
 		"taxid": 973689,
@@ -15287,7 +15303,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "25985",
 		"appt_date": "1/3/2019",
-		"recognition_count": 1,
+		"recognition_count": 4,
 		"arrest_count": 81,
 		"reports": {
 			"summary": {
@@ -15339,8 +15355,20 @@
 			},
 			"awards": [
 				{
+					"date": "7/7/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/23/2022",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/31/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/13/2022",
+					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
 		},
@@ -17495,7 +17523,7 @@
 		"shield_no": "27130",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "110 PCT FIELD TRAINING UNIT",
@@ -17516,7 +17544,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 9
 			},
 			"awards": []
@@ -20007,8 +20035,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 66,
-				"misdemeanor": 88,
+				"felony": 67,
+				"misdemeanor": 90,
 				"other": 1
 			},
 			"awards": [
@@ -21238,7 +21266,7 @@
 		"shield_no": "7160",
 		"appt_date": "10/18/2017",
 		"recognition_count": 35,
-		"arrest_count": 254,
+		"arrest_count": 255,
 		"reports": {
 			"summary": {
 				"command": "019 DET SQUAD",
@@ -21294,7 +21322,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 151,
+				"felony": 152,
 				"misdemeanor": 94,
 				"violation": 8
 			},
@@ -21948,7 +21976,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
+				"felony": 10,
 				"misdemeanor": 40
 			},
 			"awards": [
@@ -23296,7 +23324,7 @@
 		"shield_no": "24338",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "025 PCT FIELD TRAINING UNIT",
@@ -23317,7 +23345,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -23816,7 +23844,13 @@
 				"shield_no": "",
 				"appt_date": "8/20/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "8/20/2025",
+					"shield_no": "484"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -25613,7 +25647,7 @@
 		"shield_no": "5143",
 		"appt_date": "6/27/2003",
 		"recognition_count": 5,
-		"arrest_count": 758,
+		"arrest_count": 761,
 		"reports": {
 			"summary": {
 				"command": "PBBX COMMUNITY RESPONSE TEAM",
@@ -25686,7 +25720,7 @@
 			"arrests": {
 				"infraction": 7,
 				"felony": 66,
-				"misdemeanor": 679,
+				"misdemeanor": 682,
 				"violation": 6
 			},
 			"awards": [
@@ -25720,18 +25754,18 @@
 		"first_name": "ABDULLAH",
 		"last_name": "RAMZAN",
 		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "12845",
+		"rank": "SERGEANT",
+		"shield_no": "1927",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
 		"arrest_count": 15,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 2",
-				"assignment_date": "6/17/2019",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "11/25/2025",
 				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "12845",
+				"rank_desc": "SERGEANT",
+				"shield_no": "1927",
 				"appt_date": "1/10/2018"
 			},
 			"ranks": [
@@ -25739,6 +25773,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/10/2018",
 					"shield_no": "12845"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/25/2025",
+					"shield_no": "1927"
 				}
 			],
 			"documents": [],
@@ -25751,7 +25790,7 @@
 			},
 			"awards": []
 		},
-		"command": "TRANSIT DISTRICT 2"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 962044,
@@ -26627,7 +26666,7 @@
 		"shield_no": "25448",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 8,
 		"reports": {
 			"summary": {
 				"command": "120 PCT FIELD TRAINING UNIT",
@@ -26648,7 +26687,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 3,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -28646,7 +28685,7 @@
 		"shield_no": "19099",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "115 PCT FIELD TRAINING UNIT",
@@ -28667,7 +28706,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -29683,7 +29722,7 @@
 		"shield_no": "30056",
 		"appt_date": "5/14/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -29703,7 +29742,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "044 PRECINCT"
@@ -30588,8 +30629,8 @@
 		"arrest_count": 47,
 		"reports": {
 			"summary": {
-				"command": "121 PRECINCT",
-				"assignment_date": "3/27/2020",
+				"command": "PATROL BORO STATEN ISLAND",
+				"assignment_date": "11/26/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3718",
@@ -30652,7 +30693,7 @@
 				}
 			]
 		},
-		"command": "121 PRECINCT"
+		"command": "PATROL BORO STATEN ISLAND"
 	},
 	{
 		"taxid": 964231,
@@ -31649,7 +31690,7 @@
 		"shield_no": "13918",
 		"appt_date": "7/2/2018",
 		"recognition_count": 6,
-		"arrest_count": 172,
+		"arrest_count": 173,
 		"reports": {
 			"summary": {
 				"command": "077 DET SQUAD",
@@ -31671,7 +31712,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 87,
-				"misdemeanor": 85
+				"misdemeanor": 86
 			},
 			"awards": [
 				{
@@ -32774,7 +32815,7 @@
 		"shield_no": "22662",
 		"appt_date": "7/5/2017",
 		"recognition_count": 4,
-		"arrest_count": 91,
+		"arrest_count": 92,
 		"reports": {
 			"summary": {
 				"command": "110 DOMESTIC VIOLENCE SQUAD",
@@ -32795,7 +32836,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
+				"felony": 49,
 				"misdemeanor": 43
 			},
 			"awards": [
@@ -34090,8 +34131,8 @@
 		"first_name": "ALEXIS",
 		"last_name": "REALEGENO",
 		"middle_initial": "A",
-		"rank": "POLICE OFFICER",
-		"shield_no": "2819",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "723",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
 		"arrest_count": 60,
@@ -34100,8 +34141,8 @@
 				"command": "067 DET SQUAD",
 				"assignment_date": "3/10/2025",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "2819",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "723",
 				"appt_date": "4/15/2019"
 			},
 			"ranks": [
@@ -34109,6 +34150,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "4/15/2019",
 					"shield_no": "2819"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/25/2025",
+					"shield_no": "723"
 				}
 			],
 			"documents": [],
@@ -38575,7 +38621,7 @@
 		"shield_no": "24199",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "TB ANTI TERRORISM 1",
@@ -38598,7 +38644,7 @@
 			"arrests": {
 				"felony": 1,
 				"misdemeanor": 24,
-				"violation": 6
+				"violation": 7
 			},
 			"awards": []
 		},
@@ -41884,7 +41930,7 @@
 		"shield_no": "10485",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "113 PCT FIELD TRAINING UNIT",
@@ -41905,7 +41951,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -41959,7 +42005,7 @@
 		"shield_no": "6855",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "081 PRECINCT",
@@ -41979,7 +42025,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "081 PRECINCT"
@@ -44238,7 +44286,7 @@
 		"shield_no": "28926",
 		"appt_date": "1/3/2019",
 		"recognition_count": 4,
-		"arrest_count": 87,
+		"arrest_count": 88,
 		"reports": {
 			"summary": {
 				"command": "084 PRECINCT",
@@ -44281,7 +44329,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 31,
+				"felony": 32,
 				"misdemeanor": 50,
 				"other": 1,
 				"violation": 5
@@ -45028,7 +45076,7 @@
 		"shield_no": "16193",
 		"appt_date": "1/7/2015",
 		"recognition_count": 3,
-		"arrest_count": 116,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 4",
@@ -48873,7 +48921,7 @@
 		"shield_no": "3767",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "114 PCT FIELD TRAINING UNIT",
@@ -48900,7 +48948,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -49375,7 +49423,7 @@
 		"shield_no": "24712",
 		"appt_date": "11/2/2020",
 		"recognition_count": 7,
-		"arrest_count": 415,
+		"arrest_count": 416,
 		"reports": {
 			"summary": {
 				"command": "PBBX COMMUNITY RESPONSE TEAM",
@@ -51384,7 +51432,7 @@
 		"shield_no": "16241",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "067 PCT FIELD TRAINING UNIT",
@@ -51406,7 +51454,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -51692,7 +51740,7 @@
 		"shield_no": "1464",
 		"appt_date": "7/9/2013",
 		"recognition_count": 65,
-		"arrest_count": 221,
+		"arrest_count": 223,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -55163,7 +55211,7 @@
 		"shield_no": "21228",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 2,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -55183,7 +55231,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "044 PRECINCT"
@@ -55198,7 +55249,7 @@
 		"shield_no": "17066",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "040 PCT FIELD TRAINING UNIT",
@@ -55220,7 +55271,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -57911,7 +57962,7 @@
 		"shield_no": "21909",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -57931,7 +57982,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "014 PCT-MIDTOWN SO. PCT"
@@ -59039,7 +59092,7 @@
 		"shield_no": "5586",
 		"appt_date": "7/5/2017",
 		"recognition_count": 29,
-		"arrest_count": 177,
+		"arrest_count": 183,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO QUEENS SOUTH",
@@ -59099,8 +59152,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 93,
-				"misdemeanor": 83,
+				"felony": 94,
+				"misdemeanor": 88,
 				"violation": 1
 			},
 			"awards": [
@@ -62527,7 +62580,7 @@
 		"shield_no": "1828",
 		"appt_date": "7/13/2016",
 		"recognition_count": 2,
-		"arrest_count": 50,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -64032,7 +64085,7 @@
 		"shield_no": "15799",
 		"appt_date": "4/28/2021",
 		"recognition_count": 30,
-		"arrest_count": 164,
+		"arrest_count": 165,
 		"reports": {
 			"summary": {
 				"command": "PBBX PUBLIC SAFETY TEAMS",
@@ -64068,7 +64121,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 100,
+				"felony": 101,
 				"misdemeanor": 63,
 				"violation": 1
 			},
@@ -64390,7 +64443,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 56,
-				"misdemeanor": 82,
+				"misdemeanor": 83,
 				"violation": 1
 			},
 			"awards": [
@@ -71123,7 +71176,7 @@
 		"shield_no": "9291",
 		"appt_date": "7/13/2016",
 		"recognition_count": 14,
-		"arrest_count": 158,
+		"arrest_count": 159,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -71275,7 +71328,7 @@
 		"shield_no": "25219",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 101,
+		"arrest_count": 102,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -72385,17 +72438,17 @@
 		"first_name": "CHARLES",
 		"last_name": "RIVERA",
 		"middle_initial": "R",
-		"rank": "POLICE OFFICER",
+		"rank": "SERGEANT",
 		"shield_no": "3221",
 		"appt_date": "1/8/2014",
 		"recognition_count": 3,
 		"arrest_count": 100,
 		"reports": {
 			"summary": {
-				"command": "079 PRECINCT",
-				"assignment_date": "5/9/2016",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "11/25/2025",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
+				"rank_desc": "SERGEANT",
 				"shield_no": "3221",
 				"appt_date": "1/8/2014"
 			},
@@ -72496,7 +72549,7 @@
 				}
 			]
 		},
-		"command": "079 PRECINCT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 978745,
@@ -72599,13 +72652,7 @@
 				"shield_no": "21485",
 				"appt_date": "7/1/2019"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2019",
-					"shield_no": "21485"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -74457,13 +74504,7 @@
 				"shield_no": "14648",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/5/2017",
-					"shield_no": "14648"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -78460,7 +78501,7 @@
 		"shield_no": "2341",
 		"appt_date": "1/6/2016",
 		"recognition_count": 4,
-		"arrest_count": 169,
+		"arrest_count": 170,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -78515,7 +78556,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 56,
+				"felony": 57,
 				"misdemeanor": 113
 			},
 			"awards": [
@@ -84157,7 +84198,7 @@
 		"shield_no": "26659",
 		"appt_date": "1/10/2018",
 		"recognition_count": 4,
-		"arrest_count": 190,
+		"arrest_count": 191,
 		"reports": {
 			"summary": {
 				"command": "QUEENS ADULT SEX CRIMES SQUAD",
@@ -84178,7 +84219,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 82,
+				"felony": 83,
 				"misdemeanor": 108
 			},
 			"awards": [
@@ -89595,7 +89636,7 @@
 		"shield_no": "12007",
 		"appt_date": "4/25/2018",
 		"recognition_count": 3,
-		"arrest_count": 135,
+		"arrest_count": 136,
 		"reports": {
 			"summary": {
 				"command": "PBQS COMMUNITY RESPONSE TEAM",
@@ -89618,7 +89659,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 42,
-				"misdemeanor": 92
+				"misdemeanor": 93
 			},
 			"awards": [
 				{
@@ -90005,17 +90046,17 @@
 		"first_name": "PHILIP",
 		"last_name": "ROBINSON",
 		"middle_initial": "A",
-		"rank": "POLICE OFFICER",
+		"rank": "SERGEANT",
 		"shield_no": "10385",
 		"appt_date": "1/6/2016",
 		"recognition_count": 4,
 		"arrest_count": 118,
 		"reports": {
 			"summary": {
-				"command": "033 PRECINCT",
-				"assignment_date": "2/14/2017",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "11/25/2025",
 				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
+				"rank_desc": "SERGEANT",
 				"shield_no": "10385",
 				"appt_date": "1/6/2016"
 			},
@@ -90024,6 +90065,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/6/2016",
 					"shield_no": "10385"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/25/2025",
+					"shield_no": "1975"
 				}
 			],
 			"documents": [],
@@ -90070,7 +90116,7 @@
 				}
 			]
 		},
-		"command": "033 PRECINCT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 964244,
@@ -94684,18 +94730,18 @@
 		"first_name": "ABEL",
 		"last_name": "RODRIGUEZ",
 		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "28873",
+		"rank": "SERGEANT",
+		"shield_no": "2005",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
 		"arrest_count": 67,
 		"reports": {
 			"summary": {
-				"command": "HB BROOKLYN RESPONSE TEAM",
-				"assignment_date": "2/9/2023",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "11/25/2025",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "28873",
+				"rank_desc": "SERGEANT",
+				"shield_no": "2005",
 				"appt_date": "1/10/2018"
 			},
 			"ranks": [
@@ -94703,6 +94749,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/10/2018",
 					"shield_no": "28873"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/25/2025",
+					"shield_no": "2005"
 				}
 			],
 			"documents": [],
@@ -94715,7 +94766,7 @@
 			},
 			"awards": []
 		},
-		"command": "HB BROOKLYN RESPONSE TEAM"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 979459,
@@ -99155,7 +99206,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 24,
+				"misdemeanor": 25,
 				"violation": 3
 			},
 			"awards": []
@@ -101106,7 +101157,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 36,
-				"misdemeanor": 111,
+				"misdemeanor": 113,
 				"violation": 49
 			},
 			"awards": [
@@ -102502,7 +102553,7 @@
 		"shield_no": "22168",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -102522,7 +102573,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "075 PRECINCT"
@@ -104328,7 +104381,7 @@
 		"shield_no": "22454",
 		"appt_date": "4/30/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -104348,7 +104401,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "070 PRECINCT"
@@ -105426,7 +105481,7 @@
 		"shield_no": "25628",
 		"appt_date": "11/2/2020",
 		"recognition_count": 5,
-		"arrest_count": 123,
+		"arrest_count": 124,
 		"reports": {
 			"summary": {
 				"command": "HB BRONX/QUEENS RESPONSE TEAM",
@@ -105486,11 +105541,11 @@
 		"shield_no": "13135",
 		"appt_date": "11/2/2020",
 		"recognition_count": 1,
-		"arrest_count": 127,
+		"arrest_count": 128,
 		"reports": {
 			"summary": {
-				"command": "049 PRECINCT",
-				"assignment_date": "5/10/2021",
+				"command": "PBBX SPECIALIZED UNITS",
+				"assignment_date": "11/20/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "13135",
@@ -105518,7 +105573,7 @@
 				}
 			]
 		},
-		"command": "049 PRECINCT"
+		"command": "PBBX SPECIALIZED UNITS"
 	},
 	{
 		"taxid": 976370,
@@ -110179,7 +110234,7 @@
 		"shield_no": "10507",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "115 PCT FIELD TRAINING UNIT",
@@ -110201,7 +110256,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -114669,7 +114724,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "26663",
 		"appt_date": "1/10/2018",
-		"recognition_count": 10,
+		"recognition_count": 11,
 		"arrest_count": 160,
 		"reports": {
 			"summary": {
@@ -114718,6 +114773,10 @@
 				{
 					"date": "7/6/2024",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/27/2024",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "5/6/2024",
@@ -115281,7 +115340,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 47
+				"misdemeanor": 48
 			},
 			"awards": []
 		},
@@ -115601,6 +115660,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/8/2015",
 					"shield_no": "18658"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/25/2025",
+					"shield_no": "1791"
 				}
 			],
 			"documents": [],
@@ -116780,7 +116844,7 @@
 		"shield_no": "16988",
 		"appt_date": "11/2/2020",
 		"recognition_count": 1,
-		"arrest_count": 138,
+		"arrest_count": 139,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -118069,7 +118133,7 @@
 		"shield_no": "6512",
 		"appt_date": "7/1/2002",
 		"recognition_count": 1,
-		"arrest_count": 659,
+		"arrest_count": 662,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -120470,7 +120534,7 @@
 		"shield_no": "2379",
 		"appt_date": "4/25/2018",
 		"recognition_count": 4,
-		"arrest_count": 62,
+		"arrest_count": 63,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -120507,7 +120571,7 @@
 			],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 43
+				"misdemeanor": 44
 			},
 			"awards": [
 				{
@@ -121648,8 +121712,8 @@
 		"first_name": "DANIEL",
 		"last_name": "ROLAND",
 		"middle_initial": "J",
-		"rank": "POLICE OFFICER",
-		"shield_no": "9499",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "1798",
 		"appt_date": "1/10/2018",
 		"recognition_count": 7,
 		"arrest_count": 62,
@@ -121658,8 +121722,8 @@
 				"command": "INTEL CIS FIO PROGRAM",
 				"assignment_date": "8/18/2024",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "9499",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "1798",
 				"appt_date": "1/10/2018"
 			},
 			"ranks": [
@@ -121667,6 +121731,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/10/2018",
 					"shield_no": "9499"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/25/2025",
+					"shield_no": "1798"
 				}
 			],
 			"documents": [],
@@ -121758,7 +121827,7 @@
 		"shield_no": "4638",
 		"appt_date": "7/10/2006",
 		"recognition_count": 33,
-		"arrest_count": 407,
+		"arrest_count": 408,
 		"reports": {
 			"summary": {
 				"command": "078 PRECINCT",
@@ -122900,7 +122969,7 @@
 		"shield_no": "22472",
 		"appt_date": "5/14/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -122920,7 +122989,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "103 PRECINCT"
@@ -123287,7 +123358,7 @@
 		"shield_no": "19112",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "047 PCT FIELD TRAINING UNIT",
@@ -123308,7 +123379,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -124589,7 +124661,7 @@
 		"shield_no": "18380",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 216,
+		"arrest_count": 219,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -124610,7 +124682,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 98,
+				"felony": 101,
 				"misdemeanor": 117,
 				"violation": 1
 			},
@@ -132323,7 +132395,7 @@
 		"shield_no": "14543",
 		"appt_date": "7/11/2012",
 		"recognition_count": 8,
-		"arrest_count": 330,
+		"arrest_count": 331,
 		"reports": {
 			"summary": {
 				"command": "076 PRECINCT",
@@ -136252,7 +136324,7 @@
 		"shield_no": "16846",
 		"appt_date": "5/14/2025",
 		"recognition_count": 0,
-		"arrest_count": 1,
+		"arrest_count": 3,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -136273,7 +136345,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 1,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -137679,7 +137752,7 @@
 		"shield_no": "25984",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "052 PCT FIELD TRAINING UNIT",
@@ -137701,7 +137774,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -140221,7 +140294,7 @@
 		"shield_no": "28700",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "115 PCT FIELD TRAINING UNIT",
@@ -140243,7 +140316,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -140710,32 +140783,10 @@
 				"shield_no": "31291",
 				"appt_date": "1/9/2013"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2013",
-					"shield_no": "31291"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "9/12/2022 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongfully deactivated their body worn camera.",
-							"group_id": "1",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 51,
 				"misdemeanor": 46,
@@ -142991,7 +143042,7 @@
 		"shield_no": "567",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "079 PCT FIELD TRAINING UNIT",
@@ -143012,7 +143063,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -144346,53 +144397,6 @@
 			]
 		},
 		"command": "DEP COMM TRIALS"
-	},
-	{
-		"taxid": 966821,
-		"full_name": "ROTA, DANA A",
-		"first_name": "DANA",
-		"last_name": "ROTA",
-		"middle_initial": "A",
-		"rank": "POLICE OFFICER",
-		"shield_no": "11794",
-		"appt_date": "10/24/2018",
-		"recognition_count": 2,
-		"arrest_count": 63,
-		"reports": {
-			"summary": {
-				"command": "062 DET SQUAD",
-				"assignment_date": "9/22/2025",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "11794",
-				"appt_date": "10/24/2018"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/24/2018",
-					"shield_no": "11794"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 29,
-				"misdemeanor": 34
-			},
-			"awards": [
-				{
-					"date": "4/15/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "2/15/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "062 DET SQUAD"
 	},
 	{
 		"taxid": 951182,
@@ -150163,7 +150167,7 @@
 		"shield_no": "5017",
 		"appt_date": "7/1/2003",
 		"recognition_count": 0,
-		"arrest_count": 79,
+		"arrest_count": 80,
 		"reports": {
 			"summary": {
 				"command": "052 DET SQUAD",
@@ -153222,7 +153226,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 129,
+				"felony": 130,
 				"misdemeanor": 164,
 				"violation": 1
 			},
@@ -156504,18 +156508,18 @@
 		"first_name": "EDGAR",
 		"last_name": "RUSI",
 		"middle_initial": "",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "5658",
+		"rank": "SERGEANT",
+		"shield_no": "2038",
 		"appt_date": "1/6/2016",
 		"recognition_count": 4,
 		"arrest_count": 253,
 		"reports": {
 			"summary": {
-				"command": "019 DET SQUAD",
-				"assignment_date": "12/17/2024",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "11/25/2025",
 				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "5658",
+				"rank_desc": "SERGEANT",
+				"shield_no": "2038",
 				"appt_date": "1/6/2016"
 			},
 			"ranks": [
@@ -156528,6 +156532,11 @@
 					"rank": "DETECTIVE",
 					"date": "8/30/2024",
 					"shield_no": "5658"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "11/25/2025",
+					"shield_no": "2038"
 				}
 			],
 			"documents": [],
@@ -156580,7 +156589,7 @@
 				}
 			]
 		},
-		"command": "019 DET SQUAD"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 967007,
@@ -156718,7 +156727,7 @@
 		"shield_no": "4488",
 		"appt_date": "1/10/2018",
 		"recognition_count": 5,
-		"arrest_count": 86,
+		"arrest_count": 88,
 		"reports": {
 			"summary": {
 				"command": "QUEENS TRANSIT CRIMES SQUAD",
@@ -156744,7 +156753,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
+				"felony": 50,
 				"misdemeanor": 38
 			},
 			"awards": [
@@ -157132,7 +157141,7 @@
 		"shield_no": "11666",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "088 PCT FIELD TRAINING UNIT",
@@ -157152,7 +157161,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "088 PCT FIELD TRAINING UNIT"
@@ -157404,7 +157415,7 @@
 		"shield_no": "25741",
 		"appt_date": "11/2/2020",
 		"recognition_count": 2,
-		"arrest_count": 54,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -158130,7 +158141,7 @@
 		"shield_no": "20327",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 172,
+		"arrest_count": 173,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -158152,7 +158163,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 71,
-				"misdemeanor": 99,
+				"misdemeanor": 100,
 				"violation": 2
 			},
 			"awards": [
@@ -159557,7 +159568,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 55
+				"misdemeanor": 56
 			},
 			"awards": [
 				{
@@ -161939,7 +161950,7 @@
 		"shield_no": "29928",
 		"appt_date": "11/2/2020",
 		"recognition_count": 2,
-		"arrest_count": 66,
+		"arrest_count": 67,
 		"reports": {
 			"summary": {
 				"command": "007 DOMESTIC VIOLENCE SQUAD",
