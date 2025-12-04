@@ -6397,7 +6397,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -16727,8 +16727,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 110,
-				"misdemeanor": 111
+				"felony": 111,
+				"misdemeanor": 112
 			},
 			"awards": [
 				{
@@ -18956,7 +18956,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 47,
-				"misdemeanor": 209,
+				"misdemeanor": 210,
 				"violation": 56
 			},
 			"awards": [
@@ -19157,7 +19157,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -22667,7 +22667,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -37705,10 +37705,101 @@
 				"shield_no": "20454",
 				"appt_date": "1/4/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/4/2017",
+					"shield_no": "20454"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/17/2023 12:00:00 AM",
+					"allegations_count": 3
+				},
+				{
+					"entry": "1/15/2024 12:00:00 AM",
+					"allegations_count": 3
+				},
+				{
+					"entry": "2/6/2024 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "5/2/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully frisked an individual.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully searched an individual.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "03.Wrongfully stopped an individual.",
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "2",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully frisked an individual known to the Department.",
+							"group_id": "2",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "03.Wrongfully stopped an individual known to the Department.",
+							"group_id": "2",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "3"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"group_id": "4"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully stopped an individual known to the Department.",
+							"group_id": "4"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 68,
 				"misdemeanor": 69,
@@ -62973,7 +63064,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 136,
+				"felony": 137,
 				"misdemeanor": 167,
 				"violation": 2
 			},
@@ -69694,7 +69785,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 35,
+				"felony": 36,
 				"misdemeanor": 53,
 				"violation": 3
 			},
@@ -76354,7 +76445,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 64,
+				"felony": 66,
 				"misdemeanor": 81
 			},
 			"awards": []
@@ -76470,7 +76561,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 17,
 				"misdemeanor": 56
 			},
 			"awards": []
@@ -78415,7 +78506,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},

@@ -42568,8 +42568,8 @@
 		"arrest_count": 129,
 		"reports": {
 			"summary": {
-				"command": "GVSD Z2 VIOLENCE RED T/F",
-				"assignment_date": "11/15/2021",
+				"command": "WARRANT SECTION",
+				"assignment_date": "11/26/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 2ND GRADE",
 				"shield_no": "239",
@@ -42663,7 +42663,7 @@
 				}
 			]
 		},
-		"command": "GVSD Z2 VIOLENCE RED T/F"
+		"command": "WARRANT SECTION"
 	},
 	{
 		"taxid": 970186,
@@ -48983,7 +48983,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 47
+				"misdemeanor": 48
 			},
 			"awards": [
 				{
@@ -68945,13 +68945,7 @@
 				"shield_no": "27570",
 				"appt_date": "10/7/2019"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2019",
-					"shield_no": "27570"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -77896,8 +77890,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 2
+				"felony": 2,
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -87460,7 +87454,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 69,
+				"felony": 70,
 				"misdemeanor": 64
 			},
 			"awards": [
@@ -110747,7 +110741,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "044 PRECINCT"
@@ -111169,7 +111165,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 128,
+				"felony": 129,
 				"misdemeanor": 60,
 				"violation": 3
 			},
@@ -120009,7 +120005,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -132216,7 +132212,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 139,
+				"felony": 141,
 				"misdemeanor": 91,
 				"violation": 4
 			},
@@ -157158,7 +157154,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 26
 			},
 			"awards": []
@@ -164862,7 +164858,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 130,
-				"misdemeanor": 73
+				"misdemeanor": 74
 			},
 			"awards": [
 				{
@@ -166691,10 +166687,41 @@
 				"shield_no": "5566",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2014",
+					"shield_no": "22621"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "10/18/2021",
+					"shield_no": "6523"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "12/22/2023",
+					"shield_no": "5566"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/29/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongfully searched a vehicle.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 53,
