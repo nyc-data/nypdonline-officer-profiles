@@ -2173,7 +2173,7 @@
 		"shield_no": "24744",
 		"appt_date": "11/2/2020",
 		"recognition_count": 3,
-		"arrest_count": 46,
+		"arrest_count": 47,
 		"reports": {
 			"summary": {
 				"command": "068 PRECINCT",
@@ -2323,8 +2323,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/7/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Failed to process a civilian complaint.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
@@ -2631,7 +2647,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 64,
+				"felony": 65,
 				"misdemeanor": 121,
 				"violation": 7
 			},
@@ -3390,7 +3406,7 @@
 		"shield_no": "28872",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "067 PCT FIELD TRAINING UNIT",
@@ -3659,7 +3675,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -3955,7 +3971,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
+				"felony": 9,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -5029,7 +5045,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 43,
-				"misdemeanor": 41
+				"misdemeanor": 42
 			},
 			"awards": [
 				{
@@ -5745,7 +5761,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": [
 				{
@@ -9374,7 +9390,7 @@
 		"shield_no": "6185",
 		"appt_date": "1/11/2010",
 		"recognition_count": 30,
-		"arrest_count": 465,
+		"arrest_count": 466,
 		"reports": {
 			"summary": {
 				"command": "PBMS COMMUNITY RESPONSE TEAM",
