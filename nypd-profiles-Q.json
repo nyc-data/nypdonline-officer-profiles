@@ -46,7 +46,7 @@
 		"shield_no": "4258",
 		"appt_date": "7/3/2024",
 		"recognition_count": 0,
-		"arrest_count": 8,
+		"arrest_count": 9,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -67,7 +67,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 6
 			},
 			"awards": []
@@ -1308,7 +1308,13 @@
 				"shield_no": "8306",
 				"appt_date": "7/10/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/10/2006",
+					"shield_no": "8306"
+				}
+			],
 			"documents": [
 				{
 					"date": "9/9/2025",
@@ -1316,14 +1322,51 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/14/2018 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Violated confidential informant procedures.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongfully accessed confidential Department information.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Gambling.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 67,
 				"violation": 4
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "7/25/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/2/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "108 PRECINCT"
 	},
@@ -3223,7 +3266,7 @@
 		"shield_no": "26805",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 94,
+		"arrest_count": 96,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -3244,8 +3287,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 34,
-				"misdemeanor": 60
+				"felony": 35,
+				"misdemeanor": 61
 			},
 			"awards": []
 		},
@@ -5206,7 +5249,23 @@
 				"shield_no": "2901",
 				"appt_date": "7/9/2007"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "14097"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "12/24/2007",
+					"shield_no": "14019"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/21/2017",
+					"shield_no": "2901"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -5764,7 +5823,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 77,
+				"misdemeanor": 78,
 				"violation": 2
 			},
 			"awards": [
@@ -7779,7 +7838,7 @@
 		"shield_no": "13591",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 93,
+		"arrest_count": 96,
 		"reports": {
 			"summary": {
 				"command": "032 PRECINCT",
