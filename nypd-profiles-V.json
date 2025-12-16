@@ -667,7 +667,7 @@
 		"shield_no": "27605",
 		"appt_date": "7/7/2021",
 		"recognition_count": 5,
-		"arrest_count": 134,
+		"arrest_count": 135,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -6168,7 +6168,7 @@
 		"shield_no": "23221",
 		"appt_date": "7/9/2014",
 		"recognition_count": 13,
-		"arrest_count": 271,
+		"arrest_count": 272,
 		"reports": {
 			"summary": {
 				"command": "062 DOMESTIC VIOLENCE SQUAD",
@@ -7766,7 +7766,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 77,
+				"felony": 78,
 				"misdemeanor": 53
 			},
 			"awards": [
@@ -8245,7 +8245,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 20,
+				"felony": 21,
 				"misdemeanor": 33
 			},
 			"awards": [
@@ -13115,7 +13115,7 @@
 		"arrest_count": 51,
 		"reports": {
 			"summary": {
-				"command": "GUN VIOL SUPP DIV Z2 (MAN,BX)",
+				"command": "GUN VIOL SUPP UNIT Z2 (MAN,BX)",
 				"assignment_date": "1/2/2022",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 3RD GRADE",
@@ -13143,7 +13143,7 @@
 			},
 			"awards": []
 		},
-		"command": "GUN VIOL SUPP DIV Z2 (MAN,BX)"
+		"command": "GUN VIOL SUPP UNIT Z2 (MAN,BX)"
 	},
 	{
 		"taxid": 957244,
@@ -13838,7 +13838,7 @@
 		"shield_no": "5493",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 116,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -15797,7 +15797,7 @@
 		"shield_no": "4282",
 		"appt_date": "4/6/2016",
 		"recognition_count": 5,
-		"arrest_count": 270,
+		"arrest_count": 271,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 11",
@@ -15824,7 +15824,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 73,
-				"misdemeanor": 191,
+				"misdemeanor": 192,
 				"violation": 6
 			},
 			"awards": [
@@ -17015,7 +17015,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -20808,7 +20808,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 153,
-				"misdemeanor": 231,
+				"misdemeanor": 232,
 				"violation": 3
 			},
 			"awards": [
@@ -22420,8 +22420,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "9/27/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 56,
 				"misdemeanor": 292,
@@ -25312,7 +25327,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -27862,7 +27877,7 @@
 			],
 			"arrests": {
 				"felony": 56,
-				"misdemeanor": 66
+				"misdemeanor": 67
 			},
 			"awards": [
 				{
@@ -33117,7 +33132,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -33941,7 +33956,7 @@
 		"shield_no": "11589",
 		"appt_date": "7/9/2014",
 		"recognition_count": 5,
-		"arrest_count": 159,
+		"arrest_count": 163,
 		"reports": {
 			"summary": {
 				"command": "062 DOMESTIC VIOLENCE SQUAD",
@@ -34475,36 +34490,10 @@
 				"shield_no": "5965",
 				"appt_date": "1/6/2016"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/6/2016",
-					"shield_no": "4949"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "1/26/2024",
-					"shield_no": "5965"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "8/1/2022 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to make required entries in Department Logs.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 53,
 				"misdemeanor": 82,
@@ -36001,6 +35990,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
+				"misdemeanor": 1,
 				"violation": 1
 			},
 			"awards": []
@@ -37798,37 +37788,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "9/2/2022 12:00:00 AM",
-					"allegations_count": 1
-				},
-				{
-					"entry": "11/8/2023 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Failed to activate their body worn camera.",
-							"group_id": "1",
-							"penalty": "TRAINING"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "NO DISCIPLINARY ACTION",
-							"description": "01.FAILURE TO MAKE TIMELY NOTIFICATIONS",
-							"group_id": "2"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 32,
@@ -48984,7 +48945,7 @@
 		"arrest_count": 177,
 		"reports": {
 			"summary": {
-				"command": "GUN VIOL SUPP DIV Z1 (BK,Q,SI)",
+				"command": "GUN VIOL SUPP UNIT Z1 (BK,Q,SI)",
 				"assignment_date": "12/31/2018",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 3RD GRADE",
@@ -49235,7 +49196,7 @@
 				}
 			]
 		},
-		"command": "GUN VIOL SUPP DIV Z1 (BK,Q,SI)"
+		"command": "GUN VIOL SUPP UNIT Z1 (BK,Q,SI)"
 	},
 	{
 		"taxid": 975236,
@@ -51987,7 +51948,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -52911,7 +52872,7 @@
 			],
 			"arrests": {
 				"felony": 45,
-				"misdemeanor": 62,
+				"misdemeanor": 63,
 				"violation": 1
 			},
 			"awards": []
@@ -54677,7 +54638,7 @@
 			],
 			"arrests": {
 				"felony": 320,
-				"misdemeanor": 462,
+				"misdemeanor": 463,
 				"other": 3,
 				"violation": 91
 			},
@@ -56859,7 +56820,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 40,
-				"misdemeanor": 60,
+				"misdemeanor": 61,
 				"violation": 1
 			},
 			"awards": [
@@ -57791,7 +57752,7 @@
 			],
 			"arrests": {
 				"infraction": 4,
-				"felony": 261,
+				"felony": 262,
 				"misdemeanor": 138,
 				"violation": 25
 			},
@@ -58863,7 +58824,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 55,
-				"misdemeanor": 217,
+				"misdemeanor": 218,
 				"violation": 13
 			},
 			"awards": [
@@ -61749,7 +61710,13 @@
 				"shield_no": "12179",
 				"appt_date": "1/8/2014"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/8/2014",
+					"shield_no": "12179"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
