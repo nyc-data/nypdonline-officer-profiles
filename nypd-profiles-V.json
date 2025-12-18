@@ -2631,8 +2631,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 30
+				"felony": 6,
+				"misdemeanor": 15
 			},
 			"awards": []
 		},
@@ -4115,7 +4115,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 14
 			},
 			"awards": []
@@ -8833,7 +8833,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 68,
+				"misdemeanor": 70,
 				"violation": 17
 			},
 			"awards": [
@@ -11666,7 +11666,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
+				"felony": 8,
 				"misdemeanor": 13
 			},
 			"awards": [
@@ -12057,8 +12057,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 51,
-				"misdemeanor": 50
+				"felony": 53,
+				"misdemeanor": 51
 			},
 			"awards": [
 				{
@@ -13081,8 +13081,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 581,
-				"misdemeanor": 1131,
+				"felony": 585,
+				"misdemeanor": 1132,
 				"violation": 4
 			},
 			"awards": [
@@ -16859,8 +16859,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 16
+				"felony": 8,
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -21435,7 +21435,7 @@
 		"arrest_count": 262,
 		"reports": {
 			"summary": {
-				"command": "GVSD Z1 VIOLENCE RED T/F",
+				"command": "GUN VIOLENCE REDUCTION SQUAD Z1",
 				"assignment_date": "2/12/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 3RD GRADE",
@@ -21545,7 +21545,7 @@
 				}
 			]
 		},
-		"command": "GVSD Z1 VIOLENCE RED T/F"
+		"command": "GUN VIOLENCE REDUCTION SQUAD Z1"
 	},
 	{
 		"taxid": 937678,
@@ -24760,7 +24760,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2,
+				"misdemeanor": 3,
 				"violation": 1
 			},
 			"awards": []
@@ -26644,7 +26644,7 @@
 		"arrest_count": 142,
 		"reports": {
 			"summary": {
-				"command": "GVSD Z1 VIOLENCE RED T/F",
+				"command": "GUN VIOLENCE REDUCTION SQUAD Z1",
 				"assignment_date": "5/14/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "DETECTIVE 3RD GRADE",
@@ -26794,7 +26794,7 @@
 				}
 			]
 		},
-		"command": "GVSD Z1 VIOLENCE RED T/F"
+		"command": "GUN VIOLENCE REDUCTION SQUAD Z1"
 	},
 	{
 		"taxid": 971748,
@@ -29987,8 +29987,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 10
+				"felony": 1,
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -33461,7 +33461,18 @@
 				"shield_no": "1349",
 				"appt_date": "7/2/2018"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/2/2018",
+					"shield_no": "11273"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/27/2025",
+					"shield_no": "1349"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -35374,7 +35385,7 @@
 			],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 88,
+				"misdemeanor": 89,
 				"other": 2
 			},
 			"awards": [
@@ -38028,8 +38039,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 21
+				"felony": 21,
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -38275,8 +38286,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 33
+				"felony": 4,
+				"misdemeanor": 18
 			},
 			"awards": []
 		},
@@ -38635,8 +38646,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/17/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 26,
 				"misdemeanor": 33
@@ -38694,7 +38720,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 23,
+				"misdemeanor": 24,
 				"violation": 4
 			},
 			"awards": []
@@ -39369,9 +39395,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 40,
-				"violation": 2
+				"felony": 8,
+				"misdemeanor": 21,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -42111,7 +42137,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 82,
+				"misdemeanor": 83,
 				"violation": 8
 			},
 			"awards": [
@@ -52136,8 +52162,8 @@
 		"arrest_count": 23,
 		"reports": {
 			"summary": {
-				"command": "NARC BORO BRONX",
-				"assignment_date": "1/13/2025",
+				"command": "043 PRECINCT",
+				"assignment_date": "12/15/2025",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "23336",
@@ -52164,7 +52190,7 @@
 				}
 			]
 		},
-		"command": "NARC BORO BRONX"
+		"command": "043 PRECINCT"
 	},
 	{
 		"taxid": 975237,
@@ -60157,7 +60183,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
+				"felony": 43,
 				"misdemeanor": 69
 			},
 			"awards": []
@@ -62603,7 +62629,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 13,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": []
 		},
