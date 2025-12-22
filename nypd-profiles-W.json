@@ -2602,7 +2602,7 @@
 		"shield_no": "21433",
 		"appt_date": "10/7/2015",
 		"recognition_count": 4,
-		"arrest_count": 129,
+		"arrest_count": 130,
 		"reports": {
 			"summary": {
 				"command": "109 DOMESTIC VIOLENCE SQUAD",
@@ -2623,7 +2623,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 39,
+				"felony": 40,
 				"misdemeanor": 88,
 				"violation": 2
 			},
@@ -4182,8 +4182,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/20/2022 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Wrongfully deactivated their body-worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 96,
@@ -10285,7 +10300,7 @@
 		"shield_no": "6248",
 		"appt_date": "7/8/2015",
 		"recognition_count": 8,
-		"arrest_count": 252,
+		"arrest_count": 254,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 11",
@@ -13048,7 +13063,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 41,
+				"felony": 42,
 				"misdemeanor": 67
 			},
 			"awards": [
@@ -18529,7 +18544,7 @@
 		"shield_no": "28941",
 		"appt_date": "7/3/2024",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -23828,7 +23843,7 @@
 		"shield_no": "4564",
 		"appt_date": "1/7/2015",
 		"recognition_count": 5,
-		"arrest_count": 270,
+		"arrest_count": 273,
 		"reports": {
 			"summary": {
 				"command": "052 DET SQUAD",
@@ -27560,8 +27575,28 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/16/2023 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "02.Wrongful search of a premises.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 19,
@@ -35632,7 +35667,7 @@
 		"shield_no": "5857",
 		"appt_date": "7/9/2014",
 		"recognition_count": 0,
-		"arrest_count": 102,
+		"arrest_count": 103,
 		"reports": {
 			"summary": {
 				"command": "079 DOMESTIC VIOLENCE SQUAD",
@@ -42324,7 +42359,7 @@
 		"shield_no": "4585",
 		"appt_date": "7/9/2014",
 		"recognition_count": 23,
-		"arrest_count": 256,
+		"arrest_count": 257,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN TRANSIT CRIMES SQD",
@@ -42995,8 +43030,8 @@
 		"first_name": "KENNETH",
 		"last_name": "WILLIAMS",
 		"middle_initial": "P",
-		"rank": "POLICE OFFICER",
-		"shield_no": "16989",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "3282",
 		"appt_date": "7/8/2015",
 		"recognition_count": 0,
 		"arrest_count": 98,
@@ -43005,8 +43040,8 @@
 				"command": "TARU DRONE TEAM",
 				"assignment_date": "8/29/2024",
 				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "16989",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "3282",
 				"appt_date": "7/8/2015"
 			},
 			"ranks": [
@@ -44999,7 +45034,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
+				"felony": 30,
 				"misdemeanor": 41,
 				"violation": 1
 			},
@@ -46497,8 +46532,8 @@
 		"arrest_count": 108,
 		"reports": {
 			"summary": {
-				"command": "IN-SERVICE TRAINING SECTION",
-				"assignment_date": "12/2/2025",
+				"command": "HEADQUARTERS SECURITY UNIT",
+				"assignment_date": "12/15/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "31889",
@@ -46522,7 +46557,7 @@
 			},
 			"awards": []
 		},
-		"command": "IN-SERVICE TRAINING SECTION"
+		"command": "HEADQUARTERS SECURITY UNIT"
 	},
 	{
 		"taxid": 972314,
@@ -48299,7 +48334,7 @@
 		"shield_no": "7904",
 		"appt_date": "7/3/2024",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -48321,7 +48356,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 13
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -50356,7 +50391,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 39
+				"misdemeanor": 46
 			},
 			"awards": [
 				{
@@ -53372,7 +53407,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 207,
+				"felony": 208,
 				"misdemeanor": 154,
 				"violation": 1
 			},
@@ -53403,7 +53438,7 @@
 		"shield_no": "3229",
 		"appt_date": "1/9/2013",
 		"recognition_count": 9,
-		"arrest_count": 259,
+		"arrest_count": 260,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -53884,8 +53919,8 @@
 		"first_name": "KRZYSZTOF",
 		"last_name": "WNOROWSKI",
 		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "13514",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "3286",
 		"appt_date": "1/8/2014",
 		"recognition_count": 2,
 		"arrest_count": 79,
@@ -53894,8 +53929,8 @@
 				"command": "TARU DRONE TEAM",
 				"assignment_date": "8/29/2024",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "13514",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "3286",
 				"appt_date": "1/8/2014"
 			},
 			"ranks": [
@@ -61067,7 +61102,7 @@
 		"first_name": "JAMES",
 		"last_name": "WOODS",
 		"middle_initial": "R",
-		"rank": "SERGEANT",
+		"rank": "SGT DET SQUAD",
 		"shield_no": "3824",
 		"appt_date": "7/8/2008",
 		"recognition_count": 5,
@@ -61077,7 +61112,7 @@
 				"command": "WARRANT SECTION",
 				"assignment_date": "11/22/2019",
 				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
+				"rank_desc": "SGT DET SQUAD",
 				"shield_no": "3824",
 				"appt_date": "7/8/2008"
 			},
@@ -62948,8 +62983,8 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 312,
-				"misdemeanor": 1221,
+				"felony": 313,
+				"misdemeanor": 1222,
 				"violation": 35
 			},
 			"awards": [
@@ -63394,7 +63429,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 125,
-				"misdemeanor": 79,
+				"misdemeanor": 80,
 				"violation": 3
 			},
 			"awards": [
@@ -67799,7 +67834,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 39,
-				"misdemeanor": 56,
+				"misdemeanor": 57,
 				"violation": 2
 			},
 			"awards": [
