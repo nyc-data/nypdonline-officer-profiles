@@ -3209,8 +3209,8 @@
 		"arrest_count": 75,
 		"reports": {
 			"summary": {
-				"command": "069 PRECINCT",
-				"assignment_date": "7/1/2021",
+				"command": "PATROL BORO BKLYN SOUTH",
+				"assignment_date": "12/19/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "4298",
@@ -3241,7 +3241,7 @@
 				}
 			]
 		},
-		"command": "069 PRECINCT"
+		"command": "PATROL BORO BKLYN SOUTH"
 	},
 	{
 		"taxid": 928266,
@@ -5097,7 +5097,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 101,
+				"felony": 102,
 				"misdemeanor": 120,
 				"other": 3,
 				"violation": 3
@@ -6871,7 +6871,7 @@
 		"shield_no": "9669",
 		"appt_date": "4/12/2017",
 		"recognition_count": 1,
-		"arrest_count": 245,
+		"arrest_count": 248,
 		"reports": {
 			"summary": {
 				"command": "043 DOMESTIC VIOLENCE SQUAD",
@@ -9529,7 +9529,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 71,
-				"misdemeanor": 92
+				"misdemeanor": 94
 			},
 			"awards": [
 				{
@@ -10728,7 +10728,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 92,
-				"misdemeanor": 76,
+				"misdemeanor": 77,
 				"violation": 1
 			},
 			"awards": [
@@ -11760,6 +11760,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -13131,7 +13132,7 @@
 		"shield_no": "3993",
 		"appt_date": "1/6/2016",
 		"recognition_count": 1,
-		"arrest_count": 368,
+		"arrest_count": 369,
 		"reports": {
 			"summary": {
 				"command": "019 DET SQUAD",
@@ -17408,8 +17409,23 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/23/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 2,
@@ -21029,7 +21045,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 135,
+				"felony": 136,
 				"misdemeanor": 47,
 				"violation": 1
 			},
@@ -23297,7 +23313,13 @@
 				"shield_no": "21035",
 				"appt_date": "7/8/2015"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "21035"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -25286,7 +25308,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1
+				"felony": 2
 			},
 			"awards": []
 		},
@@ -41670,7 +41692,7 @@
 		"shield_no": "3871",
 		"appt_date": "7/6/2010",
 		"recognition_count": 0,
-		"arrest_count": 102,
+		"arrest_count": 103,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -42446,7 +42468,7 @@
 		"shield_no": "27533",
 		"appt_date": "7/2/2018",
 		"recognition_count": 16,
-		"arrest_count": 331,
+		"arrest_count": 333,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -47035,8 +47057,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 60,
-				"misdemeanor": 59,
+				"felony": 61,
+				"misdemeanor": 60,
 				"violation": 1
 			},
 			"awards": [
@@ -47365,7 +47387,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 37,
+				"felony": 39,
 				"misdemeanor": 69
 			},
 			"awards": [
@@ -57594,6 +57616,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/10/2018",
 					"shield_no": "10028"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/19/2025",
+					"shield_no": "2804"
 				}
 			],
 			"documents": [],
@@ -59240,7 +59267,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 9,
+				"misdemeanor": 10,
 				"other": 1,
 				"violation": 3
 			},
@@ -64549,7 +64576,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 153,
+				"felony": 154,
 				"misdemeanor": 189
 			},
 			"awards": [
@@ -68409,7 +68436,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 154,
+				"felony": 157,
 				"misdemeanor": 95,
 				"violation": 1
 			},
@@ -75966,7 +75993,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -77557,7 +77584,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 200,
+				"felony": 201,
 				"misdemeanor": 150,
 				"violation": 1
 			},
@@ -78460,7 +78487,7 @@
 		"shield_no": "9494",
 		"appt_date": "7/13/2016",
 		"recognition_count": 1,
-		"arrest_count": 14,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "TB ANTI TERRORISM 1",
@@ -78766,7 +78793,7 @@
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN ADULT SEX CRIMES SQUAD",
-				"assignment_date": "9/26/2025",
+				"assignment_date": "12/17/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "10391",
@@ -79967,8 +79994,8 @@
 		"first_name": "JOSEPH",
 		"last_name": "FREVOLA",
 		"middle_initial": "T",
-		"rank": "POLICE OFFICER",
-		"shield_no": "5892",
+		"rank": "DETECTIVE SPECIALIST",
+		"shield_no": "3665",
 		"appt_date": "7/8/2015",
 		"recognition_count": 6,
 		"arrest_count": 112,
@@ -79977,8 +80004,8 @@
 				"command": "SCUBA UNIT",
 				"assignment_date": "10/6/2022",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "5892",
+				"rank_desc": "DETECTIVE SPECIALIST",
+				"shield_no": "3665",
 				"appt_date": "7/8/2015"
 			},
 			"ranks": [
@@ -84164,8 +84191,8 @@
 		"arrest_count": 69,
 		"reports": {
 			"summary": {
-				"command": "PSB COMMUNITY RESPONSE TEAM",
-				"assignment_date": "6/9/2023",
+				"command": "CITYWIDE COMMUNITY RESPONSE TEAM",
+				"assignment_date": "12/19/2025",
 				"ethnicity": "WHITE",
 				"rank_desc": "DETECTIVE SPECIALIST",
 				"shield_no": "3503",
@@ -84246,7 +84273,7 @@
 				}
 			]
 		},
-		"command": "PSB COMMUNITY RESPONSE TEAM"
+		"command": "CITYWIDE COMMUNITY RESPONSE TEAM"
 	},
 	{
 		"taxid": 958608,
@@ -85100,8 +85127,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 129,
-				"misdemeanor": 120,
+				"felony": 130,
+				"misdemeanor": 121,
 				"violation": 3
 			},
 			"awards": [
