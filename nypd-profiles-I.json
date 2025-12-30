@@ -755,7 +755,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 27
 			},
 			"awards": []
@@ -2157,6 +2157,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -4808,7 +4809,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "043 PRECINCT"
@@ -5361,7 +5364,7 @@
 		"shield_no": "3909",
 		"appt_date": "7/13/2016",
 		"recognition_count": 3,
-		"arrest_count": 171,
+		"arrest_count": 172,
 		"reports": {
 			"summary": {
 				"command": "042 DOMESTIC VIOLENCE SQUAD",
@@ -7362,8 +7365,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 1
+				"felony": 2,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -7995,7 +7998,7 @@
 			"disciplineHistory": [
 				{
 					"entry": "10/16/2023 12:00:00 AM",
-					"allegations_count": 1
+					"allegations_count": 2
 				}
 			],
 			"discipline": [
@@ -8005,19 +8008,33 @@
 							"recommendation": "A-CD",
 							"description": "01.Wrongfully searched a vehicle.",
 							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE"
+							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully searched a vehicle.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 181,
-				"misdemeanor": 70,
-				"violation": 2
+				"felony": 362,
+				"misdemeanor": 140,
+				"violation": 4
 			},
 			"awards": [
 				{
 					"date": "7/5/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/5/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/6/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -8029,7 +8046,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "6/4/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "6/3/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/3/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/27/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -8041,7 +8070,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "5/26/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "3/26/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/26/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/6/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -8053,6 +8094,14 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "12/8/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/6/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "12/6/2021",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -8061,7 +8110,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "12/1/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "8/9/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/9/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/3/2021",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -8073,7 +8134,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "6/20/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "1/20/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/20/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/17/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -8085,11 +8158,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "9/29/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/7/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "9/7/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "5/6/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/6/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/5/2020",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -8101,8 +8190,20 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "4/22/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "2/16/2020",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/16/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/7/2020",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "2/7/2020",
@@ -8113,7 +8214,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "1/8/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/19/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/19/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/20/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -14191,8 +14304,8 @@
 		"arrest_count": 113,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "11/25/2025",
+				"command": "100 PRECINCT",
+				"assignment_date": "12/24/2025",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3789",
@@ -14341,7 +14454,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "100 PRECINCT"
 	},
 	{
 		"taxid": 980614,
@@ -16838,7 +16951,7 @@
 		"shield_no": "11669",
 		"appt_date": "4/12/2017",
 		"recognition_count": 2,
-		"arrest_count": 39,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -18504,7 +18617,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
