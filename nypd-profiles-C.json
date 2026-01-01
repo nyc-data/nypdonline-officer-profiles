@@ -6077,8 +6077,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 6
+				"felony": 4,
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -17299,7 +17299,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 15,
+				"misdemeanor": 19
+			},
 			"awards": []
 		},
 		"command": "041 PRECINCT"
@@ -17877,7 +17880,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 140,
-				"misdemeanor": 158,
+				"misdemeanor": 159,
 				"violation": 1
 			},
 			"awards": [
@@ -31395,8 +31398,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 10
+				"felony": 4,
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -58635,9 +58638,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
-				"misdemeanor": 51,
-				"violation": 4
+				"felony": 18,
+				"misdemeanor": 28,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -76691,7 +76694,12 @@
 				"felony": 14,
 				"misdemeanor": 31
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "1/14/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "049 PRECINCT"
 	},
@@ -86057,7 +86065,23 @@
 				"shield_no": "2369",
 				"appt_date": "4/15/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/15/2019",
+					"shield_no": "9244"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/30/2019",
+					"shield_no": "9887"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "5/30/2023",
+					"shield_no": "2369"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -90111,30 +90135,7 @@
 					"charges_count": 3
 				}
 			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"description": "WHILE ON-DUTY AFTER PREVIOUSLY RESPONDING TO A JOB, LEFT THE JOB BEFORE COMPLETION AND DID NOT RETURN.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "WHILE ON-DUTY FAILED TO RENDER POLICE SERVICES IN SAID OFFICER’S ASSIGNED AREA.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "WHILE ON-DUTY DID FAIL AND NEGLECT TO PREPARE A COMPLAINT REPORT WORKSHEET UPON RESPONDING TO A RADIO TRANSMISSION OF A FAMILY DISPUTE.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 18,
 				"misdemeanor": 72,
@@ -91149,22 +91150,8 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 38,
-				"misdemeanor": 82,
-				"violation": 5
-			},
-			"awards": [
-				{
-					"date": "3/25/2023",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/14/2022",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "083 PRECINCT"
 	},
@@ -127383,7 +127370,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": []
 		},
@@ -151812,7 +151799,13 @@
 				"shield_no": "28598",
 				"appt_date": "7/7/2021"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/7/2021",
+					"shield_no": "28598"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -152720,7 +152713,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -164712,7 +164705,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 39
 			},
 			"awards": []
@@ -169605,7 +169598,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 53,
+				"felony": 55,
 				"misdemeanor": 84
 			},
 			"awards": []
@@ -198002,7 +197995,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 35
+				"misdemeanor": 39
 			},
 			"awards": []
 		},
@@ -211289,8 +211282,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 53,
-				"misdemeanor": 153
+				"felony": 54,
+				"misdemeanor": 154
 			},
 			"awards": []
 		},
@@ -213500,7 +213493,13 @@
 				"shield_no": "30310",
 				"appt_date": "10/19/2022"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/19/2022",
+					"shield_no": "30310"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],

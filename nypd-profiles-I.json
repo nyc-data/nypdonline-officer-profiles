@@ -1537,7 +1537,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 5,
+				"misdemeanor": 6,
 				"violation": 2
 			},
 			"awards": []
@@ -6664,7 +6664,13 @@
 					"shield_no": "22859"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "11/21/2025",
+					"url": "https://nypdonline.org/files/963077_11212025_2025054.pdf",
+					"type": "Trial Decision"
+				}
+			],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
@@ -18274,10 +18280,50 @@
 				"shield_no": "24123",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2006",
+					"shield_no": "24123"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/31/2023 12:00:00 AM",
+					"charges_count": 4
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Operated a motor vehicle while under the influence of an intoxicant.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Operated a motor vehicle while under the influence of an intoxicant.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Operated a motor vehicle while ability impaired.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Unfit for duty.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 50,
