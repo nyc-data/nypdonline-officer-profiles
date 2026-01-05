@@ -5485,7 +5485,7 @@
 		"shield_no": "6977",
 		"appt_date": "1/9/2006",
 		"recognition_count": 9,
-		"arrest_count": 725,
+		"arrest_count": 726,
 		"reports": {
 			"summary": {
 				"command": "090 DET SQUAD",
@@ -5533,7 +5533,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 338,
+				"felony": 339,
 				"misdemeanor": 363,
 				"violation": 24
 			},
@@ -8471,8 +8471,8 @@
 		"arrest_count": 54,
 		"reports": {
 			"summary": {
-				"command": "PBQN COMMUNITY AFFAIRS SECTION",
-				"assignment_date": "3/2/2023",
+				"command": "MEDICAL DIVISION",
+				"assignment_date": "12/29/2025",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "23105",
@@ -8507,7 +8507,7 @@
 				}
 			]
 		},
-		"command": "PBQN COMMUNITY AFFAIRS SECTION"
+		"command": "MEDICAL DIVISION"
 	},
 	{
 		"taxid": 953599,
@@ -9803,7 +9803,7 @@
 		"shield_no": "617",
 		"appt_date": "4/6/2016",
 		"recognition_count": 3,
-		"arrest_count": 97,
+		"arrest_count": 98,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -11212,8 +11212,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/8/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 52,
@@ -12491,8 +12507,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 8,
-				"misdemeanor": 18,
+				"felony": 10,
+				"misdemeanor": 19,
 				"violation": 2
 			},
 			"awards": []
@@ -17803,24 +17819,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "7/3/2024 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Wrongfully deactivated their body-worn camera.",
-							"group_id": "1",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"infraction": 2,
 				"felony": 17,
@@ -21460,7 +21460,7 @@
 		"shield_no": "14860",
 		"appt_date": "11/2/2020",
 		"recognition_count": 3,
-		"arrest_count": 50,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 4",
