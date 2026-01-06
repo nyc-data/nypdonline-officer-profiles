@@ -3918,7 +3918,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -16903,6 +16904,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -31047,6 +31049,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -34163,7 +34166,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "042 PRECINCT"
@@ -34373,7 +34378,7 @@
 		"shield_no": "22672",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 134,
+		"arrest_count": 135,
 		"reports": {
 			"summary": {
 				"command": "032 DOMESTIC VIOLENCE SQUAD",
@@ -36634,7 +36639,7 @@
 			],
 			"arrests": {
 				"felony": 73,
-				"misdemeanor": 140
+				"misdemeanor": 141
 			},
 			"awards": [
 				{
@@ -41955,7 +41960,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -42404,7 +42409,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -47634,36 +47639,10 @@
 				"shield_no": "4123",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2014",
-					"shield_no": "1491"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "6/27/2025",
-					"shield_no": "4123"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "11/10/2022 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Wrongfully threatened to arrest an individual known to the Department.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 67,
 				"misdemeanor": 95
@@ -64292,8 +64271,28 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/7/2023 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to timely activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 6,
 				"felony": 121,
@@ -71988,7 +71987,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 29,
-				"misdemeanor": 64
+				"misdemeanor": 65
 			},
 			"awards": []
 		},
@@ -73394,7 +73393,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 1
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -92936,7 +92935,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 101,
+				"felony": 104,
 				"misdemeanor": 96,
 				"violation": 1
 			},
@@ -105825,7 +105824,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -111456,7 +111455,7 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "1293",
 		"appt_date": "7/9/2013",
-		"recognition_count": 16,
+		"recognition_count": 17,
 		"arrest_count": 304,
 		"reports": {
 			"summary": {
@@ -111564,6 +111563,10 @@
 				{
 					"date": "4/4/2019",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/10/2019",
+					"name": "COMMENDATION"
 				},
 				{
 					"date": "12/27/2018",
@@ -111856,7 +111859,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 62,
+				"felony": 63,
 				"misdemeanor": 108
 			},
 			"awards": [
@@ -116922,7 +116925,7 @@
 			],
 			"arrests": {
 				"felony": 102,
-				"misdemeanor": 151
+				"misdemeanor": 152
 			},
 			"awards": []
 		},
@@ -118356,7 +118359,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 99,
+				"felony": 100,
 				"misdemeanor": 116,
 				"violation": 4
 			},
@@ -122168,7 +122171,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 5
 			},
 			"awards": []
 		},

@@ -3588,7 +3588,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -12883,7 +12883,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 11,
+				"felony": 12,
 				"misdemeanor": 48
 			},
 			"awards": [
@@ -18020,7 +18020,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -21835,7 +21835,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -23836,7 +23836,7 @@
 			],
 			"arrests": {
 				"felony": 105,
-				"misdemeanor": 188
+				"misdemeanor": 189
 			},
 			"awards": [
 				{
@@ -31056,7 +31056,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -32563,7 +32563,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3
+				"felony": 4
 			},
 			"awards": []
 		},
@@ -38181,7 +38181,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -50499,7 +50499,7 @@
 			],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": [
 				{
@@ -62327,7 +62327,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 5
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -69027,7 +69027,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -70353,8 +70353,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/10/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Failed to safeguard a prisoner (not resulting in loss).",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 25
@@ -70410,6 +70426,10 @@
 				{
 					"date": "10/16/2024",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/10/2024",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "4/26/2024",
@@ -75017,8 +75037,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 62,
-				"misdemeanor": 92
+				"felony": 63,
+				"misdemeanor": 94
 			},
 			"awards": [
 				{
@@ -75629,8 +75649,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 2
+				"felony": 3,
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -77837,7 +77857,7 @@
 			],
 			"arrests": {
 				"felony": 93,
-				"misdemeanor": 90
+				"misdemeanor": 91
 			},
 			"awards": [
 				{
@@ -81287,7 +81307,7 @@
 			],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 19,
+				"misdemeanor": 20,
 				"violation": 1
 			},
 			"awards": []
@@ -88180,7 +88200,7 @@
 		"shield_no": "25519",
 		"appt_date": "1/17/2008",
 		"recognition_count": 2,
-		"arrest_count": 143,
+		"arrest_count": 144,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -88456,44 +88476,10 @@
 				"shield_no": "20311",
 				"appt_date": "10/11/2016"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/11/2016",
-					"shield_no": "20311"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "1/22/2024 12:00:00 AM",
-					"allegations_count": 3
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"description": "01.Violated patrol rules - failed to provide a business card",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
-						},
-						{
-							"recommendation": "B-CD",
-							"description": "02.Wrongfully frisked an individual known to the Department.",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
-						},
-						{
-							"recommendation": "B-CD",
-							"description": "03.Wrongfully searched an individual known to the Department.",
-							"group_id": "1",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 26,
 				"misdemeanor": 94
@@ -89380,7 +89366,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 15,
+				"felony": 17,
 				"misdemeanor": 53
 			},
 			"awards": [
@@ -94847,6 +94833,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 5
 			},
 			"awards": []
@@ -95637,8 +95624,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 124,
-				"misdemeanor": 123,
+				"felony": 125,
+				"misdemeanor": 125,
 				"violation": 1
 			},
 			"awards": [
@@ -97958,7 +97945,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 89
+				"misdemeanor": 91
 			},
 			"awards": [
 				{
@@ -106351,8 +106338,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
-				"misdemeanor": 72,
+				"felony": 55,
+				"misdemeanor": 75,
 				"violation": 1
 			},
 			"awards": [
@@ -106502,36 +106489,10 @@
 				"shield_no": "5811",
 				"appt_date": "1/10/2018"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2018",
-					"shield_no": "27425"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "6/27/2025",
-					"shield_no": "5811"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "7/11/2022 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"description": "01.Wrongful search of a person's property.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 109,
 				"misdemeanor": 82,
@@ -107251,16 +107212,21 @@
 			"disciplineHistory": [
 				{
 					"entry": "7/23/2022 12:00:00 AM",
-					"allegations_count": 3
+					"allegations_count": 6
 				},
 				{
 					"entry": "12/2/2022 12:00:00 AM",
-					"allegations_count": 1
+					"allegations_count": 2
 				}
 			],
 			"discipline": [
 				{
 					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully used physical force.",
+							"group_id": "1"
+						},
 						{
 							"recommendation": "A-CD",
 							"description": "01.Wrongfully used physical force.",
@@ -107277,7 +107243,22 @@
 						},
 						{
 							"recommendation": "B-CD",
+							"description": "01.Wrongful search of a person's property.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "B-CD",
 							"description": "02.Wrongfully frisked an individual known to the Department.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongfully frisked an individual known to the Department.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "03.Wrongfully searched an individual known to the Department.",
 							"group_id": "2"
 						},
 						{
@@ -107289,10 +107270,14 @@
 				}
 			],
 			"arrests": {
-				"felony": 17,
-				"misdemeanor": 28
+				"felony": 34,
+				"misdemeanor": 56
 			},
 			"awards": [
+				{
+					"date": "5/13/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "5/13/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -107302,7 +107287,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "1/15/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "3/18/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/18/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/15/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -110858,8 +110855,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 1
+				"felony": 2,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -111021,7 +111018,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},

@@ -12784,7 +12784,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -18608,7 +18608,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -22130,8 +22130,38 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/14/2022 12:00:00 AM",
+					"allegations_count": 1
+				},
+				{
+					"entry": "9/29/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"description": "01.Wrongful removal to a hospital.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "2",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 15,
 				"misdemeanor": 66
@@ -34554,7 +34584,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -41128,7 +41158,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -41318,7 +41348,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -55646,13 +55676,7 @@
 				"shield_no": "2299",
 				"appt_date": "1/29/2025"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/29/2025",
-					"shield_no": "2299"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -74697,7 +74721,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 5
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -75955,6 +75979,14 @@
 				"violation": 1
 			},
 			"awards": [
+				{
+					"date": "3/27/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/2/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "11/25/2022",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -78558,7 +78590,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 28
+				"misdemeanor": 30
 			},
 			"awards": [
 				{
@@ -87714,8 +87746,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 72,
-				"misdemeanor": 65
+				"felony": 74,
+				"misdemeanor": 66
 			},
 			"awards": [
 				{
@@ -88307,6 +88339,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 3
 			},
 			"awards": []
@@ -89207,7 +89240,7 @@
 			],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 98
+				"misdemeanor": 99
 			},
 			"awards": [
 				{
@@ -91525,7 +91558,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "032 PRECINCT"
@@ -91673,8 +91708,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 10
+				"felony": 8,
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -105754,7 +105789,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 80,
+				"felony": 81,
 				"misdemeanor": 92
 			},
 			"awards": [
@@ -106983,7 +107018,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4,
+				"misdemeanor": 5,
 				"violation": 1
 			},
 			"awards": []
@@ -108191,7 +108226,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 91,
+				"felony": 92,
 				"misdemeanor": 88
 			},
 			"awards": [
@@ -110066,7 +110101,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -116336,7 +116371,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 10
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -118825,7 +118860,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -122930,7 +122966,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -133746,7 +133782,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -136329,7 +136365,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -144137,7 +144173,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 2
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -144294,6 +144330,14 @@
 				"misdemeanor": 88
 			},
 			"awards": [
+				{
+					"date": "9/1/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/1/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "1/21/2020",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -151064,7 +151108,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 2
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -173301,7 +173345,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 99,
+				"felony": 100,
 				"misdemeanor": 65,
 				"violation": 1
 			},
@@ -174627,7 +174671,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -175846,23 +175890,8 @@
 					"type": "Deviation Letter"
 				}
 			],
-			"disciplineHistory": [
-				{
-					"entry": "2/22/2023 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to prepare required reports.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 39,
@@ -181565,7 +181594,7 @@
 			],
 			"arrests": {
 				"felony": 90,
-				"misdemeanor": 73,
+				"misdemeanor": 75,
 				"violation": 1
 			},
 			"awards": [
@@ -188394,8 +188423,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 7
+				"felony": 8,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -196757,6 +196786,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -196961,7 +196991,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -199197,7 +199227,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3
+				"felony": 3,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
