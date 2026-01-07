@@ -14245,8 +14245,8 @@
 		"arrest_count": 277,
 		"reports": {
 			"summary": {
-				"command": "CHIEF CRIME CONTROL STRATEGIES",
-				"assignment_date": "1/6/2023",
+				"command": "CHIEF OF DEPARTMENT",
+				"assignment_date": "1/5/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "LT SPECIAL ASSIGN",
 				"shield_no": "",
@@ -14457,7 +14457,7 @@
 				}
 			]
 		},
-		"command": "CHIEF CRIME CONTROL STRATEGIES"
+		"command": "CHIEF OF DEPARTMENT"
 	},
 	{
 		"taxid": 963800,
@@ -22312,7 +22312,13 @@
 				"shield_no": "10752",
 				"appt_date": "4/12/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/12/2017",
+					"shield_no": "10752"
+				}
+			],
 			"documents": [
 				{
 					"date": "11/19/2025",
@@ -22320,8 +22326,51 @@
 					"type": "Deviation Letter"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/13/2022 12:00:00 AM",
+					"allegations_count": 2
+				},
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully searched a vehicle.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully searched an individual known to the Department.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Wrongfully stopped a vehicle.",
+							"group_id": "1"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Interfere with a recording device.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Violated patrol rules.",
+							"group_id": "2"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 59,
 				"misdemeanor": 52,
@@ -45864,44 +45913,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "11/14/2018 12:00:00 AM",
-					"charges_count": 1
-				},
-				{
-					"entry": "3/27/2023 12:00:00 AM",
-					"allegations_count": 2
-				}
-			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"description": "ENGAGED IN A ROMANTIC AND SEXUAL RELATIONSHIP WITH A PERSON KNOWN TO THE DEPARTMENT, WHILE BEING LEAD INVESTIGATOR IN A CRIMINAL MATTER WHERE SAID PERSON WAS A VICTIM.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "C-CD",
-							"description": "01.Out of city while on sick leave.",
-							"group_id": "1",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
-						},
-						{
-							"recommendation": "C-CD",
-							"description": "02.Out of residence while on sick leave.",
-							"group_id": "1",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"infraction": 6,
 				"felony": 382,
@@ -64167,7 +64180,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 120,
+				"felony": 122,
 				"misdemeanor": 216,
 				"violation": 2
 			},
