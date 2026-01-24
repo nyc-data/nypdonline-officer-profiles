@@ -11384,7 +11384,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -25687,14 +25687,6 @@
 		"recognition_count": 2,
 		"arrest_count": 23,
 		"reports": {
-			"summary": {
-				"command": "072 PRECINCT",
-				"assignment_date": "11/15/2025",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "17154",
-				"appt_date": "4/28/2021"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -25705,22 +25697,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 8,
-				"misdemeanor": 15
-			},
-			"awards": [
-				{
-					"date": "6/4/2023",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/4/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "072 PRECINCT"
+			"arrests": {},
+			"awards": []
+		}
 	},
 	{
 		"taxid": 937251,
@@ -25894,7 +25873,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 26
+				"misdemeanor": 27
 			},
 			"awards": []
 		},
@@ -28371,7 +28350,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -29992,7 +29971,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 65
+				"misdemeanor": 66
 			},
 			"awards": []
 		},
@@ -46287,7 +46266,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 6,
 				"misdemeanor": 13
 			},
 			"awards": []
@@ -51178,9 +51157,9 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
+				"infraction": 2,
 				"felony": 22,
-				"misdemeanor": 38
+				"misdemeanor": 39
 			},
 			"awards": []
 		},
@@ -65482,7 +65461,7 @@
 		"reports": {
 			"summary": {
 				"command": "023 DOMESTIC VIOLENCE SQUAD",
-				"assignment_date": "10/20/2025",
+				"assignment_date": "1/18/2026",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "8802",
@@ -74297,7 +74276,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -75105,7 +75084,7 @@
 				"infraction": 2,
 				"felony": 170,
 				"misdemeanor": 218,
-				"other": 88,
+				"other": 89,
 				"violation": 2
 			},
 			"awards": [
@@ -97308,10 +97287,86 @@
 				"shield_no": "5592",
 				"appt_date": "1/9/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2012",
+					"shield_no": "17659"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "7/29/2019",
+					"shield_no": "1835"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/30/2019",
+					"shield_no": "5592"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/24/2023 12:00:00 AM",
+					"charges_count": 1
+				},
+				{
+					"entry": "4/4/2024 12:00:00 AM",
+					"charges_count": 6
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to properly fill out paperwork",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (65 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Consumed alcohol while on-duty.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (0 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (75 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Open container of alcohol in a vehicle.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (0 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (75 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Misuse of time.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (0 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (75 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to supervise.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (0 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (75 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to make proper notifications.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (0 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (75 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to maintain Activity Log.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (0 month(s) ), FORFEITURE OF TIME/LEAVE BALANCES, ORDERED BREATH TESTING, VACATION DAYS (75 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 45,
@@ -104624,7 +104679,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 28
 			},
 			"awards": []
@@ -111081,8 +111136,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 121,
-				"misdemeanor": 59,
+				"felony": 123,
+				"misdemeanor": 60,
 				"violation": 1
 			},
 			"awards": [
@@ -125281,8 +125336,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 136,
-				"misdemeanor": 41
+				"felony": 137,
+				"misdemeanor": 42
 			},
 			"awards": [
 				{
