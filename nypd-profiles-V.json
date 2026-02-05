@@ -1291,7 +1291,29 @@
 		"recognition_count": 0,
 		"arrest_count": 23,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "101 PRECINCT",
+				"assignment_date": "9/9/2025",
+				"ethnicity": "BLACK",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "31536",
+				"appt_date": "4/26/2023"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/26/2023",
+					"shield_no": "31536"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 7,
+				"misdemeanor": 16
+			},
+			"awards": []
 		},
 		"command": "101 PRECINCT"
 	},
@@ -3225,17 +3247,8 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 2,
-				"misdemeanor": 29,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "7/20/2018",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 12"
 	},
@@ -4268,7 +4281,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 13,
 				"misdemeanor": 6
 			},
 			"awards": [
@@ -7331,8 +7344,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
-				"misdemeanor": 40
+				"felony": 26,
+				"misdemeanor": 41
 			},
 			"awards": [
 				{
@@ -8554,7 +8567,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 10
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -8592,7 +8605,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 26
+				"misdemeanor": 27
 			},
 			"awards": []
 		},
@@ -10069,7 +10082,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 26
+				"misdemeanor": 28
 			},
 			"awards": [
 				{
@@ -10665,7 +10678,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -14762,11 +14775,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 9,
-				"misdemeanor": 196,
-				"violation": 8
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "3/28/2021",
@@ -16771,8 +16780,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 9,
-				"misdemeanor": 31
+				"felony": 10,
+				"misdemeanor": 32
 			},
 			"awards": [
 				{
@@ -20023,7 +20032,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 34
+				"misdemeanor": 35
 			},
 			"awards": [
 				{
@@ -20769,30 +20778,11 @@
 				"shield_no": "7474",
 				"appt_date": "1/7/2015"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/7/2015",
-					"shield_no": "15723"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "8/30/2016",
-					"shield_no": "10144"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "9/30/2024",
-					"shield_no": "7474"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 35,
-				"misdemeanor": 69
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "7/10/2021",
@@ -21987,22 +21977,8 @@
 					"allegations_count": 1
 				}
 			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to prepare required reports.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"felony": 406,
-				"misdemeanor": 540,
-				"violation": 4
-			},
+			"discipline": [],
+			"arrests": {},
 			"awards": [
 				{
 					"date": "2/26/2013",
@@ -22622,7 +22598,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -29307,7 +29283,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
+				"felony": 43,
 				"misdemeanor": 132,
 				"violation": 1
 			},
@@ -31745,27 +31721,7 @@
 					"allegations_count": 1
 				}
 			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "A-CD,                                                                                                                                                                                                             TRAINING",
-							"description": "01.Violated patrol rules - failed to provide business card",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE, TRAINING"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"description": "01.Failed to prepare required reports.",
-							"group_id": "2"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 651,
@@ -33607,7 +33563,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -38326,12 +38282,7 @@
 					]
 				}
 			],
-			"arrests": {
-				"felony": 50,
-				"misdemeanor": 171,
-				"other": 2,
-				"violation": 4
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "1/15/2021",
@@ -38751,7 +38702,12 @@
 				"felony": 16,
 				"misdemeanor": 42
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "5/26/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "052 PRECINCT"
 	},
@@ -38958,7 +38914,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -46047,7 +46003,31 @@
 		"recognition_count": 0,
 		"arrest_count": 97,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "MEDICAL DIVISION",
+				"assignment_date": "1/15/2024",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "225",
+				"appt_date": "7/9/2013"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "225"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 1,
+				"felony": 36,
+				"misdemeanor": 51,
+				"violation": 9
+			},
+			"awards": []
 		},
 		"command": "MEDICAL DIVISION"
 	},
@@ -48785,7 +48765,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 38
+				"misdemeanor": 39
 			},
 			"awards": []
 		},
@@ -60611,7 +60591,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 63
+				"misdemeanor": 64
 			},
 			"awards": []
 		},
@@ -61064,7 +61044,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 43,
+				"felony": 44,
 				"misdemeanor": 73
 			},
 			"awards": [
