@@ -31,8 +31,8 @@ let headers = {
   'Sec-Fetch-Dest': 'empty',
   'Sec-Fetch-Mode': 'cors',
   'Sec-Fetch-Site': 'same-origin',
-  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
-  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'
@@ -159,7 +159,6 @@ async function getOfficer({ officer }) {
     }
 
     officer.reports.documents = parseDocuments(allReports[2])
-
     officer.reports.disciplineHistory = parseDiscipline(allReports[3]),
     officer.reports.discipline = await getDiscipline({
       options,
@@ -283,8 +282,8 @@ function parseDiscipline(data) {
     const items = entry.columns
     let e = {
       entry: items[0].value.trim(),
-      charges_count: parseInt(items[1].value.trim(), 10),
-      allegations_count: parseInt(items[2].value.trim(), 10),
+      charges_count: parseInt(items[1].value?.trim(), 10) || 0,
+      allegations_count: parseInt(items[2].value?.trim(), 10) || 0,
     }
     if (e.charges_count == 0) delete e.charges_count
     if (e.allegations_count == 0) delete e.allegations_count

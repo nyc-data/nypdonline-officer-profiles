@@ -48,7 +48,7 @@ function getOfficers({ profiles }) {
 function getDiscipline({ profiles }) {
   let discipline = []
   profiles.forEach(profile => {
-    profile.reports.discipline.forEach(entry => {
+    profile.reports?.discipline?.forEach(entry => {
       if (entry.charges) {
         entry.charges.forEach(charge => {
           discipline.push({
