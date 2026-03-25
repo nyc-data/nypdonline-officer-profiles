@@ -1198,7 +1198,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "067 PRECINCT"
@@ -4294,8 +4296,8 @@
 		"arrest_count": 80,
 		"reports": {
 			"summary": {
-				"command": "105 PRECINCT",
-				"assignment_date": "12/13/2017",
+				"command": "LAB EVIDENCE CTRL & SECURITY",
+				"assignment_date": "3/23/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22076",
@@ -4330,7 +4332,7 @@
 				}
 			]
 		},
-		"command": "105 PRECINCT"
+		"command": "LAB EVIDENCE CTRL & SECURITY"
 	},
 	{
 		"taxid": 964685,
@@ -4346,7 +4348,7 @@
 		"reports": {
 			"summary": {
 				"command": "POLICE ACADEMY",
-				"assignment_date": "12/22/2025",
+				"assignment_date": "3/22/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1536",
@@ -6483,7 +6485,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 37,
-				"misdemeanor": 35
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -8146,7 +8148,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -18048,7 +18050,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 27
+				"misdemeanor": 28
 			},
 			"awards": [
 				{
@@ -18489,7 +18491,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 32,
-				"misdemeanor": 30
+				"misdemeanor": 31
 			},
 			"awards": []
 		},
@@ -22091,7 +22093,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 49
+				"misdemeanor": 50
 			},
 			"awards": []
 		},
@@ -22837,7 +22839,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
-				"misdemeanor": 61,
+				"misdemeanor": 62,
 				"violation": 1
 			},
 			"awards": [
@@ -28418,7 +28420,13 @@
 				"shield_no": "13436",
 				"appt_date": "8/20/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "8/20/2025",
+					"shield_no": "13436"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -34774,7 +34782,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -36403,7 +36411,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 6
+				"misdemeanor": 7
 			},
 			"awards": [
 				{
@@ -36591,7 +36599,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 5,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -37888,7 +37896,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 214,
+				"felony": 216,
 				"misdemeanor": 220,
 				"violation": 7
 			},
@@ -42547,7 +42555,13 @@
 				"shield_no": "16669",
 				"appt_date": "4/15/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/15/2019",
+					"shield_no": "16669"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -45001,8 +45015,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 44,
-				"violation": 35
+				"misdemeanor": 46,
+				"violation": 36
 			},
 			"awards": []
 		},
