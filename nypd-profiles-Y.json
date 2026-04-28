@@ -762,7 +762,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "077 PRECINCT"
@@ -6634,7 +6636,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -8088,7 +8090,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -11995,7 +11997,13 @@
 				"shield_no": "24642",
 				"appt_date": "1/29/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/29/2025",
+					"shield_no": "24642"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -12751,10 +12759,7 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 5,
-				"misdemeanor": 31
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "084 PRECINCT"
