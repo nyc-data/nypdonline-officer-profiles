@@ -8,26 +8,41 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v4
-    - name: Setup node
-      uses: actions/setup-node@v4
-      with:
-        node-version: '22'
-    - name: Install and run
+      uses: actions/checkout@v6
+
+    - name: Enable Corepack (Yarn)
       run: |-
-        yarn install
+        npm install -g corepack
+        corepack enable
+
+    - name: Setup node
+      uses: actions/setup-node@v6
+      with:
+        node-version-file: '.nvmrc'
+        cache: 'yarn'
+        cache-dependency-path: yarn.lock
+
+    - name: Install dependencies
+      run: |-
+        yarn install --immutable
+
+    - name: Run
+      run: |-
         yarn start
         yarn tocsv
+
     - name: 'Upload Training Artifact'
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: training-json
         path: nypd-profiles-*-training-*.json
         retention-days: 2
+
     - name: 'Upload CSV Artifact'
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: nypd-profiles-csv
         path: |
@@ -38,6 +53,7 @@ jobs:
           awards.csv
           training.csv
         retention-days: 2
+
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
