@@ -111,8 +111,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 6
+				"felony": 8,
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -8785,7 +8785,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 64,
+				"felony": 65,
 				"misdemeanor": 85
 			},
 			"awards": [
@@ -8876,7 +8876,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 31,
+				"misdemeanor": 32,
 				"violation": 1
 			},
 			"awards": []
@@ -9268,7 +9268,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -17805,6 +17805,10 @@
 				"misdemeanor": 15
 			},
 			"awards": [
+				{
+					"date": "12/27/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "12/27/2020",
 					"name": "EXCELLENT POLICE DUTY"
@@ -27416,7 +27420,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 74,
-				"misdemeanor": 68
+				"misdemeanor": 69
 			},
 			"awards": []
 		},
@@ -35835,7 +35839,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 8,
+				"misdemeanor": 9,
 				"violation": 3
 			},
 			"awards": []
@@ -36174,8 +36178,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 5
+				"felony": 2,
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -40350,7 +40354,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 5,
 				"misdemeanor": 4
 			},
 			"awards": []
@@ -45994,7 +45998,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "046 PRECINCT"
@@ -75674,7 +75680,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 74,
+				"felony": 76,
 				"misdemeanor": 119,
 				"violation": 1
 			},
@@ -82570,7 +82576,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
+				"felony": 28,
 				"misdemeanor": 44
 			},
 			"awards": [
@@ -83189,7 +83195,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 39,
-				"misdemeanor": 81
+				"misdemeanor": 82
 			},
 			"awards": [
 				{
@@ -83693,7 +83699,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 8
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -85085,7 +85091,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 97,
-				"misdemeanor": 103,
+				"misdemeanor": 104,
 				"violation": 2
 			},
 			"awards": [
@@ -97784,7 +97790,13 @@
 				"shield_no": "7435",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "7435"
+				}
+			],
 			"documents": [
 				{
 					"date": "7/14/2022",
@@ -97792,8 +97804,98 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/11/2016 12:00:00 AM",
+					"charges_count": 9
+				},
+				{
+					"entry": "5/25/2021 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "DID FAIL AND NEGLECT TO IMMEDIATELY COMPLY WITH A DIRECT ORDER.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, DID FAIL AND NEGLECT TO BE PROPERLY ATTIRED WHILE WEARING HIS UNIFORM.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, FAILED TO PUT ON HIS POLICE UNIFORM IN A TIMELY MANNER AFTER BEING DIRECTED TO DO SO BY A SERGEANT KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, WAS ABSENT FROM ASSIGNMENT WITHOUT PERMISSION OR POLICE NECESSITY HAVING BEEN DIRECTED TO TAKE A SECURITY POST.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DID FAIL AND NEGLECT TO SAFEGUARD HIS RESTRICTED PARKING PERMIT.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DID WRONGFULLY PLACE AN UNAUTHORIZED PLASTIC COVER OVER THE FRONT AND REAR LICENSE PLATE OF HIS VEHICLE AND PLACED THE VEHICLES REGISTRATION INSIDE OF A FOIL BAG AND AFFIXED IT TO THE WINDSHIELD.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DID FAIL TO RETURN HIS 2014 DEPARTMENT PARKING PERMIT AS REQUIRED AND LIED BY INDICATING THE HE HAD RETURNED THE PERMIT.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DID WRONGFULLY PLACE AN UNAUTHORIZED PLASTIC COVER OVER THE REAR LICENSE PLATE OF HIS VEHICLE AND PLACED THE VEHICLES REGISTRATION INSIDE OF A FOIL BAG AND AFFIXED IT TO THE WINDSHIELD.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "DID WRONGFULLY OPERATE A MOTORCYCLE WITH A MUTILATED LICENSE PLATE TO WHICH ONLY TWO OF THE LICENSE PLATE NUMBERS WERE LEGIBLE.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to prepare a Property Clerk's Invoice Worksheet, as required.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to safeguard found property.\r\nViolated patrol rules.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Made inappropriate comments.\r\nWrongfully used offensive language.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 6,
 				"felony": 87,
@@ -99725,7 +99827,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 10
 			},
 			"awards": []
@@ -118494,7 +118596,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2
+				"felony": 1
 			},
 			"awards": []
 		},
@@ -119520,7 +119622,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 47,
+				"felony": 48,
 				"misdemeanor": 32
 			},
 			"awards": [
@@ -125865,7 +125967,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 27,
+				"misdemeanor": 28,
 				"violation": 1
 			},
 			"awards": [
@@ -129679,7 +129781,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 28,
+				"felony": 30,
 				"misdemeanor": 60,
 				"violation": 4
 			},
@@ -133947,13 +134049,7 @@
 				"shield_no": "1560",
 				"appt_date": "4/25/2018"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/25/2018",
-					"shield_no": "1560"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -135025,7 +135121,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 149,
+				"felony": 151,
 				"misdemeanor": 44,
 				"violation": 2
 			},
@@ -150888,8 +150984,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 52,
-				"misdemeanor": 51,
+				"felony": 53,
+				"misdemeanor": 52,
 				"other": 1,
 				"violation": 1
 			},
@@ -158212,7 +158308,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 68,
+				"misdemeanor": 72,
 				"violation": 3
 			},
 			"awards": [
@@ -161803,7 +161899,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 78,
+				"felony": 81,
 				"misdemeanor": 38
 			},
 			"awards": [
@@ -173472,7 +173568,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
+				"felony": 21,
 				"misdemeanor": 23
 			},
 			"awards": [
@@ -182361,8 +182457,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 6
+				"felony": 1,
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -183051,6 +183147,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/5/2017",
 					"shield_no": "24615"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "5/1/2026",
+					"shield_no": "2072"
 				}
 			],
 			"documents": [],
@@ -184373,7 +184474,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": [
 				{
@@ -185293,8 +185394,8 @@
 		"arrest_count": 81,
 		"reports": {
 			"summary": {
-				"command": "061 PRECINCT",
-				"assignment_date": "1/7/2023",
+				"command": "LICENSE DIVISION",
+				"assignment_date": "4/28/2026",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "9013",
@@ -185342,7 +185443,7 @@
 				}
 			]
 		},
-		"command": "061 PRECINCT"
+		"command": "LICENSE DIVISION"
 	},
 	{
 		"taxid": 947521,
@@ -194452,7 +194553,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 11,
+				"misdemeanor": 12,
 				"violation": 2
 			},
 			"awards": [
@@ -195602,8 +195703,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 16
+				"felony": 2,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -198830,8 +198931,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 3
+				"felony": 6,
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -199374,7 +199475,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 63,
+				"misdemeanor": 64,
 				"other": 1,
 				"violation": 1
 			},

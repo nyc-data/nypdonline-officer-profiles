@@ -4237,8 +4237,8 @@
 		"arrest_count": 138,
 		"reports": {
 			"summary": {
-				"command": "052 PRECINCT",
-				"assignment_date": "10/13/2025",
+				"command": "NARC BORO MANHATTAN NORTH",
+				"assignment_date": "4/27/2026",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "CAPTAIN",
 				"shield_no": "",
@@ -4356,7 +4356,7 @@
 				}
 			]
 		},
-		"command": "052 PRECINCT"
+		"command": "NARC BORO MANHATTAN NORTH"
 	},
 	{
 		"taxid": 979943,
@@ -11855,18 +11855,7 @@
 				"shield_no": "2170",
 				"appt_date": "1/9/2012"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2012",
-					"shield_no": "9966"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "9/3/2021",
-					"shield_no": "2170"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -16206,7 +16195,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 2
+			},
 			"awards": []
 		},
 		"command": "050 PRECINCT"
