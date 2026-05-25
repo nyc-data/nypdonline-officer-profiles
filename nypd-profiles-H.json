@@ -4176,7 +4176,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -8257,8 +8257,24 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/13/2021 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Improper vehicle pursuit.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 70,
@@ -15947,7 +15963,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -17104,7 +17120,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 38,
+				"felony": 39,
 				"misdemeanor": 38
 			},
 			"awards": [
@@ -18841,7 +18857,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 17,
 				"misdemeanor": 159,
 				"violation": 1
 			},
@@ -18902,7 +18918,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": [
 				{
@@ -26284,6 +26300,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -43729,7 +43746,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 140,
+				"misdemeanor": 141,
 				"violation": 19
 			},
 			"awards": [
@@ -44600,7 +44617,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 44,
+				"felony": 45,
 				"misdemeanor": 127,
 				"violation": 1
 			},
@@ -50599,7 +50616,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 9
 			},
 			"awards": []
@@ -52882,8 +52899,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 3
+				"felony": 2,
+				"misdemeanor": 6
 			},
 			"awards": []
 		},
@@ -54625,7 +54642,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 1
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -54683,8 +54700,8 @@
 		"arrest_count": 93,
 		"reports": {
 			"summary": {
-				"command": "NARC BORO BRONX",
-				"assignment_date": "4/19/2026",
+				"command": "NARC BORO BRONX SOUTH",
+				"assignment_date": "5/20/2026",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "2002",
@@ -54809,7 +54826,7 @@
 				}
 			]
 		},
-		"command": "NARC BORO BRONX"
+		"command": "NARC BORO BRONX SOUTH"
 	},
 	{
 		"taxid": 984426,
@@ -58209,7 +58226,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
+				"felony": 43,
 				"misdemeanor": 39
 			},
 			"awards": [
@@ -58398,7 +58415,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -64433,8 +64450,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 15
+				"felony": 1,
+				"misdemeanor": 9
 			},
 			"awards": []
 		},
@@ -64802,14 +64819,6 @@
 		"recognition_count": 0,
 		"arrest_count": 1,
 		"reports": {
-			"summary": {
-				"command": "088 PCT FIELD TRAINING UNIT",
-				"assignment_date": "2/3/2026",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "9287",
-				"appt_date": "4/30/2025"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -64829,8 +64838,7 @@
 				"misdemeanor": 1
 			},
 			"awards": []
-		},
-		"command": "088 PCT FIELD TRAINING UNIT"
+		}
 	},
 	{
 		"taxid": 969792,
@@ -64986,7 +64994,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 49,
-				"misdemeanor": 96
+				"misdemeanor": 97
 			},
 			"awards": [
 				{
@@ -69901,14 +69909,6 @@
 		"recognition_count": 0,
 		"arrest_count": 5,
 		"reports": {
-			"summary": {
-				"command": "PSA 2 FIELD TRAINING UNIT",
-				"assignment_date": "2/3/2026",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "21012",
-				"appt_date": "4/30/2025"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -69919,13 +69919,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 2,
-				"misdemeanor": 3
-			},
+			"arrests": {},
 			"awards": []
-		},
-		"command": "PSA 2 FIELD TRAINING UNIT"
+		}
 	},
 	{
 		"taxid": 952299,
@@ -78319,8 +78315,8 @@
 		"arrest_count": 113,
 		"reports": {
 			"summary": {
-				"command": "DBBX EVIDENCE COLLECTION TEAM",
-				"assignment_date": "8/15/2025",
+				"command": "DBXN EVIDENCE COLLECTION TEAM",
+				"assignment_date": "5/19/2026",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "4439",
@@ -78343,7 +78339,7 @@
 			},
 			"awards": []
 		},
-		"command": "DBBX EVIDENCE COLLECTION TEAM"
+		"command": "DBXN EVIDENCE COLLECTION TEAM"
 	},
 	{
 		"taxid": 963574,
@@ -82423,7 +82419,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 143,
+				"misdemeanor": 144,
 				"violation": 26
 			},
 			"awards": []
@@ -88983,7 +88979,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": [
 				{
@@ -98036,7 +98032,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 15,
+				"misdemeanor": 16,
 				"violation": 7
 			},
 			"awards": []
