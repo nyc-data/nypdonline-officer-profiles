@@ -2678,7 +2678,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 50,
-				"misdemeanor": 157,
+				"misdemeanor": 158,
 				"violation": 66
 			},
 			"awards": [
@@ -4389,7 +4389,13 @@
 				"shield_no": "10113",
 				"appt_date": "1/6/2016"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/6/2016",
+					"shield_no": "10113"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -14678,8 +14684,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 43,
-				"misdemeanor": 68,
+				"felony": 45,
+				"misdemeanor": 70,
 				"violation": 1
 			},
 			"awards": [
@@ -23829,7 +23835,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 79,
-				"misdemeanor": 333,
+				"misdemeanor": 334,
 				"violation": 3
 			},
 			"awards": [
@@ -25821,7 +25827,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 197,
+				"felony": 199,
 				"misdemeanor": 263,
 				"violation": 18
 			},
@@ -31191,7 +31197,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 49
+				"misdemeanor": 50
 			},
 			"awards": [
 				{
@@ -43147,7 +43153,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 46,
+				"misdemeanor": 48,
 				"violation": 3
 			},
 			"awards": []
@@ -53209,22 +53215,24 @@
 		"recognition_count": 4,
 		"arrest_count": 219,
 		"reports": {
-			"summary": {
-				"command": "068 DET SQUAD",
-				"assignment_date": "12/4/2023",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "4950",
-				"appt_date": "1/7/2008"
-			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "22580"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "2/23/2024",
+					"shield_no": "4950"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {},
 			"awards": []
-		},
-		"command": "068 DET SQUAD"
+		}
 	},
 	{
 		"taxid": 952780,
@@ -56132,7 +56140,13 @@
 				"shield_no": "13028",
 				"appt_date": "4/28/2021"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/28/2021",
+					"shield_no": "13028"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -63558,6 +63572,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "7/8/2008",
 					"shield_no": "4145"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "5/28/2026",
+					"shield_no": "2889"
 				}
 			],
 			"documents": [
@@ -78703,7 +78722,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 49,
-				"misdemeanor": 43
+				"misdemeanor": 45
 			},
 			"awards": [
 				{
@@ -84670,7 +84689,13 @@
 				"shield_no": "25463",
 				"appt_date": "1/11/2005"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2005",
+					"shield_no": "25463"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -85873,10 +85898,44 @@
 				"shield_no": "23465",
 				"appt_date": "1/7/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "23465"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "4/25/2017 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, WAS PRESENT AT AN UNUSUAL POLICE OCCURRENCE AND THEREAFTER FAILED TO REQUEST THE RESPONSE OF THE PATROL SUPERVISOR, PRECINCT OF OCCURRENCE",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY,  SAID POLICE OFFICER, DURING AN OFFICIAL DEPARTMENT INTERVIEW WRONGFULLY MADE INACCURATE, OR MISLEADING STATEMENTS AS TO EVENTS OF AN UNUSUAL POLICE OCCURRENCE",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, WAS PRESENT AT AN UNUSUAL POLICE OCCURRENCE AND THEREAFTER FAILED TO REMAIN AT THE SCENE",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {},
 			"awards": []
 		},
@@ -87686,23 +87745,7 @@
 				"shield_no": "425",
 				"appt_date": "1/9/2013"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/9/2013",
-					"shield_no": "27510"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "2/27/2020",
-					"shield_no": "1151"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "7/31/2024",
-					"shield_no": "425"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -105655,7 +105698,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 5,
-				"felony": 249,
+				"felony": 250,
 				"misdemeanor": 129,
 				"violation": 12
 			},
@@ -106930,7 +106973,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 93,
 				"violation": 12
 			},
@@ -119465,7 +119508,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 17,
+				"felony": 18,
 				"misdemeanor": 47,
 				"violation": 1
 			},
@@ -122392,8 +122435,8 @@
 				"command": "REAL TIME CRIME CENTER",
 				"assignment_date": "1/31/2025",
 				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "1984",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "2919",
 				"appt_date": "7/9/2007"
 			},
 			"ranks": [
@@ -142671,7 +142714,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 62,
+				"misdemeanor": 64,
 				"other": 1,
 				"violation": 8
 			},
