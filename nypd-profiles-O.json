@@ -942,10 +942,43 @@
 				"shield_no": "2362",
 				"appt_date": "7/1/2003"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2003",
+					"shield_no": "23400"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "9/3/2021",
+					"shield_no": "2362"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/3/2014 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "PROVIDED MISLEADING INFORMATION REGARDING UNAUTHORIZED NOTEBOOKS THAT WERE NOT RELATED TO OFFICIAL DEPARTMENT BUSINESS.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "WROTE ENTRIES IN AN UNAUTHORIZED NOTEBOOK THAT WAS NOT RELATED TO OFFICIAL DEPARTMENT BUSINESS.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 121,
@@ -4228,7 +4261,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 481,
-				"misdemeanor": 206,
+				"misdemeanor": 207,
 				"other": 6,
 				"violation": 6
 			},
@@ -6439,7 +6472,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 3,
 				"misdemeanor": 6,
 				"violation": 3
 			},
@@ -37071,6 +37104,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 2
 			},
 			"awards": []

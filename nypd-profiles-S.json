@@ -5513,7 +5513,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 9
+				"misdemeanor": 9,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -19305,7 +19306,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 3
 			},
 			"awards": []
@@ -20666,7 +20667,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 45
+				"misdemeanor": 48
 			},
 			"awards": []
 		},
@@ -24955,7 +24956,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 8
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -25057,7 +25058,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 36,
-				"misdemeanor": 83,
+				"misdemeanor": 84,
 				"violation": 2
 			},
 			"awards": [
@@ -25556,7 +25557,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 8,
+				"misdemeanor": 10,
 				"violation": 3
 			},
 			"awards": []
@@ -35364,7 +35365,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"felony": 1,
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -43453,14 +43455,6 @@
 		"recognition_count": 0,
 		"arrest_count": 5,
 		"reports": {
-			"summary": {
-				"command": "077 PCT FIELD TRAINING UNIT",
-				"assignment_date": "6/22/2026",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "22082",
-				"appt_date": "8/20/2025"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -43477,8 +43471,7 @@
 				"violation": 1
 			},
 			"awards": []
-		},
-		"command": "077 PCT FIELD TRAINING UNIT"
+		}
 	},
 	{
 		"taxid": 952218,
@@ -45198,7 +45191,13 @@
 				"shield_no": "5664",
 				"appt_date": "10/18/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/18/2017",
+					"shield_no": "5664"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -55732,7 +55731,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 42
 			},
 			"awards": [
@@ -61777,27 +61776,32 @@
 						{
 							"disposition": "GUILTY",
 							"description": "Improperly used Department property",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "Violated vehicle insurance rules.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "Violated Department of Motor Vehicles rules.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "Made inaccurate statements to supervisor.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "Violated Department of Motor Vehicles rules.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (45 day(s) )"
 						}
 					]
 				}
@@ -85110,7 +85114,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -91720,8 +91724,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
-				"misdemeanor": 51
+				"felony": 28,
+				"misdemeanor": 53
 			},
 			"awards": []
 		},
@@ -102376,7 +102380,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 3,
 				"misdemeanor": 3
 			},
 			"awards": []
@@ -103731,8 +103735,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
-				"misdemeanor": 31,
+				"felony": 20,
+				"misdemeanor": 32,
 				"violation": 1
 			},
 			"awards": [
@@ -109125,7 +109129,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 3,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -112177,7 +112181,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 239,
-				"misdemeanor": 141,
+				"misdemeanor": 142,
 				"violation": 1
 			},
 			"awards": [
@@ -117014,7 +117018,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 88,
+				"felony": 89,
 				"misdemeanor": 63
 			},
 			"awards": [
@@ -120573,7 +120577,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, FAILED TO SAFEGUARD A PRISONER RESULTING IN THE ESCAPE OF SAID INDIVIDUAL",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
 						}
 					]
 				}
@@ -124034,7 +124039,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2
+				"felony": 2,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -124278,8 +124284,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 4
+				"felony": 2,
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -124397,7 +124403,13 @@
 				"shield_no": "3287",
 				"appt_date": "4/30/2025"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/30/2025",
+					"shield_no": "3287"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -128901,7 +128913,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 32
+				"misdemeanor": 33
 			},
 			"awards": []
 		},
@@ -138077,7 +138089,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 65,
+				"felony": 66,
 				"misdemeanor": 35,
 				"other": 5
 			},
