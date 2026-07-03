@@ -3600,7 +3600,7 @@
 		"shield_no": "20684",
 		"appt_date": "4/24/2024",
 		"recognition_count": 0,
-		"arrest_count": 55,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -3841,7 +3841,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -4639,7 +4639,7 @@
 		"shield_no": "1966",
 		"appt_date": "1/31/2006",
 		"recognition_count": 1,
-		"arrest_count": 527,
+		"arrest_count": 528,
 		"reports": {
 			"summary": {
 				"command": "116TH DET SQUAD",
@@ -4667,7 +4667,7 @@
 			"arrests": {
 				"infraction": 7,
 				"felony": 259,
-				"misdemeanor": 257,
+				"misdemeanor": 258,
 				"violation": 4
 			},
 			"awards": [
@@ -5448,7 +5448,7 @@
 		"shield_no": "12868",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 44,
+		"arrest_count": 45,
 		"reports": {
 			"summary": {
 				"command": "076 DOMESTIC VIOLENCE SQUAD",
@@ -6076,7 +6076,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 92,
+				"felony": 93,
 				"misdemeanor": 173,
 				"other": 1
 			},
@@ -9284,35 +9284,6 @@
 		"command": "TRANSIT DISTRICT 33"
 	},
 	{
-		"taxid": 974666,
-		"full_name": "YOUSEF, MINA F",
-		"first_name": "MINA",
-		"last_name": "YOUSEF",
-		"middle_initial": "F",
-		"rank": "POLICE OFFICER",
-		"shield_no": "9175",
-		"appt_date": "4/13/2022",
-		"recognition_count": 0,
-		"arrest_count": 21,
-		"reports": {
-			"summary": {
-				"command": "007 PRECINCT",
-				"assignment_date": "12/26/2022",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "9175",
-				"appt_date": "4/13/2022"
-			},
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "007 PRECINCT"
-	},
-	{
 		"taxid": 962181,
 		"full_name": "YOUSSEF, ARONY A",
 		"first_name": "ARONY",
@@ -11681,7 +11652,13 @@
 				"shield_no": "30736",
 				"appt_date": "7/1/2002"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/2002",
+					"shield_no": "30736"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
