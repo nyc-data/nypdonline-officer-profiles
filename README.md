@@ -1,4 +1,4 @@
-# nypd-officer-profiles
+# nypdonline-officer-profiles
 
 Tracking NYPD Officer Profile data from nypdonline.org
 
