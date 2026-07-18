@@ -9038,7 +9038,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 32,
-				"misdemeanor": 52,
+				"misdemeanor": 53,
 				"violation": 13
 			},
 			"awards": [
@@ -10373,7 +10373,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 37,
-				"misdemeanor": 74
+				"misdemeanor": 75
 			},
 			"awards": []
 		},
@@ -12209,7 +12209,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 214,
+				"felony": 216,
 				"misdemeanor": 101,
 				"other": 1,
 				"violation": 1
@@ -13565,7 +13565,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "045 PRECINCT"
@@ -17420,7 +17422,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 99,
+				"felony": 100,
 				"misdemeanor": 97,
 				"other": 1,
 				"violation": 2
@@ -18101,7 +18103,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 376,
-				"misdemeanor": 520,
+				"misdemeanor": 521,
 				"violation": 14
 			},
 			"awards": [
@@ -18282,7 +18284,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 2,
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "048 PRECINCT"
@@ -23164,7 +23169,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "060 PRECINCT"
@@ -23205,7 +23212,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 155,
+				"felony": 156,
 				"misdemeanor": 167,
 				"other": 1,
 				"violation": 2
@@ -24985,7 +24992,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 98,
+				"misdemeanor": 99,
 				"other": 1,
 				"violation": 2
 			},
@@ -29449,7 +29456,18 @@
 				"shield_no": "2853",
 				"appt_date": "7/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2013",
+					"shield_no": "24570"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/10/2021",
+					"shield_no": "2853"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -34256,7 +34274,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "025 PRECINCT"
@@ -35348,7 +35368,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 48,
-				"misdemeanor": 78
+				"misdemeanor": 79
 			},
 			"awards": []
 		},
@@ -36134,7 +36154,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "048 PRECINCT"
@@ -38978,7 +39001,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "044 PRECINCT"
@@ -40572,7 +40597,7 @@
 		"reports": {
 			"summary": {
 				"command": "115 DOMESTIC VIOLENCE SQUAD",
-				"assignment_date": "4/18/2026",
+				"assignment_date": "7/17/2026",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3232",
@@ -42952,7 +42977,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "048 PRECINCT"
@@ -43033,7 +43060,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 14,
+				"misdemeanor": 16,
 				"violation": 1
 			},
 			"awards": []
@@ -45223,7 +45250,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 3
+			},
 			"awards": []
 		},
 		"command": "081 PRECINCT"
@@ -46379,7 +46408,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "041 PRECINCT"
@@ -47306,7 +47337,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "023 PRECINCT"
@@ -48854,8 +48887,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 68,
-				"misdemeanor": 52
+				"felony": 69,
+				"misdemeanor": 53
 			},
 			"awards": [
 				{
@@ -53858,7 +53891,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "067 PRECINCT"
@@ -57546,7 +57581,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "ENTERED A RESIDENCE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
@@ -58821,7 +58857,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "014 PCT-MIDTOWN SO. PCT"
@@ -70646,7 +70684,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "043 PRECINCT"
@@ -75336,23 +75376,7 @@
 				"shield_no": "",
 				"appt_date": "7/10/2006"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/10/2006",
-					"shield_no": "12359"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "1/31/2014",
-					"shield_no": "1344"
-				},
-				{
-					"rank": "LIEUTENANT",
-					"date": "1/29/2021",
-					"shield_no": ""
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -75361,16 +75385,7 @@
 				"misdemeanor": 69,
 				"violation": 7
 			},
-			"awards": [
-				{
-					"date": "5/8/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/8/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "CHARACTER ASSESSMENT SECTION"
 	},
@@ -79501,7 +79516,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "042 PRECINCT"
@@ -80678,7 +80695,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "110 PRECINCT"
@@ -85693,7 +85712,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 110,
-				"misdemeanor": 111,
+				"misdemeanor": 112,
 				"violation": 10
 			},
 			"awards": [

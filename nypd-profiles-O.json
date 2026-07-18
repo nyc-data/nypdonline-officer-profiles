@@ -2124,7 +2124,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": [
 				{
@@ -5276,7 +5276,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "050 PRECINCT"
@@ -5922,20 +5924,17 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY IN THAT HE STOPPED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (8 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, DID WRONGFULLY USE FORCE AGAINST A PERSON KNOWN TO THE DEPARTMENT",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (8 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, ISSUED A SUMMONS TO A PERSON KNOWN TO THE DEPARTMENT FOR DISORDERLY CONDUCT WITHOUT SUFFICIENT LEGAL AUTHORITY",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (8 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -7876,7 +7875,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "014 PCT-MIDTOWN SO. PCT"
@@ -16686,7 +16687,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
-				"felony": 167,
+				"felony": 170,
 				"misdemeanor": 133,
 				"other": 1,
 				"violation": 8
@@ -20541,13 +20542,19 @@
 				"shield_no": "8907",
 				"appt_date": "4/24/2024"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "4/24/2024",
+					"shield_no": "8907"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 32
+				"misdemeanor": 33
 			},
 			"awards": []
 		},
@@ -20676,8 +20683,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 32,
-				"misdemeanor": 65,
+				"felony": 33,
+				"misdemeanor": 66,
 				"violation": 2
 			},
 			"awards": [
@@ -23536,8 +23543,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 53
+				"felony": 21,
+				"misdemeanor": 55
 			},
 			"awards": [
 				{
@@ -30692,7 +30699,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 79,
+				"felony": 80,
 				"misdemeanor": 81,
 				"violation": 2
 			},
@@ -33677,7 +33684,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 54,
+				"misdemeanor": 55,
 				"violation": 30
 			},
 			"awards": [
@@ -37478,27 +37485,12 @@
 				"shield_no": "11717",
 				"appt_date": "12/29/2020"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "12/29/2020",
-					"shield_no": "11717"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 7,
-				"misdemeanor": 69,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "3/24/2022",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "STRATEGIC RESP GRP 5 SI"
 	},

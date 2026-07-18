@@ -7565,7 +7565,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "069 PRECINCT"
@@ -15650,7 +15653,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "079 PRECINCT"
@@ -16359,8 +16364,56 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/8/2015 12:00:00 AM",
+					"charges_count": 2
+				},
+				{
+					"entry": "10/13/2020 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "ABSENTED HIMSELF FROM WORK WITHOUT PERMISSION, RESULTING IN HIS FAILURE TO PERFORM HIS SUPERVISORY DUTIES.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED TO PREPARE, SUBMIT, AND SECURE SUPERVISORY APPROVAL FOR DEPARTMENT ENTRIES, AS REQUIRED, FOR \"LEAVE OF ABSENCE REPORT\" AND \"ROLL CALL\".",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Misused Department electronics.",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Conducted personal business while on-duty.",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Made misleading and inaccurate statements to investigators.",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 78,
@@ -17852,7 +17905,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 201,
+				"felony": 202,
 				"misdemeanor": 93,
 				"other": 1,
 				"violation": 3
@@ -18930,7 +18983,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -19549,20 +19602,8 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 15,
-				"misdemeanor": 66
-			},
-			"awards": [
-				{
-					"date": "5/5/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/29/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "HOUSING PSA 8"
 	},
@@ -27025,7 +27066,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "073 PRECINCT"
@@ -37907,7 +37950,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 2
+				"misdemeanor": 2,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -42581,8 +42625,8 @@
 		"arrest_count": 155,
 		"reports": {
 			"summary": {
-				"command": "020 DOMESTIC VIOLENCE SQUAD",
-				"assignment_date": "4/18/2026",
+				"command": "HOUSING PSA 5",
+				"assignment_date": "7/17/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "14580",
@@ -42600,7 +42644,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 102,
+				"misdemeanor": 103,
 				"violation": 6
 			},
 			"awards": [
@@ -42614,7 +42658,7 @@
 				}
 			]
 		},
-		"command": "020 DOMESTIC VIOLENCE SQUAD"
+		"command": "HOUSING PSA 5"
 	},
 	{
 		"taxid": 944986,
@@ -47463,7 +47507,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 53,
 				"violation": 5
 			},
@@ -53568,7 +53612,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "014 PCT-MIDTOWN SO. PCT"
@@ -65935,7 +65981,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "052 PRECINCT"
@@ -68756,7 +68804,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2
+				"felony": 2,
+				"misdemeanor": 1
 			},
 			"awards": []
 		},
@@ -69809,7 +69858,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 69,
+				"felony": 70,
 				"misdemeanor": 62,
 				"violation": 1
 			},
@@ -70143,7 +70192,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1,
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "103 PRECINCT"
@@ -72122,8 +72174,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 66,
-				"misdemeanor": 103,
+				"felony": 67,
+				"misdemeanor": 104,
 				"violation": 1
 			},
 			"awards": [
@@ -75865,7 +75917,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 61,
+				"misdemeanor": 63,
 				"violation": 4
 			},
 			"awards": [
@@ -78341,7 +78393,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -81710,6 +81762,7 @@
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 73,
+				"other": 1,
 				"violation": 6
 			},
 			"awards": [
@@ -87159,7 +87212,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 62,
 				"violation": 1
 			},
@@ -88721,13 +88774,7 @@
 				"shield_no": "13518",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2014",
-					"shield_no": "13518"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -100428,7 +100475,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 243,
+				"felony": 246,
 				"misdemeanor": 111,
 				"other": 1,
 				"violation": 1
@@ -102041,8 +102088,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 75,
-				"misdemeanor": 96,
+				"felony": 76,
+				"misdemeanor": 98,
 				"violation": 1
 			},
 			"awards": [
@@ -104434,7 +104481,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "113 PRECINCT"
@@ -104569,7 +104618,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "115 PRECINCT"
@@ -104734,7 +104785,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "069 PRECINCT"
@@ -105447,7 +105500,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 13
+				"misdemeanor": 14
 			},
 			"awards": [
 				{
@@ -105739,7 +105792,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 182,
+				"felony": 184,
 				"misdemeanor": 146,
 				"violation": 3
 			},
@@ -106407,7 +106460,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 85,
+				"felony": 86,
 				"misdemeanor": 190,
 				"violation": 2
 			},
@@ -115408,7 +115461,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "052 PRECINCT"
@@ -116818,7 +116873,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"felony": 1,
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -122669,7 +122725,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "047 PRECINCT"
@@ -126447,7 +126505,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 15
 			},
 			"awards": []
@@ -130538,7 +130596,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
+				"felony": 16,
 				"misdemeanor": 35
 			},
 			"awards": [
@@ -133107,6 +133165,10 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "11/7/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/5/2024",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -134232,7 +134294,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 109,
 				"other": 1,
 				"violation": 7
@@ -141360,8 +141422,8 @@
 		"arrest_count": 230,
 		"reports": {
 			"summary": {
-				"command": "FORENSIC INVESTIGATIONS UNIT",
-				"assignment_date": "7/6/2026",
+				"command": "DB TRAINING UNIT",
+				"assignment_date": "7/13/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "DETECTIVE 3RD GRADE",
 				"shield_no": "6354",
@@ -141404,7 +141466,7 @@
 				}
 			]
 		},
-		"command": "FORENSIC INVESTIGATIONS UNIT"
+		"command": "DB TRAINING UNIT"
 	},
 	{
 		"taxid": 962117,
@@ -144381,8 +144443,8 @@
 		"arrest_count": 48,
 		"reports": {
 			"summary": {
-				"command": "ESU CANINE TEAM",
-				"assignment_date": "4/17/2026",
+				"command": "073 PRECINCT",
+				"assignment_date": "7/16/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "9112",
@@ -144474,7 +144536,7 @@
 				}
 			]
 		},
-		"command": "ESU CANINE TEAM"
+		"command": "073 PRECINCT"
 	},
 	{
 		"taxid": 947516,
@@ -148228,7 +148290,7 @@
 		"reports": {
 			"summary": {
 				"command": "DOMESTIC VIOLENCE UNIT ZONE 5 STATEN ISLAND",
-				"assignment_date": "4/18/2026",
+				"assignment_date": "7/17/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4850",
@@ -163253,7 +163315,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "109 PRECINCT"
@@ -165981,7 +166045,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "032 PRECINCT"

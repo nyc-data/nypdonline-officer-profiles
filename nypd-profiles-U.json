@@ -1444,7 +1444,11 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 4,
+				"misdemeanor": 13,
+				"violation": 3
+			},
 			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 32"
@@ -3215,7 +3219,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
+				"felony": 53,
 				"misdemeanor": 69,
 				"violation": 1
 			},
@@ -6658,7 +6662,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 2
+			},
 			"awards": []
 		},
 		"command": "028 PRECINCT"
