@@ -1047,6 +1047,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 1
 			},
 			"awards": []
@@ -2125,7 +2126,7 @@
 		"shield_no": "21433",
 		"appt_date": "10/7/2015",
 		"recognition_count": 4,
-		"arrest_count": 161,
+		"arrest_count": 162,
 		"reports": {
 			"summary": {
 				"command": "109 DOMESTIC VIOLENCE SQUAD",
@@ -2680,7 +2681,7 @@
 		"shield_no": "7781",
 		"appt_date": "4/6/2016",
 		"recognition_count": 26,
-		"arrest_count": 354,
+		"arrest_count": 363,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT BORO BROOKLYN",
@@ -2702,9 +2703,9 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 73,
-				"misdemeanor": 245,
+				"misdemeanor": 253,
 				"other": 2,
-				"violation": 34
+				"violation": 35
 			},
 			"awards": [
 				{
@@ -7359,7 +7360,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 1
+			},
 			"awards": []
 		},
 		"command": "120 PRECINCT"
@@ -8722,8 +8725,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 58,
-				"misdemeanor": 98
+				"felony": 59,
+				"misdemeanor": 100
 			},
 			"awards": []
 		},
@@ -8853,7 +8856,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 3
 			},
 			"awards": []
 		},
@@ -11857,8 +11860,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 39,
-				"misdemeanor": 55
+				"felony": 40,
+				"misdemeanor": 56
 			},
 			"awards": [
 				{
@@ -14570,7 +14573,7 @@
 		"shield_no": "6294",
 		"appt_date": "7/1/2001",
 		"recognition_count": 4,
-		"arrest_count": 741,
+		"arrest_count": 742,
 		"reports": {
 			"summary": {
 				"command": "108TH DET SQUAD",
@@ -15562,7 +15565,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 139,
-				"misdemeanor": 86,
+				"misdemeanor": 87,
 				"violation": 3
 			},
 			"awards": [
@@ -16916,7 +16919,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 149,
-				"misdemeanor": 171,
+				"misdemeanor": 172,
 				"other": 1
 			},
 			"awards": [
@@ -18032,7 +18035,7 @@
 		"shield_no": "6217",
 		"appt_date": "12/29/2020",
 		"recognition_count": 3,
-		"arrest_count": 113,
+		"arrest_count": 114,
 		"reports": {
 			"summary": {
 				"command": "045 DOMESTIC VIOLENCE SQUAD",
@@ -19903,13 +19906,7 @@
 				"shield_no": "11263",
 				"appt_date": "7/13/2016"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/13/2016",
-					"shield_no": "11263"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -21064,7 +21061,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 443,
-				"misdemeanor": 445,
+				"misdemeanor": 447,
 				"other": 1,
 				"violation": 9
 			},
@@ -21174,7 +21171,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -23728,7 +23725,7 @@
 		"shield_no": "13904",
 		"appt_date": "4/28/2021",
 		"recognition_count": 1,
-		"arrest_count": 115,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "030 PRECINCT",
@@ -23750,7 +23747,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 31,
+				"felony": 33,
 				"misdemeanor": 82,
 				"violation": 1
 			},
@@ -32263,7 +32260,7 @@
 		"shield_no": "5394",
 		"appt_date": "10/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 165,
+		"arrest_count": 166,
 		"reports": {
 			"summary": {
 				"command": "BRONX ADULT SEX CRIMES SQUAD",
@@ -35231,18 +35228,7 @@
 				"shield_no": "621",
 				"appt_date": "1/20/2004"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/20/2004",
-					"shield_no": "3713"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "4/28/2017",
-					"shield_no": "621"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -37933,7 +37919,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -40677,32 +40663,38 @@
 						{
 							"disposition": "GUILTY",
 							"description": "PREVENTED AND INTERFERED WITH A CALL PLACED TO 911.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "HAVING BEEN INVOLVED IN AN OFF-DUTY INCIDENT FAILED AND NEGLECTED TO REPORT SAID INCIDENT TO THE OPERATIONS UNIT AS REQUIRED.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WRONGFULLY AND WITHOUT JUST CAUSE MADE MISLEADING STATEMENTS TO INVESTIGATORS DURING AN OFFICIAL DEPARTMENT INTERVIEW.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO REMAIN AT THE SCENE OF AN OFF-DUTY INCIDENT WHEN IT WAS FEASIBLE AND CONSISTENT WITH HIS PERSONAL SAFETY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO MAKE HIMSELF AVAILABLE TO THE DUTY CAPTAIN WHO ARRIVED AT HIS RESIDENCE.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "DID WRONGFULLY AND WITHOUT JUST CAUSE PREVENT OR INTERFERE WITH AN OFFICIAL DEPARTMENT INVESTIGATION.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
 						}
 					]
 				}
@@ -40779,7 +40771,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 47
+				"misdemeanor": 48
 			},
 			"awards": [
 				{
@@ -41326,7 +41318,7 @@
 		"shield_no": "7236",
 		"appt_date": "7/9/2013",
 		"recognition_count": 2,
-		"arrest_count": 245,
+		"arrest_count": 249,
 		"reports": {
 			"summary": {
 				"command": "FINANCIAL CRIMES TASK FORCE",
@@ -42286,7 +42278,7 @@
 		"shield_no": "2681",
 		"appt_date": "7/9/2014",
 		"recognition_count": 7,
-		"arrest_count": 303,
+		"arrest_count": 306,
 		"reports": {
 			"summary": {
 				"command": "106TH DET SQUAD",
@@ -43705,8 +43697,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3229",
 		"appt_date": "1/9/2013",
-		"recognition_count": 9,
-		"arrest_count": 278,
+		"recognition_count": 12,
+		"arrest_count": 279,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -45092,6 +45084,10 @@
 				{
 					"date": "7/17/2025",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/19/2023",
+					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
 		},
@@ -47258,7 +47254,7 @@
 		"shield_no": "7568",
 		"appt_date": "7/9/2013",
 		"recognition_count": 1,
-		"arrest_count": 191,
+		"arrest_count": 193,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -49302,7 +49298,7 @@
 		"reports": {
 			"summary": {
 				"command": "PERSONNEL ORDERS DIVISION",
-				"assignment_date": "5/13/2026",
+				"assignment_date": "8/8/2026",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "4801",
@@ -49726,7 +49722,7 @@
 		"shield_no": "2619",
 		"appt_date": "1/7/2015",
 		"recognition_count": 23,
-		"arrest_count": 374,
+		"arrest_count": 375,
 		"reports": {
 			"summary": {
 				"command": "073 DET SQUAD",
@@ -52248,7 +52244,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 326,
-				"misdemeanor": 1279,
+				"misdemeanor": 1282,
 				"violation": 35
 			},
 			"awards": [
@@ -52640,7 +52636,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 135,
+				"felony": 136,
 				"misdemeanor": 81,
 				"violation": 3
 			},
