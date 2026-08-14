@@ -123,7 +123,18 @@
 				"shield_no": "2627",
 				"appt_date": "7/6/2011"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "18741"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "12/23/2024",
+					"shield_no": "2627"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -1959,7 +1970,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -3626,7 +3637,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 32,
+				"misdemeanor": 33,
 				"other": 1
 			},
 			"awards": []
@@ -5468,7 +5479,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -8502,10 +8513,32 @@
 				"shield_no": "19200",
 				"appt_date": "7/1/1998"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/1/1998",
+					"shield_no": "19200"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "8/11/2016 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "ENGAGED IN CONDUCT PREJUDICIAL TO THE GOOD ORDER, EFFICIENCY OR DISCIPLINE OF THE DEPARTMENT TO WIT: SAID POLICE OFFICER PATRONIZED AN UNLAWFUL LOCATION.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (10 day(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {},
 			"awards": []
 		},
@@ -9244,12 +9277,7 @@
 					]
 				}
 			],
-			"arrests": {
-				"infraction": 1,
-				"felony": 4,
-				"misdemeanor": 24,
-				"violation": 13
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "HOUSING PSA 3"

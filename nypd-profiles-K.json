@@ -3342,8 +3342,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 12
+				"felony": 14,
+				"misdemeanor": 14
 			},
 			"awards": [
 				{
@@ -7262,7 +7262,12 @@
 				"felony": 19,
 				"misdemeanor": 51
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "4/21/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "114 PRECINCT"
 	},
@@ -13167,7 +13172,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 28
+				"misdemeanor": 29
 			},
 			"awards": []
 		},
@@ -17526,7 +17531,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 8
 			},
 			"awards": []
@@ -19928,8 +19933,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 35,
-				"misdemeanor": 120,
+				"felony": 36,
+				"misdemeanor": 121,
 				"violation": 3
 			},
 			"awards": [
@@ -20363,7 +20368,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 36,
-				"misdemeanor": 61,
+				"misdemeanor": 62,
 				"violation": 1
 			},
 			"awards": []
@@ -30767,7 +30772,13 @@
 				"shield_no": "5709",
 				"appt_date": "10/19/2022"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/19/2022",
+					"shield_no": "5709"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -48767,7 +48778,23 @@
 				"shield_no": "",
 				"appt_date": "1/7/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "26829"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "12/15/2017",
+					"shield_no": "3168"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "2/9/2022",
+					"shield_no": ""
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -53583,8 +53610,30 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/13/2024 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to make required entries in Department Logs.",
+							"group_id": "1",
+							"penalty": "VACATION DAY"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongfully used physical force.",
+							"group_id": "1",
+							"penalty": "VACATION DAY"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 29,

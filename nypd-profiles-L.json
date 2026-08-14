@@ -432,7 +432,7 @@
 			],
 			"arrests": {
 				"felony": 166,
-				"misdemeanor": 144,
+				"misdemeanor": 145,
 				"violation": 17
 			},
 			"awards": [
@@ -10682,7 +10682,13 @@
 				"shield_no": "16018",
 				"appt_date": "7/8/2008"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2008",
+					"shield_no": "16018"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -13828,7 +13834,13 @@
 				"shield_no": "5762",
 				"appt_date": "10/19/2022"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/19/2022",
+					"shield_no": "5762"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -21318,12 +21330,7 @@
 					]
 				}
 			],
-			"arrests": {
-				"infraction": 1,
-				"felony": 11,
-				"misdemeanor": 59,
-				"violation": 8
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "2/22/2014",
@@ -23784,7 +23791,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 6,
 				"misdemeanor": 9
 			},
 			"awards": []
@@ -30405,7 +30412,16 @@
 				"felony": 17,
 				"misdemeanor": 37
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "10/2/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/17/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "NARC BORO QUEENS SOUTH"
 	},
@@ -88193,6 +88209,10 @@
 			},
 			"awards": [
 				{
+					"date": "4/12/2025",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "11/2/2024",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -94520,10 +94540,52 @@
 		"recognition_count": 0,
 		"arrest_count": 181,
 		"reports": {
-			"ranks": [],
+			"summary": {
+				"command": "STRATEGIC RESP GRP 2 BRONX",
+				"assignment_date": "5/10/2018",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "28665",
+				"appt_date": "1/23/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2007",
+					"shield_no": "28665"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "7/10/2017 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "ACTED IN A MANNER LIKELY TO BE INJURIOUS TO THE PHYSICAL, MENTAL OR MORAL WELFARE OF A CHILD LESS THAN SEVENTEEN (17) YEARS OLD.",
+							"group_id": "1",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "AFTER HAVING BEEN INVOLVED IN AN OFF-DUTY DOMESTIC INCIDENT, FAILED TO TIMELY NOTIFY THE OPERATIONS UNIT, AS REQUIRED.",
+							"group_id": "1",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {},
 			"awards": []
 		},
@@ -98453,7 +98515,16 @@
 				"felony": 4,
 				"misdemeanor": 12
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "1/29/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/1/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "070 PRECINCT"
 	},
