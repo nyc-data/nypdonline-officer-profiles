@@ -8543,7 +8543,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 28,
+				"felony": 29,
 				"misdemeanor": 78
 			},
 			"awards": []
@@ -12951,8 +12951,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/9/2014 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "FAILED TO NOTIFY THE RADIO DISPATCHER AT THE START OF A VEHICLE PURSUIT OF A PEDESTRIAN.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 60,
@@ -39247,7 +39263,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
+				"felony": 21,
 				"misdemeanor": 36
 			},
 			"awards": []
@@ -40448,7 +40464,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 43
+				"misdemeanor": 45
 			},
 			"awards": []
 		},

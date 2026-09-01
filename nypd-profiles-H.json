@@ -17883,8 +17883,31 @@
 		"recognition_count": 0,
 		"arrest_count": 5,
 		"reports": {
-			"discipline": []
-		}
+			"summary": {
+				"command": "045 PRECINCT",
+				"assignment_date": "7/1/2026",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "10213",
+				"appt_date": "12/17/2025"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "12/17/2025",
+					"shield_no": "10213"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 4,
+				"misdemeanor": 1
+			},
+			"awards": []
+		},
+		"command": "045 PRECINCT"
 	},
 	{
 		"taxid": 974908,
@@ -18287,8 +18310,62 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/9/2019 12:00:00 AM",
+					"charges_count": 4
+				},
+				{
+					"entry": "12/22/2021 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Made inaccurate statements to investigators.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Criminal association.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Violated Department of Motor Vehicle Rules.\r\nCriminal Association.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to safeguard Department property.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (55 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Criminal Association.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Failed to obey a lawful order.",
+							"group_id": "2",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (55 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 1,
 				"misdemeanor": 34
@@ -21102,8 +21179,37 @@
 		"recognition_count": 1,
 		"arrest_count": 63,
 		"reports": {
-			"discipline": []
-		}
+			"summary": {
+				"command": "013 PRECINCT",
+				"assignment_date": "6/20/2013",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "23950",
+				"appt_date": "7/6/2011"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/6/2011",
+					"shield_no": "23950"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 3,
+				"misdemeanor": 55,
+				"violation": 5
+			},
+			"awards": [
+				{
+					"date": "2/24/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "013 PRECINCT"
 	},
 	{
 		"taxid": 950568,
@@ -21698,7 +21804,29 @@
 		"recognition_count": 0,
 		"arrest_count": 35,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "060 PRECINCT",
+				"assignment_date": "5/7/2024",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "16142",
+				"appt_date": "10/25/2023"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/25/2023",
+					"shield_no": "16142"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 15,
+				"misdemeanor": 20
+			},
+			"awards": []
 		},
 		"command": "060 PRECINCT"
 	},
@@ -26111,7 +26239,13 @@
 				"shield_no": "29935",
 				"appt_date": "1/3/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/3/2019",
+					"shield_no": "29935"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -34581,7 +34715,7 @@
 				"assignment_date": "4/22/2026",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
-				"shield_no": "16008",
+				"shield_no": "10503",
 				"appt_date": "4/22/2026"
 			},
 			"ranks": [
@@ -48762,8 +48896,36 @@
 		"recognition_count": 1,
 		"arrest_count": 127,
 		"reports": {
-			"discipline": []
-		}
+			"summary": {
+				"command": "088 DOMESTIC VIOLENCE SQUAD",
+				"assignment_date": "7/17/2026",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "8718",
+				"appt_date": "12/29/2020"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "12/29/2020",
+					"shield_no": "8718"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 72,
+				"misdemeanor": 55
+			},
+			"awards": [
+				{
+					"date": "9/28/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "088 DOMESTIC VIOLENCE SQUAD"
 	},
 	{
 		"taxid": 977551,
@@ -59813,7 +59975,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 44,
-				"misdemeanor": 49
+				"misdemeanor": 50
 			},
 			"awards": []
 		},
@@ -61504,7 +61666,34 @@
 		"recognition_count": 0,
 		"arrest_count": 29,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "014 PCT-MIDTOWN SO. PCT",
+				"assignment_date": "7/16/2024",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "16418",
+				"appt_date": "1/3/2024"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/3/2024",
+					"shield_no": "20816"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/25/2024",
+					"shield_no": "16418"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 9,
+				"misdemeanor": 20
+			},
+			"awards": []
 		},
 		"command": "014 PCT-MIDTOWN SO. PCT"
 	},
@@ -69223,7 +69412,30 @@
 		"recognition_count": 0,
 		"arrest_count": 23,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "TRANSIT DISTRICT 34",
+				"assignment_date": "11/18/2024",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "16278",
+				"appt_date": "10/19/2022"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/19/2022",
+					"shield_no": "16278"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 5,
+				"misdemeanor": 17,
+				"violation": 1
+			},
+			"awards": []
 		},
 		"command": "TRANSIT DISTRICT 34"
 	},
@@ -70384,7 +70596,29 @@
 		"recognition_count": 0,
 		"arrest_count": 6,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "HOUSING PSA 3",
+				"assignment_date": "2/9/2026",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "17207",
+				"appt_date": "10/30/2024"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/30/2024",
+					"shield_no": "17207"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 2,
+				"misdemeanor": 4
+			},
+			"awards": []
 		},
 		"command": "HOUSING PSA 3"
 	},
@@ -70705,7 +70939,30 @@
 		"recognition_count": 0,
 		"arrest_count": 34,
 		"reports": {
-			"discipline": []
+			"summary": {
+				"command": "LAB EVIDENCE CTRL & SECURITY",
+				"assignment_date": "1/30/2023",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "21148",
+				"appt_date": "7/8/2015"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/8/2015",
+					"shield_no": "21148"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 9,
+				"misdemeanor": 24,
+				"violation": 1
+			},
+			"awards": []
 		},
 		"command": "LAB EVIDENCE CTRL & SECURITY"
 	},
@@ -72093,7 +72350,8 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 64,
-				"misdemeanor": 131
+				"misdemeanor": 132,
+				"violation": 1
 			},
 			"awards": []
 		},

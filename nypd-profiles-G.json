@@ -32196,8 +32196,36 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/28/2024 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to conduct an investigation.",
+							"group_id": "1",
+							"penalty": "VACATION DAY, TRAINING"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Failed to make required entries in Domestic Incident Report.",
+							"group_id": "1",
+							"penalty": "VACATION DAY, TRAINING"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "VACATION DAY, TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 10,
 				"felony": 37,
@@ -38247,7 +38275,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
+				"felony": 34,
 				"misdemeanor": 32
 			},
 			"awards": [
@@ -56370,7 +56398,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
+				"felony": 12,
 				"misdemeanor": 16,
 				"other": 1
 			},
@@ -86312,7 +86340,13 @@
 				"shield_no": "25432",
 				"appt_date": "1/6/2020"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/6/2020",
+					"shield_no": "25432"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -93730,7 +93764,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 287,
+				"felony": 291,
 				"misdemeanor": 148
 			},
 			"awards": [
@@ -118445,8 +118479,7 @@
 						{
 							"disposition": "GUILTY",
 							"description": "Made or caused to be made false or inaccurate entries in Department records.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
