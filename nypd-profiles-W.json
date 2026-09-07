@@ -4317,10 +4317,10 @@
 		"arrest_count": 202,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "8/31/2026",
+				"command": "TRANSIT BUREAU",
+				"assignment_date": "12/18/2025",
 				"ethnicity": "WHITE",
-				"rank_desc": "SERGEANT",
+				"rank_desc": "POLICE OFFICER",
 				"shield_no": "20111",
 				"appt_date": "7/6/2011"
 			},
@@ -4436,7 +4436,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "TRANSIT BUREAU"
 	},
 	{
 		"taxid": 951412,
@@ -33673,8 +33673,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "2/14/2018 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WAS DISCOURTEOUS TO A PERSON KNOWN TO THE DEPARTMENT.",
+							"group_id": "1",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) ), TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 37,
@@ -34454,7 +34470,12 @@
 				"felony": 4,
 				"misdemeanor": 4
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "11/11/2024",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "US OPEN TENNIS DETAIL"
 	},
@@ -35797,7 +35818,12 @@
 				"felony": 10,
 				"misdemeanor": 21
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "5/10/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "048 PRECINCT"
 	},
@@ -37135,7 +37161,12 @@
 				"felony": 29,
 				"misdemeanor": 29
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "6/21/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "048 PRECINCT"
 	},
@@ -56377,10 +56408,52 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "10/6/2020 12:00:00 AM",
+					"charges_count": 3
+				},
+				{
+					"entry": "5/23/2022 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Refused to obey lawful direction.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Disorderly Conduct.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Resisting Arrest.",
+							"group_id": "1",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "-",
+							"group_id": "2",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 145,
+				"felony": 146,
 				"misdemeanor": 70,
 				"violation": 1
 			},

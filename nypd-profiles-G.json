@@ -7467,7 +7467,11 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"infraction": 1,
+				"felony": 3,
+				"misdemeanor": 14
+			},
 			"awards": []
 		},
 		"command": "PA SITE & SECURITY UNIT"
@@ -18784,7 +18788,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 55,
+				"misdemeanor": 56,
 				"other": 8,
 				"violation": 8
 			},
@@ -23273,6 +23277,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 10
 			},
 			"awards": []
@@ -25182,7 +25187,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"misdemeanor": 3
+			},
 			"awards": []
 		},
 		"command": "MILITARY & EXTENDED LEAVE DESK"
@@ -27129,8 +27136,17 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"arrests": {
+				"felony": 9,
+				"misdemeanor": 95,
+				"other": 1
+			},
+			"awards": [
+				{
+					"date": "7/10/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "TB BUS ENFORCEMENT UNIT"
 	},
@@ -36418,7 +36434,11 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 10,
+				"misdemeanor": 22,
+				"other": 1
+			},
 			"awards": []
 		},
 		"command": "HOUSING PSA 7"
@@ -38878,7 +38898,13 @@
 					"shield_no": "4324"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "11/10/2021",
+					"url": "https://nypdonline.org/files/957619_11102021_2021071.pdf",
+					"type": "Trial Decision"
+				}
+			],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
@@ -54445,7 +54471,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 57
+				"misdemeanor": 58
 			},
 			"awards": [
 				{
@@ -59596,8 +59622,8 @@
 		"arrest_count": 34,
 		"reports": {
 			"summary": {
-				"command": "077 PRECINCT",
-				"assignment_date": "4/13/2026",
+				"command": "NARC BORO QUEENS SOUTH",
+				"assignment_date": "8/31/2026",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "6076",
@@ -59624,7 +59650,7 @@
 				}
 			]
 		},
-		"command": "077 PRECINCT"
+		"command": "NARC BORO QUEENS SOUTH"
 	},
 	{
 		"taxid": 964019,
@@ -61921,7 +61947,20 @@
 				"misdemeanor": 30,
 				"violation": 2
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "7/10/2025",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/26/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/18/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "073 PRECINCT"
 	},
@@ -79378,7 +79417,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 5,
+				"misdemeanor": 6,
 				"violation": 1
 			},
 			"awards": []
@@ -81369,7 +81408,13 @@
 					"shield_no": "14137"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "7/28/2023",
+					"url": "https://nypdonline.org/files/954884_07282023_2023039.pdf",
+					"type": "Trial Decision"
+				}
+			],
 			"disciplineHistory": [
 				{
 					"entry": "7/7/2022 12:00:00 AM",
@@ -93151,7 +93196,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 38,
+				"misdemeanor": 39,
 				"violation": 1
 			},
 			"awards": []
@@ -93535,7 +93580,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 291,
+				"felony": 292,
 				"misdemeanor": 148
 			},
 			"awards": [
@@ -95541,7 +95586,13 @@
 					"shield_no": "1813"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "11/10/2014",
+					"url": "https://nypdonline.org/files/949057_11102014_2014069.pdf",
+					"type": "Trial Decision"
+				}
+			],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
@@ -117152,7 +117203,13 @@
 					"shield_no": "4784"
 				}
 			],
-			"documents": [],
+			"documents": [
+				{
+					"date": "3/11/2024",
+					"url": "https://nypdonline.org/files/955965_03112024_2024025.pdf",
+					"type": "Trial Decision"
+				}
+			],
 			"disciplineHistory": [
 				{
 					"entry": "3/29/2019 12:00:00 AM",
@@ -118138,7 +118195,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "Made or caused to be made false or inaccurate entries in Department records.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (30 day(s) )"
 						}
 					]
 				}
@@ -119302,7 +119360,11 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 15,
+				"misdemeanor": 55,
+				"violation": 2
+			},
 			"awards": [
 				{
 					"date": "4/12/2025",
