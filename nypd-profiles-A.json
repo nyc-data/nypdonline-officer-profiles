@@ -29672,7 +29672,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 26,
-				"misdemeanor": 48
+				"misdemeanor": 50
 			},
 			"awards": []
 		},
@@ -30112,7 +30112,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -36763,7 +36763,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 53
 			},
 			"awards": []
@@ -51346,7 +51346,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 18
 			},
 			"awards": []
@@ -64920,7 +64920,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 15,
-				"misdemeanor": 38
+				"misdemeanor": 41
 			},
 			"awards": [
 				{
@@ -80642,7 +80642,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 57,
+				"misdemeanor": 60,
 				"violation": 43
 			},
 			"awards": []
@@ -85525,8 +85525,54 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "12/9/2022 12:00:00 AM",
+					"charges_count": 6
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Operated a motor vehicle while their ability was impaired.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Operating a motor vehicle while under the influence of alcohol or drugs.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Refused to submit to a breathalyzer test.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Unfit for duty.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "Involved in a physical altercation.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Violated uniform rules.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 26,
