@@ -6083,7 +6083,7 @@
 		"shield_no": "25294",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 89,
+		"arrest_count": 90,
 		"reports": {
 			"summary": {
 				"command": "PBMN NEIGHBORHOOD SAFETY TEAMS",
@@ -8035,7 +8035,7 @@
 		"shield_no": "4701",
 		"appt_date": "1/9/2006",
 		"recognition_count": 3,
-		"arrest_count": 561,
+		"arrest_count": 562,
 		"reports": {
 			"summary": {
 				"command": "103RD DETECTIVE SQUAD",
@@ -10963,7 +10963,7 @@
 		"shield_no": "4276",
 		"appt_date": "7/6/2010",
 		"recognition_count": 6,
-		"arrest_count": 599,
+		"arrest_count": 600,
 		"reports": {
 			"summary": {
 				"command": "PBMN COMMUNITY RESPONSE TEAM",
@@ -11486,7 +11486,7 @@
 		"shield_no": "15895",
 		"appt_date": "7/3/2024",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -11844,7 +11844,7 @@
 		"shield_no": "11998",
 		"appt_date": "7/3/2024",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 3",
@@ -13834,7 +13834,7 @@
 		"shield_no": "26525",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 42,
+		"arrest_count": 44,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -21623,7 +21623,7 @@
 		"shield_no": "4722",
 		"appt_date": "10/12/2021",
 		"recognition_count": 5,
-		"arrest_count": 86,
+		"arrest_count": 89,
 		"reports": {
 			"summary": {
 				"command": "069 DET SQUAD",
@@ -28078,7 +28078,7 @@
 		"shield_no": "3960",
 		"appt_date": "1/9/2013",
 		"recognition_count": 1,
-		"arrest_count": 311,
+		"arrest_count": 313,
 		"reports": {
 			"summary": {
 				"command": "044 DET SQUAD",
@@ -28818,7 +28818,7 @@
 		"shield_no": "4264",
 		"appt_date": "7/9/2013",
 		"recognition_count": 4,
-		"arrest_count": 110,
+		"arrest_count": 111,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN CHILD ABUSE SQUAD",
@@ -35599,26 +35599,6 @@
 		"command": "HIGHWAY UNIT 2"
 	},
 	{
-		"taxid": 946329,
-		"full_name": "TKACZUK, MATEUSZ",
-		"first_name": "MATEUSZ",
-		"last_name": "TKACZUK",
-		"middle_initial": "",
-		"rank": "LIEUTENANT",
-		"shield_no": "",
-		"appt_date": "1/7/2008",
-		"recognition_count": 16,
-		"arrest_count": 163,
-		"reports": {
-			"ranks": [],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		}
-	},
-	{
 		"taxid": 973808,
 		"full_name": "TKESHELASHVILI, ALEKSANDRE",
 		"first_name": "ALEKSANDRE",
@@ -40452,7 +40432,23 @@
 				"shield_no": "6032",
 				"appt_date": "7/9/2007"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "17032"
+				},
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/14/2011",
+					"shield_no": "278"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/24/2015",
+					"shield_no": "6032"
+				}
+			],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -41939,7 +41935,7 @@
 		"shield_no": "19529",
 		"appt_date": "10/30/2024",
 		"recognition_count": 0,
-		"arrest_count": 37,
+		"arrest_count": 38,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -42512,7 +42508,10 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 16,
+				"misdemeanor": 57
+			},
 			"awards": []
 		},
 		"command": "STRATEGIC RESP GRP 2 BRONX"
@@ -48209,7 +48208,7 @@
 		"shield_no": "12122",
 		"appt_date": "7/6/2010",
 		"recognition_count": 3,
-		"arrest_count": 211,
+		"arrest_count": 212,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -54059,8 +54058,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 170,
-				"misdemeanor": 207,
+				"felony": 171,
+				"misdemeanor": 208,
 				"violation": 79
 			},
 			"awards": [
@@ -63354,7 +63353,7 @@
 		"shield_no": "13975",
 		"appt_date": "10/30/2024",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "077 PRECINCT",
@@ -64569,7 +64568,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 52,
-				"misdemeanor": 163,
+				"misdemeanor": 164,
 				"violation": 6
 			},
 			"awards": [
