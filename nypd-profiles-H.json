@@ -7464,7 +7464,7 @@
 		"shield_no": "22254",
 		"appt_date": "7/5/2017",
 		"recognition_count": 6,
-		"arrest_count": 119,
+		"arrest_count": 121,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -8351,7 +8351,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 22
+				"misdemeanor": 24
 			},
 			"awards": []
 		},
@@ -15290,7 +15290,9 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"awards": []
 		},
 		"command": "075 PCT FIELD TRAINING UNIT"
@@ -17549,7 +17551,7 @@
 		"shield_no": "24952",
 		"appt_date": "11/2/2020",
 		"recognition_count": 25,
-		"arrest_count": 212,
+		"arrest_count": 217,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -17772,7 +17774,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 219,
+				"felony": 220,
 				"misdemeanor": 305,
 				"violation": 87
 			},
@@ -18163,7 +18165,7 @@
 		"shield_no": "10213",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 5,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "PSA 8 FIELD TRAINING UNIT",
@@ -18185,7 +18187,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 1
+				"misdemeanor": 2
 			},
 			"awards": []
 		},
@@ -18359,7 +18361,7 @@
 		"shield_no": "14854",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "048 PCT FIELD TRAINING UNIT",
@@ -18381,7 +18383,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 2
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -21158,6 +21160,85 @@
 		"command": "EMER SERV SQ 08"
 	},
 	{
+		"taxid": 960638,
+		"full_name": "HARTIGAN, BRIAN C",
+		"first_name": "BRIAN",
+		"last_name": "HARTIGAN",
+		"middle_initial": "C",
+		"rank": "POLICE OFFICER",
+		"shield_no": "5295",
+		"appt_date": "1/6/2016",
+		"recognition_count": 3,
+		"arrest_count": 158,
+		"reports": {
+			"summary": {
+				"command": "116 PRECINCT",
+				"assignment_date": "12/14/2024",
+				"ethnicity": "WHITE",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "5295",
+				"appt_date": "1/6/2016"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/6/2016",
+					"shield_no": "5295"
+				}
+			],
+			"documents": [],
+			"disciplineHistory": [
+				{
+					"entry": "1/29/2018 12:00:00 AM",
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY WRONGFULLY CONSUMED AN INTOXICANT TO THE EXTENT THAT HE WAS UNFIT FOR DUTY.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "ACTED DISORDERLY IN A PREMISE AND REFUSED TO LEAVE WHEN DIRECTED TO DO SO.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "LOST HIS DEPARTMENT ISSUED INENTIFICATION CARD.",
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"felony": 23,
+				"misdemeanor": 135
+			},
+			"awards": [
+				{
+					"date": "5/1/2025",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/26/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/20/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "116 PRECINCT"
+	},
+	{
 		"taxid": 981378,
 		"full_name": "HARTLEY, JANILLE A",
 		"first_name": "JANILLE",
@@ -23393,7 +23474,7 @@
 		"shield_no": "2177",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "060 PCT FIELD TRAINING UNIT",
@@ -23414,6 +23495,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 3
 			},
 			"awards": []
@@ -24727,8 +24809,8 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 5,
-				"violation": 1
+				"misdemeanor": 7,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -26598,6 +26680,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 1,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -28031,7 +28114,7 @@
 		"shield_no": "19362",
 		"appt_date": "7/5/2017",
 		"recognition_count": 94,
-		"arrest_count": 280,
+		"arrest_count": 281,
 		"reports": {
 			"summary": {
 				"command": "PBBS COMMUNITY RESPONSE TEAM",
@@ -35754,7 +35837,7 @@
 		"shield_no": "25159",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 133,
+		"arrest_count": 134,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -35792,7 +35875,7 @@
 		"shield_no": "3808",
 		"appt_date": "7/13/2016",
 		"recognition_count": 3,
-		"arrest_count": 58,
+		"arrest_count": 59,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -36375,7 +36458,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 59,
+				"misdemeanor": 60,
 				"violation": 1
 			},
 			"awards": [
@@ -42058,7 +42141,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 68,
+				"felony": 69,
 				"misdemeanor": 109,
 				"violation": 1
 			},
@@ -43410,7 +43493,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 26
+				"misdemeanor": 27
 			},
 			"awards": []
 		},
@@ -45822,7 +45905,7 @@
 		"shield_no": "594",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "081 PCT FIELD TRAINING UNIT",
@@ -45844,7 +45927,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -53987,7 +54070,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 40
 			},
 			"awards": [
@@ -54831,7 +54914,7 @@
 		"shield_no": "7901",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 2,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "067 PCT FIELD TRAINING UNIT",
@@ -54857,6 +54940,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 2
 			},
 			"awards": []
@@ -55928,7 +56012,7 @@
 		"shield_no": "24786",
 		"appt_date": "11/2/2020",
 		"recognition_count": 8,
-		"arrest_count": 96,
+		"arrest_count": 97,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 1",
@@ -56072,8 +56156,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 57,
-				"misdemeanor": 102
+				"felony": 4,
+				"misdemeanor": 17
 			},
 			"awards": [
 				{
@@ -58726,7 +58810,8 @@
 						{
 							"disposition": "GUILTY",
 							"description": "ENTERED A RESIDENCE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
 						}
 					]
 				}
@@ -68424,7 +68509,7 @@
 		"shield_no": "2998",
 		"appt_date": "4/12/2017",
 		"recognition_count": 5,
-		"arrest_count": 62,
+		"arrest_count": 63,
 		"reports": {
 			"summary": {
 				"command": "081 PRECINCT",
@@ -74171,7 +74256,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 180,
+				"felony": 181,
 				"misdemeanor": 103,
 				"violation": 6
 			},
@@ -75293,55 +75378,6 @@
 			"awards": []
 		},
 		"command": "083 PRECINCT"
-	},
-	{
-		"taxid": 956744,
-		"full_name": "HU, SUN",
-		"first_name": "SUN",
-		"last_name": "HU",
-		"middle_initial": "",
-		"rank": "SERGEANT",
-		"shield_no": "3804",
-		"appt_date": "7/9/2014",
-		"recognition_count": 1,
-		"arrest_count": 76,
-		"reports": {
-			"summary": {
-				"command": "TB SUBWAY SAFETY TASK FORCE",
-				"assignment_date": "9/5/2024",
-				"ethnicity": "ASIAN",
-				"rank_desc": "SERGEANT",
-				"shield_no": "3804",
-				"appt_date": "7/9/2014"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2014",
-					"shield_no": "12599"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "8/25/2023",
-					"shield_no": "3804"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 2,
-				"misdemeanor": 66,
-				"violation": 8
-			},
-			"awards": [
-				{
-					"date": "1/25/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "TB SUBWAY SAFETY TASK FORCE"
 	},
 	{
 		"taxid": 955989,
@@ -78888,7 +78924,7 @@
 		"shield_no": "12911",
 		"appt_date": "1/6/2016",
 		"recognition_count": 1,
-		"arrest_count": 109,
+		"arrest_count": 110,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 32",
@@ -78944,7 +78980,7 @@
 			],
 			"arrests": {
 				"felony": 18,
-				"misdemeanor": 76,
+				"misdemeanor": 77,
 				"violation": 15
 			},
 			"awards": [
@@ -81898,7 +81934,7 @@
 		"shield_no": "1620",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "110 PCT FIELD TRAINING UNIT",
@@ -81920,7 +81956,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -83756,7 +83792,7 @@
 		"shield_no": "3547",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 5,
 		"reports": {
 			"summary": {
 				"command": "115 PCT FIELD TRAINING UNIT",
@@ -83778,7 +83814,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -83794,7 +83830,7 @@
 		"shield_no": "17390",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 12,
+		"arrest_count": 13,
 		"reports": {
 			"summary": {
 				"command": "115 PCT FIELD TRAINING UNIT",
@@ -83816,7 +83852,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 10
+				"misdemeanor": 11
 			},
 			"awards": []
 		},
@@ -86341,7 +86377,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 68,
+				"misdemeanor": 69,
 				"violation": 5
 			},
 			"awards": []
@@ -87665,7 +87701,7 @@
 		"shield_no": "22503",
 		"appt_date": "11/2/2020",
 		"recognition_count": 6,
-		"arrest_count": 102,
+		"arrest_count": 104,
 		"reports": {
 			"summary": {
 				"command": "112 PRECINCT",
@@ -88019,7 +88055,7 @@
 		"shield_no": "11030",
 		"appt_date": "12/17/2025",
 		"recognition_count": 0,
-		"arrest_count": 3,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "114 PCT FIELD TRAINING UNIT",
@@ -88040,7 +88076,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
