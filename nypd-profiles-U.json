@@ -3536,7 +3536,7 @@
 		"shield_no": "6021",
 		"appt_date": "1/29/2025",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -4449,7 +4449,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 47,
+				"misdemeanor": 49,
 				"violation": 1
 			},
 			"awards": []
@@ -4466,7 +4466,7 @@
 		"shield_no": "6397",
 		"appt_date": "10/7/2019",
 		"recognition_count": 3,
-		"arrest_count": 139,
+		"arrest_count": 144,
 		"reports": {
 			"summary": {
 				"command": "075 DOMESTIC VIOLENCE SQUAD",
@@ -5933,7 +5933,24 @@
 					"charges_count": 2
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE OFF-DUTY, FAIL TO PROPERLY SAFEGURAD HIS FIREARM.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"description": "AFTER BEING INVOLVED IN AN UNUSUAL POLICE OCCURRENCE, FAIL TO NOTIFY THE OPERATIONS UNIT.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 123,
@@ -6129,8 +6146,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 51
+				"felony": 17,
+				"misdemeanor": 52
 			},
 			"awards": [
 				{
@@ -6826,7 +6843,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 55,
+				"felony": 56,
 				"misdemeanor": 77
 			},
 			"awards": [
@@ -8260,7 +8277,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 76,
+				"misdemeanor": 77,
 				"violation": 2
 			},
 			"awards": [
@@ -8310,7 +8327,18 @@
 					"charges_count": 1
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WRONGFULLY ALLOWED HIS RESIDENTIAL ADDRESS TO BE USED BY ANOTHER AS HIS RESIDENTIAL ADDRESS, THEREBY CAUSING INACCURATE ENTRIES IN DEPARTMENT RECORDS.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 164,
