@@ -9084,7 +9084,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 58,
+				"felony": 59,
 				"misdemeanor": 63,
 				"other": 1
 			},
@@ -14082,6 +14082,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "2/24/2021",
 					"shield_no": "25926"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "10/30/2026",
+					"shield_no": "1670"
 				}
 			],
 			"documents": [],
@@ -52238,8 +52243,30 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/14/2020 12:00:00 AM",
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Off post. \r\nFailed to submit Reports.",
+							"group_id": "1",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($103), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"description": "Misuse of time. \r\nMade or caused to be made false or inaccurate entries in Department records.",
+							"group_id": "1",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, RESTITUTION ($103), VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 37,
