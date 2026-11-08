@@ -21668,7 +21668,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 75,
+				"misdemeanor": 76,
 				"violation": 9
 			},
 			"awards": []
@@ -63205,8 +63205,24 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "11/14/2016 12:00:00 AM",
+					"charges_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"description": "WHILE ON-DUTY, FAILED TO CONDUCT A THOROUGH FIELD INVESTIGATION.",
+							"group_id": "1",
+							"penalty": "VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 7,
